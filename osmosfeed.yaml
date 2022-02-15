@@ -1,4 +1,6 @@
 cacheUrl: https://5h4ru.github.io/5h4ru-feed/cache.json
+cacheMaxDays: 60
+siteTitle: "5h4ru-feed"
 sources:
   - href: https://naari.hatenablog.com/rss
   - href: https://yokkin.com/feed
