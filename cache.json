@@ -229,6 +229,216 @@
             "length": "0"
           },
           "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438052506961",
+          "author": null,
+          "description": "昨日、自作のmodについてのうすい記事を書いた。\nnaari.hatenablog.com\nこのmodを公開するに至って大変だったことをつらつらとかきます\nfabricのMixinやInjectsの概念についてのドキュメントが少なすぎる\n検索して出る情報が少なすぎる\n村人のgetOffers()を叩くだけだとダメ\n用語: MerchantEntity について\n通信の流れ\n擬似的に右クリックする\n画面上になにかを描画するのが難しい\n1.18になって何故か引数の順番が変わっててワロタ\nmodをCurseForgeにpublishする方法\nCurseForge上にプロジェクトを作成する必要があった\nGitHub Actions を利用して公開する\nこれも人様の実装を参考にする\nitsmeow/curseforge-upload を使用してCurseForgeに生成物をアップロードする\ngame_version がすごく難しい\n人のmodがオープンソースじゃなくて悲しい\nConfigを実装しなければならない\nまとめ\nfabricのMixinやInjectsの概念についてのドキュメントが少なすぎる\nfabricにはMixinや、Injectsという概念がある。これは元々のMinecraftのコードに自分の好きな挙動を差し込むことができる。\nたとえば以下のようなコードがあった場合、\nclass Example {\n  void blah() {\n    System.out.println(\"hogefuga\");\n  }\n}\n\n\n\n以下のようなコードを書くことができる。\n@Mixin(Example.class)\nabstract class ExampleMixin {\n  @Inject(at = @At(\"HEAD\"), method = \"blah\")\n  void yo(…",
+          "link": "https://naari.hatenablog.com/entry/2022/01/15/015043",
+          "publishedOn": "2022-01-14T16:50:43.000Z",
+          "wordCount": 659,
+          "title": "公開できるmodを初めて作ったので大変だったところを書いておく",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220115/20220115003628.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220115/20220115003628.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438052506911",
+          "author": null,
+          "description": "OffersHUD\n最初と最後にダウンロードリンクを貼っておきます。\nCurseForge か GitHub からダウンロード出来ます。ぜひ\nhttps://www.curseforge.com/minecraft/mc-mods/offershud\ngithub.com\nつくったよ\n村人(など)にフォーカスを当てるだけで何を取り引きできるのか左上に出てくるようになるmodをつくった。\n\n動機としては司書の厳選が主で、狙いのエンチャが出るまでやらなければならないこの作業をかなり簡略化出来るのではないかと思って作り始めた。\nこれは便利\nまだexperimental版ということもあって、機能の切り替えとかGUIの位置調整とかそういう設定機能はひとつもない。僕の今後に期待。\n今の所はfabricの 1.17.1, 1.18.1 に対してjarファイルをビルドしていて、つまり 1.17.1, 1.18, 1.18.1 がこのmodを使えることになるはず。\nもし気になったら使ってみてください。バグがあったら必ず僕に教えて下さい。最悪条件とかが分からなくても良いので。お願いします。\n既知の問題\nGitHubのissues が最新の状況。今のところは\n英雄とかいろいろで価格の変動があった時、その価格がうまいこと反映されない\nメニューがない　設定が弄れない\nInventoryHUD+ のポーション表示モードとバッティングしてこのmodのそれが表示されない\n\n\nまあ仕方ない節はあるけど\n大変だった\n「ほんのちょっとだけどmoddingやったことあるし、開発のための環境構築が出来たんだから余裕で作れるでしょ。たぶんVillagerEntityに取引一覧を取得するためのメソッドも生えてるだろうし。」と思って取り組んだが、実はそんなに簡単じゃなかった。\n村人に対して右クリックをすると、サーバーに対して「私はこのエンティティに右クリックをした」という趣旨を伝えるリクエストが流れるが、それに対するレスポンスこそが信頼できる取引一覧であって、それを上手く掴む必要があった。\n↑この一文だけで詳しい人なら「あーパケットを掴まないといけないのね」みたいな勘が働いて理解できるだろうし、開発→公開までの苦労についてはまた別の記事にしようかな。→した。\nnaari.hatenablog.com\nきになったらこちらから\nCurseForge か GitHub からダウンロード出来ます。ぜひ\nhttps://www.curseforge.com/minecraft/mc-mods/offershud\ngithub.com",
+          "link": "https://naari.hatenablog.com/entry/2022/01/14/055947",
+          "publishedOn": "2022-01-13T20:59:47.000Z",
+          "wordCount": 160,
+          "title": "村人の取引内容をHUDで表示できるmodを作った OffersHUD",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220114/20220114053941.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220114/20220114053941.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438051860871",
+          "author": null,
+          "description": "きゅうりまとめ\n昨日きゅうりをたべた\n\n\n洗って\n上下のヘタを切って\nまるかじり\n九州のおじいちゃんが母親への仕送りとしてくれることが多々あり、その中に入っているきゅうりが大好きだった\n\n\nおじいちゃんは農家でスーパーを介さずに仕入れられたきゅうりをもらってた\n形は不揃いだが、スーパーで買うものよりもうまかった記憶がある\nこのまえ見つけた近所の肉の直売所に立ち寄った際、ついでに野菜を買った\n\n\nこの野菜が東北の農家さんが直接持ってきたくれた野菜だった\nつまりこれもスーパーを介さずに仕入れられたきゅうり\nおじいちゃんの作ったきゅうりと同じような味でとてもよかった\n\n\nこれがオーガニックの味…\nやっぱりスーパーに並ぶやつは農薬とかそういう味になるのだろうか\nマヨネーズとか塩とかをかけてもいいけど、そのままもうまいのだ\nなので、ヘタの部分だけ切り落としてしまえばいつでも食える\n\n\n最強の料理\n最高～\n以上です。",
+          "link": "https://naari.hatenablog.com/entry/2022/01/14/045619",
+          "publishedOn": "2022-01-13T19:56:19.000Z",
+          "wordCount": 96,
+          "title": "きゅうりが本当にうまい",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438051621276",
+          "author": null,
+          "description": "tl;dr\ngit:// がGitHubで使えなくなった\ngit:// の変わりに https:// を使うようにした\nパブリックなリポジトリ以外に対しての変更の可能性もある\nThe unauthenticated git protocol on port 9418 is no longer supported.\n今朝からRubyのアプリをビルドするジョブが以下のようなエラーを吐くようになった。\nFetching git://github.com/sinatra/sinatra.git\nfatal: remote error: \n  The unauthenticated git protocol on port 9418 is no longer supported.\nPlease see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.\n既に趣旨を伝えるエラーの文言が見えるが、念の為に手元のマシンでも試してみる。\n$ git clone git://github.com/sinatra/sinatra.git\nCloning into 'sinatra'...\nfatal: remote error:\n  The unauthenticated git protocol on port 9418 is no longer supported.\nPlease see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.\n同じ結果だった。\n原因としては GitHub が git プロトコルを明示的に使えないようにしたため。\ngithub.blog\nNo more unauthenticated Git\nOn the Git protocol side, unencrypted git:// offers no integrity or authentication, making it subject to tampering. We expect very few people are still using this protocol, especially given that you can’t push (it’s read-only on GitHub). We’ll be disabling support for this protocol.\n\n\nまだ使っていてすまん…使うのやめます…\nということで、置き換えることにした。\nhttps:// に置き換える\nまず、現状の手順で最小の変更手数になりそうな「ジョブランナー側を変更する」を検討した。unencrypted な git プロトコルと記述があったので、もしかして暗号化される git プロトコルも存在するのでは？と軽く調査したが、見る限りでは見当たらなかった。そのため、各個別の git:// を使用している箇所について対応をする方針で進める。\n今回はpublicなリポジトリに対してのcloneの操作だったので、特に考えることもなく https:// に置き換えることで対応完了とした。\n今回の場合、gitプロトコル経由でリポジトリを取得しているのはGemfile経由のbundle installだったので、Gemfileの先頭あたりに以下の行を追加した。\ngit_source(:github) { |repo| \"https://github.com/#{repo}.git\" }\n\n\n\nその他にも\n先程のgithubのblog曰く、sshのプロトコルかつ鍵経由でやり取りをしている場合であっても古いタイプの鍵を使っている場合は影響を受けるらしい。\n今回の削除方向の変更は具体的には以下の通り。\nDSA keyの対応をすべて削除\n-RSA keys)を使っている場合、SHA-2の署名を使う必要があるように変更\nSSHのアルゴリズムでHMAC-SHA-1と全てのCBCの対応を削除\nもし上記に当てはまる場合は以下の項目を参考にしたほうが良さそう。\nhttps://github.blog/2021-09-01-improving-git-protocol-security-github/#how-do-i-prepare",
+          "link": "https://naari.hatenablog.com/entry/2022/01/11/140137",
+          "publishedOn": "2022-01-11T05:01:37.000Z",
+          "wordCount": 277,
+          "title": "GitHubで `git://` が使えなくなったので `https://` などに置き換える必要があった",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438051170735",
+          "author": null,
+          "description": "やべ～～～～～～～～すげ～～～～～～～～\n全部がメタファーすぎ\n自分ごとになってしまいすぎ\n曲すご 曲凄すぎ\n恐ろしい\nすげー綺麗に締まったな\n超良かった～\nこれは余談で、モニタースピーカーのある知り合い宅で画面を暗くしてそれなりに大きな音を出して見たんですけど、音の大きさとか画面の感じとか、かなり良かったです。今できる個人規模として最も良かったかも。スピーカーほしすぎ。",
+          "link": "https://naari.hatenablog.com/entry/2022/01/10/060940",
+          "publishedOn": "2022-01-09T21:09:40.000Z",
+          "wordCount": 96,
+          "title": "【ネタバレなし】レヴュースタァライトのアニメと総集編と映画を見た",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438050567150",
+          "author": null,
+          "description": "自分の周りの人のアニメを見ている率って結構高くて、特定のアニメの話で盛り上がっているのを見る度に自分からも興味が湧いてくる。\nが、しかしどうしても腰が重くて、見るまでに莫大な時間を要してしまう。去年見たアニメは1, 2本くらいしかなかった。\nむかし実家に居た頃は弟が地上波で流れるアニメを録画しており、それが流れているので一緒に見る、続きが気になるので時間を合わせて一緒に見る、みたいなことをしていて、局所的にアニメをたくさん見ている時期があった(2016年くらい？)。その頃は凄く楽しく見ていたし、別にアニメが嫌いなわけではないはず。むしろ見てしまえば何でも好きになれるし*1、体験としても良かったと思う。\n一人暮らしをしていると自分以外の生活は垂れ流しにならないので、巻き添えを食らうことがほとんどない状況にある。そうすると、自ずとアニメを見る必要があり、これが大変に大変だと思っている。\nアニメを見るための術や環境は(今となっては)とても整備されるようになったはずで、dアニメストアなりに加入しておけばおおよそ見れると聞いているし、そうでなくてもニコニコチャンネルだとかアマプラだとかたくさんの手段が用意されているように見える。\nそういう問題がクリアになった昨今、単にアニメを見るために「目と耳と頭をすべて使う」ことが大変なのだと思っていた。思っていたが、そうすると普段自分がYouTubeなどで見ているMinecraftの実況動画とか、DTMのチュートリアルとかはすごく気軽に見ているので、これだけだと説明がつかない。\nそれでさっきツイキャスをして言葉に出しながら考えていたら、一旦次のような結論に落ち着いた。\n自分がこの状況下に陥った前提で、他の人達が高い解像度を持ってアニメを見て、アニメの考察をし、それを共有する様子をリスペクトしすぎているのではないか？\nこういったコンテンツって本来ど…",
+          "link": "https://naari.hatenablog.com/entry/2022/01/08/122306",
+          "publishedOn": "2022-01-08T03:23:06.000Z",
+          "wordCount": 129,
+          "title": "アニメを見るのって難しくないですか？",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438048780758",
+          "author": null,
+          "description": "naari.hatenablog.com\nやったるぞ\n\nつくったもの/やったこと (wip含む)\nppt-undo\nGitHub - naari3/ppt-undo\n個人的にやってるぷよテトで練習をしている時に「今パフェあったよね？」とか言われても時既に遅しでミノを置いてしまったりするんだけど、それを1手戻す(undoする)ためのツールを作ろうとしていた。\nこのために以下のことをやる必要があった。\n7bagの生成ロジックの特定\n\n\nシードの特定\nシードの使われ方を調べる\nすべての生成ロジックの再実装\n以て「ひとつ戻る」を実装する\nこの再実装あたりについては、元々のゲームがあまり素晴らしい管理方法をしていない&自分が上書きしきる方法を思いつけなかったのでネクストミノの置き換えをはじめすべてをこちらの匙加減で書き換える方針で進めたためそうなった。全部の処理を追って実装するのが大変で、結局最後まで実装しきれなかった。一応戻るが、どこかのタイミングで壊れる、みたいな感じ。今だったら作り直せるかも。\nこれに使った要素はこんな感じ。\nWindows API\n\n\nきらい\nRust\n\n\nすき\nCheatEngine\n\n\nロジックを追うためデバッガーとして使った\nかなりすき\nskyish\nGitHub - naari3/skyish\nMinecraftのpluginで、生成されたチャンクのうち99%を削除してスカイブロックっぽく遊ぶために作ったもの。思いつきで作った。\n最初はチャンク生成時のなにかに合わせて生成を阻害すれば良いかなと思ったんだけど、文献としてあまり妥当なものが見つからなかったのが大変だった気がする。特にpluginだとサーバー側のバニラの生成処理を上書きするのは大変そうだった。わざと同梱しないようにしているらしい。逆にそれも同梱しているものをnms（net.minecraft…",
+          "link": "https://naari.hatenablog.com/entry/2022/01/02/225301",
+          "publishedOn": "2022-01-02T13:53:01.000Z",
+          "wordCount": 368,
+          "title": "2021年の振り返り テクい編",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220102/20220102224744.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220102/20220102224744.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438048519889",
+          "author": null,
+          "description": "あけおめ～年末はゲーム系のストリーム配信をたくさん見た。\n自分は昔からRTA系の大きなイベントをよく見るが、その流れがずっと続いていたため例に漏れず今年もRiJを見た。\nその期間中に行われた獣道4も見た。このイベントに常々追ってるテトリス勢のkazuとあめみやたいようのビッグマッチが組み込まれており、このために見る必要があった。これはこれで本当に凄かったから別で書こうかな\nRTA in Japan Winter 2021\nさっき書いたとおり、昔からよくRTAのイベントを見ていた（具体的にはAGDQ2015あたりから）。好きなゲームのRTAが英語圏で流行っていたのもあり、自分の習慣として根強い。今年も例に漏れずRTA in Japan Winter 2021を見た。\n基本的な姿勢として、気になるタイトルは事前に自分のカレンダーに挿し込んでいて、そうでないタイトルの場合はバックグラウンドだったりサブモニターに置いたりして基本ずっと視聴者数のカウンターを温め続けていた。そのため、全く知らないタイトルも結構見ている。\n以下、見て印象に残っているものをスケジュール順に感想と共に挙げる。今後アーカイブを見直す度にちょっとずつ追記されるかも\nクロノトリガー\n自分の思い出のゲームが壊される様は見ていて本当に気持ちが良い。LSSを一発で決める、乱数調整、からのグランとリオン戦の行動予測が本当に痺れた。最高。\nwww.youtube.com\nルートとか各技とかすごくわかりやすくまとめられているWikiがあり、かなり丁寧だった\nchrono.wikidot.com\nTrials Rising\n迫真バイク部でしか見たことのないゲームで、該当動画では大変に苦労している様をよく見ていた。それだけあって超絶技巧とも捉えられるスタイリッシュなプレイングは大変素晴らしかった。\nwww.youtube.com…",
+          "link": "https://naari.hatenablog.com/entry/2022/01/02/030122",
+          "publishedOn": "2022-01-01T18:01:22.000Z",
+          "wordCount": 226,
+          "title": "2021年末にRiJを見た",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438047347067",
+          "author": null,
+          "description": "昨日振り返ったので、今日は雑に目標を立てる。\n↓去年立てた、今年の目標\nnaari.hatenablog.com\nPCの環境をもうちょっとよくする\n録画鯖を作る\n音MADを作る\n\n\n去年1つしか作らなかったので\nYTPMV\nセリフ合わせ\n誘われの音源をちゃんと作る\n\n\n素振りとかもして多少くらいは満足したい\nレーベルとか何かのDIscordサーバーに音源を投げてみる\nなにかのイベントに出たい\n\n\nちゃんとmix作ったりね\nこのブログをちゃんとやる\n\n\n下書きを消費する\n本棚を完成させる\nそして荷解きを完遂する\n継続して生活にちょっと気をつける\n継続して食事に気をつける\n貯金のことを考えてみる\n転職のことを考えてみる\n趣味のプログラミングのプロダクトをもうちょっと真面目にすすめる\nSRE頑張る\n\n\nクラスタ引っ越し\n会社のほうでひとつ技術記事を書く",
+          "link": "https://naari.hatenablog.com/entry/2021/12/29/191726",
+          "publishedOn": "2021-12-29T10:17:26.000Z",
+          "wordCount": 117,
+          "title": "2022年の目標",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438047059031",
+          "author": null,
+          "description": "naari.hatenablog.com\n目標は振り返ることに意味があるのだ\n項目を振り返る\n今年やった技術的なことについては別記事にまとめる予定\n(追記↓)\nnaari.hatenablog.com\n音MADの映像を作る\nそろそろ川谷絵音と決別する\n183を消費する\n\n\nとあったけど、ニコニコに投稿出来た音MADはこれしかなかった。一応動く画は乗っているが…\nwww.nicovideo.jp\n183もひとつも進むことなく、残念ながら失敗です…\nDTMでトーナルやコード進行から逃げない\nこれは去年よりは出来た\n秋のM3(以下埋め込み)ではボキャ貧ながらもコードとかメロディっぽいものについて考えることが出来たし、通話相手の言っていることがなんとな～くでもわかるようになったのは良い傾向と言えよう。\nemotive.bandcamp.com\nレーベルにトラックを投げてみる\nやらなかった\n何度か考えてみたものの、まだその時期じゃない…実力が追いついていない…\nmixを3ヶ月に1つは作る\n雑にひとりでrekordboxを触ることはしていたが、ちゃんと組んだmixはひとつしかなかった\nwww.nicovideo.jp\n保険証を再発行する・マイナンバーカードを再発行する\nどちらも達成した！！\nちゃんと計算してないけどたぶん10ヶ月くらいは不所持の状態だった。ようやく病院に行けるようになったし、夜イベントで自分の年齢を証明できる術を取り戻せた、、、、\n引っ越しをする\nした！！！\n詳しくは書かないが、近くに新築のマンションが出来たのでそちらに移動した。\n引っ越しという最難関の行いもなんとかこなすことが出来た。ただ、まだ荷解きが終わっていない、、、\n部屋の不満は多少あれど、今もまだ満足しています。\nこのブログをちゃんとやる\n溜まっている下書きを消費する\n\n\n下書きの消費はほとんどやらなかったが…",
+          "link": "https://naari.hatenablog.com/entry/2021/12/29/002237",
+          "publishedOn": "2021-12-28T15:22:37.000Z",
+          "wordCount": 206,
+          "title": "2021年の振り返り",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/26006613785834089",
+          "author": null,
+          "description": "github.com\ntl;dr\npistonで60fps出なかった\nWindowsの Sleep はデフォルトだと精度が悪い\nsleepを呼ぶ前に timeBeginPeriod を呼んで精度を良くしたら60fps出るようになった\npistonで60fps出なかった\n趣味でNESのエミュレーターを作っていた時に発生した事象として、pistonというライブラリを使うと60fpsを出せないというものがあった。\n60fpsという要件を達成するには、1回の更新毎に約16.6msずつ待ち合わせる必要がある。考えられる実現方法としては、ゲームのロジックを実行する際にその処理が何ms掛かったのかを記録しておき、16.6msからその時間を引いた時間だけ処理を停止する、というものがシンプルで良さそうだ。\nuse std::time;\n\nfn main() {\n  let frame_rate = 60;\n  let sleep_ms = time::Duration::from_secs(1) / frame_rate;\n\n  loop {\n    let start = time::Instant::now();\n    game_logic(); // ちょっと時間がかかる\n    let elapsed = time::Instant::now() - start;\n    if sleep_ms < elapsed { // 経過時間より1fの規定時間のほうが長かったらスキップ\n        break;\n    }\n    time::thread::sleep(sleep_ms - elapsed); // 16.6ms - Nms 分だけ停止する\n  }\n}\n\n\n\nこの基本方針はRustのゲーム用ライブラリであるpistonも同じだった。同じようにフレーム毎の待ち合いに s…",
+          "link": "https://naari.hatenablog.com/entry/2021/12/20/072028",
+          "publishedOn": "2021-12-19T22:20:28.000Z",
+          "wordCount": 253,
+          "title": "Rustのゲーム用ライブラリpistonがWindowsの上だと60fps出なかったのを直した",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438034508917",
+          "author": null,
+          "description": "この記事は音MAD Advent Calendar 2021の18日目の記事です。\nadventar.org\n\n\n\n概要\n最近は音MADにあまり手がつかず、どちらかといえばDTMのような事ばかりやっているんですが*1、今回せっかくこの企画に誘われたので音MADにも手軽に活かせられそうな知見を雑に列挙したいと思います。\n原曲に寄り添う形でサンプルを配置することが基本となっている音MADの技法に対し、直接使えるのか怪しいものもありますが、皆様の目に触れることで有効活用されることを期待しています。\n尚、ページ内に音声ファイルの埋め込みが多数存在します。それぞれ音量が大きめですので、再生前にご自身のスピーカーの出力を小さめにしておいてください🙏🙏🙏\n以下、目安です。\n\n概要\nオーディオエフェクトとミックスに寄ったような話\nエフェクトをチェーンにする\n組み合わせ例: ディストーション と EQ\n組み合わせ例: ディストーション と リバーブ\nコンプレッサーのサイドチェインについて\n音MAD制作での使用例\n音MAD制作でさらに手を抜くために使う\n参考\n帯域ごとの聞こえ方の表\n個別のオーディオエフェクトとか音作り関連の話\nLRチャンネルどちらか片方の位相を反転させることによる音声のステレオ化\nConvolution ReverbとIRの話\n色々な音をIRとして使ってみる\nそれ以外のエフェクトについて自分で試すときに心がけると良さそうなこと\nやってみる\nドキュメントも読んでみる(蛇足)\nWAVESの高いバンドルを積極的に買う理由はあんまりない気がしている事とその理由\nMelda Production MFreeFXBundle\nKiloHearts Toolbox\nSoundtoys\nReaPack JSFXたち\nさいごに\nふろく\nオーディオエフェクトとミックスに寄ったような話\nエフ…",
+          "link": "https://naari.hatenablog.com/entry/2021/12/18/222700",
+          "publishedOn": "2021-12-18T13:27:00.000Z",
+          "wordCount": 415,
+          "title": "音TIP",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20211124/20211124014248.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20211124/20211124014248.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438044015274",
+          "author": null,
+          "description": "概要\n最近の自分は音MADを含め音源制作にAbleton LiveというDAWを使っているのですが、音MADを作る点ではREAPERを使用したほうが良いのではないか？と常々思っているので、その理由を複数連ねてみます。\nあくまで自分の考える音MAD制作過程に軸を置いた時の個人的な考えであり、それがDAWの絶対的な優劣ではないということを念頭に置いてから見ていただきたいです 🙏\nこの記事は音MAD Advent Calendar 2021で自分が書いた記事の付録記事です。\nnaari.hatenablog.com\nショートカットキーによるピッチ変更\n個人的にはこの存在が音MADの制作工程に最も大きく作用しているのではないかと思っています。もはや音MADの基本アプローチと言っても過言ではなさそう。\n普段からREAPERを使っている方々はあまり意識したこと無いかもしれませんが、これが音MADの出来具合いにも関わってくるものだと思っています。\n例えばREAPERで音合わせをする場合、アプローチとしては例として以下のようなものが考えられます。\nショートカットキーによるオーディオアイテムのピッチ変更\nサンプラーとMIDIアイテムによるピッチ変更\n単純に音合わせに焦点を合わせた場合、後者の方が大変にお手軽ではあると思うのですが、手軽さ故に細かい部分の対応がなおざりになってしまう場合があると思っています。例えば主旋律に対して素材を当てはめている時、以下のような…\nここの部分だけもう少し素材の頭出しを変えたいが、わざわざサンプラーの画面を開くのが面倒\n面倒臭いので同じ音ばかり使ってしまう\n結果として単調な結果になってしまう！！！\n対比として、直接オーディオアイテムのピッチを変える場合、アイテム単体のスタート位置の変更は造作もないことだと思います。\nここで、ピッチ変更の手段としてのショートカッ…",
+          "link": "https://naari.hatenablog.com/entry/2021/12/18/222611",
+          "publishedOn": "2021-12-18T13:26:11.000Z",
+          "wordCount": 170,
+          "title": "Ableton Liveを使っていて分かった、音MAD制作においてREAPERを使うことのメリット",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20211124/20211124044752.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20211124/20211124044752.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438042532907",
+          "author": null,
+          "description": "概要\nREAPER のグリッド線の幅は GUI 左上ツールバーのマグネットマークを右クリック、または Alt+L を押すことで開かれる「スナップ/グリッド設定」で変更が出来るのですが、変更の度にわざわざこの設定を開くのはなかなか骨が折れる手順なのではないかと思っています。\n自分は主に Ableton Live を使用して DTM の作業を行っているのですが、こちらはショートカットキーを押すことでグリッド幅を広げることが出来ます。\n今回はこれと似たような設定を REAPER でも実現できるように設定してみようと思います。\nこの記事は音MAD Advent Calendar 2021で自分が書いた記事の付録記事です。\n今回のゴール\nもう少し具体的には以下の 3 つをショートカットキーによって実現できるように設定したいと思います。\nグリッド幅を 1/2 にし、狭める\nグリッド幅を 2 倍にし、広げる\n三連符幅の切り替えを行う\nグリッド幅を 1/2 にし、狭める\nこんな感じ\n狭くなっていく\nグリッド幅を 2 倍にし、広げる\nこんな感じ\n広くなっていく\n三連符幅の切り替えを行う\nこんな感じ\n三連符幅との切り替えが出来る\n手順\n途中で ReaPack を使用する手順と、そうでない手順に分かれるので、どちらか該当する方だけ読んでください。\n独自のスクリプト\n1. 既存のアクションをショートカットキーに割り当てる\nまず、?キーを押すか、 アクション > アクションリストを開く からアクションリストを開きます。\n次に、絞込 に Grid: Adjust と入力し、以下の 2 つのアクションを見つけます。\nGrid: Adjust by 1/2\n\n\nグリッド幅を 1/2 にする\nGrid: Adjust by 2\n\n\nグリッド幅を 2 倍にする\nそれぞれのアクションをシングルクリックした後に左…",
+          "link": "https://naari.hatenablog.com/entry/2021/12/14/040731",
+          "publishedOn": "2021-12-18T13:00:00.000Z",
+          "wordCount": 337,
+          "title": "REAPERのグリッド線をショートカットキーで変更できるようにする",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20211214/20211214035953.gif",
+            "type": "image/gif",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20211214/20211214035953.gif"
         }
       ]
     },
@@ -236,7 +446,18 @@
       "title": "yokkin.com",
       "feedUrl": "https://yokkin.com/feed",
       "siteUrl": "https://yokkin.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://yokkin.com/?p=1967",
+          "author": "Yokkin",
+          "description": "はじめに 2021年は自分の環境が大きく変わって、自分にとって飛躍の年だったかなと思う。デスクトップPCを組んで、いろいろ音源を買って多彩な音を作ることができるようになった。3月にはアルバム「折々」もリリースした。また、 […]",
+          "link": "https://yokkin.com/blog/happy-new-year-2021.html",
+          "publishedOn": "2022-01-01T16:46:57.000Z",
+          "wordCount": 102,
+          "title": "あけましておめでとうございます",
+          "imageUrl": "https://yokkin.com/wp-content/uploads/2022/01/akeome.png"
+        }
+      ]
     },
     {
       "title": "みそは入ってませんけど",
@@ -278,6 +499,81 @@
             "length": "0"
           },
           "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220206/20220206175206.jpg"
+        },
+        {
+          "id": "hatenablog://entry/13574176438051154881",
+          "author": null,
+          "description": "お題箱回93\n\n369.LWさんオススメの生活快適化グッズとか効率化グッズみたいなの記事でまとめて欲しいです(書見台とかbasebreadみたいな)\n書きました！\nsaize-lw.hatenablog.com\nあと最近買って本当に良かったと思っているのがAdidasの超ロングベンチコートです。\nwww.amazon.co.jp\n（↑これではないですがこれみたいなやつです。店頭で適当に買ったので正確な商品情報がわからない）\n前から「居酒屋のキャッチが着てるコートが欲しい！」ってずっと思ってて、この前オタク合宿に行く前にいい機会なので新宿を探して2万円で買いました。期待以上にマジで暖かくて、体感は布団着てる感じです。雪が降ってる日でも半袖Tシャツの上にこれ着るだけで出かけられます。\n欠点はあまりにも断熱性能が高すぎて、少しでも日差しがあったり着たまま自転車を漕いだりすると暑くてすぐ汗をかくところくらいです。前を空けて冷気を取り込むことである程度はケアできますが、暖かすぎるが故に冬で特に一番寒いタイミングでしか着られないと思われます。三寒四温みたいな時期にはもっと貧弱な上着と併用する必要がありそう。\n \n\n370.バス江121話めちゃくちゃ良くないですか！？\n良かったと思います。実際レスバってああいうルールです。\nちなみにバス江読者向けに言うと、121話は戦隊ヒーローが敵に勝ったけど捨て台詞吐かれて釈然としない回です（6巻収録、ヤンジャンアプリなら無料で読めます）。\n\n\nスナックバス江 6 (ヤングジャンプコミックスDIGITAL)\n作者:フォビドゥン澁川\n集英社\nAmazon\n僕はバス江をかなり評価してて、全体的に良い中で特にその良さが出ている話の一つだと思います。バス江って普通ならサラッと流してしまう小さい取っ掛かりを絶対に捕まえて掘り下げるのが強みで、会話の解像度が高いで…",
+          "link": "https://saize-lw.hatenablog.com/entry/2022/01/15/160444",
+          "publishedOn": "2022-01-15T07:04:44.000Z",
+          "wordCount": 195,
+          "title": "22/1/15 お題箱回93：生活グッズ、表紙三枚ノートの現在etc",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220115/20220115154818.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220115/20220115154818.png"
+        },
+        {
+          "id": "hatenablog://entry/26006613783130034",
+          "author": null,
+          "description": "2021年10～12月消費コンテンツ\nこの3ヶ月はアニメや映画を見る時間をほぼ全て統計学かネットワーク科学に回していたのでまとめます。\nまだ結構読書を続けたい気分だが、これが一過性のブームなのかアニメや映画から卒業するときが来てしまったのかは不明。なんか冬アニメ始まってることに気付いてなかったのでもうダメかもしれない。\n2021年10～12月消費コンテンツ\nメディア別リスト\nアニメ(短編115話)\n漫画(40冊)\n書籍(17冊)\n良かった順リスト\n人生に残るコンテンツ\n消費して良かったコンテンツ\n消費して損はなかったコンテンツ\nたまに思い出すかもしれないくらいのコンテンツ\n以降の人生でもう一度関わるかどうか怪しいコンテンツ\nピックアップ\nホロぐら(短編アニメ)\nバトゥーキ\n僕のヒーローアカデミア\n宇宙の眼\n統計学関連書籍\nネットワーク科学関連書籍\n生産コンテンツ\nゲーミング自殺、16連射ハルマゲドン\nキャラ紹介①　彼方ちゃん\nキャラ紹介②　立夏ちゃん\nキャラ紹介③　VAISさん\nキャラ紹介④　神威ちゃん\nキャラ紹介⑤　樹さん\nキャラ紹介⑥　此岸さん\nメディア別リスト\nアニメ(短編115話)\nホロぐら(短編アニメ・1～115話)\n漫画(40冊)\nバトゥーキ(1～10巻)\n僕のヒーローアカデミア(1～30巻)\n書籍(17冊)\n宇宙の眼\n家屋と妄想の精神病理\n不完全性定理とは何か\n＜統計学関連＞\n日本統計学会公式認定 統計検定1級対応 統計学\n日本統計学会公式認定 統計検定1級公式問題集(2012～2013, 2014～2015, 2018～2019)\n現代数理統計学の基礎\nやさしい実験計画法\n東京大学工学教程 確率・統計Ⅱ\n＜ネットワーク科学関連＞\n観光客の哲学\n「複雑ネットワーク」とは何か\n私たちはどうつながっているのか\n歴史は「べき乗則」で動く\nスモールワールド・ネットワー…",
+          "link": "https://saize-lw.hatenablog.com/entry/2022/01/09/215724",
+          "publishedOn": "2022-01-09T12:57:24.000Z",
+          "wordCount": 314,
+          "title": "22/1/9 2021年10～12月消費コンテンツ",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220109/20220109172235.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220109/20220109172235.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438036231597",
+          "author": null,
+          "description": "お題箱回92\n359.とりでさんのドグマブレードシミュレーターが全くクリアできません\nドグマブレードを回すコツや定石を教えて欲しいです\nこれですね。\ntsd0313.github.io\n\nコツはドグマブレードというデッキを信用しないことです。\n僕も現代プレイヤーの感想を見て初めて知ったのですが、恐らく現代プレイヤーはドグマブレードの回転力をかなり過大評価する傾向があります。\nドグマブレードにはサーチやドローが大量搭載されており、綺麗に回ったときはするするとデッキを引き切って明確な終着点に向かっていくため、一見すると現代遊戯王を先取りしたオーパーツに見えるのかもしれません。つまり現代遊戯王において一枚初動から確立されたルートによって（妨害さえなければ）強力な先行展開が確定するのと同様、ドグマブレードも初動からゴールまで一直線に進めるデッキだと誤解されていることが少なくありません。\nしかしそのイメージは買い被りです。ドグマブレードは古の美しい先行OTKとして神格化されがちですが、どこまで行っても欠陥綱渡りデッキです。\nカスみたいな性能の手札入れ替えしかない時代に奇跡的に成立した引き切りコンボであり、常に一貫性を持って動けるように作られている現代のカードデザインとは大前提が違います。そもそも基本の動きがドローであり、確定サーチで保証された動きはほとんどありません。一手選択肢を間違えた瞬間に完全ストップして打ち手が無くなるため、動けているだけで御の字、欲張らずにとにかく動き続けることにだけ意識を割くべきです。\n例えば「魔力倹約術＋次元融合＋混黒＋ヴァリー」は揃えば勝ちが確定する無限ドローコンボですが、これを積極的に狙うのは危険です。特に動けるカードが少ない序盤で手札抹殺と魔力倹約術を持っていた場合、大抵は手札抹殺で魔力倹約術を捨ててドローに変換するのが正解です（いつか無限ドローが成…",
+          "link": "https://saize-lw.hatenablog.com/entry/2022/01/02/160301",
+          "publishedOn": "2022-01-02T07:03:01.000Z",
+          "wordCount": 196,
+          "title": "22/1/2 お題箱92：ドグマブレード、接続詞、萌えetc",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220102/20220102154356.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220102/20220102154356.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438045200822",
+          "author": null,
+          "description": "統計検定1級の勝ち語り\n\n\n統計検定1級に合格し、数理と応用の両方で優秀賞を取得したので勝ち語りをします。\n4級・3級・2級・準1級・1級という区分を完全に無視して初手から最上位資格にいく賭けに出たが、大きく張った分だけリターンもデカい。\n統計検定1級合格\nいい暇潰しでした　たいあり pic.twitter.com/QJ4pAY3clP\n2021年12月22日\n\n\n受験を思い立ったのは6月に遡る。\n部屋にトレーニング用ベンチでも置こうかと思って本の整理をしていたところ、昔大学で買わされた統計の教科書を発見した。一応読んでから捨てようとしたが、しかしこれも何かの縁だしついでに資格でも取っとくかと統計学の勉強をスタートした。\n暇だし統計検定取っとくかみたいな感じはある\n次資格取りたくなったら取ろう\n2021年6月9日\n\n\nそこから試験のある11月まで4ヶ月近くもタラタラ勉強していたことになる。俺の周りでは誰も統計に興味が無く、むしろ俺が統計などという説明のし甲斐もないクソつまらない勉強をしている間はサイゼミの開催が滞っていたため（元々コロナ禍で一旦停止していたが）、「まだ統計やってんの？」「いつまでやってんの？」などと心無い声をかけられながら一人で戦っていた。\nsaize-lw.hatenablog.com\n試験は余裕だったと言いたいのは山々だが、実際のところ、かなり難しかったと言わざるを得ない。\n統計検定1級取得には統計数理と統計応用という合格率20%程度のフル論述試験を二つパスする必要があるのだが、どちらの試験もいわゆる資格試験というよりは大学院入試に近い。理系学部教養レベルの解析学と線形代数は自在に扱えなければスタート地点にも立てず、（試験範囲をまとめた公認教科書をわざわざ出版している癖に！）明らかに出題範囲表を逸脱した数学知識が要求されることもざらにある。「ここからここ…",
+          "link": "https://saize-lw.hatenablog.com/entry/2021/12/27/201923",
+          "publishedOn": "2021-12-27T11:19:23.000Z",
+          "wordCount": 318,
+          "title": "21/12/27 統計検定1級とかいうゲームに勝利した",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20211227/20211227201914.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20211227/20211227201914.jpg"
+        },
+        {
+          "id": "hatenablog://entry/13574176438044488653",
+          "author": null,
+          "description": "第11回サイゼミ\n2021年12月20日に新宿で第11回サイゼミを催した。コロナ禍の合間で半年ぶりの開催となる。\n\n題材は東浩紀の『観光客の哲学』。これに決まった経緯はよく覚えていないが、動ポモシリーズ以降の東の動向を追う回そろそろやっとくかみたいなノリだったはず。\n\n\nゲンロン0 観光客の哲学\n作者:東 浩紀\n株式会社ゲンロン\nAmazon\nいつも通り読んだ前提で俺の関心が高かった点について書くので、内容が知りたければ各自で読んでほしい（これは解説記事ではない）。\n特に今回は東が第四章『郵便的マルチチュードへ』でネットワーク理論をガッツリ援用して主張の正当化を試みていたため、俺は理系担当としてネットワーク理論を一通り勉強してその議論の妥当性を検討することにした。前回の複雑ネットワーク書籍群についての記事は『観光客の哲学』を読むためのものである。\nsaize-lw.hatenablog.com\n第11回サイゼミ\n第三章『二層構造』まで\n第四章『郵便的マルチチュードへ』\n①小さい平均距離はナショナリズムを示すか？\n②ネットワークの性質は必然的ではない\n③つなぎかえは万能の特効薬ではない\n④ネットワーク（のクラス）と生成方法は一対一対応しない\n⑤東がやるべきことは？\n数学的に怪しい記述について\n「それ（クラスター係数）は、あるネットワークにおいて、理論的に成立可能なクラスターのうち、実際にどれほどのクラスターが成立しているかを表す指標である」(p164)\n「三角形が高い密度で重なることで構成されている」(p164)\n「それでは、なぜ人間社会は狭いのか。じつはこの特徴は、数学では長いあいだモデル化することができなかった」(p165)\n「乱数を生成してそれがある特定の数よりも大きかったならば～」(p169,★5脚注)\n「ここで『確率』『つなぎかえ』『近道』といった言葉には、じつはそ…",
+          "link": "https://saize-lw.hatenablog.com/entry/2021/12/20/182404",
+          "publishedOn": "2021-12-20T09:24:04.000Z",
+          "wordCount": 244,
+          "title": "21/12/20 【第11回サイゼミ】東浩紀『観光客の哲学』は数学的に妥当か",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20211220/20211220124212.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20211220/20211220124212.jpg"
         }
       ]
     },
@@ -343,6 +639,21 @@
             "length": "0"
           },
           "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zaikakotoo/20220119/20220119201328.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438047258991",
+          "author": null,
+          "description": "現実と虚構、リアルとフィクション\n「これはパイプではない」\n\nRené Magritte, La Trahison des images\n\nこの一枚から始めよう。\n《イメージの裏切り》と題されたルネ・マグリットのあまりにも有名なこの絵画は、なんとも逆説的な場をそこに展開している。\n描かれたイメージは、明らかにパイプのように「見える」。にもかかわらず、キャプションによれば「これはパイプではない（Ceci n'est pas une pipe）」。\nなるほど、たとえばそれがパイプに見せかけた \"急須\" であるとしたら、またはパイプ型の \"じょうろ\" だとしたら、たしかにそれはパイプではない。あるいはパイプでなければいいのなら、もっと想像力を働かせて、それはパイプの形にされた人間であるとか、アライグマの進化系だとか、そういうことを言ってもよいはずだ。けれどそれは、仮にキャプションを \"信用すれば\" の話である。\nそもそも「これ（Ceci）」という指示語がそこに描かれたイメージを指すとは誰も言っていない。つまり「これ（Ceci）」という \"語そのもの\" が「パイプではない（n'est pas une pipe）」と言っているのかもしれないし、指示語である「これ（Ceci）」が「これはパイプではない（Ceci n'est pas une pipe）」という一文を指しているとすれば、「これはパイプではない（Ceci n'est pas une pipe）」という文章自体が「パイプではない（n'est pas une pipe）」と言っているのかもしれない*1。その場合、キャプションはイメージを殺しているのか、あるいはイメージがキャプションを殺しているのか、考えたくなる*2。\nとすれば、私たちを攪乱する元凶は明らかであろう。「これはパイプではない（Ceci n'est pas une p…",
+          "link": "https://www.zaikakotoo.com/entry/look/back/2021",
+          "publishedOn": "2021-12-31T10:21:36.000Z",
+          "wordCount": 526,
+          "title": "2021年をふりかえって",
+          "enclosure": {
+            "url": "https://images-fe.ssl-images-amazon.com/images/I/5145ExCvFcL._SL500_.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://images-fe.ssl-images-amazon.com/images/I/5145ExCvFcL._SL500_.jpg"
         }
       ]
     },
@@ -365,6 +676,51 @@
             "length": "0"
           },
           "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/f/futbolman/20220113/20220113211741.jpg"
+        },
+        {
+          "id": "hatenablog://entry/13574176438051246066",
+          "author": null,
+          "description": "14巻の冒頭では「たった一言。たった、一言伝えるだけなのに、随分と長い時間を掛けてしまった」と雪ノ下雪乃の独白があるように、個々人がもどかしく「たった一言」で言い表せない言葉のアポリアに終始執着してきたのが後期『俺ガイル』といえるでしょうか。『俺ガイル』を端的に表しているように思えます。「言えなさ」、もどかしさによる「言葉の貧しさ」をくぐり抜けてなお言葉を用いるほかない倒錯性を含めた言葉と他者との向き合い方。\n \n\nその引き手から指を離した瞬間。\nひやりとした感触にはっとした。\n指先には、まるで抜けない棘のように、冷たさがずっと残っている。\n（…）\nなのに、指先は。\nあの扉に、最後に触れた指先だけは、今もまだ冷たいままだ。（P40）\n \n指先の冷たさは「違和感」の暗喩となっています。\n関係性の終わりとして、雪ノ下雪乃の「願い」は由比ヶ浜結衣の「願い」を聞くことでした。\n言語化しているようでしていないような曖昧さがあり、「願い」をなんでも叶えるという非対称性ありきものですから、比企谷八幡の主体性はここでは特別に語られていません。潔癖的に欺瞞を許容することはできませんから、他者との関係性において「勝負」の件から「願い」を聞き入れる受動的な態度はみえるものの、比企谷八幡の意思はみえないようになっています。そのような歪さがあります。非対称性の固定化といえるでしょうか。それを遠ざけていたにもかかわらず、他者に委ねざるを得ないねじれは「勝負」や「願い」をエクスキューズにしている主体性の欠落といえるでしょう。\n前述した9巻のボーイ・ミーツ・ガールの非対称性、その保守性とも重なっているようにも思えます。もちろん、これはラストにも関わってくるので後述することになるでしょうが。\n雪ノ下雪乃による「願い」は歪な関係性の清算となります。潔癖的ともいえるでしょう。\n「願い」を素直に引き受けることで、…",
+          "link": "https://futbolman.hatenablog.com/entry/2022/01/10/120854",
+          "publishedOn": "2022-01-10T03:08:54.000Z",
+          "wordCount": 314,
+          "title": "サブカルチャー化した文学から呼びかけられている――『やはり俺の青春ラブコメはまちがっている。』（１６）",
+          "enclosure": {
+            "url": "https://m.media-amazon.com/images/I/51Ifl5aJKaL._SL500_.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://m.media-amazon.com/images/I/51Ifl5aJKaL._SL500_.jpg"
+        },
+        {
+          "id": "hatenablog://entry/13574176438048915183",
+          "author": null,
+          "description": "13巻の冒頭、プロム企画に問題が発生します。プロム自体が問題視されているように、「大人」の意見として「正しさ」が横行しています。あるいは多数派によって決定される同調性、「空気」の可視化とでもいうべきでしょう。「空気を読む」ことの裏返しには集団の閉鎖性と排他性をみることができます。そこから自己疎外している比企谷八幡の存在感・語り手の位置は、特権的な意味でオルタナティブとして機能しているといえるでしょうか。\n比企谷八幡は自身の「悪癖」を自覚しながらも、「約束」のために雪ノ下雪乃を手伝うといいます。\nしかし、その行為は雪ノ下雪乃の主体性の問題に深く絡みつき、彼女が「自立」しようとしている行動や選択を妨げる可能性を意味している。「依存」という関係性に「正しく」回収されてしまうのではないか、という不安が窺えます。\n \n\n「うん……。まぁ、私としても依存という表現が正しいとは思わないが、こういうのは本人の捉え方だからな。バイアスに偏りがあると、いくら言葉を尽くしても届かないことは多い」\n（…）\nどれだけ自分を宥めすかして、曖昧模糊とした綿飴みたいな日々を送っても、どこかで見過ごせず、千言万遍費やしても誤魔化しきれずに突き詰めてしまう化け物じみた自意識過剰なまでの潔癖さ。結局今に至っても、その自意識の化け物は心に棲み続けて、いつも一歩後ろの暗がりからじっと自分を俯瞰しているような気がする。\nだからこそ、わかるのだ。自分が抱いた自身への認識は簡単には払拭できない。それは雪ノ下も同様なのだろう。依存している、という言葉が真実であるか否かはさておき、少なくとも雪ノ下の中での認識はそうなっている。それをどんなに否定しても、納得することはおそらくない。（P33）\n \n「共依存」という言語化、ラベリングへの認識について平塚静が意見を述べるシーンとなります。\n平塚静は一貫して「共依存」に疑問符をつけて…",
+          "link": "https://futbolman.hatenablog.com/entry/2022/01/03/120612",
+          "publishedOn": "2022-01-03T03:06:12.000Z",
+          "wordCount": 256,
+          "title": "サブカルチャー化した文学から呼びかけられている――『やはり俺の青春ラブコメはまちがっている。』（１５）",
+          "enclosure": {
+            "url": "https://m.media-amazon.com/images/I/51bSrGRLkCL._SL500_.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://m.media-amazon.com/images/I/51bSrGRLkCL._SL500_.jpg"
+        },
+        {
+          "id": "hatenablog://entry/13574176438044773298",
+          "author": null,
+          "description": "「本物」を選ぶことで生じる純粋な想いに相反するかのように、潜む欺瞞的な歪みや非対称的な暴力性に目を瞑ることは、「先送りの病」＝モラトリアムに回収されてしまう恐れがあります。「モラトリアム」とロマン主義的な心性は、対置的な意味での後期が抱える「本物」を巡る自意識の表れであるとするならば、歪みをそのままにすることができない「潔癖」であるからこそ、冷たくて残酷な現実の痛みと向き合い続けなければなりません。\n9巻から生じた「本物」という「対称的」な目的を一致させながらも獲得した共同性の違和感＝欺瞞を告発したのが11巻でありましたが、その壮大な願いは同時に呪いにもなり、潔癖的に許容できないがゆえに「私と他者」を傷つける「言葉と現実」のズレが剥き出しになります。\n12巻の冒頭、積み重なってきた月日を思わせる他者の温度と距離感が描かれています。「変化」の前兆であり、もう戻れない関係性。欺瞞的な反復的構造から脱け出すために、主体的に「先送り」しないことを意識づけるように。これまでの一年間の歩みを振り返りながら語り直すことで、共有した過去を「思い出」にしては相対化していきます。共有している事実でも、それぞれの感情の差異はあるでしょう。他者であるから。\nしかし、ここではさほど「言葉と現実」が乖離していないような微温的なコミュニケーションが繰り広げられます。記憶の語り直しのなかでも、あえて言わない「沈黙」も含めた語りといったハイコンテクストな共有性が見て取れるでしょうか。意味が過剰に発生する「場」となっている。\n「相対化」して「先送り」にしてきた比企谷八幡の内面の吐露となります。\n \n \n結局のところ、俺はありとあらゆる解答も解決も結論も求めてはいない。きっと解消されることを望んでいた。目の前の課題問題難題が有耶無耶のうちに雲散霧消する曖昧模糊とした終わりを待っていた。\nおそらく俺たち全員がこの…",
+          "link": "https://futbolman.hatenablog.com/entry/2021/12/21/123815",
+          "publishedOn": "2021-12-21T03:38:15.000Z",
+          "wordCount": 208,
+          "title": "サブカルチャー化した文学から呼びかけられている――『やはり俺の青春ラブコメはまちがっている。』（１４）",
+          "enclosure": {
+            "url": "https://m.media-amazon.com/images/I/514om1ErGAL._SL500_.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://m.media-amazon.com/images/I/514om1ErGAL._SL500_.jpg"
         }
       ]
     },
@@ -396,7 +752,18 @@
       "title": "square1001の記事 - Qiita",
       "feedUrl": "https://qiita.com/square1001/feed",
       "siteUrl": "https://qiita.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://qiita.com/square1001/items/6d414167ca95c97bd8b2",
+          "author": null,
+          "description": "こんにちは、square1001 です。\n\n現在は東京大学の学部 1 年生をしています。私は中学 1 年の頃からプログラミングをやっていて、特にアルゴリズムが大好きです。AtCoder をはじめとする 競技プログラミング にも取り組んでいて、中高生のときは 情報オリンピック にも参加していました。\n\n本記事では、アルゴリズムや競技プログラミングに興味がある方、あるいはプログラミングをやっているけどアルゴリズムをよく知らない方に\n\n\nアルゴリズムはどんなもので\nアルゴリズムを使うとどんな問題が解けて\nアルゴリズムが地球のように広く、多様で、奥深く、そして楽しいこと\n\n\nを知ってもらおうと思っています。\n\n\nアルゴリズムの世界へようこそ\n\n時代は 2020 年代に突入し、急速に IT 化 や DX が進んでいく中で、問題を効率的に解くアルゴリズム技術の重要性が、ますます高まっています。そして、アルゴリズムは、世の中の色々な場面で使われるようになっています。まずは例を 3 つ挙げてみます。\n\n\n例 1：電車の乗換案内。どのように電車を乗り継げば最も速く目的地に着けるかは、どのようにして求めているのだろうか？\n例 2：検索エンジン。検索する文字列を入力したとき、どのように一番上に表示するウェブページを探索しているのか？\n例 3：オセロや将棋などの AI1。コンピューターはどのような計算をして、最善手を考えているのだろうか？\n\n\nここで本記事では、プログラミングをやったことがあるけどアルゴリズムをまだ知らない人や初心者に向けて、アルゴリズムがどんな世界なのかを体感させたいと思っています。その中で、多様なアルゴリズムの世界を感じてもらうため、アルゴリズムの世界を 7 つのカテゴリーに分け2、全部で 25 個の問題を紹介します。一方で、本記事はアルゴリズムの世界を感じてもらうことを最大の…",
+          "link": "https://qiita.com/square1001/items/6d414167ca95c97bd8b2",
+          "publishedOn": "2021-12-23T10:37:41.000Z",
+          "wordCount": 2846,
+          "title": "アルゴリズムの世界地図",
+          "imageUrl": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9JUUzJTgyJUEyJUUzJTgzJUFCJUUzJTgyJUI0JUUzJTgzJUFBJUUzJTgyJUJBJUUzJTgzJUEwJUUzJTgxJUFFJUU0JUI4JTk2JUU3JTk1JThDJUU1JTlDJUIwJUU1JTlCJUIzJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz0wYmVkMzM3MmNmNmQ2YWRiYzMxOTBiNDUwZDA1NGUwMQ%26blend-x%3D142%26blend-y%3D112%26blend-mode%3Dnormal%26s%3Dbf1d325e10980a0c052b73a78657d2bc?ixlib=rb-4.0.0&w=1200&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwc3F1YXJlMTAwMSZ0eHQtY29sb3I9JTIzMjEyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnM9Zjc0MjhlYjkwODIxNDU0NWJhMzhlMDY5ODQzNDY0MTI&blend-x=142&blend-y=491&blend-mode=normal&s=527d9378d741e84f9bf25d3a96df19e9"
+        }
+      ]
     },
     {
       "title": "うさぎ小屋",
@@ -438,6 +805,66 @@
           "publishedOn": "2022-01-23T14:55:13.000Z",
           "wordCount": 137,
           "title": "区間 LIS クエリを書きました",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438052433991",
+          "author": null,
+          "description": "次の操作ができる優先度つきキューのおはなしです。\npush(x)：x を挿入する\npop_newest(k)：挿入順が新しい方から k 以内の要素の最大値を取得・削除\npop_oldest(k)：挿入順が古い方から k 以内の要素の最大値を取得・削除\n\n\n取得だけする peek_newest(k), peek_oldest(k) もできる\npop()：最大値を取得・削除\n\n\nこれは pop_newest(oo) でできる\noo は \\(\\infty\\) のこと\n計算量は amortized \\(O(\\log(n))\\) time です。\\(n\\) はその時点での要素数です。\n記事の構成は以下の流れになります。\n優先度つきキューを実装してみる\n\n\nよくある二分ヒープとは異なるアプローチ\n\nの実装から自然に pop_newest(k) などを捌けるので、その説明をする\n同じアイディアで他のデータ構造も作れるので、その紹介をする\n優先度つきキューの実装\n区間最大値を取得できるデータ構造としてセグ木がありますね。セグ木を使って優先度つきキューを作ります。\n大まかなアイディアとしては次の通りです。\n長さ \\(m\\) のセグ木 \\(a\\) を用意し、添字 \\(i \\gets 0\\) で初期化する。\npush(x) の際は、\\(a_i \\gets x\\), \\(i\\gets i+1\\) で更新する。\npop() の際は、全体の最大値 \\(a_j\\) を取得し、\\(a_j\\gets-\\infty\\) で更新する。\n\\(a_j\\) を更新するために \\(j\\) が必要になりますが、以下のふたつの方法があります。\nまず最大値 \\(x\\) を求めて、\\([0, j+1)\\) の最大値が \\(x\\) になるような \\(j\\) の最小値を二分探索で求める\n\\( (a_i, i)\\) のペアの辞書順 max を返す演算をセグ木に乗せる\nほぼできていますが、次の問題点があります*1。\n\\(m+1\\) 回の挿入をしようとするとこわれる\n要素数 \\(n\\) に対する log ではなく、決め打ちしたサイズ \\(m\\) に対する log の時間になる\nこれは適当に解決できます。\n\\(i=m\\) で挿入しようとした場合と、\\(n\\le m/4\\) で削除しようとした場合*2に、再構築します。\nセグ木のサイズを \\(m\\gets 2n\\) で更新し、元々の \\(-\\infty\\) 以外の要素を前半に詰め直します。残りは \\(-\\infty\\) でうめます*3。\nならし計算量解析のよくある議論（vector を適切なタイミングで伸縮させるやつ）と同じような議論で、再構築のコストが \\(O(1)\\) 時間であることが言えるはずです。再構築のおかげで \\(m=O(n)\\) になるので、amortized \\(O(\\log(n))\\) time となります。\n古い方から \\(k\\) 個以内のやつの処理\n区間和のセグ木を用意します。これを \\(b\\) とします。\n各 \\(i\\) に対して、\\(a_i \\gt -\\infty\\) のとき \\(b_i = 1\\)、そうでないとき \\(b_i = 0\\) とします。\nセグ木 \\(b\\) 上の二分探索で「\\([0, i)\\) が区間和が \\(k\\) となる最小の \\(i\\)」を求め、その \\(i\\) に対して \\(a\\) で \\([0, i)\\) の区間 max を求めます。\n新しい方から \\(k\\) 個以内についても似た感じです。\n\\(b\\) 上の二分探索を 2 回やれば、挿入順が \\([k_L, k_R)\\) の max とかもできます。\n他のデータ構造\n上記と同様のアイディアで、次の操作が amortized \\(O(\\log(n))\\) time でできます。\npush(x)：末尾に x を追加\nremove(i)：i 番目の要素を削除\nfold(l..r)：区間 l..r のモノイド積を求める\n\n\nあるいは [i]：添字 i の要素の取得\n上記で \\(-\\infty\\) を詰めていた箇所の代わりには、単位元 \\(e\\) を使えばよいです。\nこっちの方がむしろよく見るかもしれませんね。\nあとがき\nなんか疲れていて、直近 \\(k\\) 個以内の最大値を取得できるヒープがあれば面白そうでは？と思った日があったので書きました。\n応用例があるのかはわかりません。\n区間モノイド積を求められる平衡木でも当然できます。\nおわり\nお粗末さまでした。\n*1:ないと思う人もいます。\n*2:\\(n\\le m/2\\) を条件にすると、連続で削除するときにたくさん再構築されてこわれますね。\n*3:\\(n=0\\) で挿入しようとした場合などはよしなに処理します。",
+          "link": "https://rsk0315.hatenablog.com/entry/2022/01/13/233015",
+          "publishedOn": "2022-01-13T14:30:15.000Z",
+          "wordCount": 315,
+          "title": "直近 k 回以内に挿入された要素の最大値を出せる優先度つきキュー他いろいろ",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438050886999",
+          "author": null,
+          "description": "ここで区間 \\(k\\)-最小値と呼んでいるのは以下のような問題です。\n最初に配列 \\(a = (a_0, a_1, \\dots, a_{n-1})\\) が与えられるよ。\n次にクエリ処理を \\(q\\) 回してね。\nクエリは \\( ([l, r), k)\\) の形式で与えられるので、\\(a_l, a_{l+1}, \\dots, a_{r-1}\\) を昇順ソートしたときに 0-indexed で先頭から \\(k\\) 番目に来る値を答えてね。\nただし \\(0\\le k \\lt r-l\\) が保証されるので、答えがなくなることはないから安心してね。\n\n\n昨日の ABC-D は、これに \\(l = 0\\) の追加制約が与えられたものと見ることができます。\n座標圧縮などをすれば帰着できるので、以下では \\(0\\le a_i \\lt n\\) とします。値の重複も \\( (a_i, i)\\) などで tie-break することにすればよいので、distinct であるとします（つまり、\\(0, 1, \\dots, n-1\\) の順列が与えられるものとします*1）。\nこの記事では次のことを紹介します。\nwavelet matrix での解法（の概要）\n\n\n前処理 \\(O(n\\log(n))\\) time、クエリ \\(O(\\log(n))\\) time\nクエリ先読みがいらない\n\n\n\\(i\\) 個目のクエリに答えたら \\(i+1\\) 個目のクエリが与えられる、などの状況でもいける\n並列二分探索での解法\n\n\nバッチ処理 \\(O( (n+q)\\log(n)^2)\\) time\nクエリ先読み\n並列二分探索の方が計算量では劣っているのですが、並列二分探索の導入や実装の練習（あるいはライブラリの verify）として使えそうだな〜と思ったので、書こうと思い至った次第です。\n自分の中ではこのアプローチにさっ…",
+          "link": "https://rsk0315.hatenablog.com/entry/2022/01/09/152028",
+          "publishedOn": "2022-01-09T06:20:28.000Z",
+          "wordCount": 648,
+          "title": "区間 k-最小値いろいろ",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438046328905",
+          "author": null,
+          "description": "自分語り記事です。\n\nえびちゃんの一年を振り返る記事をうっかり書きそうになったけど、冷静になったので却下した\n— えびちゃん (@rsk0315_h4x) 2021年12月16日\n  \nうっかりし直しました。\n今年お勉強したもの\n数学関連のものをいくつか学んだり、昔わかった気になったものを学び直したりしました。\nACL math\n\n\nfloor sum は去年だけど\n\n\nACL にマージされたのは今年\nmod tetration\n\n\n\\( (a\\uparrow\\uparrow b) \\bmod n = \\underbrace{a^{(a^{(\\cdots ^a)})}}_{b\\text{ many}} \\bmod n\\)\n実装が悪いと \\( (2\\uparrow\\uparrow 3)\\bmod 32 = 16\\) を \\(0\\) としてしまう\nmod Ackermann\n\n\n\\(A(a, b) \\bmod n\\)\n離散対数\n\n\n \\(a^x = b\\pmod{n}\\) なる最小の \\(x\\ge 0\\)。なければないと言う\n特に、法が合成数の場合\n素数の数え上げ\n\n\n\\(\\pi(n)\\)\n\\(n\\) 以下の素数の個数を \\(O(n^{3/4}/\\log(n))\\) 時間で数える\n\\(n^2+1\\) 型素数篩\n\n\n特定の状況で必要になるやつ\n\\(n^2+1\\) 型の整数の素数判定をできる\n\\(n^2+2n+1\\) 型素数列挙というギャグもありました\nBoyer–Moore majority algorithm\n\n\n過半数を占める要素を deterministic \\(O(n)\\) 時間で探す\n\n\n「過半数を占めているとすればこれ！」というのを探す\n実際に占めているかの判定は、再度走査してそれの個数を数えれば可能\nSA-IS\n\n\n接尾辞配列を \\(O(n)\\) 時間で構築する\n\n…",
+          "link": "https://rsk0315.hatenablog.com/entry/2021/12/26/164331",
+          "publishedOn": "2021-12-26T07:43:31.000Z",
+          "wordCount": 379,
+          "title": "今年のえびちゃん 2021",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/r/rsk0315/20211226/20211226165033.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/r/rsk0315/20211226/20211226165033.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438044139389",
+          "author": null,
+          "description": "競プロ er の間では、（主に実生活で）最適値を探そうと二分探索をして、上限を大きく取りすぎたために破滅するという定番ネタがあります*1。\nあるいは、実際のコンテストでも「上限が小さすぎた」「上限を大きくしすぎたため判定関数内でオーバーフローした」などの失敗をする人はそれなりにいる印象です。\n後者は特に、上限を思考停止で 1e9 あるいは 1e18 にしている人にありがちです。\nここでは、「より成功率の高い思考停止の方法」として、指数探索 (exponential search) というのを紹介します。\n指数時間かけて全探索するというタイプのギャグではないです。\n本題\n以下のようなコードを考えます。\nlet mut ok = 0;\nlet mut bad = todo!();\nwhile bad - ok > 1 {\n    let mid = ok + (bad - ok) / 2;\n    *(if pred(mid) { &mut ok } else { &mut bad }) = mid;\n}\n\n\n\nC++ なら以下のような感じです。\nll ok = 0;\nll bad = TODO();\nwhile (bad - ok > 1) {\n    auto mid = ok + (bad - ok) / 2;\n    (pred(mid)? ok: bad) = mid;\n}\n\n\n\nmid = (ok + bad) / 2; でもいいですが、以下の理由からmid = ok + (bad - ok) / 2; を使っています：\nbad がオーバーフローしなければ計算過程でオーバーフローしないこと\nループ条件で bad - ok を使っているので、それを使う方が直感的な（or 頭にやさしい）気がすること\nまた、その程度の最適化は人間ではなくコンパイラの役割だろうと考え、>>…",
+          "link": "https://rsk0315.hatenablog.com/entry/2021/12/19/124017",
+          "publishedOn": "2021-12-19T03:40:17.000Z",
+          "wordCount": 363,
+          "title": "二分探索の上限を適切に決められずに失敗する人かわいそう",
           "enclosure": {
             "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
             "type": "image/png",
