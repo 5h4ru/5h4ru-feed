@@ -1,577 +1,639 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-02-15T04:02:58.430Z</id>
+    <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-15T04:02:58.430Z</updated>
+    <updated>2022-02-15T05:03:47.627Z</updated>
     <generator>osmosfeed 1.14.4</generator>
-    <link rel="alternate" href="index.html"/>
+    <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
+    <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
     <entry>
-        <title type="html"><![CDATA[Learn React Hooks – A Beginner's Guide]]></title>
-        <id>620a618e56125b0677c64e72</id>
-        <link href="https://www.freecodecamp.org/news/the-beginners-guide-to-react-hooks/"/>
-        <updated>2022-02-14T21:04:27.000Z</updated>
-        <summary type="html"><![CDATA[Functional components weren't always the preferred method for declaring components in React.  Before React version 16.8 was introduced, functional components were treated much like second-class citizens. They couldn't handle state, logic, and lots of other React features, and we only used them for rendering very simple components to the]]></summary>
+        <title type="html"><![CDATA[ミルクボーイの漫才風CM全部みる]]></title>
+        <id>hatenablog://entry/13574176438063420107</id>
+        <link href="https://xcloche.hateblo.jp/entry/2022/02/14/211038"/>
+        <updated>2022-02-14T12:10:38.000Z</updated>
+        <summary type="html"><![CDATA[2019年にM-1グランプリで優勝して以来、ミルクボーイを起用した漫才風CMを本当によく見るようになった。
+バツグンで、笑いも入れつつ適度に情報を提示しながら宣伝するのにちょうどいい構造のようである。 
+ミルクボーイの漫才はもともと商品紹介にすぐれたフォーマットなのだが、さらに微調整してCMに適応しているようなのだ。
+ということで、ミルクボーイのシステム漫才の仕組みを概観したのち、Web上で閲覧できるミルクボーイの漫才風CMと比較して、本ネタとの構造的な違いやCM化にあたって行われている工夫を見ていこう。
+本ネタとCM
+まずは比較のために、コーンフレークをテーマとしたこちらの二つの動画を見てみよう。
+www.youtube.com
+本ネタ「コーンフレーク」
+www.youtube.com
+CM「グラノラハーフ編 楽屋裏編」
+どのくらい「違い」があるだろうか？
+システム漫才の流れ
+ミルクボーイの本ネタをフローチャート化すると、次のようになる。
+
+ツカミ
+漫才のツカミではまずは駒場が会場から何かを受け取るジェスチャーを行い、内海が「①あーありがとうございます、いま○○をいただきました　こんなんなんぼあってもいいですからね」と受ける。ここで受け取るのはもらっても困るもの、なんぼあってもいいわけないものなことが多い。
+メイン導入
+メイン構造の導入部は、駒場の「ウチのオカンが好きな（ジャンル名）があるらしい」から入り、そこからなんやかんやあって忘れてしまったその名前を内海が一緒に考える「ほな俺がね、オカンが一番好きな〇〇一緒に考えてあげるからどんな特徴いうてたか教えてみてよ」の流れになる。ネタによってはここで変化があり、「好きな（ジャンル名）がある」と聞いた時点で「わからへんのでしょう？」で受ける（ミルクボーイのいつものシステムを対象化した）パターンや、「オカンが好きな（ジャンル名）…]]></summary>
         <author>
-            <name>Victor Ikechukwu</name>
+            <name>セミになっちゃた</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Why are hyperlinks blue?]]></title>
-        <id>https://css-tricks.com/?p=363555</id>
-        <link href="https://css-tricks.com/why-are-hyperlinks-blue/"/>
-        <updated>2022-02-14T20:13:31.000Z</updated>
-        <summary type="html"><![CDATA[Last year, Elise Blanchard did some great historical research and discovered that blue hyperlinks replaced black hyperlinks in 1993. They’ve been blue for so long now that the general advice I always hear is to keep them that way. There …
-Why are hyperlinks blue? originally published on CSS-Tricks. You should get the newsletter.]]></summary>
+        <title type="html"><![CDATA[音MAD作者のブログを集めたアンテナを作成している]]></title>
+        <id>hatenablog://entry/13574176438062947102</id>
+        <link href="https://naari.hatenablog.com/entry/2022/02/13/143118"/>
+        <updated>2022-02-13T05:31:18.000Z</updated>
+        <summary type="html"><![CDATA[さっきこんな記事を書いた→ osmosfeedを使って自分のためのアンテナ(RSSリーダー)を作成する - 名有りさんの日記
+技術的な、難しいことはさておき、ようはブログのアンテナを作成することができた、というもの。これの音MAD界隈版作ろうとしている。恐らく自分が観測できている範囲の音MAD作者のブログはほとんど集めきっていてるはずで、これを実際に運用し始めている。
+この収集方法は @otomad_blomaga というTwitterアカウントのように選りすぐられたものではなく、機械的に動かしている。なので例外的に音MADについて触れたような記事を取り上げられないが、でもある程度の網羅性は担保できていると思う。
+otomad-feed
+現在のリストは以下の通りで、既に更新されていないものも含めて161件ものブログが開設されている。そのうちの116件は note.com のアカウントで、昨今のトレンドを感じられる。次点ははてなブログで、40件ほど。
+https://github.com/naari3/otomad-feed/blob/main/osmosfeed.yaml
+これらのリストから1時間に1回ほどデータを収集するようになっていて、新しい記事があればおそらく新着記事に追加される。うまく動いていないようだったらぜひとも教えてください。
+また、このリストから漏れてしまったブログについても随時募集中で、僕に直接伝えるか、GitHubに知見があるのであればリポジトリにPRを投げてもらうか、このフォームからリクエストを投げることができる。ぜひとも協力していただきたいです。逆にリストから削除してほしい時は、それもまた僕に直接伝えてください。もうしわけない。
+既にRSSリーダーを利用している方については、上に張ったリストを追加してもらうか、このアンテナ自体がRSSのフィードを提供しているので、それを読み込んでもらうと良いと思う。ただちょっと巨大かも。僕は↓このフィードを使った運用をしていないので、もし巨大すぎて不都合があるようだったらそれについて教えてほしいかも。
+https://naari3.github.io/otomad-feed/feed.atom
+なぜこれを作るのか
+一番大きな理由は自分がよく見ているコンテンツを作っている人がどんな文章を書いているのか？というのを探るためだけど、もうちょっと書いてみる。
+まず音MAD作者の方々が書くブログは面白い。恐らく音MADの制作の過程で生まれた所感の方向性*1とブログみたいなものとの相性が良いという事もあるだろうが、別に音MADに関連したものではなくとも面白く、そのセンスはさすが創作に根を詰めているだけあるなと思ったりもする。これを逃さず閲覧できるアンテナを作成したかった。
+また、これは集合知としても役立つ気がしている。これは「音MADに関する技術的な記事を逃さないようになる」というだけではなく、ただ普通に関係のないことについて書かれた文章についても同じように捉えられると思っている。ブログは後世に伝える手段としてはかなり優れているように思う。現に数年前に更新したっきりでそれ以来全く更新のない音MAD系のブログも存在しており、ただその記事は今でも問題なく閲覧できたりする。日記ってすごいかもしれん - 名有りさんの日記の下の方に書いたことと似たような気持ちだが、みんなが文章を書き続けるとそれが界隈自体のアーカイブとして機能し始めると思う。そのための、草の根としてのアンテナでもありたい。
+よろしくお願いします → otomad-feed
+*1:ネタ/技術/思考]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Setup a Basic Serverless REST API with AWS Lambda and API Gateway]]></title>
-        <id>61e80555183181284a1916cd</id>
-        <link href="https://www.freecodecamp.org/news/how-to-setup-a-basic-serverless-backend-with-aws-lambda-and-api-gateway/"/>
-        <updated>2022-02-14T19:10:14.000Z</updated>
-        <summary type="html"><![CDATA[As developers, we are always trying to optimize everything from how people communicate to how people buy things. The goal is to make humans arguably more productive.  In the spirit of making humans more productive, the software development landscape has seen a dramatic rise in the emergence of developer]]></summary>
+        <title type="html"><![CDATA[osmosfeedを使って自分のためのアンテナ(RSSリーダー)を作成する]]></title>
+        <id>hatenablog://entry/13574176438062919224</id>
+        <link href="https://naari.hatenablog.com/entry/2022/02/13/131522"/>
+        <updated>2022-02-13T04:15:22.000Z</updated>
+        <summary type="html"><![CDATA[github.com
+yamlファイルにRSSフィードを書き溜めておく
+新着記事一覧のhtmlを静的ファイルとして作成する
+GitHub Pages配下に設置する
+これを定期的に動くGitHub Actions上で実行する
+そうすることでRSSフィードのためのアンテナを用意することができるようになる。というのがosmosfeedの特徴。上述した環境をかんたんに用意するためのテンプレートも存在しており、テンプレートを使用したリポジトリを作成した後、yamlを埋めるだけでosmosfeedを使えるようになる。既存のRSS追うやつと違って、これはGitHub上にyamlで管理するだけなので大変にお手軽で、移植性もかなり高い。なにより、GitHub Actionsと連携するのがとても賢いなと思い、自分もこれに従ってみることにした。
+https://naari3.github.io/naari3-feed/
+https://github.com/naari3/naari3-feed/
+これまでははてなブログの購読リストのみを使用していたが、性質上はてなブログしか集めることができないために他種の媒体を追うのが困難になっていた。今回によってRSSフィードを配信している媒体であればなんでも追えるようになったのだと思う。
+運用してすぐに「更新日時をかなり未来に置いておくことで、特定の記事を記事順の先頭に置くハック」の存在を思い出す。アンテナの先頭もそういった記事で埋まってしまう。これらの記事は意味合い的には新着記事ではなく、アンテナ運用の上ではただ邪魔なだけなので、「未来の記事はアンテナに含めない」のような対応が必要になった*1。ので、PRを投げた。投げてから反映されるまでの間は自分のネームスペース上にosmosfeedをpublishし、それを利用するように変更していた。昨日くらいにマージ、最新版がpublishされたようなのでそちらを利用するように変更した。
+また、osmosfeedが吐き出すhtmlは事前に用意されたテンプレートを使用しているのだが、これを自分で用意することも可能。今回、記事のサムネイルを記事一覧右側に設置したかったので、そのように対応した。ただ、サムネを取得する方法があまり良いとは言えない方法だった*2ので、どうするのが妥当か？を聞いてみたところ (osmoscraft/osmosfeed discussion#75) 、現在取り組まれているv2にサムネイル取得のためのコードが存在し(または用意中で)、これをバックポートすることで対応できるのではないか？という話を頂いた。今後に期待すると良さそう。
+ここで書いたそれぞれの対応は、osmosfeedの性質によって実現できる対応だと思った。体験がかなり良い。
+もしこれを見ているあなたも試したくなったのであれば、以下のページを参考にするか、手っ取り早くは先程挙げたテンプレートからリポジトリを作成すればよい。
+paiza.hatenablog.com
+GitHub Pagesは性質上パブリックなものなので、生成結果のアンテナもパブリックなものとして公開される。これを利用することで、「特定の界隈をまとめたアンテナをその界隈に対して共有することもできる」と考えた。これは共有知としてかなり有用なのではないか。GitHubで管理されている性質上、誰でもフォークでき、もし追加すべきブログがあるのであればそれを対象に加えることもできるだろう*3。そういった記事をこれから別記事として書く。
+*1:もうすこし賢い対応方法はあるだろうが、この対応で自分の要望は解決されるので問題なし
+*2:そもそもRSSフィードとしてサムネを用意する方法がめちゃくちゃたくさんあって簡単に対応できない
+*3:しかしこれはgitに対する知見が前提になってしまう]]></summary>
         <author>
-            <name>Nyior Clement</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Important Lessons they Don't Teach You in Business School]]></title>
-        <id>620a9e7521bfb3068cf286fe</id>
-        <link href="https://www.freecodecamp.org/news/important-lessons-they-dont-teach-you-in-business-school/"/>
-        <updated>2022-02-14T18:30:23.000Z</updated>
-        <summary type="html"><![CDATA[How can you find customers? How can you get a meeting with anyone? How can you take your career to the next level?  Learn the answers to these questions and more in an entrepreneurship course we just published on the freeCodeCamp.org YouTube channel. Business Insider wrote an article stating]]></summary>
-        <author>
-            <name>Beau Carnes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The React Cheatsheet for 2022]]></title>
-        <id>6207facb56125b0677c649a3</id>
-        <link href="https://www.freecodecamp.org/news/the-react-cheatsheet/"/>
-        <updated>2022-02-14T17:02:30.000Z</updated>
-        <summary type="html"><![CDATA[Do you want to get up to speed with React as quickly as possible? I’ve put together a super helpful cheatsheet to give you a complete overview of all of the React concepts you need to know in 2022. Let’s get started! Table of Contents  * React Elements]]></summary>
-        <author>
-            <name>Reed Barger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use PropTypes in React]]></title>
-        <id>61fcba1ef2ed6b06db5ac4db</id>
-        <link href="https://www.freecodecamp.org/news/how-to-use-proptypes-in-react/"/>
-        <updated>2022-02-14T16:36:09.000Z</updated>
-        <summary type="html"><![CDATA[PropTypes are a good first line defense when it comes to debugging your apps. But before getting into detail about PropTypes, we have to understand the concept of props. Props [https://tekolio.com/what-are-props-in-react-and-how-to-use-them/] are the read-only properties that are shared between components to give the unidirectional flow of React a dynamic touch.]]></summary>
-        <author>
-            <name>Ateev Duggal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting Started With the File System Access API]]></title>
-        <id>https://css-tricks.com/?p=363339</id>
-        <link href="https://css-tricks.com/getting-started-with-the-file-system-access-api/"/>
-        <updated>2022-02-14T16:01:21.000Z</updated>
-        <summary type="html"><![CDATA[The File System Access API is a web API that allows read and write access to a user’s local files. It unlocks new capabilities to build powerful web applications, such as text editors or IDEs, image editing tools, improved …
-Getting Started With the File System Access API originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Charlie Gerard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Everything You Want To Know About Creating Voice User Interfaces]]></title>
-        <id>https://smashingmagazine.com/2022/02/voice-user-interfaces-guide/</id>
-        <link href="https://smashingmagazine.com/2022/02/voice-user-interfaces-guide/"/>
-        <updated>2022-02-14T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Voice is a powerful tool that we can use to communicate with each other. This article covers the most critical aspects of designing for voice user interfaces: designing the conversation and designing visual interfaces.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Nick Babich &amp; Gleb Kuznetsov)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.14.4]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.4</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.4"/>
-        <updated>2022-02-14T06:58:28.000Z</updated>
-        <summary type="html"><![CDATA[Fixed: Several style issues]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.14.3]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.3</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.3"/>
-        <updated>2022-02-14T06:29:16.000Z</updated>
-        <summary type="html"><![CDATA[style tweak]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.14.2]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.2</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.2"/>
-        <updated>2022-02-14T05:53:33.000Z</updated>
-        <summary type="html"><![CDATA[New: Adjust article grouping based on timezone. You need to add timezone in osmosfeed.yml for accurate grouping. See details in documentation.
-New: Card title now toggles card content
-New: all toggles on the UI are persisted with local storage. You can use it to track read/unread status within a single browser.
-New: Build timestamp now links to the GitHub Action run
-Changed: Sources are sorted based on publish time rather than alphabetical order
-Changed: Style adjusted for easier reading
-Fixed: Horizontal overflow on Safari
-Fixed: HTML syntax error in default template]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.14.1]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.1</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.1"/>
-        <updated>2022-02-14T05:26:23.000Z</updated>
-        <summary type="html"><![CDATA[git typo in gh run url]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.14.0: V1.14.0 (#79)]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.0</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.0"/>
-        <updated>2022-02-14T05:13:00.000Z</updated>
-        <summary type="html"><![CDATA[New: Adjust article grouping based on timezone. You need to add timezone in osmosfeed.yml for accurate grouping. See details in documentation.
-New: Card title now toggles card content
-New: all toggles on the UI are persisted with local storage. You can use it to track read/unread status within a single browser.
-New: Build timestamp now links to the GitHub Action run
-Changed: Sources are sorted based on publish time rather than alphabetical order
-Changed: Style adjusted for easier reading
-Fixed: Horizontal overflow on Safari
-Fixed: HTML syntax error in default template]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.13.0]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.13.0</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.13.0"/>
-        <updated>2022-02-13T05:05:17.000Z</updated>
-        <summary type="html"><![CDATA[New: Thumbnail image display for each article
-New: Improved color, spacing, and typography for easier reading
-New: Click the date to toggle all accordions on that day. Ctrl + Click to toggle all accordions on the entire site.
-Changed: All sections are expanded by default
-Changed: Switched to vitest for easier testing
-Fixed: Long string (e.g. URL) caused horizontal overflow
-Thank you: @naari3, @tianheg]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v1.12.1]]></title>
-        <id>https://github.com/osmoscraft/osmosfeed/releases/tag/v1.12.1</id>
-        <link href="https://github.com/osmoscraft/osmosfeed/releases/tag/v1.12.1"/>
-        <updated>2022-02-12T17:46:42.000Z</updated>
-        <summary type="html"><![CDATA[Fixed: Future articles appeared in the feed
-Fxied: Security vulnerability from axios
-Thank you: @naari3]]></summary>
-        <author>
-            <name>Release notes from osmosfeed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your CSS reset needs text-size-adjust (probably)]]></title>
-        <id>https://css-tricks.com/?p=363498</id>
-        <link href="https://css-tricks.com/your-css-reset-needs-text-size-adjust-probably/"/>
-        <updated>2022-02-12T00:46:40.000Z</updated>
-        <summary type="html"><![CDATA[Kilian Valkhof:
-[…] Mobile Safari increases the default font-size when you switch a website from portrait to landscape. On phones that is, it doesn’t do it on iPad. Safari has been doing this for a long time, as a 
-…
-Your CSS reset needs text-size-adjust (probably) originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[9 New React and JavaScript Links for February 2022]]></title>
-        <id>https://css-tricks.com/?p=363396</id>
-        <link href="https://css-tricks.com/9-new-react-and-javascript-links-for-february-2022/"/>
-        <updated>2022-02-11T23:11:28.000Z</updated>
-        <summary type="html"><![CDATA[Every now and then, I find that I’ve accumulated a bunch of links about various things I find interesting. Like React and JavaScript! Here’s a list of nine links to other articles about them that I’ve been saving up and …
-9 New React and JavaScript Links for February 2022 originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Open Task Manager on Mac – Apple Shortcut Tutorial]]></title>
-        <id>62062b0b56125b0677c63fe4</id>
-        <link href="https://www.freecodecamp.org/news/how-to-open-task-manager-on-mac-apple-shortcut-tutorial/"/>
-        <updated>2022-02-11T21:36:17.000Z</updated>
-        <summary type="html"><![CDATA[Having problems with our computers is never fun. And what's often worse than the problems themselves is that they seem to occur when we're in the middle of an important task that needs to get done. The computer starts to significanlty slow down and an app we are using might]]></summary>
-        <author>
-            <name>Dionysia Lemonaki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Deploy AWS Infrastructure with Terraform and Github Actions – A Multi-Environment CI/CD Guide]]></title>
-        <id>61f587bbf2ed6b06db5a8380</id>
-        <link href="https://www.freecodecamp.org/news/how-to-deploy-aws-infrastructure-with-terraform-and-github-actions-a-practical-multi-environment-ci-cd-guide/"/>
-        <updated>2022-02-11T19:09:46.000Z</updated>
-        <summary type="html"><![CDATA[Recently, I've been considering developing a complete end-to-end greenfield DevOps personal lab project.  The term "greenfield software project" refers to the development of a system for a new product that requires development from scratch with no legacy code.  This is a method you use when you are beginning]]></summary>
-        <author>
-            <name>Nitheesh Poojary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Fork a GitHub Repository – A Complete Workflow]]></title>
-        <id>6203730c56125b0677c632a1</id>
-        <link href="https://www.freecodecamp.org/news/how-to-fork-a-github-repository/"/>
-        <updated>2022-02-11T18:02:16.000Z</updated>
-        <summary type="html"><![CDATA[GitHub is a great application that helps you manage your Git repositories. You can also use it to contribute to the open source ecosystem and collaborate with other contributors.  Public repositories on GitHub often get lots of attention from contributors, and this helps enhance the project. So how can]]></summary>
-        <author>
-            <name>TAPAS ADHIKARY</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Multi-Value CSS Properties With Optional Custom Property Values]]></title>
-        <id>https://css-tricks.com/?p=363027</id>
-        <link href="https://css-tricks.com/optional-custom-property-values-trick/"/>
-        <updated>2022-02-11T15:30:11.000Z</updated>
-        <summary type="html"><![CDATA[Imagine you have an element with a multi-value CSS property, such as transform: optional custom property values:
-.el {
-  transform: translate(100px) scale(1.5) skew(5deg);
-}
-Now imagine you don’t always want all the transform values to be applied, so some …
-Multi-Value CSS Properties With Optional Custom Property Values originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Yair Even Or</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web Design Done Well: Perfectly Pointless]]></title>
-        <id>https://smashingmagazine.com/2022/02/web-design-done-well-perfectly-pointless/</id>
-        <link href="https://smashingmagazine.com/2022/02/web-design-done-well-perfectly-pointless/"/>
-        <updated>2022-02-11T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This installment of *Web Design Done Well* celebrates weird and wacky websites. Sites with sweet, innocent, sometimes pointless purposes. Are they money makers? Game changers? Not necessarily, but they sure are fun, and in ways only the web could really manage.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Frederick O’Brien)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[parseInt() in JavaScript – JS String to Int Example]]></title>
-        <id>6204325356125b0677c637f0</id>
-        <link href="https://www.freecodecamp.org/news/parseint-in-javascript-js-string-to-int-example/"/>
-        <updated>2022-02-11T00:44:09.000Z</updated>
-        <summary type="html"><![CDATA[In this tutorial, we will talk about the parseInt function in JavaScript. This function parses (break down) a string and returns an integer or NaN (Not a Number).  How the parseInt function works The main purpose of using the parseInt function is to extract a number from a string.]]></summary>
-        <author>
-            <name>Ihechikara Vincent Abba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Whistle-Stop Tour of 4 New CSS Color Features]]></title>
-        <id>https://css-tricks.com/?p=362285</id>
-        <link href="https://css-tricks.com/new-css-color-features-preview/"/>
-        <updated>2022-02-10T23:01:55.000Z</updated>
-        <summary type="html"><![CDATA[I was just writing in my “What’s new in since CSS3?” article about recent and possible future changes to CSS colors. It’s weirdly a lot. There are just as many or more new and upcoming ways to define colors than …
-A Whistle-Stop Tour of 4 New CSS Color Features originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Developers Speculating About the Long-Distant Future: 2022]]></title>
-        <id>https://css-tricks.com/?p=363480</id>
-        <link href="https://css-tricks.com/developers-speculating-about-the-long-distant-future-2022/"/>
-        <updated>2022-02-10T21:45:09.000Z</updated>
-        <summary type="html"><![CDATA[This is a wonderful roundup from Jeremy, who I picture circling January 1, 2022, in red marker on a giant paper calendar back in 2008 and patiently counting the days.
-See, there was a little smattering of internet drama …
-Developers Speculating About the Long-Distant Future: 2022 originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learn to Code in Japanese – The Japanese freeCodeCamp Curriculum is Now Live]]></title>
-        <id>61fd8a56f2ed6b06db5acd03</id>
-        <link href="https://www.freecodecamp.org/news/learn-programming-freecodecamp-japanese-released/"/>
-        <updated>2022-02-10T21:06:15.000Z</updated>
-        <summary type="html"><![CDATA[The Japanese freeCodeCamp curriculum [https://www.freecodecamp.org/japanese/learn] is now live. In Japan, I have seen many comments, tweets, and blog posts saying "freeCodeCamp looks awesome, but unfortunately, I can't use it because I can't read English." Currently, most information and learning resources related to programming are in English. But we want freeCodeCamp]]></summary>
-        <author>
-            <name>Yoko Matsuda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Helpful Tips for Starting a Next.js Chrome Extension]]></title>
-        <id>https://css-tricks.com/?p=363079</id>
-        <link href="https://css-tricks.com/nextjs-chrome-extension-starter/"/>
-        <updated>2022-02-10T15:24:02.000Z</updated>
-        <summary type="html"><![CDATA[I recently rewrote one of my projects — Minimal Theme for Twitter — as a Next.js Chrome extension because I wanted to use React for the pop-up. Using React would allow me to clearly separate my extension’s pop-up component and …
-Helpful Tips for Starting a Next.js Chrome Extension originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Thomas Wang</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Chrome Extension for Cloudinary That Helps You Pluck Out Useful Media URLs From Your Library Quickly]]></title>
-        <id>https://css-tricks.com/?p=362991</id>
-        <link href="https://css-tricks.com/a-chrome-extension-for-cloudinary-that-helps-you-pluck-out-useful-media-urls-from-your-library-quickly/"/>
-        <updated>2022-02-10T15:23:31.000Z</updated>
-        <summary type="html"><![CDATA[(This is a sponsored post.)
-Cloudinary is a host for your digital assets like images and video. If you don’t already know them, you should, because you can build it into the asset management you almost certainly need to …
-A Chrome Extension for Cloudinary That Helps You Pluck Out Useful Media URLs From Your Library Quickly originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SVGcode for “Live Tracing” Raster Images]]></title>
-        <id>https://css-tricks.com/?p=362777</id>
-        <link href="https://css-tricks.com/svgcode-raster-to-vector/"/>
-        <updated>2022-02-09T21:39:41.000Z</updated>
-        <summary type="html"><![CDATA[Say you have a bitmap graphic — like a JPG, PNG, or GIF — and you wish it was vector, like SVG. What do you do? You could trace it yourself in some kind of design software. Or tools within …
-SVGcode for “Live Tracing” Raster Images originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Make CSS Slanted Containers]]></title>
-        <id>https://css-tricks.com/?p=362940</id>
-        <link href="https://css-tricks.com/css-slanted-containers/"/>
-        <updated>2022-02-09T15:19:47.000Z</updated>
-        <summary type="html"><![CDATA[I was updating my portfolio and wanted to use the forward slash (/) as a visual element for the site’s main layout. I hadn’t attempted to create a slanted container in CSS before, but it seemed like it …
-How to Make CSS Slanted Containers originally published on CSS-Tricks. You should get the newsletter.]]></summary>
-        <author>
-            <name>Dave Seidman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fitts’ Law In The Touch Era]]></title>
-        <id>https://smashingmagazine.com/2022/02/fitts-law-touch-era/</id>
-        <link href="https://smashingmagazine.com/2022/02/fitts-law-touch-era/"/>
-        <updated>2022-02-09T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Steven Hoober shines the spotlight on Fitts’ Law and explains why we should always ask questions and consider what particular guidelines and lessons mean to our users and our products.]]></summary>
-        <author>
-            <name>hello@smashingmagazine.com (Steven Hoober)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No Motion Isn’t Always prefers-reduced-motion]]></title>
-        <id>https://css-tricks.com/?p=363057</id>
-        <link href="https://css-tricks.com/nuking-motion-with-prefers-reduced-motion/"/>
-        <updated>2022-02-08T20:55:51.000Z</updated>
-        <summary type="html"><![CDATA[There is a code snippet that I see all the time when the media query prefers-reduced-motion is talked about. Here it is:
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+        <title type="html"><![CDATA[ゆゆ式Blu-ray BOX(スペシャルプライス版)を買った]]></title>
+        <id>hatenablog://entry/13574176438059035553</id>
+        <link href="https://naari.hatenablog.com/entry/2022/02/12/073653"/>
+        <updated>2022-02-11T22:36:53.000Z</updated>
+        <summary type="html"><![CDATA[最近はアニメを「音MADの聖地巡礼」という気持ちで見ている。あ！ここ見たことある！！超音MADだ！！！がかなり多くて本当に楽しい。その流れでゆゆ式を見たが、とても面白かった。
+
+ゆゆ式を見た　本当に面白かった
+— なあり (@_naari_) 2022年1月26日
   
-…
-No Motion Isn’t Always prefers-reduced-motion originally published on CSS-Tricks. You should get the newsletter.]]></summary>
+人間関係の捉え方がかなり良かった
+
+
+3人が残りの2人に対してどう捉えているか？とか
+特に幼馴染2人に対するゆずこの捉え方とか
+
+
+随所に見られる疎外感の演出を入れてくれて本当にありがとう
+3人の中の他の関係についても同じようなものがある
+相川さん側の3人組からの距離感の詰め方(赦し方？？)とか
+というか普通にこの3人のこの高校生としての雰囲気はかなり良かった
+多分この人たちは相当賢い
+
+
+連想や反応の仕方が良い
+毒が良い
+ギャグセンスがかなりすき
+お互いがお互いを女性として良い、と捉えてる感じも良い
+
+
+たいへんえっちだと思った
+かなり面白かった。いいアニメ。
+その一方で、このアニメはもはや古いらしい。「お前は本当に出遅れているな」と言われた。
+
+「ゆゆ式めっちゃ刺さった」という話をDiscordのサーバーで広げたら通話相手が誰もゆゆ式の内容を覚えていなかったのでたいへん悲しい
+— なあり (@_naari_) 2022年1月26日
+  
+そんな中で「にゃにゃ式」を見ろという声があった。「にゃにゃ式」はBDあたりの特典でしか見ることができない。ので、もうほとんど衝動でBOXを買ってしまった。9年ほど前のアニメであるにも関わらず、去年の3月に廉価版のBD BOXが発売されていたのでそれを買った。僕は出遅れていたのに、本当にありがたいことのように思う。
+https://www.amazon.co.jp/dp/B08QDLP9DK
+
+pic.twitter.com/uOhQGch4Wo
+— なあり (@_naari_) 2022年2月9日
+  
+アニメでBDを買うのはまちカドまぞくに次いで2つ目だった。まちカドまぞくも「ウオーめっちゃきれいになるなー」とか思っていたが、ゆゆ式は直前に(アニメの画質が悪めであることでも有名らしき)アマプラビデオで見ていたのもあってかなり綺麗に思えた。
+ちなみに「にゃにゃ式」は本編と違う趣があり、また良かった。攻めと受けがはっきりしてましたね。たぶんアマプラでは見れないっぽいのでぜひともBD BOXを買ってみてください。
+蛇足 Blu-ray Discってどうやって再生するのが普通なんだ？？
+PCでBlu-ray Discってどうやって再生するんですか？？
+今回はVLCでどうにかして*1*2*3再生したんだけれど、本来は何のソフトを使うのが普通なんだ？？またはPCからは再生しないほうが良い？？？
+*1:頑張って
+*2:なんとかして
+*3:多分良くない方法で]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Replace JavaScript Dialogs With the New HTML Dialog Element]]></title>
-        <id>https://css-tricks.com/?p=362672</id>
-        <link href="https://css-tricks.com/replace-javascript-dialogs-html-dialog-element/"/>
-        <updated>2022-02-08T15:09:40.000Z</updated>
-        <summary type="html"><![CDATA[You know how there are JavaScript dialogs for alerting, confirming, and prompting user actions? Say you want to replace JavaScript dialogs with the new HTML dialog element.
-Let me explain.
-I recently worked on a project with a lot of …
-Replace JavaScript Dialogs With the New HTML Dialog Element originally published on CSS-Tricks. You should get the newsletter.]]></summary>
+        <title type="html"><![CDATA[22/2/11 お題箱回94：親ガチャ、SunnyBoy、マーセナリーズなど]]></title>
+        <id>hatenablog://entry/13574176438060712418</id>
+        <link href="https://saize-lw.hatenablog.com/entry/2022/02/11/212205"/>
+        <updated>2022-02-11T12:22:05.000Z</updated>
+        <summary type="html"><![CDATA[お題箱回94
+
+379.「親ガチャ」について偉そうに語ってる精神科医の話をいくつか聞いてしまったのでぜひLWさんに解説していただきたいです！
+380.ありがとうございます！>お題箱>親ガチャ
+僕が見たのは下記の二つです。他にもひろゆき氏や東大卒の方、武井壮氏、茂木健一郎氏…いろんな人が語ってて煩いです、叩っ斬ってください！
+・『メンタルドクターsidow「親ガチャハズレ」←どう思う？』　https://youtu.be/CV3y8fR6hTk
+・『精神科医が心の病気を解説するch「親ガチャ」について、精神科医目線で解説します』　https://youtu.be/IT2s0X7WVas
+ざっと各界のコメントを調べて動画も軽く見ました。
+解説したり叩き斬ったりすることを期待されている手前申し訳ないですが、そういう話にはあまりならないですね。僕は「親ガチャ」という言葉を高く評価していることを何度かツイートしていますから、たぶんそこから「親ガチャ」という言葉に否定的な風潮に異を唱えるような展開が望まれたのだと思いますが、そもそも世間で語られている論点と僕の論点は全く違います。「親ガチャ」という言葉の背景に想定する文脈が異なり、同じ言葉を使って完全に別の話をしているので、僕が彼らを否定することも彼らが僕を否定することもないはずです。
+いま過去のツイートを見ると、去年9月頃には親ガチャという言葉がきっと社会を良い方向に導くだろうと期待していたのですが、
+親ガチャという発想は俺は完全に正しいと思うしこれを期にマイルドな反出生主義のような形で生む側の倫理を考える風潮はある程度定着するだろうなと思う
+2021年9月15日
+
+
+10月頃には僕が使う言葉の意味と市井で使われている言葉の意味が全く異なることに気付き始め、
+俺は親ガチャっていう言葉大好きだしようやく非存在者への想像力が市井で培われる…]]></summary>
         <author>
-            <name>Mads Stoumann</name>
+            <name>LWのサイゼリヤ</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Netlify Has Scheduled Functions]]></title>
-        <id>https://css-tricks.com/?p=363380</id>
-        <link href="https://css-tricks.com/netlify-has-scheduled-functions/"/>
-        <updated>2022-02-08T15:08:47.000Z</updated>
-        <summary type="html"><![CDATA[(This is a sponsored post.)
-Hey! Scheduled Functions are cool! Think of them like a CRON job. I want this code to run every Monday at 2pm. I want this code run every hour on the hour. That kind …
-Netlify Has Scheduled Functions originally published on CSS-Tricks. You should get the newsletter.]]></summary>
+        <title type="html"><![CDATA[日記]]></title>
+        <id>hatenablog://entry/13574176438060827028</id>
+        <link href="https://naari.hatenablog.com/entry/2022/02/07/023048"/>
+        <updated>2022-02-06T17:30:48.000Z</updated>
+        <summary type="html"><![CDATA[金曜日にふーふーさんと通話しながら酒を飲んだら睡眠と起床が終了した。土曜日 04:00 ～ 17:00 、日曜日 16:30 ～ 23:00 みたいな睡眠をして、今起きて月曜日に備えている。折角の休日が…という気持ちにならなくもないけど、まあ色々やったしよく寝たしなんやかんや充実していた。月曜日もなんとかなるだろう。
+最近太鼓の達人のPC版が発売された。思い出のゲームでもあり、かつ最近はゲーム欲が盛んなので、僕はこの波に乗じている。XBoxパスというサブスク(1000円/月くらい)に加入していると無料でプレイできるらしいが、一括購入(6000円くらい)もできたのでそちらで購入した。後で知ったんだけど、Discord Nitroの会員に配られるギフトとしてこのパスの2ヶ月間無料コードが届いていたらしい。結構もったいないことをした気がする。
+年ぶりの太鼓ともあって結構苦戦している。地力はもちろん低下し、かつ全体の難易度はもちろん上昇しているため、☆9であっても初見だとノルマ落ちしかねない状況だった。ただ、地力を持ち直しつつあり、昔好きだったDoom Noizをはじめとした☆10クリア難易度下位くらいの譜面はなんとかクリアできるようになってきた。今の上位勢は普通に全良するらしい。もっとうまくなりたい。
+ゲーム自体は正直安く作られている気がしている。初期の譜面数や全解禁後の譜面数が他と比べて少なく*1、PC版特有の機能もないのでは？と思う。ただ収録曲はかなり良い線を踏んでいる。既存の資産をうまく組み合わせたプロダクトのように見えた。今はDLCの登場を待ち望んでいるところ。
+最近音MAD作者の書いているブログを集めている。別記事にするつもりなのであまり詳しく書かないが、自動更新され続けるアンテナを作成するつもり。リストはこちらで一元管理しているので、もし過不足あったらおしえてください。
+*1:具体的には10くらい]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Statoscope: A Course Of Intensive Therapy For Your Bundle]]></title>
-        <id>https://smashingmagazine.com/2022/02/statoscope-course-intensive-therapy-bundle/</id>
-        <link href="https://smashingmagazine.com/2022/02/statoscope-course-intensive-therapy-bundle/"/>
-        <updated>2022-02-08T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Statoscope is an instrument that analyses your webpack-bundles. Created by Sergey Melukov, it started out as an experimental version in late 2016, which has now become a full-fledged toolkit for viewing, analyzing, and validating webpack-bundles.]]></summary>
+        <title type="html"><![CDATA[22/2/6 2021年売却コンテンツまとめ]]></title>
+        <id>hatenablog://entry/13574176438052195267</id>
+        <link href="https://saize-lw.hatenablog.com/entry/2022/02/06/180731"/>
+        <updated>2022-02-06T09:07:31.000Z</updated>
+        <summary type="html"><![CDATA[駿河屋への売却開始
+2021年の中頃から本格的に部屋の整理を始めた。
+
+物を捨てるのを一気にやろうとすると判断に迷って結局あまり進まないことが目に見えているので、数ヶ月スパンで徐々に進める方式を開発した。まず部屋の隅に巨大段ボールを設置し、日常暮らす中で「これは要らんかもしれん」と思うものを放り込み、ある程度溜まってきたら駿河屋に発送。
+この手法が画期的なのは巨大段ボールに放り込んだ段階では必ずしも廃棄が確定しているわけではないことだ。どうしても捨てたくないと思えば発送する前にサルベージもできるので、あまり悩まずに気軽に放り込むことができる。ただ一度放り込めば「まあ要らんか」という気分になってくるもので、サルベージを果たしたアイテムはまだ無い。
+既に漫画や本や玩具や映画を詰めた大きな段ボール4つほどを駿河屋に送っており、これからも順次送っていく予定である。
+整理を始めた積極的な動機は部屋にトレーニング用ベンチを置きたいからだが、消極的な動機としては物理書籍から電子書籍への切り替えが進んでいることがある。特に漫画については電子専用機としてFireHD10も購入し、これからはもう新刊は全部電子でいこうと思っている。
+理由を挙げれば、買う手間とか取り回しとか細かいことは諸々あるが、一番大きいのは「物理的なオブジェクトに愛着をあまり持たなくなった」という時代的な感性の変化であろう。令和はクラウド化の時代、大抵のコンテンツはわざわざ所有せずともサブスクでネット上からオンデマンド消費するのが標準となった。漫画は未だ決定版のサブスクサービスが存在せず逐一購入する必要があるとはいえ、だからといって漫画だけが特別に物理的フェチズムを発揮し続けることもない。
+そんな経緯で10年以上も部屋の一角を占めていた物品でさえもドンドン段ボールに詰めてバンバン売るモードになっているが、一応は売却目録をメモ…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Sergey Melukov)</name>
+            <name>LWのサイゼリヤ</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using Different Color Spaces for Non-Boring Gradients]]></title>
-        <id>https://css-tricks.com/?p=363102</id>
-        <link href="https://css-tricks.com/color-spaces-for-more-interesting-css-gradients/"/>
-        <updated>2022-02-07T21:46:18.000Z</updated>
-        <summary type="html"><![CDATA[A little gradient generator tool from Tom Quinonero. You’d think fading one color to another would be an obvious, simple, solved problem — it’s actually anything but!
-Tom’s generator does two things that help make a gradient better:
-You 
-…
-Using Different Color Spaces for Non-Boring Gradients originally published on CSS-Tricks. You should get the newsletter.]]></summary>
+        <title type="html"><![CDATA[要素の追加・削除と mex を対数時間で処理するよ (2) + 区間 mex クエリ]]></title>
+        <id>hatenablog://entry/13574176438060126783</id>
+        <link href="https://rsk0315.hatenablog.com/entry/2022/02/05/043902"/>
+        <updated>2022-02-04T19:39:02.000Z</updated>
+        <summary type="html"><![CDATA[rsk0315.hatenablog.com
+エゴサしたらこの記事がわりと読まれているっぽかったものの、やや実装が重い気がしたので*1別の解法を書きます。
+tl; dr
+セグ木。
+定義
+有限集合 \(S\subseteq \N\) における mex というのは、\(S\) に含まれない最小の自然数 \(\min_{i\in \N\setminus S} i \) です。
+やりたいこと
+追加：\(S\gets S\cup\{i\}\) で更新
+削除：\(S\gets S\setminus\{i\}\) で更新
+mex：\(\min_{i\in \N\setminus S} i\) を出力
+これを (amortized) \(O(\log(|S|))\) 時間とかで。
+アイディア
+クエリ数が \(n\) のときのことを考えます。このとき、mex が \(n\) を超えることはないことに注意します。
+\(S = \{0, 1, \dots, n-1\}\) のとき最大値 \(n\) になります。
+そこで、bool の配列 \(a = (a_0, a_1, \dots, a_{n-1})\) を \(a_i = (i\in S)\) が保たれるように管理します。
+求めたい mex は、\(\wedge_{i\in[0, x)} a_i\) が true になる最大の \(x\) です（このとき \(a_x\) が false となり、定義から \(x\notin S\) となるので）。
+よって、\(a\) をセグ木で管理し、この \(x\) を二分探索（ACL で言うところの max_right）で求めればよいです。
+\(n\) 以上の値を \(S\) に入れると（クエリ数 \(n\) の下で）mex は \(n\) 未満になることに注意すると、\(n\) 以上の値の更新クエリは無…]]></summary>
         <author>
-            <name>Chris Coyier</name>
+            <name>えびちゃんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using QR Codes In Your Business: Best Practices And Pitfalls]]></title>
-        <id>https://smashingmagazine.com/2022/02/qr-codes-business-best-practices-pitfalls/</id>
-        <link href="https://smashingmagazine.com/2022/02/qr-codes-business-best-practices-pitfalls/"/>
-        <updated>2022-02-07T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While QR codes have many uses and can be leveraged at many touch points, they are just one of dozens of technologies that can improve the customer’s journey. Stanislav Khrustalev shares his advice with a list of things to keep in mind when using QR codes for your business.]]></summary>
+        <title type="html"><![CDATA[Getting Over It with Bennett Foddyの字幕をすべて記載したサイトを作った]]></title>
+        <id>hatenablog://entry/13574176438058982089</id>
+        <link href="https://naari.hatenablog.com/entry/2022/02/01/184330"/>
+        <updated>2022-02-01T09:43:30.000Z</updated>
+        <summary type="html"><![CDATA[Getting Over Itの字幕をすべて(全言語、全場面のものを)記載したサイトを作った。完全にネタバレありなので、未クリアの人は踏まないほうが良い。
+Getting Over It Subtitles
+↑これ。
+機能として、各Termを言語別で表示/非表示を切り替えられる。また、Termに対して雑なジャンル分けしたので表示するものを絞ることができる。
+動機としては3種類あって、以下のような感じ。
+日本語の字幕と英語で言っていることがズレているように感じることがあり、でも聞き取れるわけもないから文字起こしを頂いた上で意訳が適切なのかどうかを確かめたい
+考察のための足掛かりにしたい
+これらの文言をいつでも引用することができる状態にしたい
+日本語と英語のズレについては、おそらくプレイしたことのある人で、かつ字幕を見たことがある人なら少し感じるところがあると思う。そもそも日本語としての完成度もちょっと低いし、気になる部分は多かった。例えば、
+Maybe this is what this digital culture is.
+A monstrous mountain of trash,
+the ash-heap of creativity's fountain.
+A landfill with everything we ever thought of in it
+Grand, infinite, and unsorted.
+
+
+が
+多分これは、このデジタル文化があるものです。
+ゴミの巨大な山、
+創造性の噴水の灰ヒープ。
+私たちが今までそれで考えるすべてのものとの埋立
+グランド無限、およびソートされていません。
+
+
+になるのは、なんというかもうちょっとうまい選択肢はあったんじゃないかと思う。みたいな、そういうもの。揚げ足取り。
+考察については単純で、ただただ列挙されているた…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Stanislav Khrustalev)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What Web Frameworks Solve: The Vanilla Alternative (Part 2)]]></title>
-        <id>https://smashingmagazine.com/2022/02/web-frameworks-guide-part2/</id>
-        <link href="https://smashingmagazine.com/2022/02/web-frameworks-guide-part2/"/>
-        <updated>2022-02-04T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In this second part, Noam suggests a few patterns of how to use the web platform directly as an alternative to some of the solutions that are offered by frameworks.]]></summary>
+        <title type="html"><![CDATA[RTX 3060tiを装備したらWindowsの起動の具合が悪くなる事象が治った]]></title>
+        <id>hatenablog://entry/13574176438057887116</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/29/184115"/>
+        <updated>2022-01-29T09:41:15.000Z</updated>
+        <summary type="html"><![CDATA[1ヶ月くらい前からWindowsの調子が悪くなっていた。再起動をする度、ドットでできたサークルが永遠にループする減少に見舞われるタイプのやつ。事象的にはカーネル起動に失敗している、と見受けられるが、詳細はなにもわからん。Windowsは難しいので。自分はパソコンは基本立ち上げっぱなしの状態で過ごしているので、たまにあるWindows Updateの度に困っている、というくらいで放置し続けていた。今回、RTX 3060tiが届いたわけだけれど、こんな状態でパーツを取り替えたら何かがあった時に問題の切り分けが難しくなるだろうと思い、今日は今回その解決を試みていた。身内のSlackで修正の様子を実況していて、こんな感じだった。
+事象共有
+これに対し、@zzufが以下のように言い出した。
+エスパー
+エスパー2
+これが実際当たっていた。RTX 3060tiに置換したらふつうに再起動できるようになった。
+やったか！？
+一件が落着する様子
+心当たりはある。昨日までは750tiを使っていたのだけれど、急にディスプレイが真っ暗になる、画面がリフレッシュされなくなる、みたいな事象に何度か見舞われることがあったり、他にもグラボからカリカリと音が聞こえてきたり、主にハード面で結構な心配事があった。だけど、まさかドライバがエラーを吐いてカーネルが巻き添えを食らっていたなんて…LinuxディストロのOSを運用している人からよく聞くような挙動に見えたのでちょっとびっくりした。まあ実際にハードが悪かったのか、それともドライバを作ってる人たちがなにかをサボったのかは分からないのですが。
+ただ、最初の事象報告で挙げていたUSBあたりの問題はまだ治っていない。再起動したら毎回キーボードを抜き差ししているし、Bluetoothのマウスも4,5分待たないと使えるようにならないまま。これに関してはWindowsのイベントビューアーを確認することで具体的な原因を掴むことができるんじゃないか？ということを教えてもらった。実際にそちらを確認すると、様々なエラーが吐かれ続けていて、うわぁという気持ち。こんな感じでたくさん出ていた。
+
+まあでも新しいグラボを付けてちゃんと起動できたし、対処法になりうる何かも受け取れたし、これは一旦後回しでもいいかなあ。めでたしめでたし。]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Noam Rosenthal)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Reducing The Web’s Carbon Footprint: Optimizing Social Media Embeds]]></title>
-        <id>https://smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/</id>
-        <link href="https://smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/"/>
-        <updated>2022-02-03T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we’ll look specifically at what we can do to reduce the impact of social media embeds and social sharing widgets — or even some strategies to avoid them altogether. While the spotlight is on reducing the environmental impact, many of these tips will be great for performance too.]]></summary>
+        <title type="html"><![CDATA[オーディオインターフェースの調子が悪い]]></title>
+        <id>hatenablog://entry/13574176438057673630</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/29/035044"/>
+        <updated>2022-01-28T18:50:44.000Z</updated>
+        <summary type="html"><![CDATA[前回AIFについて記事を書いた時はFocusrite Scarlett 2i2 3rd genを使っていたが、これはルーティングの機能を持っていないため、友人に売り払った。今はそのひとつ上のグレードであり、ルーティングの機能も備えているFocusrite Scarlett 4i4 3rd genを使っている。ただ、これがちょっと曲者っぽくて、様々な問題に当たっている。
+1つ目の事象は、入力から0dbを超えた音を入れた際、AIFに再起動が走るというもの。Discordのサーバーでゲームをやっている時、リアクションで大きな声を出す場合があるが、その際によくこれに当たってしまう。事象としてはデバイスの再接続みたいになって、各所出力先を再設定する手間が増える。さらに、極稀にAIFが入出力を全く受け付けなくなることがあって、その場合はサービスマネージャーから Windows Audio Endpoint Builder を再起動してからマシン自体も再起動しなければならない。以下が検索して見つかるredditのpostだが、特に解決には至っていない様子。
+https://www.reddit.com/r/Focusrite/comments/ftj60r/4i4_gen_3_crashesrestarts_on_high_input_volume/
+https://www.reddit.com/r/Focusrite/comments/ir8wo6/scarlett_4i4_gen_3_crashes_upon_loud_volume/
+2つ目の事象は、問題の切り分けが済んでいないのだけれど、Discordで他人の画面共有を閲覧中にのみ自分の音声がクライアントに掴まれなくなるというもの。どうやらエコー除去的な挙動が間に挟まっている？らしく、redditなどでは「エコー除去をオフにしたら喋れるようになった」「ノイズ抑制(Krisp)をオンにしたら喋れるようになった」など、色々な言説がある。自分の場合は後者でどうにか喋れるようになったが、Krispがオンの状態だと笑い声が掻き消されてコミュニケーションが難しくなってしまう。USBマイクの時はこの事象にあたらなかったので、恐らくこのAIFが悪いのだろう。
+ので、買い換える必要があるのだが、これもグラボ同様あまり気にしたことのないデバイスなので乗り換え先が見つからない。DTMをやっている関係上、入出力がそれぞれ4以上あり、デバイス内でループバックの機能を持っており、そのルーティングはソフトからできればそれで充分なのだが、その上でかなりの数があるのでどれを選べばよいのかわからない。某定番機材を検討していたが、知り合いが「DirectXがデバイスを掴んでいる時でないとマイクの入力が受け付けられなくなった」と言っており、悩んでしまっている。もしかしたらAIFのドライバを書くのって難しい？おすすめがあったらおしえてください。]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Michelle Barker)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Improving JavaScript Bundle Performance With Code-Splitting]]></title>
-        <id>https://smashingmagazine.com/2022/02/javascript-bundle-performance-code-splitting/</id>
-        <link href="https://smashingmagazine.com/2022/02/javascript-bundle-performance-code-splitting/"/>
-        <updated>2022-02-02T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Adrian Bece shares more about the benefits and caveats of code-splitting and how page performance and load times can be improved by dynamically loading expensive, non-critical JavaScript bundles.]]></summary>
+        <title type="html"><![CDATA[久々に壺をやった/ナレーターについて]]></title>
+        <id>hatenablog://entry/13574176438057125848</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/27/134226"/>
+        <updated>2022-01-27T04:42:26.000Z</updated>
+        <summary type="html"><![CDATA[周りで Getting Over It with Bennett Foddy をプレイする人が出てきたので久しぶりに自分もやった。が、マウスの不調と思わしき挙動にぶち当たってしまい、良いタイムを出すことができなかった。このマウスの不調をどうにかするべきだ、と試行錯誤していたら、マウスパッドがクソほど汚くなっているせいでうまく動かなくなっていたことが判明。マウスのセンサー部分がちょうど汚れにさしかかるとカーソルの動きがガクガクになる。さっき洗濯機につっこんだので、これでうまくいけばきっと解決できる。
+Getting Over Itは製作者であるBennett Foddy自らがナレーターを勤め、プレイヤーと対話する形式のゲームなんだけど、身の回りには割とこのナレーターを切ってしまう人が多く居るらしい。僕はこれは本当に本当にもったいないことだと思っている。
+現在においてインターネット上のコンテンツはとてつもない数になっている。製作者は熾烈な競争を勝ち抜くために、既に咀嚼済みかのようなやわらかいコンテンツを生産するようになる。これにより、我々は雛鳥のように口を上に向けているだけでコンテンツの大量消費ができるようになった。どんなコンテンツも一瞬でポイできるようになってしまった。このゲームは、どうやらこのようにして産まれた弱々しいプレイヤーこと我々を苦しめるために作られたものらしい。このゲームは他のゲームとは違い、ただただ苦しく、かなり険しい。それでも挑戦するプレイヤーは存在する。有象無象のアセット群が雑に積み重なったようなステージだが、プレイヤーは挑戦していくにつれてそれに意味を付け出し、ついには険しさの伴う本物の山だと錯覚し、何度も下落しながらも、登頂のために挑戦し続ける。最後に登頂した時、それは本当に素晴らしい体験だったと錯覚するほどに。
+というようなことを、ナレーターが教えてくれる。珍しくも、自身についての解釈を自ら伝えてくれる。このゲームに対する反骨精神だけを装備してこの山を登りきるのは恐らく更なる苦痛を伴うだけだ。
+自分はこのナレーターこそがこのゲームの趣旨を決定した最も重要な要素だと思っている。単なるクソゲー/苦痛ゲーとは違うと思わせてくれたのはかなり大きい。恐らくなんだけれど、一時期この傾向のゲームが増えたのも上述したBennett Foddyに対する敬意なんじゃないかと思う。良い循環っぽい。
+というわけで、ナレーターと共に登らない選択をたいへんにもったいなく思うのだけれど、これを強要するのもなんかアレだしなぁ〜〜むずかしい。作品を押し付けたらよくないし。むずかしい。]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Adrian Bece)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Meet “Touch Design For Mobile Interfaces”, A New Smashing Book]]></title>
-        <id>https://smashingmagazine.com/2022/02/touch-design-release/</id>
-        <link href="https://smashingmagazine.com/2022/02/touch-design-release/"/>
-        <updated>2022-02-01T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It’s shipping! Meet “Touch Design for Mobile Interfaces”, our brand-new guide with guidelines and best practices to improve usability and accessibility on mobile. 400 pages. For designers and developers working with mobile UIs.]]></summary>
+        <title type="html"><![CDATA[グラボを買いたい(未遂)]]></title>
+        <id>hatenablog://entry/13574176438056435614</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/25/145640"/>
+        <updated>2022-01-25T05:56:40.000Z</updated>
+        <summary type="html"><![CDATA[<追記>
+購入した
+naari.hatenablog.com
+</追記>
+2016年頃に知り合いから3000円で譲ってもらった中古のGTX 750tiをずっと使い続けていたけど、最近それが限界に近いっぽい。最近の自分は750tiでは割にあわない計算資源の使い方をしているっぽい。かっこつけずに言うと、ゲームができない、配信もできない。
+自分はあまり3Dのアクションゲームへのプレイングスキルが高くなく、選り好みをして2Dのゲームばかりしてしまう。ゲームの性質上、2Dゲームは3Dゲームよりもグラ要求が低いことが多く、よってGTX 750tiでも充分であることが多かった。が、最近はそうもいかなくなってきており、例えば「Getting Over It」は画質「素晴らしい」だと動作が不安になってくるし、「スーパーボンバーマンRオンライン」はキャラセレ*1を筆頭にゲーム中もかなりリソースを食べる。これらのゲームをやりながらOBSで配信をするのはもはや不可能。2Dゲームもリッチに3Dモデルを動かしたりしているのでとても大変。
+このあたりの要求が常々上がっていくのはとても仕方のないことだと思っている。自分はその立場に立ったことがないので妄想の域を脱出しないけど→各プロジェクトの要求としては少しでも多くの人に遊んでもらうために、そのプロジェクトが使っても良いリソース量の上限は厳しく管理されている。常にリソースを節約することを考えながら設計/実装しているため、「本来やりたかったこと」を存分に実装することができない。コード的にも厳しいことになっていく。「日を追うごとに世間の持つリソースも少しずつ強くなっているだろう」と仮定し、年々少しずつ要求スペックも少しずつ上げることで、開発側ができることも広がっていく。←恐らくこんな感じだと思う。
+そういった現実と照らし合わせると、GTX 750tiはもう限界だと思う。新しいグラボ購入を検討する必要がある。ただ、あまりにも古いグラボから新しいグラボに乗り換える必要があるため、感覚としてどのくらいのレベルのものが必要なのかが分からない。CPUやメモリは様子を常に見ている*2ので、今後を見据えてこのくらいのものを買っとくかな〜という勘が働く。グラボについては本当にサボりすぎた。
+他にもNVENCやCUDAあたりの概念との互換性を気にしないといけなかったり、NVIDIAのグラボのみに向けられたソフトの存在だったり、気にかけなければならない部分も多い。実はかなり大変なパーツであることがよく分かる。
+まあでも結局は予算と照らし合わせるのが妥当かな、という気持ちのもと、雑にRTX 3060tiに決定しようとしている。「今後一生上がり続けるのではないか」みたいな話を聞いた後にこんな情報↓も見たし、近日購入予定。
+gigazine.net
+いろいろ書いたけど、最近はふつうに新しめの3Dのゲームもやりたい。モンハンとかいろいろ。配信もしたい。
+これ買ったらあと何年使い続けるんだろう。多分だけど買い替えはしないだろうから骨の髄までの勢いで行きたい。
+*1:おそらくキャラの切り替えをスムーズに行うために全キャラのモデルを読み込んでいるのではないかと思う　どうにかしてくれ
+*2:prometheusとgrafanaでちゃんとメトリクスを見れる状態にある]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Vitaly Friedman)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[28 Days Of Inspiration (February 2022 Desktop Wallpapers Edition)]]></title>
-        <id>https://smashingmagazine.com/2022/01/desktop-wallpaper-calendars-february-2022/</id>
-        <link href="https://smashingmagazine.com/2022/01/desktop-wallpaper-calendars-february-2022/"/>
-        <updated>2022-01-31T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers is for you. Designed by artists and designers from across the globe, they come in versions with and without a calendar for February 2022.]]></summary>
+        <title type="html"><![CDATA[Wordleの最善手をめぐる巷説と、真の答え]]></title>
+        <id>hatenablog://entry/13574176438056202792</id>
+        <link href="https://xcloche.hateblo.jp/entry/2022/01/24/212558"/>
+        <updated>2022-01-24T12:25:58.000Z</updated>
+        <summary type="html"><![CDATA[最近、twitterで🟩🟩🟨⬜⬜みたいな謎の色付き正方形がいっぱいシェアされてくるようになりました。
+
+
+
+Wordle 218 3/6
+⬜⬜⬜⬜⬜
+🟩⬜🟨⬜🟨
+🟩🟩🟩🟩🟩
+— 氷点下カチコチかもリバー (@xcloche) 2022年1月22日
+  
+これは「Wordle」というパズルゲームで、５文字の単語を入力して得られた手がかりから、正解の５文字の単語を当てるゲーム（その文字が正解に含まれていて位置もあっていたら🟩、含まれているが位置はあっていないときは🟨でヒントが出る*1）です。
+
+
+www.powerlanguage.co.uk
+
+
+aseruneko.github.io
+
+
+この記事では、インターネット上で囁かれているさまざまなWordleの戦略を概観・レビューした後、情報量を用いたもっとも効率的な単語の選び方を実践・解説します。
+
+
+パッと思いつく戦略
+プレイしていてまず思いつく戦術はこんなところでしょうか：
+
+
+①いろんな単語によく含まれる文字はヒントになりやすいはず
+
+
+
+qとかzが含まれる単語は少ないので、手がかりに入れてもあんまり参考にならなそうなので
+②一度🟩で確定したところに次またその文字を置くのは損
+
+
+
+
+わかっていない⬜を🟨にするチャンスを逃しているので
+
+
+ヒントを集めたあと、最後に当てるときだけ入れたほうがよさそう
+
+
+
+
+③なるべく多くまだ使ってない文字を入れたほうがいい
+
+
+
+⬜で単語中に使われていないことが確定した文字を使うのは、ヒントを得るチャンスを逃しているので
+Wordleでは最初は色のヒントなしで単語を入力するわけですが、では、このときにより多くの情報が得られる「初手」の単語は何がいいでしょうか？
+ヒューリスティックな手法による初手５文字が提唱されています。
+
+
+文字ベースの手法
+試み①：出てく…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+            <name>セミになっちゃた</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What Web Frameworks Solve And How To Do Without Them (Part 1)]]></title>
-        <id>https://smashingmagazine.com/2022/01/web-frameworks-guide-part1/</id>
-        <link href="https://smashingmagazine.com/2022/01/web-frameworks-guide-part1/"/>
-        <updated>2022-01-28T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Noam Rosenthal dives deep into a few technical features that are common across frameworks, and explains how some of the different frameworks implement them and what they cost.]]></summary>
+        <title type="html"><![CDATA[区間 LIS クエリを書きました]]></title>
+        <id>hatenablog://entry/13574176438055890378</id>
+        <link href="https://rsk0315.hatenablog.com/entry/2022/01/23/235513"/>
+        <updated>2022-01-23T14:55:13.000Z</updated>
+        <summary type="html"><![CDATA[去年末にやると言っていたんですが、やっと終わりました。
+クエリで与えられた区間の最長増加部分列の長さを答えるやつで、計算量は \(\langle O(n\log(n)^2), O(\log(n))\rangle\) です。
+実装前にイメージがつきにくかったのと、あったら楽しいかなと思ったので、ブラウザ上で可視化するおもちゃを作りました。
+
+Range LIS Query を触って遊べるやつを公開しましたhttps://t.co/q4X7Oecddn pic.twitter.com/Hrw8Eq1wN5
+— えびちゃん (@rsk0315_h4x) 2022年1月23日
+  
+rsk0315.github.io
+ざっくりとした概要の解説も書きました。
+実装の詳細などは書いていませんが、実装するために必要となるものの大まかな道筋を書きました。
+rsk0315.github.io
+ブラウザ上のおもちゃについては、どうせ描画パートが律速になるだろうと思ったので、計算量は \(\langle \Omega(n^2 \log(n)), \Omega(n^2)\rangle\) とかで動いていると思います。]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Noam Rosenthal)</name>
+            <name>えびちゃんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Don’t Underestimate The Software Administration UX]]></title>
-        <id>https://smashingmagazine.com/2022/01/software-administration-ux/</id>
-        <link href="https://smashingmagazine.com/2022/01/software-administration-ux/"/>
-        <updated>2022-01-26T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience.]]></summary>
+        <title type="html"><![CDATA[日記ってすごいかもしれん]]></title>
+        <id>hatenablog://entry/13574176438055885420</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/23/232457"/>
+        <updated>2022-01-23T14:24:57.000Z</updated>
+        <summary type="html"><![CDATA[最近はとある人のとあるブログの記事をずっと読んでいる。記事数がかなり膨大で、11年くらい前からずっと定期的な投稿が出来ているように見える。意識的なアウトプットというやつなのかな？その人はWeb系のエンジニアで、所属を意識できるような記事がたくさんあった。へー、ここにインターンに行ってる人なのか、とか、ここで働いてたんだ、とか。その所属での出来事も書いてくれていて、社員との交流だったり、登壇のことだったり、その支援だったり。今はフリーランスになって、週休3日?4日?でゆっくり暮らしているらしい。バリバリな技術記事と共に存在する個人的な記事たちをざっと追うだけでその人の10年間を追体験しているような気持ちになった。
+最近自分がブログに熱を入れているのはこの間記事にしたような言語化についての練習が主だけど、側面としては上に書いた人たちへの憧れみたいなところもあったりする*1。僕もアウトプットの方法としてのブログを大事にしていきたい。今はとても楽しいというだけで記事を書いている、もしこれが上手いこと積もっていくのなら、そのうち大きな証跡みたいになるのだろうか。そうなるといいですね。
+上に挙げた人のブログとか、そうでなくとも今からは離れた時代に書かれたような文章をインターネット上で見つけるとかなり嬉しくなるよね。その記事が残っていたというアーカイブ的な素晴らしさ、アップデートが不要なプリミティブな考え方、など。小さな身内での事件を記してくれた記事とかは傍から見る分には純粋な読み物として面白く、かつ学びがあることも多い。また、そういう人が未だに文章を書き続けているとなおさら嬉しくなる。「古から今までインターネットのおもしろを支えていたのはこの人だ」みたいな。生き証人みたいでかっこいい。もちろん「自分が深くに潜って文章を発掘したのだ！見つけた！」というdig的な気持ちもあるけど、まぁどうであれ、文章などのコンテンツは基本残ってくれているだけでとても嬉しい気がする。
+界隈の人間がなにか行動をした際に「またそういうことをしているのか、一体何度同じ問題を繰り返すのか」と後ろ指を指されている場面を見たのだけれど、そういうのって過去起きた事象を記して後世に伝えなかったその界隈にも多少の問題があるのではないかと思っている*2。そういった当事者意識を持ちたいよね～、という大きな話ではないが、記事を書くことによる副次的な部分としての、もしかしたら何かの肥やしになるのではないか？という小さな意義をほんのちょっとでも良いから感じていきたい。
+*1:さらに別の側面として、僕はみんなの文章が読みたくて、であれば表立ってまず自分が文章を書いていったほうが良いよね、という気持ちでやっている。僕よりも文章を書いている友人と話していた時にそういう感じになった。もしみんなが文章をたくさん書くようになったら嬉しいな～
+*2:もちろんこの問題は難しい前提で、そういう面もあるよね～くらいで捉えてほしいです]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Shell Zhu &amp; Adrian Jones)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What’s New In DevTools?]]></title>
-        <id>https://smashingmagazine.com/2022/01/devtools-updates-2022/</id>
-        <link href="https://smashingmagazine.com/2022/01/devtools-updates-2022/"/>
-        <updated>2022-01-25T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[What’s new in Chrome, Edge, Safari and Firefox? Patrick Brosset breaks it down with the latest features in DevTools across browsers.]]></summary>
+        <title type="html"><![CDATA[Cart Racerを2回クリアした]]></title>
+        <id>hatenablog://entry/13574176438055818847</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/23/204039"/>
+        <updated>2022-01-23T11:40:39.000Z</updated>
+        <summary type="html"><![CDATA[1回目
+友人の家でレヴュースタァライトの映画を見させていただいたあと、いろいろあってCart Racerをやることになった。僕は代わりにGetting Over Itを勧めた。
+
+あああああああ pic.twitter.com/vyedJjwuvx
+— なあり (@_naari_) 2022年1月8日
+  
+おじさんを操作して買い物の時に使うようなカートに乗り込み、設定されているゴールに向かう、というゲーム。1ステージに3つゴールが指定されていて、4ステージあった。
+この操作感がかなり独特でやばかった。だからこそのB級ゲーム*1なのだとは思うが、あまりにも大変だった。
+先程書いた「カートに乗る」がまず大変で、WASDとジャンプボタンを駆使してかごを乗っける部分にがんばって乗らないといけない。「乗る」という操作があるわけではなく、「結果として乗ってしまった」というのが正しそう。
+基本カートは坂の上に設置されており、おじさんが乗ると同時にストッパーが外れて進み始める。カートが進んでいる間はAとDで左右のハンドリングを効かせられる。が、これもまた難しく、左右にハンドルを切る度にカート自体も左右に揺れ、軸がブレる。これによってカートの滑り具合が増してしまい、とても曲がりづらくなる。さらに大きくブレると普通に横転する。
+そんな状況の中、床に設置された矢印(踏むと加速する)を経由してジャンプ台を踏み、空を飛んでゴールに到達しなければならない。勿論空中での操作は効かないので、ジャンプ台に入るまでの行動調整でこれを達成する必要がある。本当に大変だった。
+最後のステージの最後のゴールが最も大変だった。そのゴールに挑戦するまでのattempt数より、最後のゴールに費やしたattempt数の方が多かった。このステージは実際に難しいらしく、Cart Racerに慣れたプレイヤー達も声を揃えて「ここ…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Patrick Brosset)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Getting Started With CSS Cascade Layers]]></title>
-        <id>https://smashingmagazine.com/2022/01/introduction-css-cascade-layers/</id>
-        <link href="https://smashingmagazine.com/2022/01/introduction-css-cascade-layers/"/>
-        <updated>2022-01-24T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cascade layers introduce the new at-rule of @layer. The intent is to help CSS authors be more intentional about ordering the “layers” of CSS rules as a new method of cascade management.]]></summary>
+        <title type="html"><![CDATA[マクドナルドのホットチョコレートを飲んだ]]></title>
+        <id>hatenablog://entry/13574176438055159229</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/22/000258"/>
+        <updated>2022-01-21T15:02:58.000Z</updated>
+        <summary type="html"><![CDATA[一人暮らしをしてからずっとマクドナルドにお世話になっていて、公式Twitterをよく見ている。これ故、新しいメニューとかは結構すぐ気になってしまって優先的に買ったりしている。
+最近ゴディバとのコラボメニューとして、期間限定でホットチョコレートが登場した。
+www.mcdonalds.co.jp
+くっそうまそ～～～～のみて～～～～～～～～～～～～　甘い系のコラボメニューでマックカフェ専用でないもの久々に見たな、こんなのは頼むしかない、、、
+自分はフルリモートで働いているので、外に出たくないという気持ちが加速してUberEatsで頼むようにしている。が、なんとこのメニューはUberEatsでは頼むことができなかった。マックデリバリーのアプリでも注文することができなかった。どちらも、そもそもメニューの一覧に存在しない。
+
+マックのチョコのヤツまだウーバーイーツやっとらんのだが
+— なあり (@_naari_) 2022年1月19日
+  
+
+【衝撃】チョコのやつウバイツやらんらしい
+— なあり (@_naari_) 2022年1月19日
+  
+↑これはTLで聞きかじった情報
+
+なんでうーばーいーつではホットチョコやらないの
+— なあり (@_naari_) 2022年1月20日
+  
+↑悲しんでいる…
+
+マクドナルドに怒ってこようかな！
+— なあり (@_naari_) 2022年1月20日
+  
+なぜこのメニューはデリバリーの対象にならないんだ……期間限定のバーガーとかナゲット、デザートは普通に一覧に載るし、運びにくさという点を考えてもホットコーヒーが注文できる時点で問題から外しても良さそうだよな……
+そしたら商売的な方法なのだろうか、店舗に出向くしかないのか、ぐぬぬ悔しい……
+というわけで1/20の夜にマクドナルドの実店舗に向かった。しかし
+
+せっかく外に出たのに最寄りのマックきたらホットチョコ売り切れだった！！！！！！！！
+— なあり (@_naari_) 2022年1月20日
+  
+なかった…メニューには「ご好評につき終了しました」って書いてある…
+これ、そもそもお店で取り扱われていない可能性があるな、だからUberEatsでも一覧になかったのだろうか？とか思っていたけど、翌日の昼になって直接電話をしたら全くそんなことはなかった。おやつ時くらいに遅めの昼飯としてマックに向かった。
+
+うおおおおおおおおおおおおお pic.twitter.com/cDgpiV8k09
+— なあり (@_naari_) 2022年1月21日
+  
+こうして無事飲むことができました。おめでとう、よかったね
+評価
+これ、まあおいしいけど、ちょっと高くない？Sで300円、Mで400円はちょっと…
+追記
+昼に電話をするのは本当に良くないらしいです。ツイッターで怒られた。申し訳ない。]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Stephanie Eckles)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[From Chaos To System In Design Teams]]></title>
-        <id>https://smashingmagazine.com/2022/01/from-chaos-to-system-design-teams/</id>
-        <link href="https://smashingmagazine.com/2022/01/from-chaos-to-system-design-teams/"/>
-        <updated>2022-01-21T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Joining a team where there are no established design practices may feel disheartening. Does this situation resonate with you? If yes, then read on — as this article is sharing the author’s advice based on his personal experience and it will show you a way (although not easy) of facing the problem in a manner that will bring other benefits, beside order and consistency.]]></summary>
+        <title type="html"><![CDATA[AGDQ2022を見た]]></title>
+        <id>hatenablog://entry/13574176438051593131</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/21/225357"/>
+        <updated>2022-01-21T13:53:57.000Z</updated>
+        <summary type="html"><![CDATA[AGDQ2022を見た。
+AGDQ2022についてのかるーい説明をする→　海外で毎年初めに行われているゲームのRTA系イベントで、1/10～1/16のあいだ、ほぼノンストップでゲームのRTAが繰り広げられる。このあいだ書いたRiJの元ネタとなったイベント。
+Japanese Restreamという公式ミラーが存在し、こちらでは日本語で解説を行ってくれる。ただ、元配信に音声を乗っける都合上、元配信側の音声はとても小さくなる。コンプレッサーの外部ソースとして日本語の音声が入っている感じ。
+解説終わり、ここからは感想
+三連休はやることがあって見れなかった。ほとんど1/11から見始めた。
+Japanese Restreamで見たり、そうでなかったりの五分五分だった。さっき書いたとおり、元ストリームのほうが音がよく聞こえるため。
+アーカイブはYouTubeチャンネルにある。日本語解説のアーカイブはこちらから
+見たかったけど見逃したやつ
+DKC2
+Megaman 2
+kirby 3
+supermonkeyball
+Crash Team Racing
+パズルボブル4
+実家にこのシリーズのゲームが複数本存在するので見てみるか～程度の気持ちで見た
+うますぎワロタ
+
+
+このゲームは壊れがなく、純粋にうまさを見ることが出来た
+
+
+このゲームは本当に難しい
+僕は難しすぎるステージについては自滅して点線のガイドを得ていたが、このレベルだと既に心眼で見えているらしくて点線があってもなくてもあまり関係ないらしい
+マップ理解やルート構築の点のうまさももちろんあるが、それよりも純粋なパズルボブルのうまさが光っていた
+WRおめでとうございます
+お誕生日もおめでとうございます
+www.youtube.com
+https://www.twitch.tv/videos/1260950431?collection=k…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Javier Cuello)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building The Real App With React Query]]></title>
-        <id>https://smashingmagazine.com/2022/01/building-real-app-react-query/</id>
-        <link href="https://smashingmagazine.com/2022/01/building-real-app-react-query/"/>
-        <updated>2022-01-20T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[In this article, Georgii Perepecho explains the most common React Query features that you need to be familiar with when creating a real-life application that is stable when testing.]]></summary>
+        <title type="html"><![CDATA[「コーヒー」を打ち間違えて「コーホー」になった]]></title>
+        <id>hatenablog://entry/13574176438054613284</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/20/111807"/>
+        <updated>2022-01-20T02:18:07.000Z</updated>
+        <summary type="html"><![CDATA[おもしろい]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Georgii Perepecho)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Upcoming Online Workshops: January &ndash; May 2022]]></title>
-        <id>https://smashingmagazine.com/2022/01/smashingconf-workshops-january-may-2022/</id>
-        <link href="https://smashingmagazine.com/2022/01/smashingconf-workshops-january-may-2022/"/>
-        <updated>2022-01-19T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[What goes into creating a successful design system? How can you take your testing workflow to the next level? And what smart interface design patterns could help you enhance your UIs? Let’s figure it out. With our [online workshops on front-end and UX](https://smashingconf.com/online-workshops).]]></summary>
+        <title type="html"><![CDATA[アヒルのおもちゃとかテディーベアとかと話して解決するやつ]]></title>
+        <id>hatenablog://entry/13574176438054542380</id>
+        <link href="https://naari.hatenablog.com/entry/2022/01/20/035959"/>
+        <updated>2022-01-19T18:59:59.000Z</updated>
+        <summary type="html"><![CDATA[ラバーダッグ・デバッグやテディーベア・デバッグと名付けられているコードのデバッグの手法がある。
+ja.wikipedia.org
+プログラマーがラバー・ダック（アヒルちゃん）を持ち歩きアヒルちゃんに向かってコードを1行ずつ説明することによりデバッグを行うという話が由来である。
+
+
+一見精神的にヤバいやつのように見られるが、Wikipediaには続けてこう書いてある。
+プログラマーの多くは誰かに問題を説明した経験があり、その相手はプログラミングの知識が全くないこともあり得るが、問題を説明している過程で解決策を思いつくことがある。
+目的とするコードと、実際のコードの挙動を観察して、説明することにより、その違いが明白になるのだ。
+
+
+プログラミングの未経験者に対してプログラミング特有の問題を説明する行為はあまりにもプログラマー的な傲慢さの悪いところのように思うが、それはそれとして、この行為は問題解決に対して有用になることがある。
+とある問題を他人に説明するには、様々な部分の言語化を行う必要がある。例えば、行動の目的、環境、それに対するアプローチ、実際に発生した事象、など、、、
+さらに、これらの言語化のためにはまず今の状態を客観的に捉える必要がある。主に情報収集や、なにかの物差しと比べるような行動になる気がする。
+このような段取りを踏んでいる間に自ずと問題がよく整理され、より深い理解へと繋がることで、問題が解決する事がある。「あれ？この環境に対してこのアプローチを取るには〇〇が足りてないんじゃないか？」といった具合で。
+ここまでの例ではプログラマーは人間を説明の相手に使うが、Wikipediaにもあるように↓
+無生物を用いることにより、プログラマーは、他人を煩わせることなく目的を達成できる。
+
+
+というわけでラバー製のアヒルのおもちゃやテディーベアといったものも相談相手として使用する。合理的だ、、、さすがプログラマー。
+これはなにもプログラミングに限った話ではなく、この世の問題全てにおいて適用可能なデバッグ方法だと思っている。特に、ある程度までの大きさの心の問題についてはそこそこ有効だとも思っている*1。ふわふわと頭に浮かんでいる悩み事は、その問題に対する考えの整理がうまく行っていない事が間接的な原因の場合もあり、であればその整理を行うことで解決の糸口を掴める場合がある。例えば、雑談相手に愚痴をぶつけるだけで案外気が晴れたりするものだろう。それは意図しない形で無意識的に解決している場合なのかもしれない。
+個人的な経験としても結構役立っている。バグを潰している時に作業通話の相手になっていた人に説明を試むことで明確な問題点を発見できたり*2、ツイキャスでさいきんの悩みを喋っていたら実は簡単な解決方法があることに気づいたり*3、ブログの記事として数ヶ月間くらい問題になっていたことをそのまま書いていたら実は解決可能であることが分かったり*4……そういえば、一時期カウンセリングに通っていたときもよくこういう体験あったなあ
+これは他人の例だが、よくお世話になっているDiscordサーバー内の通話チャンネルで、「最近どのサーバーでもほとんど喋ろうとしてなかった」と言う人が珍しく参加しており、さらに他の参加者に対して相談事をしていた。実際に「相談をした」というだけで本人の負担が少なくなったらしい(程度はわからんけど)。
+本人はドツボにはまっているが、他の人から見たら解決方法が明確だった、という場合はそこそこあると思うが、その理由はきっとこのようなものなんだと思う。また、そのような説明を受けた時、相談した側も既に解決しているかもしれない。
+言語化は案外めんどくさいことで、頭の中のコストをそれなりに消費する。その理由の大きな部分が上述してきた問題の整理にあると思う。話し相手というのは、この良いとっかかりとなってくれるのだと思う。多分、仲の良い人とはそこそこ積極的に雑談をしたほうが良いのだろう。
+*1:一応断っておくと、もちろんこんなことでは解決できない問題というのもある。それは多分大きな問題なので、もうちょっと大枠から考慮したほうが良いと思う。
+*2:よくある話
+*3:このあいだのアニメの話
+*4:このあいだのMODの話]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Cosima Mielke)</name>
+            <name>名有りさんの日記</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Freebie: Wayfinding Icon Sets (164 Icons, PNG, SVG, AI, EPS)]]></title>
-        <id>https://smashingmagazine.com/2022/01/freebie-wayfinding-icon-sets-exhibition-concert-museum/</id>
-        <link href="https://smashingmagazine.com/2022/01/freebie-wayfinding-icon-sets-exhibition-concert-museum/"/>
-        <updated>2022-01-18T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Every once in a while, we publish [freebies](https://www.smashingmagazine.com/category/freebies) related to different occasions and themes. We hope that with this icon set, everyone will be able to find their own use case for these icons in particular. Today, we present to you three icon sets designed by the creative folks at GraphicSurf — all free for personal and commercial use.]]></summary>
+        <title type="html"><![CDATA[ゼロから見直す『輪るピングドラム』⑩メリーさんの羊とは？【12～13話】]]></title>
+        <id>hatenablog://entry/13574176438054066007</id>
+        <link href="https://www.zaikakotoo.com/entry/penguindrum/re/zero/10"/>
+        <updated>2022-01-19T11:21:43.000Z</updated>
+        <summary type="html"><![CDATA[はじめに. 「メリーさんの羊」を中心に……
+12～13話で起こった出来事をまとめるのは簡単だ。つまり、陽毬がまた倒れて、眞悧がそれを助けた。それだけだ。
+しかしながら、12～13話には、起こった出来事としてまとめられないエッセンス——それも非常に重要なエッセンス——があまりにも多い。それこそ、あるエッセンスがほかのエッセンスとつながって、ぐるぐる輪るほどには（あえて特記するならば、16年前、つまり1995年の事件の主犯格が高倉家の父剣山であったという事実は12話で初めて分かった）。
+だから今回は、「メリーさんの羊」という、12～13話に特異なエッセンスを中心に据えて、そこから輪を広げるようにして12～13話について考察してみたい。突如として晶馬の口から語られる寓話めいたその話は、いろいろなこと（物語のレベルにおいても現実のレベルにおいても）を示唆しているように思われるのだ。そして最終的には、13話のサブタイトルの一部にもなっている「罪と罰」について、少し——というのはそれは12～13話だけで片付くような簡単な問題ではないから——解明することを目標にしたい。
+ 
+
+
+
+ 
+はじめに. 「メリーさんの羊」を中心に……
+1.0. 「メリーさんの羊」について
+1.1. 「メリーさんの羊」要約
+1.2. 元ネタはあるか？
+1.3. 対応表
+2.0. 「メリーさんの羊」をめぐる考察
+2.1. 「リンゴの樹」とは何か（その輝きが世界の未来、夢、愛を照らしていたとはどういうことか）？
+2.2. メリーさんがとった行動（リンゴの樹が枯れているのを嘆き、灰を盗んだ）の意味は？
+2.3. 女神様とは何者か（なぜ罰は「一番理不尽じゃないと」いけないのか、なぜ「これで罰が終わりじゃつまらない」のか）？
+3.0. 「僕と君の罪と罰」
+親の「罪」は子の「罪」なのか？
+一口に「罪」と「罰」といえども……
+…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Anton Tyschenko)</name>
+            <name>野の百合、空の鳥</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Modern Fluid Typography Using CSS Clamp]]></title>
-        <id>https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/</id>
-        <link href="https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/"/>
-        <updated>2022-01-17T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We’ll explore fluid typography principles, use-cases, implementation with CSS clamp() and an interactive fluid typography calculator.]]></summary>
+        <title type="html"><![CDATA[サブカルチャー化した文学から呼びかけられている――『やはり俺の青春ラブコメはまちがっている。』（１７）]]></title>
+        <id>hatenablog://entry/13574176438053595460</id>
+        <link href="https://futbolman.hatenablog.com/entry/2022/01/17/121009"/>
+        <updated>2022-01-17T03:10:09.000Z</updated>
+        <summary type="html"><![CDATA[これまで続いてきたこの『俺ガイル』試論もまとめに入るときがきました。
+『俺ガイル』とはどんな作品だったのでしょうか。その問いをみつめていきましょう。
+前島賢が朝日新聞で連載していた書評では、『「残念」なキャラクターたちの部活もの』という紹介がされていました。ここでは「残念」な作品群・キャラクターたちの系譜には立ち入りませんが、「残念」をキーワードに文化論的に2010年代を「予見」していく試みをイマ・ココ的にしたのがさやわか『一〇年代文化論』でありました。
+さやわかの『一〇年代文化論』が画期的だったと思うのは、ゼロ年代批評のイデオロギー的な「反省」を試みようとしたことでしょう。もちろん、既に2010年代の息吹や予感があるとするならば、2010年代になってから突如に噴出するものではなく、その直前に至る文脈を経由するようにしてゼロ年代半ばから未来への風は吹いていることを示そうとした「見切りの速さ」を提示したことが一つにありますが、本の読まれ方としてはその「予言」の正否がどうだったかに尽きてしまうのはある意味では不幸だったと思います。それこそイデオロギー的な「反省」ではないところで、ジャーナリスティックにイデオロギー的に読まれてしまう本の性格・立ち位置としては皮肉ともいえるでしょうか。
+しかしながら、そのようにイデオロギー的に「予言」を楽しむように読めてしまいますし、さやわかによって一面的には誘導されるのも仕方ないとしても、『一〇年代文化論』の意味としては、宇野常寛の『ゼロ年代の想像力』（「決断主義」など）をはじめとするゼロ年代批評の「鍵用語」がジャーナリスティックに、イデオロギー的に消費されたことに対する「反省」としての応答といった位置づけがあるでしょう。
+なぜなら、さやわかという書き手が出発した2010年代の批評（言葉と運動）の可能性の応答としては、ゼロ年代の「反省」からしか始…]]></summary>
         <author>
-            <name>hello@smashingmagazine.com (Adrian Bece)</name>
+            <name>おおたまラジオ</name>
         </author>
     </entry>
 </feed>

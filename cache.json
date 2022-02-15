@@ -1,635 +1,449 @@
 {
   "sources": [
     {
-      "title": "Release notes from osmosfeed",
-      "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
-      "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
+      "title": "名有りさんの日記",
+      "feedUrl": "https://naari.hatenablog.com/rss",
+      "siteUrl": "https://naari.hatenablog.com/",
       "articles": [
         {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.4",
+          "id": "hatenablog://entry/13574176438062947102",
           "author": null,
-          "description": "Fixed: Several style issues",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.4",
-          "publishedOn": "2022-02-14T06:58:28.000Z",
-          "wordCount": 258,
-          "title": "v1.14.4",
-          "imageUrl": "https://opengraph.githubassets.com/9a7043530dac30c2f389b7a285822cfe3c2b54efc7d2cdc63a0735d3cc5095a2/osmoscraft/osmosfeed/releases/tag/v1.14.4"
+          "description": "さっきこんな記事を書いた→ osmosfeedを使って自分のためのアンテナ(RSSリーダー)を作成する - 名有りさんの日記\n技術的な、難しいことはさておき、ようはブログのアンテナを作成することができた、というもの。これの音MAD界隈版作ろうとしている。恐らく自分が観測できている範囲の音MAD作者のブログはほとんど集めきっていてるはずで、これを実際に運用し始めている。\nこの収集方法は @otomad_blomaga というTwitterアカウントのように選りすぐられたものではなく、機械的に動かしている。なので例外的に音MADについて触れたような記事を取り上げられないが、でもある程度の網羅性は担保できていると思う。\notomad-feed\n現在のリストは以下の通りで、既に更新されていないものも含めて161件ものブログが開設されている。そのうちの116件は note.com のアカウントで、昨今のトレンドを感じられる。次点ははてなブログで、40件ほど。\nhttps://github.com/naari3/otomad-feed/blob/main/osmosfeed.yaml\nこれらのリストから1時間に1回ほどデータを収集するようになっていて、新しい記事があればおそらく新着記事に追加される。うまく動いていないようだったらぜひとも教えてください。\nまた、このリストから漏れてしまったブログについても随時募集中で、僕に直接伝えるか、GitHubに知見があるのであればリポジトリにPRを投げてもらうか、このフォームからリクエストを投げることができる。ぜひとも協力していただきたいです。逆にリストから削除してほしい時は、それもまた僕に直接伝えてください。もうしわけない。\n既にRSSリーダーを利用している方については、上に張ったリストを追加してもらうか、このアンテナ自体がRSSのフィードを提供しているので、それを読み込んでもらうと良いと思う。ただちょっと巨大かも。僕は↓このフィードを使った運用をしていないので、もし巨大すぎて不都合があるようだったらそれについて教えてほしいかも。\nhttps://naari3.github.io/otomad-feed/feed.atom\nなぜこれを作るのか\n一番大きな理由は自分がよく見ているコンテンツを作っている人がどんな文章を書いているのか？というのを探るためだけど、もうちょっと書いてみる。\nまず音MAD作者の方々が書くブログは面白い。恐らく音MADの制作の過程で生まれた所感の方向性*1とブログみたいなものとの相性が良いという事もあるだろうが、別に音MADに関連したものではなくとも面白く、そのセンスはさすが創作に根を詰めているだけあるなと思ったりもする。これを逃さず閲覧できるアンテナを作成したかった。\nまた、これは集合知としても役立つ気がしている。これは「音MADに関する技術的な記事を逃さないようになる」というだけではなく、ただ普通に関係のないことについて書かれた文章についても同じように捉えられると思っている。ブログは後世に伝える手段としてはかなり優れているように思う。現に数年前に更新したっきりでそれ以来全く更新のない音MAD系のブログも存在しており、ただその記事は今でも問題なく閲覧できたりする。日記ってすごいかもしれん - 名有りさんの日記の下の方に書いたことと似たような気持ちだが、みんなが文章を書き続けるとそれが界隈自体のアーカイブとして機能し始めると思う。そのための、草の根としてのアンテナでもありたい。\nよろしくお願いします → otomad-feed\n*1:ネタ/技術/思考",
+          "link": "https://naari.hatenablog.com/entry/2022/02/13/143118",
+          "publishedOn": "2022-02-13T05:31:18.000Z",
+          "wordCount": 122,
+          "title": "音MAD作者のブログを集めたアンテナを作成している",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         },
         {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.3",
+          "id": "hatenablog://entry/13574176438062919224",
           "author": null,
-          "description": "style tweak",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.3",
-          "publishedOn": "2022-02-14T06:29:16.000Z",
-          "wordCount": 255,
-          "title": "v1.14.3",
-          "imageUrl": "https://repository-images.githubusercontent.com/312859305/30a63d00-a162-11eb-8a1d-a3167673e96a"
+          "description": "github.com\nyamlファイルにRSSフィードを書き溜めておく\n新着記事一覧のhtmlを静的ファイルとして作成する\nGitHub Pages配下に設置する\nこれを定期的に動くGitHub Actions上で実行する\nそうすることでRSSフィードのためのアンテナを用意することができるようになる。というのがosmosfeedの特徴。上述した環境をかんたんに用意するためのテンプレートも存在しており、テンプレートを使用したリポジトリを作成した後、yamlを埋めるだけでosmosfeedを使えるようになる。既存のRSS追うやつと違って、これはGitHub上にyamlで管理するだけなので大変にお手軽で、移植性もかなり高い。なにより、GitHub Actionsと連携するのがとても賢いなと思い、自分もこれに従ってみることにした。\nhttps://naari3.github.io/naari3-feed/\nhttps://github.com/naari3/naari3-feed/\nこれまでははてなブログの購読リストのみを使用していたが、性質上はてなブログしか集めることができないために他種の媒体を追うのが困難になっていた。今回によってRSSフィードを配信している媒体であればなんでも追えるようになったのだと思う。\n運用してすぐに「更新日時をかなり未来に置いておくことで、特定の記事を記事順の先頭に置くハック」の存在を思い出す。アンテナの先頭もそういった記事で埋まってしまう。これらの記事は意味合い的には新着記事ではなく、アンテナ運用の上ではただ邪魔なだけなので、「未来の記事はアンテナに含めない」のような対応が必要になった*1。ので、PRを投げた。投げてから反映されるまでの間は自分のネームスペース上にosmosfeedをpublishし、それを利用するように変更していた。昨日くらいにマージ、最新版がpublishされたようなのでそちらを利用するように変更した。\nまた、osmosfeedが吐き出すhtmlは事前に用意されたテンプレートを使用しているのだが、これを自分で用意することも可能。今回、記事のサムネイルを記事一覧右側に設置したかったので、そのように対応した。ただ、サムネを取得する方法があまり良いとは言えない方法だった*2ので、どうするのが妥当か？を聞いてみたところ (osmoscraft/osmosfeed discussion#75) 、現在取り組まれているv2にサムネイル取得のためのコードが存在し(または用意中で)、これをバックポートすることで対応できるのではないか？という話を頂いた。今後に期待すると良さそう。\nここで書いたそれぞれの対応は、osmosfeedの性質によって実現できる対応だと思った。体験がかなり良い。\nもしこれを見ているあなたも試したくなったのであれば、以下のページを参考にするか、手っ取り早くは先程挙げたテンプレートからリポジトリを作成すればよい。\npaiza.hatenablog.com\nGitHub Pagesは性質上パブリックなものなので、生成結果のアンテナもパブリックなものとして公開される。これを利用することで、「特定の界隈をまとめたアンテナをその界隈に対して共有することもできる」と考えた。これは共有知としてかなり有用なのではないか。GitHubで管理されている性質上、誰でもフォークでき、もし追加すべきブログがあるのであればそれを対象に加えることもできるだろう*3。そういった記事をこれから別記事として書く。\n*1:もうすこし賢い対応方法はあるだろうが、この対応で自分の要望は解決されるので問題なし\n*2:そもそもRSSフィードとしてサムネを用意する方法がめちゃくちゃたくさんあって簡単に対応できない\n*3:しかしこれはgitに対する知見が前提になってしまう",
+          "link": "https://naari.hatenablog.com/entry/2022/02/13/131522",
+          "publishedOn": "2022-02-13T04:15:22.000Z",
+          "wordCount": 138,
+          "title": "osmosfeedを使って自分のためのアンテナ(RSSリーダー)を作成する",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         },
         {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.2",
+          "id": "hatenablog://entry/13574176438059035553",
           "author": null,
-          "description": "New: Adjust article grouping based on timezone. You need to add timezone in osmosfeed.yml for accurate grouping. See details in documentation.\nNew: Card title now toggles card content\nNew: all toggles on the UI are persisted with local storage. You can use it to track read/unread status within a single browser.\nNew: Build timestamp now links to the GitHub Action run\nChanged: Sources are sorted based on publish time rather than alphabetical order\nChanged: Style adjusted for easier reading\nFixed: Horizontal overflow on Safari\nFixed: HTML syntax error in default template",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.2",
-          "publishedOn": "2022-02-14T05:53:33.000Z",
-          "wordCount": 356,
-          "title": "v1.14.2",
-          "imageUrl": "https://opengraph.githubassets.com/3d1aa7f7484f74c258c25be470129b65acc359f03644040243b05803daae68aa/osmoscraft/osmosfeed/releases/tag/v1.14.2"
+          "description": "最近はアニメを「音MADの聖地巡礼」という気持ちで見ている。あ！ここ見たことある！！超音MADだ！！！がかなり多くて本当に楽しい。その流れでゆゆ式を見たが、とても面白かった。\n\nゆゆ式を見た　本当に面白かった\n— なあり (@_naari_) 2022年1月26日\n  \n人間関係の捉え方がかなり良かった\n\n\n3人が残りの2人に対してどう捉えているか？とか\n特に幼馴染2人に対するゆずこの捉え方とか\n\n\n随所に見られる疎外感の演出を入れてくれて本当にありがとう\n3人の中の他の関係についても同じようなものがある\n相川さん側の3人組からの距離感の詰め方(赦し方？？)とか\nというか普通にこの3人のこの高校生としての雰囲気はかなり良かった\n多分この人たちは相当賢い\n\n\n連想や反応の仕方が良い\n毒が良い\nギャグセンスがかなりすき\nお互いがお互いを女性として良い、と捉えてる感じも良い\n\n\nたいへんえっちだと思った\nかなり面白かった。いいアニメ。\nその一方で、このアニメはもはや古いらしい。「お前は本当に出遅れているな」と言われた。\n\n「ゆゆ式めっちゃ刺さった」という話をDiscordのサーバーで広げたら通話相手が誰もゆゆ式の内容を覚えていなかったのでたいへん悲しい\n— なあり (@_naari_) 2022年1月26日\n  \nそんな中で「にゃにゃ式」を見ろという声があった。「にゃにゃ式」はBDあたりの特典でしか見ることができない。ので、もうほとんど衝動でBOXを買ってしまった。9年ほど前のアニメであるにも関わらず、去年の3月に廉価版のBD BOXが発売されていたのでそれを買った。僕は出遅れていたのに、本当にありがたいことのように思う。\nhttps://www.amazon.co.jp/dp/B08QDLP9DK\n\npic.twitter.com/uOhQGch4Wo\n— なあり (@_naari_) 2022年2月9日\n  \nアニメでBDを買うのはまちカドまぞくに次いで2つ目だった。まちカドまぞくも「ウオーめっちゃきれいになるなー」とか思っていたが、ゆゆ式は直前に(アニメの画質が悪めであることでも有名らしき)アマプラビデオで見ていたのもあってかなり綺麗に思えた。\nちなみに「にゃにゃ式」は本編と違う趣があり、また良かった。攻めと受けがはっきりしてましたね。たぶんアマプラでは見れないっぽいのでぜひともBD BOXを買ってみてください。\n蛇足 Blu-ray Discってどうやって再生するのが普通なんだ？？\nPCでBlu-ray Discってどうやって再生するんですか？？\n今回はVLCでどうにかして*1*2*3再生したんだけれど、本来は何のソフトを使うのが普通なんだ？？またはPCからは再生しないほうが良い？？？\n*1:頑張って\n*2:なんとかして\n*3:多分良くない方法で",
+          "link": "https://naari.hatenablog.com/entry/2022/02/12/073653",
+          "publishedOn": "2022-02-11T22:36:53.000Z",
+          "wordCount": 141,
+          "title": "ゆゆ式Blu-ray BOX(スペシャルプライス版)を買った",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         },
         {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.1",
+          "id": "hatenablog://entry/13574176438060827028",
           "author": null,
-          "description": "git typo in gh run url",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.1",
-          "publishedOn": "2022-02-14T05:26:23.000Z",
-          "wordCount": 259,
-          "title": "v1.14.1",
-          "imageUrl": "https://repository-images.githubusercontent.com/312859305/30a63d00-a162-11eb-8a1d-a3167673e96a"
+          "description": "金曜日にふーふーさんと通話しながら酒を飲んだら睡眠と起床が終了した。土曜日 04:00 ～ 17:00 、日曜日 16:30 ～ 23:00 みたいな睡眠をして、今起きて月曜日に備えている。折角の休日が…という気持ちにならなくもないけど、まあ色々やったしよく寝たしなんやかんや充実していた。月曜日もなんとかなるだろう。\n最近太鼓の達人のPC版が発売された。思い出のゲームでもあり、かつ最近はゲーム欲が盛んなので、僕はこの波に乗じている。XBoxパスというサブスク(1000円/月くらい)に加入していると無料でプレイできるらしいが、一括購入(6000円くらい)もできたのでそちらで購入した。後で知ったんだけど、Discord Nitroの会員に配られるギフトとしてこのパスの2ヶ月間無料コードが届いていたらしい。結構もったいないことをした気がする。\n年ぶりの太鼓ともあって結構苦戦している。地力はもちろん低下し、かつ全体の難易度はもちろん上昇しているため、☆9であっても初見だとノルマ落ちしかねない状況だった。ただ、地力を持ち直しつつあり、昔好きだったDoom Noizをはじめとした☆10クリア難易度下位くらいの譜面はなんとかクリアできるようになってきた。今の上位勢は普通に全良するらしい。もっとうまくなりたい。\nゲーム自体は正直安く作られている気がしている。初期の譜面数や全解禁後の譜面数が他と比べて少なく*1、PC版特有の機能もないのでは？と思う。ただ収録曲はかなり良い線を踏んでいる。既存の資産をうまく組み合わせたプロダクトのように見えた。今はDLCの登場を待ち望んでいるところ。\n最近音MAD作者の書いているブログを集めている。別記事にするつもりなのであまり詳しく書かないが、自動更新され続けるアンテナを作成するつもり。リストはこちらで一元管理しているので、もし過不足あったらおしえてください。\n*1:具体的には10くらい",
+          "link": "https://naari.hatenablog.com/entry/2022/02/07/023048",
+          "publishedOn": "2022-02-06T17:30:48.000Z",
+          "wordCount": 129,
+          "title": "日記",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         },
         {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.0",
+          "id": "hatenablog://entry/13574176438058982089",
           "author": null,
-          "description": "New: Adjust article grouping based on timezone. You need to add timezone in osmosfeed.yml for accurate grouping. See details in documentation.\nNew: Card title now toggles card content\nNew: all toggles on the UI are persisted with local storage. You can use it to track read/unread status within a single browser.\nNew: Build timestamp now links to the GitHub Action run\nChanged: Sources are sorted based on publish time rather than alphabetical order\nChanged: Style adjusted for easier reading\nFixed: Horizontal overflow on Safari\nFixed: HTML syntax error in default template",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.14.0",
-          "publishedOn": "2022-02-14T05:13:00.000Z",
-          "wordCount": 399,
-          "title": "v1.14.0: V1.14.0 (#79)",
-          "imageUrl": "https://repository-images.githubusercontent.com/312859305/30a63d00-a162-11eb-8a1d-a3167673e96a"
+          "description": "Getting Over Itの字幕をすべて(全言語、全場面のものを)記載したサイトを作った。完全にネタバレありなので、未クリアの人は踏まないほうが良い。\nGetting Over It Subtitles\n↑これ。\n機能として、各Termを言語別で表示/非表示を切り替えられる。また、Termに対して雑なジャンル分けしたので表示するものを絞ることができる。\n動機としては3種類あって、以下のような感じ。\n日本語の字幕と英語で言っていることがズレているように感じることがあり、でも聞き取れるわけもないから文字起こしを頂いた上で意訳が適切なのかどうかを確かめたい\n考察のための足掛かりにしたい\nこれらの文言をいつでも引用することができる状態にしたい\n日本語と英語のズレについては、おそらくプレイしたことのある人で、かつ字幕を見たことがある人なら少し感じるところがあると思う。そもそも日本語としての完成度もちょっと低いし、気になる部分は多かった。例えば、\nMaybe this is what this digital culture is.\nA monstrous mountain of trash,\nthe ash-heap of creativity's fountain.\nA landfill with everything we ever thought of in it\nGrand, infinite, and unsorted.\n\n\nが\n多分これは、このデジタル文化があるものです。\nゴミの巨大な山、\n創造性の噴水の灰ヒープ。\n私たちが今までそれで考えるすべてのものとの埋立\nグランド無限、およびソートされていません。\n\n\nになるのは、なんというかもうちょっとうまい選択肢はあったんじゃないかと思う。みたいな、そういうもの。揚げ足取り。\n考察については単純で、ただただ列挙されているた…",
+          "link": "https://naari.hatenablog.com/entry/2022/02/01/184330",
+          "publishedOn": "2022-02-01T09:43:30.000Z",
+          "wordCount": 201,
+          "title": "Getting Over It with Bennett Foddyの字幕をすべて記載したサイトを作った",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         },
         {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.13.0",
+          "id": "hatenablog://entry/13574176438057887116",
           "author": null,
-          "description": "New: Thumbnail image display for each article\nNew: Improved color, spacing, and typography for easier reading\nNew: Click the date to toggle all accordions on that day. Ctrl + Click to toggle all accordions on the entire site.\nChanged: All sections are expanded by default\nChanged: Switched to vitest for easier testing\nFixed: Long string (e.g. URL) caused horizontal overflow\nThank you: @naari3, @tianheg",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.13.0",
-          "publishedOn": "2022-02-13T05:05:17.000Z",
-          "wordCount": 340,
-          "title": "v1.13.0",
-          "imageUrl": "https://opengraph.githubassets.com/fc77c41c87b2cd4d8990f4c940e0ddf681667b6b6e4363b0f609861b7ae5b6d8/osmoscraft/osmosfeed/releases/tag/v1.13.0"
+          "description": "1ヶ月くらい前からWindowsの調子が悪くなっていた。再起動をする度、ドットでできたサークルが永遠にループする減少に見舞われるタイプのやつ。事象的にはカーネル起動に失敗している、と見受けられるが、詳細はなにもわからん。Windowsは難しいので。自分はパソコンは基本立ち上げっぱなしの状態で過ごしているので、たまにあるWindows Updateの度に困っている、というくらいで放置し続けていた。今回、RTX 3060tiが届いたわけだけれど、こんな状態でパーツを取り替えたら何かがあった時に問題の切り分けが難しくなるだろうと思い、今日は今回その解決を試みていた。身内のSlackで修正の様子を実況していて、こんな感じだった。\n事象共有\nこれに対し、@zzufが以下のように言い出した。\nエスパー\nエスパー2\nこれが実際当たっていた。RTX 3060tiに置換したらふつうに再起動できるようになった。\nやったか！？\n一件が落着する様子\n心当たりはある。昨日までは750tiを使っていたのだけれど、急にディスプレイが真っ暗になる、画面がリフレッシュされなくなる、みたいな事象に何度か見舞われることがあったり、他にもグラボからカリカリと音が聞こえてきたり、主にハード面で結構な心配事があった。だけど、まさかドライバがエラーを吐いてカーネルが巻き添えを食らっていたなんて…LinuxディストロのOSを運用している人からよく聞くような挙動に見えたのでちょっとびっくりした。まあ実際にハードが悪かったのか、それともドライバを作ってる人たちがなにかをサボったのかは分からないのですが。\nただ、最初の事象報告で挙げていたUSBあたりの問題はまだ治っていない。再起動したら毎回キーボードを抜き差ししているし、Bluetoothのマウスも4,5分待たないと使えるようにならないまま。これに関してはWindowsのイベントビューアーを確認することで具体的な原因を掴むことができるんじゃないか？ということを教えてもらった。実際にそちらを確認すると、様々なエラーが吐かれ続けていて、うわぁという気持ち。こんな感じでたくさん出ていた。\n\nまあでも新しいグラボを付けてちゃんと起動できたし、対処法になりうる何かも受け取れたし、これは一旦後回しでもいいかなあ。めでたしめでたし。",
+          "link": "https://naari.hatenablog.com/entry/2022/01/29/184115",
+          "publishedOn": "2022-01-29T09:41:15.000Z",
+          "wordCount": 124,
+          "title": "RTX 3060tiを装備したらWindowsの起動の具合が悪くなる事象が治った",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220129/20220129175357.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220129/20220129175357.png"
         },
         {
-          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.12.1",
+          "id": "hatenablog://entry/13574176438057673630",
           "author": null,
-          "description": "Fixed: Future articles appeared in the feed\nFxied: Security vulnerability from axios\nThank you: @naari3",
-          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.12.1",
-          "publishedOn": "2022-02-12T17:46:42.000Z",
-          "wordCount": 269,
-          "title": "v1.12.1",
-          "imageUrl": "https://opengraph.githubassets.com/d69790a31f94b1adf743c58bae86b9754de6969cceb83f11b8fbeb28ab1ad632/osmoscraft/osmosfeed/releases/tag/v1.12.1"
+          "description": "前回AIFについて記事を書いた時はFocusrite Scarlett 2i2 3rd genを使っていたが、これはルーティングの機能を持っていないため、友人に売り払った。今はそのひとつ上のグレードであり、ルーティングの機能も備えているFocusrite Scarlett 4i4 3rd genを使っている。ただ、これがちょっと曲者っぽくて、様々な問題に当たっている。\n1つ目の事象は、入力から0dbを超えた音を入れた際、AIFに再起動が走るというもの。Discordのサーバーでゲームをやっている時、リアクションで大きな声を出す場合があるが、その際によくこれに当たってしまう。事象としてはデバイスの再接続みたいになって、各所出力先を再設定する手間が増える。さらに、極稀にAIFが入出力を全く受け付けなくなることがあって、その場合はサービスマネージャーから Windows Audio Endpoint Builder を再起動してからマシン自体も再起動しなければならない。以下が検索して見つかるredditのpostだが、特に解決には至っていない様子。\nhttps://www.reddit.com/r/Focusrite/comments/ftj60r/4i4_gen_3_crashesrestarts_on_high_input_volume/\nhttps://www.reddit.com/r/Focusrite/comments/ir8wo6/scarlett_4i4_gen_3_crashes_upon_loud_volume/\n2つ目の事象は、問題の切り分けが済んでいないのだけれど、Discordで他人の画面共有を閲覧中にのみ自分の音声がクライアントに掴まれなくなるというもの。どうやらエコー除去的な挙動が間に挟まっている？らしく、redditなどでは「エコー除去をオフにしたら喋れるようになった」「ノイズ抑制(Krisp)をオンにしたら喋れるようになった」など、色々な言説がある。自分の場合は後者でどうにか喋れるようになったが、Krispがオンの状態だと笑い声が掻き消されてコミュニケーションが難しくなってしまう。USBマイクの時はこの事象にあたらなかったので、恐らくこのAIFが悪いのだろう。\nので、買い換える必要があるのだが、これもグラボ同様あまり気にしたことのないデバイスなので乗り換え先が見つからない。DTMをやっている関係上、入出力がそれぞれ4以上あり、デバイス内でループバックの機能を持っており、そのルーティングはソフトからできればそれで充分なのだが、その上でかなりの数があるのでどれを選べばよいのかわからない。某定番機材を検討していたが、知り合いが「DirectXがデバイスを掴んでいる時でないとマイクの入力が受け付けられなくなった」と言っており、悩んでしまっている。もしかしたらAIFのドライバを書くのって難しい？おすすめがあったらおしえてください。",
+          "link": "https://naari.hatenablog.com/entry/2022/01/29/035044",
+          "publishedOn": "2022-01-28T18:50:44.000Z",
+          "wordCount": 98,
+          "title": "オーディオインターフェースの調子が悪い",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438057125848",
+          "author": null,
+          "description": "周りで Getting Over It with Bennett Foddy をプレイする人が出てきたので久しぶりに自分もやった。が、マウスの不調と思わしき挙動にぶち当たってしまい、良いタイムを出すことができなかった。このマウスの不調をどうにかするべきだ、と試行錯誤していたら、マウスパッドがクソほど汚くなっているせいでうまく動かなくなっていたことが判明。マウスのセンサー部分がちょうど汚れにさしかかるとカーソルの動きがガクガクになる。さっき洗濯機につっこんだので、これでうまくいけばきっと解決できる。\nGetting Over Itは製作者であるBennett Foddy自らがナレーターを勤め、プレイヤーと対話する形式のゲームなんだけど、身の回りには割とこのナレーターを切ってしまう人が多く居るらしい。僕はこれは本当に本当にもったいないことだと思っている。\n現在においてインターネット上のコンテンツはとてつもない数になっている。製作者は熾烈な競争を勝ち抜くために、既に咀嚼済みかのようなやわらかいコンテンツを生産するようになる。これにより、我々は雛鳥のように口を上に向けているだけでコンテンツの大量消費ができるようになった。どんなコンテンツも一瞬でポイできるようになってしまった。このゲームは、どうやらこのようにして産まれた弱々しいプレイヤーこと我々を苦しめるために作られたものらしい。このゲームは他のゲームとは違い、ただただ苦しく、かなり険しい。それでも挑戦するプレイヤーは存在する。有象無象のアセット群が雑に積み重なったようなステージだが、プレイヤーは挑戦していくにつれてそれに意味を付け出し、ついには険しさの伴う本物の山だと錯覚し、何度も下落しながらも、登頂のために挑戦し続ける。最後に登頂した時、それは本当に素晴らしい体験だったと錯覚するほどに。\nというようなことを、ナレーターが教えてくれる。珍しくも、自身についての解釈を自ら伝えてくれる。このゲームに対する反骨精神だけを装備してこの山を登りきるのは恐らく更なる苦痛を伴うだけだ。\n自分はこのナレーターこそがこのゲームの趣旨を決定した最も重要な要素だと思っている。単なるクソゲー/苦痛ゲーとは違うと思わせてくれたのはかなり大きい。恐らくなんだけれど、一時期この傾向のゲームが増えたのも上述したBennett Foddyに対する敬意なんじゃないかと思う。良い循環っぽい。\nというわけで、ナレーターと共に登らない選択をたいへんにもったいなく思うのだけれど、これを強要するのもなんかアレだしなぁ〜〜むずかしい。作品を押し付けたらよくないし。むずかしい。",
+          "link": "https://naari.hatenablog.com/entry/2022/01/27/134226",
+          "publishedOn": "2022-01-27T04:42:26.000Z",
+          "wordCount": 121,
+          "title": "久々に壺をやった/ナレーターについて",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438056435614",
+          "author": null,
+          "description": "<追記>\n購入した\nnaari.hatenablog.com\n</追記>\n2016年頃に知り合いから3000円で譲ってもらった中古のGTX 750tiをずっと使い続けていたけど、最近それが限界に近いっぽい。最近の自分は750tiでは割にあわない計算資源の使い方をしているっぽい。かっこつけずに言うと、ゲームができない、配信もできない。\n自分はあまり3Dのアクションゲームへのプレイングスキルが高くなく、選り好みをして2Dのゲームばかりしてしまう。ゲームの性質上、2Dゲームは3Dゲームよりもグラ要求が低いことが多く、よってGTX 750tiでも充分であることが多かった。が、最近はそうもいかなくなってきており、例えば「Getting Over It」は画質「素晴らしい」だと動作が不安になってくるし、「スーパーボンバーマンRオンライン」はキャラセレ*1を筆頭にゲーム中もかなりリソースを食べる。これらのゲームをやりながらOBSで配信をするのはもはや不可能。2Dゲームもリッチに3Dモデルを動かしたりしているのでとても大変。\nこのあたりの要求が常々上がっていくのはとても仕方のないことだと思っている。自分はその立場に立ったことがないので妄想の域を脱出しないけど→各プロジェクトの要求としては少しでも多くの人に遊んでもらうために、そのプロジェクトが使っても良いリソース量の上限は厳しく管理されている。常にリソースを節約することを考えながら設計/実装しているため、「本来やりたかったこと」を存分に実装することができない。コード的にも厳しいことになっていく。「日を追うごとに世間の持つリソースも少しずつ強くなっているだろう」と仮定し、年々少しずつ要求スペックも少しずつ上げることで、開発側ができることも広がっていく。←恐らくこんな感じだと思う。\nそういった現実と照らし合わせると、GTX 750tiはもう限界だと思う。新しいグラボ購入を検討する必要がある。ただ、あまりにも古いグラボから新しいグラボに乗り換える必要があるため、感覚としてどのくらいのレベルのものが必要なのかが分からない。CPUやメモリは様子を常に見ている*2ので、今後を見据えてこのくらいのものを買っとくかな〜という勘が働く。グラボについては本当にサボりすぎた。\n他にもNVENCやCUDAあたりの概念との互換性を気にしないといけなかったり、NVIDIAのグラボのみに向けられたソフトの存在だったり、気にかけなければならない部分も多い。実はかなり大変なパーツであることがよく分かる。\nまあでも結局は予算と照らし合わせるのが妥当かな、という気持ちのもと、雑にRTX 3060tiに決定しようとしている。「今後一生上がり続けるのではないか」みたいな話を聞いた後にこんな情報↓も見たし、近日購入予定。\ngigazine.net\nいろいろ書いたけど、最近はふつうに新しめの3Dのゲームもやりたい。モンハンとかいろいろ。配信もしたい。\nこれ買ったらあと何年使い続けるんだろう。多分だけど買い替えはしないだろうから骨の髄までの勢いで行きたい。\n*1:おそらくキャラの切り替えをスムーズに行うために全キャラのモデルを読み込んでいるのではないかと思う　どうにかしてくれ\n*2:prometheusとgrafanaでちゃんとメトリクスを見れる状態にある",
+          "link": "https://naari.hatenablog.com/entry/2022/01/25/145640",
+          "publishedOn": "2022-01-25T05:56:40.000Z",
+          "wordCount": 128,
+          "title": "グラボを買いたい(未遂)",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438055885420",
+          "author": null,
+          "description": "最近はとある人のとあるブログの記事をずっと読んでいる。記事数がかなり膨大で、11年くらい前からずっと定期的な投稿が出来ているように見える。意識的なアウトプットというやつなのかな？その人はWeb系のエンジニアで、所属を意識できるような記事がたくさんあった。へー、ここにインターンに行ってる人なのか、とか、ここで働いてたんだ、とか。その所属での出来事も書いてくれていて、社員との交流だったり、登壇のことだったり、その支援だったり。今はフリーランスになって、週休3日?4日?でゆっくり暮らしているらしい。バリバリな技術記事と共に存在する個人的な記事たちをざっと追うだけでその人の10年間を追体験しているような気持ちになった。\n最近自分がブログに熱を入れているのはこの間記事にしたような言語化についての練習が主だけど、側面としては上に書いた人たちへの憧れみたいなところもあったりする*1。僕もアウトプットの方法としてのブログを大事にしていきたい。今はとても楽しいというだけで記事を書いている、もしこれが上手いこと積もっていくのなら、そのうち大きな証跡みたいになるのだろうか。そうなるといいですね。\n上に挙げた人のブログとか、そうでなくとも今からは離れた時代に書かれたような文章をインターネット上で見つけるとかなり嬉しくなるよね。その記事が残っていたというアーカイブ的な素晴らしさ、アップデートが不要なプリミティブな考え方、など。小さな身内での事件を記してくれた記事とかは傍から見る分には純粋な読み物として面白く、かつ学びがあることも多い。また、そういう人が未だに文章を書き続けているとなおさら嬉しくなる。「古から今までインターネットのおもしろを支えていたのはこの人だ」みたいな。生き証人みたいでかっこいい。もちろん「自分が深くに潜って文章を発掘したのだ！見つけた！」というdig的な気持ちもあるけど、まぁどうであれ、文章などのコンテンツは基本残ってくれているだけでとても嬉しい気がする。\n界隈の人間がなにか行動をした際に「またそういうことをしているのか、一体何度同じ問題を繰り返すのか」と後ろ指を指されている場面を見たのだけれど、そういうのって過去起きた事象を記して後世に伝えなかったその界隈にも多少の問題があるのではないかと思っている*2。そういった当事者意識を持ちたいよね～、という大きな話ではないが、記事を書くことによる副次的な部分としての、もしかしたら何かの肥やしになるのではないか？という小さな意義をほんのちょっとでも良いから感じていきたい。\n*1:さらに別の側面として、僕はみんなの文章が読みたくて、であれば表立ってまず自分が文章を書いていったほうが良いよね、という気持ちでやっている。僕よりも文章を書いている友人と話していた時にそういう感じになった。もしみんなが文章をたくさん書くようになったら嬉しいな～\n*2:もちろんこの問題は難しい前提で、そういう面もあるよね～くらいで捉えてほしいです",
+          "link": "https://naari.hatenablog.com/entry/2022/01/23/232457",
+          "publishedOn": "2022-01-23T14:24:57.000Z",
+          "wordCount": 107,
+          "title": "日記ってすごいかもしれん",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438055818847",
+          "author": null,
+          "description": "1回目\n友人の家でレヴュースタァライトの映画を見させていただいたあと、いろいろあってCart Racerをやることになった。僕は代わりにGetting Over Itを勧めた。\n\nあああああああ pic.twitter.com/vyedJjwuvx\n— なあり (@_naari_) 2022年1月8日\n  \nおじさんを操作して買い物の時に使うようなカートに乗り込み、設定されているゴールに向かう、というゲーム。1ステージに3つゴールが指定されていて、4ステージあった。\nこの操作感がかなり独特でやばかった。だからこそのB級ゲーム*1なのだとは思うが、あまりにも大変だった。\n先程書いた「カートに乗る」がまず大変で、WASDとジャンプボタンを駆使してかごを乗っける部分にがんばって乗らないといけない。「乗る」という操作があるわけではなく、「結果として乗ってしまった」というのが正しそう。\n基本カートは坂の上に設置されており、おじさんが乗ると同時にストッパーが外れて進み始める。カートが進んでいる間はAとDで左右のハンドリングを効かせられる。が、これもまた難しく、左右にハンドルを切る度にカート自体も左右に揺れ、軸がブレる。これによってカートの滑り具合が増してしまい、とても曲がりづらくなる。さらに大きくブレると普通に横転する。\nそんな状況の中、床に設置された矢印(踏むと加速する)を経由してジャンプ台を踏み、空を飛んでゴールに到達しなければならない。勿論空中での操作は効かないので、ジャンプ台に入るまでの行動調整でこれを達成する必要がある。本当に大変だった。\n最後のステージの最後のゴールが最も大変だった。そのゴールに挑戦するまでのattempt数より、最後のゴールに費やしたattempt数の方が多かった。このステージは実際に難しいらしく、Cart Racerに慣れたプレイヤー達も声を揃えて「ここ…",
+          "link": "https://naari.hatenablog.com/entry/2022/01/23/204039",
+          "publishedOn": "2022-01-23T11:40:39.000Z",
+          "wordCount": 143,
+          "title": "Cart Racerを2回クリアした",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438055159229",
+          "author": null,
+          "description": "一人暮らしをしてからずっとマクドナルドにお世話になっていて、公式Twitterをよく見ている。これ故、新しいメニューとかは結構すぐ気になってしまって優先的に買ったりしている。\n最近ゴディバとのコラボメニューとして、期間限定でホットチョコレートが登場した。\nwww.mcdonalds.co.jp\nくっそうまそ～～～～のみて～～～～～～～～～～～～　甘い系のコラボメニューでマックカフェ専用でないもの久々に見たな、こんなのは頼むしかない、、、\n自分はフルリモートで働いているので、外に出たくないという気持ちが加速してUberEatsで頼むようにしている。が、なんとこのメニューはUberEatsでは頼むことができなかった。マックデリバリーのアプリでも注文することができなかった。どちらも、そもそもメニューの一覧に存在しない。\n\nマックのチョコのヤツまだウーバーイーツやっとらんのだが\n— なあり (@_naari_) 2022年1月19日\n  \n\n【衝撃】チョコのやつウバイツやらんらしい\n— なあり (@_naari_) 2022年1月19日\n  \n↑これはTLで聞きかじった情報\n\nなんでうーばーいーつではホットチョコやらないの\n— なあり (@_naari_) 2022年1月20日\n  \n↑悲しんでいる…\n\nマクドナルドに怒ってこようかな！\n— なあり (@_naari_) 2022年1月20日\n  \nなぜこのメニューはデリバリーの対象にならないんだ……期間限定のバーガーとかナゲット、デザートは普通に一覧に載るし、運びにくさという点を考えてもホットコーヒーが注文できる時点で問題から外しても良さそうだよな……\nそしたら商売的な方法なのだろうか、店舗に出向くしかないのか、ぐぬぬ悔しい……\nというわけで1/20の夜にマクドナルドの実店舗に向かった。しかし\n\nせっかく外に出たのに最寄りのマックきたらホットチョコ売り切れだった！！！！！！！！\n— なあり (@_naari_) 2022年1月20日\n  \nなかった…メニューには「ご好評につき終了しました」って書いてある…\nこれ、そもそもお店で取り扱われていない可能性があるな、だからUberEatsでも一覧になかったのだろうか？とか思っていたけど、翌日の昼になって直接電話をしたら全くそんなことはなかった。おやつ時くらいに遅めの昼飯としてマックに向かった。\n\nうおおおおおおおおおおおおお pic.twitter.com/cDgpiV8k09\n— なあり (@_naari_) 2022年1月21日\n  \nこうして無事飲むことができました。おめでとう、よかったね\n評価\nこれ、まあおいしいけど、ちょっと高くない？Sで300円、Mで400円はちょっと…\n追記\n昼に電話をするのは本当に良くないらしいです。ツイッターで怒られた。申し訳ない。",
+          "link": "https://naari.hatenablog.com/entry/2022/01/22/000258",
+          "publishedOn": "2022-01-21T15:02:58.000Z",
+          "wordCount": 124,
+          "title": "マクドナルドのホットチョコレートを飲んだ",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438051593131",
+          "author": null,
+          "description": "AGDQ2022を見た。\nAGDQ2022についてのかるーい説明をする→　海外で毎年初めに行われているゲームのRTA系イベントで、1/10～1/16のあいだ、ほぼノンストップでゲームのRTAが繰り広げられる。このあいだ書いたRiJの元ネタとなったイベント。\nJapanese Restreamという公式ミラーが存在し、こちらでは日本語で解説を行ってくれる。ただ、元配信に音声を乗っける都合上、元配信側の音声はとても小さくなる。コンプレッサーの外部ソースとして日本語の音声が入っている感じ。\n解説終わり、ここからは感想\n三連休はやることがあって見れなかった。ほとんど1/11から見始めた。\nJapanese Restreamで見たり、そうでなかったりの五分五分だった。さっき書いたとおり、元ストリームのほうが音がよく聞こえるため。\nアーカイブはYouTubeチャンネルにある。日本語解説のアーカイブはこちらから\n見たかったけど見逃したやつ\nDKC2\nMegaman 2\nkirby 3\nsupermonkeyball\nCrash Team Racing\nパズルボブル4\n実家にこのシリーズのゲームが複数本存在するので見てみるか～程度の気持ちで見た\nうますぎワロタ\n\n\nこのゲームは壊れがなく、純粋にうまさを見ることが出来た\n\n\nこのゲームは本当に難しい\n僕は難しすぎるステージについては自滅して点線のガイドを得ていたが、このレベルだと既に心眼で見えているらしくて点線があってもなくてもあまり関係ないらしい\nマップ理解やルート構築の点のうまさももちろんあるが、それよりも純粋なパズルボブルのうまさが光っていた\nWRおめでとうございます\nお誕生日もおめでとうございます\nwww.youtube.com\nhttps://www.twitch.tv/videos/1260950431?collection=k…",
+          "link": "https://naari.hatenablog.com/entry/2022/01/21/225357",
+          "publishedOn": "2022-01-21T13:53:57.000Z",
+          "wordCount": 306,
+          "title": "AGDQ2022を見た",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438054613284",
+          "author": null,
+          "description": "おもしろい",
+          "link": "https://naari.hatenablog.com/entry/2022/01/20/111807",
+          "publishedOn": "2022-01-20T02:18:07.000Z",
+          "wordCount": 80,
+          "title": "「コーヒー」を打ち間違えて「コーホー」になった",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
+          "id": "hatenablog://entry/13574176438054542380",
+          "author": null,
+          "description": "ラバーダッグ・デバッグやテディーベア・デバッグと名付けられているコードのデバッグの手法がある。\nja.wikipedia.org\nプログラマーがラバー・ダック（アヒルちゃん）を持ち歩きアヒルちゃんに向かってコードを1行ずつ説明することによりデバッグを行うという話が由来である。\n\n\n一見精神的にヤバいやつのように見られるが、Wikipediaには続けてこう書いてある。\nプログラマーの多くは誰かに問題を説明した経験があり、その相手はプログラミングの知識が全くないこともあり得るが、問題を説明している過程で解決策を思いつくことがある。\n目的とするコードと、実際のコードの挙動を観察して、説明することにより、その違いが明白になるのだ。\n\n\nプログラミングの未経験者に対してプログラミング特有の問題を説明する行為はあまりにもプログラマー的な傲慢さの悪いところのように思うが、それはそれとして、この行為は問題解決に対して有用になることがある。\nとある問題を他人に説明するには、様々な部分の言語化を行う必要がある。例えば、行動の目的、環境、それに対するアプローチ、実際に発生した事象、など、、、\nさらに、これらの言語化のためにはまず今の状態を客観的に捉える必要がある。主に情報収集や、なにかの物差しと比べるような行動になる気がする。\nこのような段取りを踏んでいる間に自ずと問題がよく整理され、より深い理解へと繋がることで、問題が解決する事がある。「あれ？この環境に対してこのアプローチを取るには〇〇が足りてないんじゃないか？」といった具合で。\nここまでの例ではプログラマーは人間を説明の相手に使うが、Wikipediaにもあるように↓\n無生物を用いることにより、プログラマーは、他人を煩わせることなく目的を達成できる。\n\n\nというわけでラバー製のアヒルのおもちゃやテディーベアといったものも相談相手として使用する。合理的だ、、、さすがプログラマー。\nこれはなにもプログラミングに限った話ではなく、この世の問題全てにおいて適用可能なデバッグ方法だと思っている。特に、ある程度までの大きさの心の問題についてはそこそこ有効だとも思っている*1。ふわふわと頭に浮かんでいる悩み事は、その問題に対する考えの整理がうまく行っていない事が間接的な原因の場合もあり、であればその整理を行うことで解決の糸口を掴める場合がある。例えば、雑談相手に愚痴をぶつけるだけで案外気が晴れたりするものだろう。それは意図しない形で無意識的に解決している場合なのかもしれない。\n個人的な経験としても結構役立っている。バグを潰している時に作業通話の相手になっていた人に説明を試むことで明確な問題点を発見できたり*2、ツイキャスでさいきんの悩みを喋っていたら実は簡単な解決方法があることに気づいたり*3、ブログの記事として数ヶ月間くらい問題になっていたことをそのまま書いていたら実は解決可能であることが分かったり*4……そういえば、一時期カウンセリングに通っていたときもよくこういう体験あったなあ\nこれは他人の例だが、よくお世話になっているDiscordサーバー内の通話チャンネルで、「最近どのサーバーでもほとんど喋ろうとしてなかった」と言う人が珍しく参加しており、さらに他の参加者に対して相談事をしていた。実際に「相談をした」というだけで本人の負担が少なくなったらしい(程度はわからんけど)。\n本人はドツボにはまっているが、他の人から見たら解決方法が明確だった、という場合はそこそこあると思うが、その理由はきっとこのようなものなんだと思う。また、そのような説明を受けた時、相談した側も既に解決しているかもしれない。\n言語化は案外めんどくさいことで、頭の中のコストをそれなりに消費する。その理由の大きな部分が上述してきた問題の整理にあると思う。話し相手というのは、この良いとっかかりとなってくれるのだと思う。多分、仲の良い人とはそこそこ積極的に雑談をしたほうが良いのだろう。\n*1:一応断っておくと、もちろんこんなことでは解決できない問題というのもある。それは多分大きな問題なので、もうちょっと大枠から考慮したほうが良いと思う。\n*2:よくある話\n*3:このあいだのアニメの話\n*4:このあいだのMODの話",
+          "link": "https://naari.hatenablog.com/entry/2022/01/20/035959",
+          "publishedOn": "2022-01-19T18:59:59.000Z",
+          "wordCount": 120,
+          "title": "アヒルのおもちゃとかテディーベアとかと話して解決するやつ",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         }
       ]
     },
     {
-      "title": "CSS-Tricks",
-      "feedUrl": "https://css-tricks.com/feed/",
-      "siteUrl": "https://css-tricks.com",
+      "title": "yokkin.com",
+      "feedUrl": "https://yokkin.com/feed",
+      "siteUrl": "https://yokkin.com",
+      "articles": []
+    },
+    {
+      "title": "みそは入ってませんけど",
+      "feedUrl": "https://not-miso-inside.netlify.app/rss.xml",
+      "siteUrl": "https://not-miso-inside.netlify.com",
+      "articles": []
+    },
+    {
+      "title": "LWのサイゼリヤ",
+      "feedUrl": "https://saize-lw.hatenablog.com/rss",
+      "siteUrl": "https://saize-lw.hatenablog.com/",
       "articles": [
         {
-          "id": "https://css-tricks.com/?p=363555",
-          "author": "Chris Coyier",
-          "description": "Last year, Elise Blanchard did some great historical research and discovered that blue hyperlinks replaced black hyperlinks in 1993. They’ve been blue for so long now that the general advice I always hear is to keep them that way. There …\nWhy are hyperlinks blue? originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/why-are-hyperlinks-blue/",
-          "publishedOn": "2022-02-14T20:13:31.000Z",
-          "wordCount": 583,
-          "title": "Why are hyperlinks blue?",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363555"
+          "id": "hatenablog://entry/13574176438060712418",
+          "author": null,
+          "description": "お題箱回94\n\n379.「親ガチャ」について偉そうに語ってる精神科医の話をいくつか聞いてしまったのでぜひLWさんに解説していただきたいです！\n380.ありがとうございます！>お題箱>親ガチャ\n僕が見たのは下記の二つです。他にもひろゆき氏や東大卒の方、武井壮氏、茂木健一郎氏…いろんな人が語ってて煩いです、叩っ斬ってください！\n・『メンタルドクターsidow「親ガチャハズレ」←どう思う？』　https://youtu.be/CV3y8fR6hTk\n・『精神科医が心の病気を解説するch「親ガチャ」について、精神科医目線で解説します』　https://youtu.be/IT2s0X7WVas\nざっと各界のコメントを調べて動画も軽く見ました。\n解説したり叩き斬ったりすることを期待されている手前申し訳ないですが、そういう話にはあまりならないですね。僕は「親ガチャ」という言葉を高く評価していることを何度かツイートしていますから、たぶんそこから「親ガチャ」という言葉に否定的な風潮に異を唱えるような展開が望まれたのだと思いますが、そもそも世間で語られている論点と僕の論点は全く違います。「親ガチャ」という言葉の背景に想定する文脈が異なり、同じ言葉を使って完全に別の話をしているので、僕が彼らを否定することも彼らが僕を否定することもないはずです。\nいま過去のツイートを見ると、去年9月頃には親ガチャという言葉がきっと社会を良い方向に導くだろうと期待していたのですが、\n親ガチャという発想は俺は完全に正しいと思うしこれを期にマイルドな反出生主義のような形で生む側の倫理を考える風潮はある程度定着するだろうなと思う\n2021年9月15日\n\n\n10月頃には僕が使う言葉の意味と市井で使われている言葉の意味が全く異なることに気付き始め、\n俺は親ガチャっていう言葉大好きだしようやく非存在者への想像力が市井で培われる…",
+          "link": "https://saize-lw.hatenablog.com/entry/2022/02/11/212205",
+          "publishedOn": "2022-02-11T12:22:05.000Z",
+          "wordCount": 224,
+          "title": "22/2/11 お題箱回94：親ガチャ、SunnyBoy、マーセナリーズなど",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220211/20220211205734.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220211/20220211205734.png"
         },
         {
-          "id": "https://css-tricks.com/?p=363339",
-          "author": "Charlie Gerard",
-          "description": "The File System Access API is a web API that allows read and write access to a user’s local files. It unlocks new capabilities to build powerful web applications, such as text editors or IDEs, image editing tools, improved …\nGetting Started With the File System Access API originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/getting-started-with-the-file-system-access-api/",
-          "publishedOn": "2022-02-14T16:01:21.000Z",
-          "wordCount": 1659,
-          "title": "Getting Started With the File System Access API",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363339"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363498",
-          "author": "Chris Coyier",
-          "description": "Kilian Valkhof:\n[…] Mobile Safari increases the default font-size when you switch a website from portrait to landscape. On phones that is, it doesn’t do it on iPad. Safari has been doing this for a long time, as a \n…\nYour CSS reset needs text-size-adjust (probably) originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/your-css-reset-needs-text-size-adjust-probably/",
-          "publishedOn": "2022-02-12T00:46:40.000Z",
-          "wordCount": 631,
-          "title": "Your CSS reset needs text-size-adjust (probably)",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363498"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363396",
-          "author": "Chris Coyier",
-          "description": "Every now and then, I find that I’ve accumulated a bunch of links about various things I find interesting. Like React and JavaScript! Here’s a list of nine links to other articles about them that I’ve been saving up and …\n9 New React and JavaScript Links for February 2022 originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/9-new-react-and-javascript-links-for-february-2022/",
-          "publishedOn": "2022-02-11T23:11:28.000Z",
-          "wordCount": 942,
-          "title": "9 New React and JavaScript Links for February 2022",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363396"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363027",
-          "author": "Yair Even Or",
-          "description": "Imagine you have an element with a multi-value CSS property, such as transform: optional custom property values:\n.el {\n  transform: translate(100px) scale(1.5) skew(5deg);\n}\nNow imagine you don’t always want all the transform values to be applied, so some …\nMulti-Value CSS Properties With Optional Custom Property Values originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/optional-custom-property-values-trick/",
-          "publishedOn": "2022-02-11T15:30:11.000Z",
-          "wordCount": 801,
-          "title": "Multi-Value CSS Properties With Optional Custom Property Values",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363027"
-        },
-        {
-          "id": "https://css-tricks.com/?p=362285",
-          "author": "Chris Coyier",
-          "description": "I was just writing in my “What’s new in since CSS3?” article about recent and possible future changes to CSS colors. It’s weirdly a lot. There are just as many or more new and upcoming ways to define colors than …\nA Whistle-Stop Tour of 4 New CSS Color Features originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/new-css-color-features-preview/",
-          "publishedOn": "2022-02-10T23:01:55.000Z",
-          "wordCount": 2723,
-          "title": "A Whistle-Stop Tour of 4 New CSS Color Features",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/362285"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363480",
-          "author": "Chris Coyier",
-          "description": "This is a wonderful roundup from Jeremy, who I picture circling January 1, 2022, in red marker on a giant paper calendar back in 2008 and patiently counting the days.\nSee, there was a little smattering of internet drama …\nDevelopers Speculating About the Long-Distant Future: 2022 originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/developers-speculating-about-the-long-distant-future-2022/",
-          "publishedOn": "2022-02-10T21:45:09.000Z",
-          "wordCount": 789,
-          "title": "Developers Speculating About the Long-Distant Future: 2022",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363480"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363079",
-          "author": "Thomas Wang",
-          "description": "I recently rewrote one of my projects — Minimal Theme for Twitter — as a Next.js Chrome extension because I wanted to use React for the pop-up. Using React would allow me to clearly separate my extension’s pop-up component and …\nHelpful Tips for Starting a Next.js Chrome Extension originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/nextjs-chrome-extension-starter/",
-          "publishedOn": "2022-02-10T15:24:02.000Z",
-          "wordCount": 1287,
-          "title": "Helpful Tips for Starting a Next.js Chrome Extension",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363079"
-        },
-        {
-          "id": "https://css-tricks.com/?p=362991",
-          "author": "Chris Coyier",
-          "description": "(This is a sponsored post.)\nCloudinary is a host for your digital assets like images and video. If you don’t already know them, you should, because you can build it into the asset management you almost certainly need to …\nA Chrome Extension for Cloudinary That Helps You Pluck Out Useful Media URLs From Your Library Quickly originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/a-chrome-extension-for-cloudinary-that-helps-you-pluck-out-useful-media-urls-from-your-library-quickly/",
-          "publishedOn": "2022-02-10T15:23:31.000Z",
-          "wordCount": 881,
-          "title": "A Chrome Extension for Cloudinary That Helps You Pluck Out Useful Media URLs From Your Library Quickly",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/362991"
-        },
-        {
-          "id": "https://css-tricks.com/?p=362777",
-          "author": "Chris Coyier",
-          "description": "Say you have a bitmap graphic — like a JPG, PNG, or GIF — and you wish it was vector, like SVG. What do you do? You could trace it yourself in some kind of design software. Or tools within …\nSVGcode for “Live Tracing” Raster Images originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/svgcode-raster-to-vector/",
-          "publishedOn": "2022-02-09T21:39:41.000Z",
-          "wordCount": 821,
-          "title": "SVGcode for “Live Tracing” Raster Images",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/362777"
-        },
-        {
-          "id": "https://css-tricks.com/?p=362940",
-          "author": "Dave Seidman",
-          "description": "I was updating my portfolio and wanted to use the forward slash (/) as a visual element for the site’s main layout. I hadn’t attempted to create a slanted container in CSS before, but it seemed like it …\nHow to Make CSS Slanted Containers originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/css-slanted-containers/",
-          "publishedOn": "2022-02-09T15:19:47.000Z",
-          "wordCount": 1349,
-          "title": "How to Make CSS Slanted Containers",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/362940"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363057",
-          "author": "Chris Coyier",
-          "description": "There is a code snippet that I see all the time when the media query prefers-reduced-motion is talked about. Here it is:\n@media (prefers-reduced-motion: reduce) {\n  * {\n    animation-duration: 0.01ms !important;\n    animation-iteration-count: 1 !important;\n    transition-duration: 0.01ms !important;\n    scroll-behavior: auto !important;\n  \n…\nNo Motion Isn’t Always prefers-reduced-motion originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/nuking-motion-with-prefers-reduced-motion/",
-          "publishedOn": "2022-02-08T20:55:51.000Z",
-          "wordCount": 1230,
-          "title": "No Motion Isn’t Always prefers-reduced-motion",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363057"
-        },
-        {
-          "id": "https://css-tricks.com/?p=362672",
-          "author": "Mads Stoumann",
-          "description": "You know how there are JavaScript dialogs for alerting, confirming, and prompting user actions? Say you want to replace JavaScript dialogs with the new HTML dialog element.\nLet me explain.\nI recently worked on a project with a lot of …\nReplace JavaScript Dialogs With the New HTML Dialog Element originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/replace-javascript-dialogs-html-dialog-element/",
-          "publishedOn": "2022-02-08T15:09:40.000Z",
-          "wordCount": 3944,
-          "title": "Replace JavaScript Dialogs With the New HTML Dialog Element",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/362672"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363380",
-          "author": "Chris Coyier",
-          "description": "(This is a sponsored post.)\nHey! Scheduled Functions are cool! Think of them like a CRON job. I want this code to run every Monday at 2pm. I want this code run every hour on the hour. That kind …\nNetlify Has Scheduled Functions originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/netlify-has-scheduled-functions/",
-          "publishedOn": "2022-02-08T15:08:47.000Z",
-          "wordCount": 706,
-          "title": "Netlify Has Scheduled Functions",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363380"
-        },
-        {
-          "id": "https://css-tricks.com/?p=363102",
-          "author": "Chris Coyier",
-          "description": "A little gradient generator tool from Tom Quinonero. You’d think fading one color to another would be an obvious, simple, solved problem — it’s actually anything but!\nTom’s generator does two things that help make a gradient better:\nYou \n…\nUsing Different Color Spaces for Non-Boring Gradients originally published on CSS-Tricks. You should get the newsletter.",
-          "link": "https://css-tricks.com/color-spaces-for-more-interesting-css-gradients/",
-          "publishedOn": "2022-02-07T21:46:18.000Z",
-          "wordCount": 615,
-          "title": "Using Different Color Spaces for Non-Boring Gradients",
-          "imageUrl": "https://css-tricks.com/wp-json/social-image-generator/v1/image/363102"
+          "id": "hatenablog://entry/13574176438052195267",
+          "author": null,
+          "description": "駿河屋への売却開始\n2021年の中頃から本格的に部屋の整理を始めた。\n\n物を捨てるのを一気にやろうとすると判断に迷って結局あまり進まないことが目に見えているので、数ヶ月スパンで徐々に進める方式を開発した。まず部屋の隅に巨大段ボールを設置し、日常暮らす中で「これは要らんかもしれん」と思うものを放り込み、ある程度溜まってきたら駿河屋に発送。\nこの手法が画期的なのは巨大段ボールに放り込んだ段階では必ずしも廃棄が確定しているわけではないことだ。どうしても捨てたくないと思えば発送する前にサルベージもできるので、あまり悩まずに気軽に放り込むことができる。ただ一度放り込めば「まあ要らんか」という気分になってくるもので、サルベージを果たしたアイテムはまだ無い。\n既に漫画や本や玩具や映画を詰めた大きな段ボール4つほどを駿河屋に送っており、これからも順次送っていく予定である。\n整理を始めた積極的な動機は部屋にトレーニング用ベンチを置きたいからだが、消極的な動機としては物理書籍から電子書籍への切り替えが進んでいることがある。特に漫画については電子専用機としてFireHD10も購入し、これからはもう新刊は全部電子でいこうと思っている。\n理由を挙げれば、買う手間とか取り回しとか細かいことは諸々あるが、一番大きいのは「物理的なオブジェクトに愛着をあまり持たなくなった」という時代的な感性の変化であろう。令和はクラウド化の時代、大抵のコンテンツはわざわざ所有せずともサブスクでネット上からオンデマンド消費するのが標準となった。漫画は未だ決定版のサブスクサービスが存在せず逐一購入する必要があるとはいえ、だからといって漫画だけが特別に物理的フェチズムを発揮し続けることもない。\nそんな経緯で10年以上も部屋の一角を占めていた物品でさえもドンドン段ボールに詰めてバンバン売るモードになっているが、一応は売却目録をメモ…",
+          "link": "https://saize-lw.hatenablog.com/entry/2022/02/06/180731",
+          "publishedOn": "2022-02-06T09:07:31.000Z",
+          "wordCount": 320,
+          "title": "22/2/6 2021年売却コンテンツまとめ",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220206/20220206175206.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220206/20220206175206.jpg"
         }
       ]
     },
     {
-      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
-      "feedUrl": "https://www.smashingmagazine.com/feed/",
-      "siteUrl": "https://www.smashingmagazine.com/",
+      "title": "人間が折り重なって爆発した",
+      "feedUrl": "https://hiragi-noon.hatenablog.com/rss",
+      "siteUrl": "https://hiragi-noon.hatenablog.com/",
+      "articles": []
+    },
+    {
+      "title": "セミになっちゃた",
+      "feedUrl": "https://xcloche.hateblo.jp/rss",
+      "siteUrl": "https://xcloche.hateblo.jp/",
       "articles": [
         {
-          "id": "https://smashingmagazine.com/2022/02/voice-user-interfaces-guide/",
-          "author": "hello@smashingmagazine.com (Nick Babich & Gleb Kuznetsov)",
-          "description": "Voice is a powerful tool that we can use to communicate with each other. This article covers the most critical aspects of designing for voice user interfaces: designing the conversation and designing visual interfaces.",
-          "link": "https://smashingmagazine.com/2022/02/voice-user-interfaces-guide/",
-          "publishedOn": "2022-02-14T13:30:00.000Z",
-          "wordCount": 4412,
-          "title": "Everything You Want To Know About Creating Voice User Interfaces",
+          "id": "hatenablog://entry/13574176438063420107",
+          "author": null,
+          "description": "2019年にM-1グランプリで優勝して以来、ミルクボーイを起用した漫才風CMを本当によく見るようになった。\nバツグンで、笑いも入れつつ適度に情報を提示しながら宣伝するのにちょうどいい構造のようである。 \nミルクボーイの漫才はもともと商品紹介にすぐれたフォーマットなのだが、さらに微調整してCMに適応しているようなのだ。\nということで、ミルクボーイのシステム漫才の仕組みを概観したのち、Web上で閲覧できるミルクボーイの漫才風CMと比較して、本ネタとの構造的な違いやCM化にあたって行われている工夫を見ていこう。\n本ネタとCM\nまずは比較のために、コーンフレークをテーマとしたこちらの二つの動画を見てみよう。\nwww.youtube.com\n本ネタ「コーンフレーク」\nwww.youtube.com\nCM「グラノラハーフ編 楽屋裏編」\nどのくらい「違い」があるだろうか？\nシステム漫才の流れ\nミルクボーイの本ネタをフローチャート化すると、次のようになる。\n\nツカミ\n漫才のツカミではまずは駒場が会場から何かを受け取るジェスチャーを行い、内海が「①あーありがとうございます、いま○○をいただきました　こんなんなんぼあってもいいですからね」と受ける。ここで受け取るのはもらっても困るもの、なんぼあってもいいわけないものなことが多い。\nメイン導入\nメイン構造の導入部は、駒場の「ウチのオカンが好きな（ジャンル名）があるらしい」から入り、そこからなんやかんやあって忘れてしまったその名前を内海が一緒に考える「ほな俺がね、オカンが一番好きな〇〇一緒に考えてあげるからどんな特徴いうてたか教えてみてよ」の流れになる。ネタによってはここで変化があり、「好きな（ジャンル名）がある」と聞いた時点で「わからへんのでしょう？」で受ける（ミルクボーイのいつものシステムを対象化した）パターンや、「オカンが好きな（ジャンル名）…",
+          "link": "https://xcloche.hateblo.jp/entry/2022/02/14/211038",
+          "publishedOn": "2022-02-14T12:10:38.000Z",
+          "wordCount": 187,
+          "title": "ミルクボーイの漫才風CM全部みる",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1470bd2f-c151-4408-8f43-0a7d76a67249/voice-user-interfaces-guide.jpg",
-            "length": "0",
-            "type": "image/jpg"
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/x/xcloche/20220214/20220214193221.png",
+            "type": "image/png",
+            "length": "0"
           },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/1470bd2f-c151-4408-8f43-0a7d76a67249/voice-user-interfaces-guide.jpg"
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/x/xcloche/20220214/20220214193221.png"
         },
         {
-          "id": "https://smashingmagazine.com/2022/02/web-design-done-well-perfectly-pointless/",
-          "author": "hello@smashingmagazine.com (Frederick O’Brien)",
-          "description": "This installment of *Web Design Done Well* celebrates weird and wacky websites. Sites with sweet, innocent, sometimes pointless purposes. Are they money makers? Game changers? Not necessarily, but they sure are fun, and in ways only the web could really manage.",
-          "link": "https://smashingmagazine.com/2022/02/web-design-done-well-perfectly-pointless/",
-          "publishedOn": "2022-02-11T12:00:00.000Z",
-          "wordCount": 1692,
-          "title": "Web Design Done Well: Perfectly Pointless",
+          "id": "hatenablog://entry/13574176438056202792",
+          "author": null,
+          "description": "最近、twitterで🟩🟩🟨⬜⬜みたいな謎の色付き正方形がいっぱいシェアされてくるようになりました。\n\n\n\nWordle 218 3/6\n⬜⬜⬜⬜⬜\n🟩⬜🟨⬜🟨\n🟩🟩🟩🟩🟩\n— 氷点下カチコチかもリバー (@xcloche) 2022年1月22日\n  \nこれは「Wordle」というパズルゲームで、５文字の単語を入力して得られた手がかりから、正解の５文字の単語を当てるゲーム（その文字が正解に含まれていて位置もあっていたら🟩、含まれているが位置はあっていないときは🟨でヒントが出る*1）です。\n\n\nwww.powerlanguage.co.uk\n\n\naseruneko.github.io\n\n\nこの記事では、インターネット上で囁かれているさまざまなWordleの戦略を概観・レビューした後、情報量を用いたもっとも効率的な単語の選び方を実践・解説します。\n\n\nパッと思いつく戦略\nプレイしていてまず思いつく戦術はこんなところでしょうか：\n\n\n①いろんな単語によく含まれる文字はヒントになりやすいはず\n\n\n\nqとかzが含まれる単語は少ないので、手がかりに入れてもあんまり参考にならなそうなので\n②一度🟩で確定したところに次またその文字を置くのは損\n\n\n\n\nわかっていない⬜を🟨にするチャンスを逃しているので\n\n\nヒントを集めたあと、最後に当てるときだけ入れたほうがよさそう\n\n\n\n\n③なるべく多くまだ使ってない文字を入れたほうがいい\n\n\n\n⬜で単語中に使われていないことが確定した文字を使うのは、ヒントを得るチャンスを逃しているので\nWordleでは最初は色のヒントなしで単語を入力するわけですが、では、このときにより多くの情報が得られる「初手」の単語は何がいいでしょうか？\nヒューリスティックな手法による初手５文字が提唱されています。\n\n\n文字ベースの手法\n試み①：出てく…",
+          "link": "https://xcloche.hateblo.jp/entry/2022/01/24/212558",
+          "publishedOn": "2022-01-24T12:25:58.000Z",
+          "wordCount": 401,
+          "title": "Wordleの最善手をめぐる巷説と、真の答え",
           "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a885ddca-3e45-4167-8475-3ccd9181e712/web-design-done-well-perfectly-pointless.jpg",
-            "length": "0",
-            "type": "image/jpg"
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/x/xcloche/20220124/20220124211547.png",
+            "type": "image/png",
+            "length": "0"
           },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a885ddca-3e45-4167-8475-3ccd9181e712/web-design-done-well-perfectly-pointless.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/fitts-law-touch-era/",
-          "author": "hello@smashingmagazine.com (Steven Hoober)",
-          "description": "In this article, Steven Hoober shines the spotlight on Fitts’ Law and explains why we should always ask questions and consider what particular guidelines and lessons mean to our users and our products.",
-          "link": "https://smashingmagazine.com/2022/02/fitts-law-touch-era/",
-          "publishedOn": "2022-02-09T12:00:00.000Z",
-          "wordCount": 3416,
-          "title": "Fitts’ Law In The Touch Era",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5b558fa6-25b4-4ec2-922a-469910f989a1/fitts-law-touch-era.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/5b558fa6-25b4-4ec2-922a-469910f989a1/fitts-law-touch-era.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/statoscope-course-intensive-therapy-bundle/",
-          "author": "hello@smashingmagazine.com (Sergey Melukov)",
-          "description": "Statoscope is an instrument that analyses your webpack-bundles. Created by Sergey Melukov, it started out as an experimental version in late 2016, which has now become a full-fledged toolkit for viewing, analyzing, and validating webpack-bundles.",
-          "link": "https://smashingmagazine.com/2022/02/statoscope-course-intensive-therapy-bundle/",
-          "publishedOn": "2022-02-08T10:00:00.000Z",
-          "wordCount": 5256,
-          "title": "Statoscope: A Course Of Intensive Therapy For Your Bundle",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8c91f031-fdf7-4b31-8a09-b7e0b0d01cc7/statoscope-course-intensive-therapy-bundle.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/8c91f031-fdf7-4b31-8a09-b7e0b0d01cc7/statoscope-course-intensive-therapy-bundle.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/qr-codes-business-best-practices-pitfalls/",
-          "author": "hello@smashingmagazine.com (Stanislav Khrustalev)",
-          "description": "While QR codes have many uses and can be leveraged at many touch points, they are just one of dozens of technologies that can improve the customer’s journey. Stanislav Khrustalev shares his advice with a list of things to keep in mind when using QR codes for your business.",
-          "link": "https://smashingmagazine.com/2022/02/qr-codes-business-best-practices-pitfalls/",
-          "publishedOn": "2022-02-07T14:00:00.000Z",
-          "wordCount": 2787,
-          "title": "Using QR Codes In Your Business: Best Practices And Pitfalls",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fa41b6d9-f3ce-4b05-a110-21a7bc6c7595/qr-codes-business-best-practices-pitfalls.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/fa41b6d9-f3ce-4b05-a110-21a7bc6c7595/qr-codes-business-best-practices-pitfalls.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/web-frameworks-guide-part2/",
-          "author": "hello@smashingmagazine.com (Noam Rosenthal)",
-          "description": "In this second part, Noam suggests a few patterns of how to use the web platform directly as an alternative to some of the solutions that are offered by frameworks.",
-          "link": "https://smashingmagazine.com/2022/02/web-frameworks-guide-part2/",
-          "publishedOn": "2022-02-04T13:30:00.000Z",
-          "wordCount": 3775,
-          "title": "What Web Frameworks Solve: The Vanilla Alternative (Part 2)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a3745837-4c65-4b2b-81ab-42e0088633d2/web-frameworks-guide-part2.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a3745837-4c65-4b2b-81ab-42e0088633d2/web-frameworks-guide-part2.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/",
-          "author": "hello@smashingmagazine.com (Michelle Barker)",
-          "description": "In this article, we’ll look specifically at what we can do to reduce the impact of social media embeds and social sharing widgets — or even some strategies to avoid them altogether. While the spotlight is on reducing the environmental impact, many of these tips will be great for performance too.",
-          "link": "https://smashingmagazine.com/2022/02/reducing-web-carbon-footprint-optimizing-social-media-embeds/",
-          "publishedOn": "2022-02-03T12:00:00.000Z",
-          "wordCount": 2560,
-          "title": "Reducing The Web’s Carbon Footprint: Optimizing Social Media Embeds",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/686a0218-bea0-4a0e-a2b9-aca40c29d412/reducing-web-carbon-footprint-optimizing-social-media-embeds.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/686a0218-bea0-4a0e-a2b9-aca40c29d412/reducing-web-carbon-footprint-optimizing-social-media-embeds.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/javascript-bundle-performance-code-splitting/",
-          "author": "hello@smashingmagazine.com (Adrian Bece)",
-          "description": "In this article, Adrian Bece shares more about the benefits and caveats of code-splitting and how page performance and load times can be improved by dynamically loading expensive, non-critical JavaScript bundles.",
-          "link": "https://smashingmagazine.com/2022/02/javascript-bundle-performance-code-splitting/",
-          "publishedOn": "2022-02-02T10:30:00.000Z",
-          "wordCount": 4507,
-          "title": "Improving JavaScript Bundle Performance With Code-Splitting",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f721011b-37a8-4c1d-a8b9-b249bf938678/javascript-bundle-performance-code-splitting.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f721011b-37a8-4c1d-a8b9-b249bf938678/javascript-bundle-performance-code-splitting.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/02/touch-design-release/",
-          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-          "description": "It’s shipping! Meet “Touch Design for Mobile Interfaces”, our brand-new guide with guidelines and best practices to improve usability and accessibility on mobile. 400 pages. For designers and developers working with mobile UIs.",
-          "link": "https://smashingmagazine.com/2022/02/touch-design-release/",
-          "publishedOn": "2022-02-01T13:00:00.000Z",
-          "wordCount": 2331,
-          "title": "Meet “Touch Design For Mobile Interfaces”, A New Smashing Book",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b9bd7979-279d-4547-8540-cb1e344cbf19/newsletter-header-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b9bd7979-279d-4547-8540-cb1e344cbf19/newsletter-header-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/desktop-wallpaper-calendars-february-2022/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "Do you need a little inspiration boost? Well, then our new batch of desktop wallpapers is for you. Designed by artists and designers from across the globe, they come in versions with and without a calendar for February 2022.",
-          "link": "https://smashingmagazine.com/2022/01/desktop-wallpaper-calendars-february-2022/",
-          "publishedOn": "2022-01-31T09:00:00.000Z",
-          "wordCount": 2266,
-          "title": "28 Days Of Inspiration (February 2022 Desktop Wallpapers Edition)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/04d12428-d98f-4633-ad77-fed864da6842/feb-22-magic-of-music-preview-opt.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/04d12428-d98f-4633-ad77-fed864da6842/feb-22-magic-of-music-preview-opt.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/web-frameworks-guide-part1/",
-          "author": "hello@smashingmagazine.com (Noam Rosenthal)",
-          "description": "In this article, Noam Rosenthal dives deep into a few technical features that are common across frameworks, and explains how some of the different frameworks implement them and what they cost.",
-          "link": "https://smashingmagazine.com/2022/01/web-frameworks-guide-part1/",
-          "publishedOn": "2022-01-28T14:00:00.000Z",
-          "wordCount": 2154,
-          "title": "What Web Frameworks Solve And How To Do Without Them (Part 1)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7ca7294e-9325-4bab-8617-0bc3d42e3053/web-frameworks-guide.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/7ca7294e-9325-4bab-8617-0bc3d42e3053/web-frameworks-guide.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/software-administration-ux/",
-          "author": "hello@smashingmagazine.com (Shell Zhu & Adrian Jones)",
-          "description": "This article reveals how something as trivial as administration in both software and As-a-service can be either a booster or bottleneck to a company’s productivity and innovation. It also provides several design aspects that UX practitioners should evaluate when designing the administration experience.",
-          "link": "https://smashingmagazine.com/2022/01/software-administration-ux/",
-          "publishedOn": "2022-01-26T12:00:00.000Z",
-          "wordCount": 2584,
-          "title": "Don’t Underestimate The Software Administration UX",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a25c6bb8-7778-48e1-b2e8-04cfd46d0765/software-administration-ux.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a25c6bb8-7778-48e1-b2e8-04cfd46d0765/software-administration-ux.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/devtools-updates-2022/",
-          "author": "hello@smashingmagazine.com (Patrick Brosset)",
-          "description": "What’s new in Chrome, Edge, Safari and Firefox? Patrick Brosset breaks it down with the latest features in DevTools across browsers.",
-          "link": "https://smashingmagazine.com/2022/01/devtools-updates-2022/",
-          "publishedOn": "2022-01-25T13:00:00.000Z",
-          "wordCount": 2521,
-          "title": "What’s New In DevTools?",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e516aa85-3b77-418a-9b43-cec06943b129/devtools-updates-2022.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/e516aa85-3b77-418a-9b43-cec06943b129/devtools-updates-2022.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/introduction-css-cascade-layers/",
-          "author": "hello@smashingmagazine.com (Stephanie Eckles)",
-          "description": "Cascade layers introduce the new at-rule of @layer. The intent is to help CSS authors be more intentional about ordering the “layers” of CSS rules as a new method of cascade management.",
-          "link": "https://smashingmagazine.com/2022/01/introduction-css-cascade-layers/",
-          "publishedOn": "2022-01-24T11:00:00.000Z",
-          "wordCount": 4753,
-          "title": "Getting Started With CSS Cascade Layers",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/13b8900c-aa53-49ae-84f7-9fbf598635e2/introduction-css-cascade-layers.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/13b8900c-aa53-49ae-84f7-9fbf598635e2/introduction-css-cascade-layers.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/from-chaos-to-system-design-teams/",
-          "author": "hello@smashingmagazine.com (Javier Cuello)",
-          "description": "Joining a team where there are no established design practices may feel disheartening. Does this situation resonate with you? If yes, then read on — as this article is sharing the author’s advice based on his personal experience and it will show you a way (although not easy) of facing the problem in a manner that will bring other benefits, beside order and consistency.",
-          "link": "https://smashingmagazine.com/2022/01/from-chaos-to-system-design-teams/",
-          "publishedOn": "2022-01-21T14:30:00.000Z",
-          "wordCount": 5325,
-          "title": "From Chaos To System In Design Teams",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a7ab411a-2903-440e-bbfa-4f7914345165/chaos-to-system-design-teams.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a7ab411a-2903-440e-bbfa-4f7914345165/chaos-to-system-design-teams.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/building-real-app-react-query/",
-          "author": "hello@smashingmagazine.com (Georgii Perepecho)",
-          "description": "In this article, Georgii Perepecho explains the most common React Query features that you need to be familiar with when creating a real-life application that is stable when testing.",
-          "link": "https://smashingmagazine.com/2022/01/building-real-app-react-query/",
-          "publishedOn": "2022-01-20T14:30:00.000Z",
-          "wordCount": 5245,
-          "title": "Building The Real App With React Query",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb299a88-9204-4579-bfb0-f9d8dac84014/building-real-app-react-query.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bb299a88-9204-4579-bfb0-f9d8dac84014/building-real-app-react-query.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/smashingconf-workshops-january-may-2022/",
-          "author": "hello@smashingmagazine.com (Cosima Mielke)",
-          "description": "What goes into creating a successful design system? How can you take your testing workflow to the next level? And what smart interface design patterns could help you enhance your UIs? Let’s figure it out. With our [online workshops on front-end and UX](https://smashingconf.com/online-workshops).",
-          "link": "https://smashingmagazine.com/2022/01/smashingconf-workshops-january-may-2022/",
-          "publishedOn": "2022-01-19T11:00:00.000Z",
-          "wordCount": 814,
-          "title": "Upcoming Online Workshops: January &ndash; May 2022",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a64a7afb-ef32-458d-9dc1-d8b286fc0327/smashing-online-workshops-winter-2022.png",
-            "length": "0",
-            "type": "image/png"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a64a7afb-ef32-458d-9dc1-d8b286fc0327/smashing-online-workshops-winter-2022.png"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/freebie-wayfinding-icon-sets-exhibition-concert-museum/",
-          "author": "hello@smashingmagazine.com (Anton Tyschenko)",
-          "description": "Every once in a while, we publish [freebies](https://www.smashingmagazine.com/category/freebies) related to different occasions and themes. We hope that with this icon set, everyone will be able to find their own use case for these icons in particular. Today, we present to you three icon sets designed by the creative folks at GraphicSurf — all free for personal and commercial use.",
-          "link": "https://smashingmagazine.com/2022/01/freebie-wayfinding-icon-sets-exhibition-concert-museum/",
-          "publishedOn": "2022-01-18T12:00:00.000Z",
-          "wordCount": 819,
-          "title": "Freebie: Wayfinding Icon Sets (164 Icons, PNG, SVG, AI, EPS)",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/27d4ee4d-0893-4ef6-b48a-435007089494/wayfinding-icon-preview.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/27d4ee4d-0893-4ef6-b48a-435007089494/wayfinding-icon-preview.jpg"
-        },
-        {
-          "id": "https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/",
-          "author": "hello@smashingmagazine.com (Adrian Bece)",
-          "description": "We’ll explore fluid typography principles, use-cases, implementation with CSS clamp() and an interactive fluid typography calculator.",
-          "link": "https://smashingmagazine.com/2022/01/modern-fluid-typography-css-clamp/",
-          "publishedOn": "2022-01-17T13:00:00.000Z",
-          "wordCount": 4024,
-          "title": "Modern Fluid Typography Using CSS Clamp",
-          "enclosure": {
-            "url": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f12f5a3d-f679-4b6b-b9c2-cb5a9d9166ae/modern-fluid-typography-css-clamp.jpg",
-            "length": "0",
-            "type": "image/jpg"
-          },
-          "imageUrl": "http://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/f12f5a3d-f679-4b6b-b9c2-cb5a9d9166ae/modern-fluid-typography-css-clamp.jpg"
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/x/xcloche/20220124/20220124211547.png"
         }
       ]
     },
     {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news/",
+      "title": "野の百合、空の鳥",
+      "feedUrl": "https://www.zaikakotoo.com/rss",
+      "siteUrl": "https://www.zaikakotoo.com/",
       "articles": [
         {
-          "id": "620a618e56125b0677c64e72",
-          "author": "Victor Ikechukwu",
-          "description": "Functional components weren't always the preferred method for declaring components in React.  Before React version 16.8 was introduced, functional components were treated much like second-class citizens. They couldn't handle state, logic, and lots of other React features, and we only used them for rendering very simple components to the",
-          "link": "https://www.freecodecamp.org/news/the-beginners-guide-to-react-hooks/",
-          "publishedOn": "2022-02-14T21:04:27.000Z",
-          "wordCount": 2294,
-          "title": "Learn React Hooks – A Beginner's Guide",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/The-Beginner-s-Guide-to-React-Hooks.png"
+          "id": "hatenablog://entry/13574176438054066007",
+          "author": null,
+          "description": "はじめに. 「メリーさんの羊」を中心に……\n12～13話で起こった出来事をまとめるのは簡単だ。つまり、陽毬がまた倒れて、眞悧がそれを助けた。それだけだ。\nしかしながら、12～13話には、起こった出来事としてまとめられないエッセンス——それも非常に重要なエッセンス——があまりにも多い。それこそ、あるエッセンスがほかのエッセンスとつながって、ぐるぐる輪るほどには（あえて特記するならば、16年前、つまり1995年の事件の主犯格が高倉家の父剣山であったという事実は12話で初めて分かった）。\nだから今回は、「メリーさんの羊」という、12～13話に特異なエッセンスを中心に据えて、そこから輪を広げるようにして12～13話について考察してみたい。突如として晶馬の口から語られる寓話めいたその話は、いろいろなこと（物語のレベルにおいても現実のレベルにおいても）を示唆しているように思われるのだ。そして最終的には、13話のサブタイトルの一部にもなっている「罪と罰」について、少し——というのはそれは12～13話だけで片付くような簡単な問題ではないから——解明することを目標にしたい。\n \n\n\n\n \nはじめに. 「メリーさんの羊」を中心に……\n1.0. 「メリーさんの羊」について\n1.1. 「メリーさんの羊」要約\n1.2. 元ネタはあるか？\n1.3. 対応表\n2.0. 「メリーさんの羊」をめぐる考察\n2.1. 「リンゴの樹」とは何か（その輝きが世界の未来、夢、愛を照らしていたとはどういうことか）？\n2.2. メリーさんがとった行動（リンゴの樹が枯れているのを嘆き、灰を盗んだ）の意味は？\n2.3. 女神様とは何者か（なぜ罰は「一番理不尽じゃないと」いけないのか、なぜ「これで罰が終わりじゃつまらない」のか）？\n3.0. 「僕と君の罪と罰」\n親の「罪」は子の「罪」なのか？\n一口に「罪」と「罰」といえども……\n…",
+          "link": "https://www.zaikakotoo.com/entry/penguindrum/re/zero/10",
+          "publishedOn": "2022-01-19T11:21:43.000Z",
+          "wordCount": 318,
+          "title": "ゼロから見直す『輪るピングドラム』⑩メリーさんの羊とは？【12～13話】",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zaikakotoo/20220119/20220119201328.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zaikakotoo/20220119/20220119201328.png"
+        }
+      ]
+    },
+    {
+      "title": "おおたまラジオ",
+      "feedUrl": "https://futbolman.hatenablog.com/rss",
+      "siteUrl": "https://futbolman.hatenablog.com/",
+      "articles": [
+        {
+          "id": "hatenablog://entry/13574176438053595460",
+          "author": null,
+          "description": "これまで続いてきたこの『俺ガイル』試論もまとめに入るときがきました。\n『俺ガイル』とはどんな作品だったのでしょうか。その問いをみつめていきましょう。\n前島賢が朝日新聞で連載していた書評では、『「残念」なキャラクターたちの部活もの』という紹介がされていました。ここでは「残念」な作品群・キャラクターたちの系譜には立ち入りませんが、「残念」をキーワードに文化論的に2010年代を「予見」していく試みをイマ・ココ的にしたのがさやわか『一〇年代文化論』でありました。\nさやわかの『一〇年代文化論』が画期的だったと思うのは、ゼロ年代批評のイデオロギー的な「反省」を試みようとしたことでしょう。もちろん、既に2010年代の息吹や予感があるとするならば、2010年代になってから突如に噴出するものではなく、その直前に至る文脈を経由するようにしてゼロ年代半ばから未来への風は吹いていることを示そうとした「見切りの速さ」を提示したことが一つにありますが、本の読まれ方としてはその「予言」の正否がどうだったかに尽きてしまうのはある意味では不幸だったと思います。それこそイデオロギー的な「反省」ではないところで、ジャーナリスティックにイデオロギー的に読まれてしまう本の性格・立ち位置としては皮肉ともいえるでしょうか。\nしかしながら、そのようにイデオロギー的に「予言」を楽しむように読めてしまいますし、さやわかによって一面的には誘導されるのも仕方ないとしても、『一〇年代文化論』の意味としては、宇野常寛の『ゼロ年代の想像力』（「決断主義」など）をはじめとするゼロ年代批評の「鍵用語」がジャーナリスティックに、イデオロギー的に消費されたことに対する「反省」としての応答といった位置づけがあるでしょう。\nなぜなら、さやわかという書き手が出発した2010年代の批評（言葉と運動）の可能性の応答としては、ゼロ年代の「反省」からしか始…",
+          "link": "https://futbolman.hatenablog.com/entry/2022/01/17/121009",
+          "publishedOn": "2022-01-17T03:10:09.000Z",
+          "wordCount": 288,
+          "title": "サブカルチャー化した文学から呼びかけられている――『やはり俺の青春ラブコメはまちがっている。』（１７）",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/f/futbolman/20220113/20220113211741.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/f/futbolman/20220113/20220113211741.jpg"
+        }
+      ]
+    },
+    {
+      "title": "愛のらくがき帳",
+      "feedUrl": "https://blog.ishotihadus.com/feed",
+      "siteUrl": "https://blog.ishotihadus.com",
+      "articles": []
+    },
+    {
+      "title": "maspyのHP",
+      "feedUrl": "https://maspypy.com/feed",
+      "siteUrl": "https://maspypy.com",
+      "articles": []
+    },
+    {
+      "title": "あなたは嘘つきですかと聞かれたら「YES」と答えるブログ",
+      "feedUrl": "https://snuke.hatenablog.com/rss",
+      "siteUrl": "https://snuke.hatenablog.com/",
+      "articles": []
+    },
+    {
+      "title": "e869120の記事 - Qiita",
+      "feedUrl": "https://qiita.com/e869120/feed",
+      "siteUrl": "https://qiita.com",
+      "articles": []
+    },
+    {
+      "title": "square1001の記事 - Qiita",
+      "feedUrl": "https://qiita.com/square1001/feed",
+      "siteUrl": "https://qiita.com",
+      "articles": []
+    },
+    {
+      "title": "うさぎ小屋",
+      "feedUrl": "https://kmyk.github.io/blog/feed",
+      "siteUrl": "https://kmyk.github.io/blog/",
+      "articles": []
+    },
+    {
+      "title": "kyopro_friends’ diary",
+      "feedUrl": "https://kyopro-friends.hatenablog.com/rss",
+      "siteUrl": "https://kyopro-friends.hatenablog.com/",
+      "articles": []
+    },
+    {
+      "title": "えびちゃんの日記",
+      "feedUrl": "https://rsk0315.hatenablog.com/rss",
+      "siteUrl": "https://rsk0315.hatenablog.com/",
+      "articles": [
+        {
+          "id": "hatenablog://entry/13574176438060126783",
+          "author": null,
+          "description": "rsk0315.hatenablog.com\nエゴサしたらこの記事がわりと読まれているっぽかったものの、やや実装が重い気がしたので*1別の解法を書きます。\ntl; dr\nセグ木。\n定義\n有限集合 \\(S\\subseteq \\N\\) における mex というのは、\\(S\\) に含まれない最小の自然数 \\(\\min_{i\\in \\N\\setminus S} i \\) です。\nやりたいこと\n追加：\\(S\\gets S\\cup\\{i\\}\\) で更新\n削除：\\(S\\gets S\\setminus\\{i\\}\\) で更新\nmex：\\(\\min_{i\\in \\N\\setminus S} i\\) を出力\nこれを (amortized) \\(O(\\log(|S|))\\) 時間とかで。\nアイディア\nクエリ数が \\(n\\) のときのことを考えます。このとき、mex が \\(n\\) を超えることはないことに注意します。\n\\(S = \\{0, 1, \\dots, n-1\\}\\) のとき最大値 \\(n\\) になります。\nそこで、bool の配列 \\(a = (a_0, a_1, \\dots, a_{n-1})\\) を \\(a_i = (i\\in S)\\) が保たれるように管理します。\n求めたい mex は、\\(\\wedge_{i\\in[0, x)} a_i\\) が true になる最大の \\(x\\) です（このとき \\(a_x\\) が false となり、定義から \\(x\\notin S\\) となるので）。\nよって、\\(a\\) をセグ木で管理し、この \\(x\\) を二分探索（ACL で言うところの max_right）で求めればよいです。\n\\(n\\) 以上の値を \\(S\\) に入れると（クエリ数 \\(n\\) の下で）mex は \\(n\\) 未満になることに注意すると、\\(n\\) 以上の値の更新クエリは無…",
+          "link": "https://rsk0315.hatenablog.com/entry/2022/02/05/043902",
+          "publishedOn": "2022-02-04T19:39:02.000Z",
+          "wordCount": 496,
+          "title": "要素の追加・削除と mex を対数時間で処理するよ (2) + 区間 mex クエリ",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         },
         {
-          "id": "61e80555183181284a1916cd",
-          "author": "Nyior Clement",
-          "description": "As developers, we are always trying to optimize everything from how people communicate to how people buy things. The goal is to make humans arguably more productive.  In the spirit of making humans more productive, the software development landscape has seen a dramatic rise in the emergence of developer",
-          "link": "https://www.freecodecamp.org/news/how-to-setup-a-basic-serverless-backend-with-aws-lambda-and-api-gateway/",
-          "publishedOn": "2022-02-14T19:10:14.000Z",
-          "wordCount": 3561,
-          "title": "How to Setup a Basic Serverless REST API with AWS Lambda and API Gateway",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/01/Serverless-computing-768x402-1.png"
-        },
-        {
-          "id": "620a9e7521bfb3068cf286fe",
-          "author": "Beau Carnes",
-          "description": "How can you find customers? How can you get a meeting with anyone? How can you take your career to the next level?  Learn the answers to these questions and more in an entrepreneurship course we just published on the freeCodeCamp.org YouTube channel. Business Insider wrote an article stating",
-          "link": "https://www.freecodecamp.org/news/important-lessons-they-dont-teach-you-in-business-school/",
-          "publishedOn": "2022-02-14T18:30:23.000Z",
-          "wordCount": 596,
-          "title": "Important Lessons they Don't Teach You in Business School",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/ENTRE.png"
-        },
-        {
-          "id": "6207facb56125b0677c649a3",
-          "author": "Reed Barger",
-          "description": "Do you want to get up to speed with React as quickly as possible? I’ve put together a super helpful cheatsheet to give you a complete overview of all of the React concepts you need to know in 2022. Let’s get started! Table of Contents  * React Elements",
-          "link": "https://www.freecodecamp.org/news/the-react-cheatsheet/",
-          "publishedOn": "2022-02-14T17:02:30.000Z",
-          "wordCount": 2432,
-          "title": "The React Cheatsheet for 2022",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/mugshotbot.com_customize_theme-two_up-mode-light-color-pink-pattern-bubbles-image-9129875b-url-https___freecodecamp.org.png"
-        },
-        {
-          "id": "61fcba1ef2ed6b06db5ac4db",
-          "author": "Ateev Duggal",
-          "description": "PropTypes are a good first line defense when it comes to debugging your apps. But before getting into detail about PropTypes, we have to understand the concept of props. Props [https://tekolio.com/what-are-props-in-react-and-how-to-use-them/] are the read-only properties that are shared between components to give the unidirectional flow of React a dynamic touch.",
-          "link": "https://www.freecodecamp.org/news/how-to-use-proptypes-in-react/",
-          "publishedOn": "2022-02-14T16:36:09.000Z",
-          "wordCount": 1643,
-          "title": "How to Use PropTypes in React",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/props.png"
-        },
-        {
-          "id": "62062b0b56125b0677c63fe4",
-          "author": "Dionysia Lemonaki",
-          "description": "Having problems with our computers is never fun. And what's often worse than the problems themselves is that they seem to occur when we're in the middle of an important task that needs to get done. The computer starts to significanlty slow down and an app we are using might",
-          "link": "https://www.freecodecamp.org/news/how-to-open-task-manager-on-mac-apple-shortcut-tutorial/",
-          "publishedOn": "2022-02-11T21:36:17.000Z",
-          "wordCount": 1938,
-          "title": "How to Open Task Manager on Mac – Apple Shortcut Tutorial",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/nadine-shaabana-DRzYMtae-vA-unsplash.jpg"
-        },
-        {
-          "id": "61f587bbf2ed6b06db5a8380",
-          "author": "Nitheesh Poojary",
-          "description": "Recently, I've been considering developing a complete end-to-end greenfield DevOps personal lab project.  The term \"greenfield software project\" refers to the development of a system for a new product that requires development from scratch with no legacy code.  This is a method you use when you are beginning",
-          "link": "https://www.freecodecamp.org/news/how-to-deploy-aws-infrastructure-with-terraform-and-github-actions-a-practical-multi-environment-ci-cd-guide/",
-          "publishedOn": "2022-02-11T19:09:46.000Z",
-          "wordCount": 2811,
-          "title": "How to Deploy AWS Infrastructure with Terraform and Github Actions – A Multi-Environment CI/CD Guide",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/pexels-pixabay-163235.jpg"
-        },
-        {
-          "id": "6203730c56125b0677c632a1",
-          "author": "TAPAS ADHIKARY",
-          "description": "GitHub is a great application that helps you manage your Git repositories. You can also use it to contribute to the open source ecosystem and collaborate with other contributors.  Public repositories on GitHub often get lots of attention from contributors, and this helps enhance the project. So how can",
-          "link": "https://www.freecodecamp.org/news/how-to-fork-a-github-repository/",
-          "publishedOn": "2022-02-11T18:02:16.000Z",
-          "wordCount": 1168,
-          "title": "How to Fork a GitHub Repository – A Complete Workflow",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/freeCodeCamp-Cover.png"
-        },
-        {
-          "id": "6204325356125b0677c637f0",
-          "author": "Ihechikara Vincent Abba",
-          "description": "In this tutorial, we will talk about the parseInt function in JavaScript. This function parses (break down) a string and returns an integer or NaN (Not a Number).  How the parseInt function works The main purpose of using the parseInt function is to extract a number from a string.",
-          "link": "https://www.freecodecamp.org/news/parseint-in-javascript-js-string-to-int-example/",
-          "publishedOn": "2022-02-11T00:44:09.000Z",
-          "wordCount": 814,
-          "title": "parseInt() in JavaScript – JS String to Int Example",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/parseint.png"
-        },
-        {
-          "id": "61fd8a56f2ed6b06db5acd03",
-          "author": "Yoko Matsuda",
-          "description": "The Japanese freeCodeCamp curriculum [https://www.freecodecamp.org/japanese/learn] is now live. In Japan, I have seen many comments, tweets, and blog posts saying \"freeCodeCamp looks awesome, but unfortunately, I can't use it because I can't read English.\" Currently, most information and learning resources related to programming are in English. But we want freeCodeCamp",
-          "link": "https://www.freecodecamp.org/news/learn-programming-freecodecamp-japanese-released/",
-          "publishedOn": "2022-02-10T21:06:15.000Z",
-          "wordCount": 864,
-          "title": "Learn to Code in Japanese – The Japanese freeCodeCamp Curriculum is Now Live",
-          "imageUrl": "https://www.freecodecamp.org/news/content/images/2022/02/japanese_certs.png"
+          "id": "hatenablog://entry/13574176438055890378",
+          "author": null,
+          "description": "去年末にやると言っていたんですが、やっと終わりました。\nクエリで与えられた区間の最長増加部分列の長さを答えるやつで、計算量は \\(\\langle O(n\\log(n)^2), O(\\log(n))\\rangle\\) です。\n実装前にイメージがつきにくかったのと、あったら楽しいかなと思ったので、ブラウザ上で可視化するおもちゃを作りました。\n\nRange LIS Query を触って遊べるやつを公開しましたhttps://t.co/q4X7Oecddn pic.twitter.com/Hrw8Eq1wN5\n— えびちゃん (@rsk0315_h4x) 2022年1月23日\n  \nrsk0315.github.io\nざっくりとした概要の解説も書きました。\n実装の詳細などは書いていませんが、実装するために必要となるものの大まかな道筋を書きました。\nrsk0315.github.io\nブラウザ上のおもちゃについては、どうせ描画パートが律速になるだろうと思ったので、計算量は \\(\\langle \\Omega(n^2 \\log(n)), \\Omega(n^2)\\rangle\\) とかで動いていると思います。",
+          "link": "https://rsk0315.hatenablog.com/entry/2022/01/23/235513",
+          "publishedOn": "2022-01-23T14:55:13.000Z",
+          "wordCount": 137,
+          "title": "区間 LIS クエリを書きました",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         }
       ]
     }
