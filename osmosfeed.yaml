@@ -1,11 +1,20 @@
-#########################
-# Full reference
-# https://github.com/osmoscraft/osmosfeed/blob/master/docs/osmosfeed-yaml-reference.md
-#########################
-
-# cacheUrl: https://GITHUB_USERNAME.github.io/REPO_NAME/cache.json
+cacheUrl: https://5h4ru.github.io/5h4ru-feed/cache.json
 sources:
-  - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
-  - href: https://css-tricks.com/feed/
-  - href: https://www.smashingmagazine.com/feed/
-  - href: https://www.freecodecamp.org/news/rss/
+  - href: https://naari.hatenablog.com/rss
+  - href: https://yokkin.com/feed
+
+  - href: https://not-miso-inside.netlify.app/rss.xml
+  - href: https://saize-lw.hatenablog.com/rss
+  - href: https://hiragi-noon.hatenablog.com/rss
+  - href: https://xcloche.hateblo.jp/rss
+  - href: https://www.zaikakotoo.com/rss
+  - href: https://futbolman.hatenablog.com/rss
+  - href: https://blog.ishotihadus.com/feed
+
+  - href: https://maspypy.com/feed
+  - href: https://snuke.hatenablog.com/rss
+  - href: https://qiita.com/e869120/feed
+  - href: https://qiita.com/square1001/feed
+  - href: https://kmyk.github.io/blog/feed
+  - href: https://kyopro-friends.hatenablog.com/rss
+  - href: https://rsk0315.hatenablog.com/rss
