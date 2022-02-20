@@ -6,6 +6,21 @@
       "siteUrl": "https://naari.hatenablog.com/",
       "articles": [
         {
+          "id": "hatenablog://entry/13574176438065232165",
+          "author": null,
+          "description": "https://naari3.github.io/bokuyaba-rss/feed.xml\nGitHub - naari3/bokuyaba-rss\nosmosfeedを使って自分のためのアンテナ(RSSリーダー)を作成する - 名有りさんの日記 でいろいろなRSSフィードを漁るようになったんだけれど、webで読めるタイプのマンガにRSSフィードはあまり無かったりするっぽいかった。ので、それこそosmosfeedよろしくでGitHub Actionsを使用して定期的に僕ヤバを見に行き、記事一覧をRSSフィードにするやつを作った。↑のリンクからどうぞ。\nマンガクロスはSPAっぽくなっていて、アクセスした時にマンガの情報APIを叩く。これに各話、巻についての情報が付いてくるので、これをRSSのフィードにした。アクセスしてjsonをRustっぽく扱うのはふつうにserde, serde_jsonで、RSSフィードを作るためには GitHub - rust-syndication/rss: Library for serializing the RSS web content syndication format を使用した。ここまでやると、実はマンガクロスの任意の連載のRSSフィードを作り放題な気がするんだけれど、今の所マンガクロスの他の作品は読んでいないのでそのような共通化はなにもしていない。マンガが置いてある階層をリポジトリにそっくりそのままで置いて( naari3.github.io/mangacross-rss/yabai/feed.xml みたいな )、全ての作品についてそうすることを考えたけど、なんというかじぶんの中のラインを超えてしまうし、何より範囲が広くなって面倒を見きれなくなる。何事もスコープは狭いに限るのだ。\nあとはふつうに .github/workflows を設置した。r7kamuraさんの r7k をそのまま持ってきたようなものにした。動きとしては、\nまず tag.yml でmainブランチを監視、Cargo.toml の version が新しくなっていたら新しいタグを作る。\n次に、release.yml で新しいタグの作成を検知して新しいリリースを切る。\n最後に、build-rs.yml で新しいリリースの作成を検知して各OS向けのバイナリを作る。\n追加で1時間に1回バイナリをダウンロードして実行、gh-pagesに公開するやつを仕込んだ。\nのだけれど、GitHub Actionsのタグ/リリース生成に対して、GitHub Actionsが発火してくれなかった。僕のアカウントからのタグ/リリース作成には反応するのに。これが今解決できないのでタグが作成された後にのリリース作成は手動でやっている。これを解決したい。ので、もし知っていたらなにか教えて下しあ。\n(追記)どうやらGitHub Actionsに自動的に付与されるGITHUB_TOKENには特別な制約があるとのことだった。発火したActionからさらに別のActionが発火できないようになっているらしい。\nAutomatic token authentication - GitHub Docs\nWhen you use the repository's GITHUB_TOKEN to perform tasks, events triggered by the GITHUB_TOKEN will not create a new workflow run. This prevents you from accidentally creating recursive workflow runs. For example, if a workflow run pushes code using the repository's GITHUB_TOKEN, a new workflow will not run even when the repository contains a workflow configured to run when push events occur.\n\n\nまあそれはそうかも、よく見るとr7kamuraさんのymlも PERSONAL_ACCESS_TOKEN を指定していたので、そうするようにしたら動くようになった。めでたし。",
+          "link": "https://naari.hatenablog.com/entry/2022/02/20/023656",
+          "publishedOn": "2022-02-19T17:36:56.000Z",
+          "wordCount": 216,
+          "title": "「僕の心のヤバいやつ」用のRSSフィードを作成した",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
           "id": "hatenablog://entry/13574176438064606573",
           "author": null,
           "description": "壺をやり続けてきたけど、ついに5分を切ることができた。2018年くらいからやっていた記憶があるので、おおよそ4年来でこの目標を達成できたことになる。\n\nきたああああああああああああああああああああああああああああああああああああああああ pic.twitter.com/N6lLzExEzA\n— なあり (@_naari_) 2022年2月17日\n  \nただ、途中でやっていない期間も多かったので、実際にやった期間としてはもっと短くなる。3年ぶりくらいに継続して挑戦した結果、5分を切れたという感じ。いや、いずれにせよかなり嬉しい。\nその後もう少しやったらすぐ3秒縮めることができた。こちらは偶然にも動画に撮ってあって、これをYouTubeにあげてみた*1。\nyoutu.be\n悪いところを挙げるとこんな感じ。\n各所もたついている\nピンクのシルクハットがだめ\nバケツがだめ\nスロープのショートカットをしていない\nつまり、まだ安定している状態ではない。まだ様々な見込みがあるので、もう少しだけ挑戦してみようと思う。なんなら4分切ることも可能なように思えてきた。\n技術記事を書いた↓。といってもコードはひとつも出てこないが。\n「秘伝化したJenkinsと共に動いているレガシーなDockerをバージョンアップする」をやった - 名有りさんの日記\n最近、仕事がつらくなってきている。数年間運用されたチームだから様々な種類の負債があるのは仕方がないことだけれど、これらが最近になって一気に露見してきた。チームで地道につぶしているが、ちょっとつらい。インシデントに対する対応を行って、その根本対応となるようなチケットを切り分けて担当してもらう、というのもやっているが、最近はこれも辛い。僕個人の技能としてタスク管理がうまいことできないからだろうか？よくわからん。わからんことばっかりやっていて、わかるようになるのは楽しいが、「負債をほったらかした結果だぞ」と後ろ指を指されている気分になって辛くなっているのかもしれん。\nやることがあるんだけれど、それが手に付かない僕に対してイオンさんが教えてくれたやつ↓\n\nイオンさんに「やらなきゃいけないことに手が付かない時はどうすれば良いか」って聞いたら「やらなきゃいけないことの同種だけど別にやる必要のない、ただ自分の気力が向くことをやるといいんじゃないか」って教えてくれた\n— なあり (@_naari_) 2022年2月16日\n  \n*1:ニコニコ動画もそうだけど、YouTubeも長い尺の動画の扱いには時間がかかるのだなと思った。AV1とやらなのだろう。",
@@ -440,6 +455,21 @@
       "feedUrl": "https://saize-lw.hatenablog.com/rss",
       "siteUrl": "https://saize-lw.hatenablog.com/",
       "articles": [
+        {
+          "id": "hatenablog://entry/13574176438060633706",
+          "author": null,
+          "description": "駿河屋への売却続き\n\n前回の続き、部屋から駿河屋に売却したコンテンツの思い出棚卸しです。\nsaize-lw.hatenablog.com\n駿河屋への売却続き\n詭弁学派、四谷先輩の怪談1～3\nやがて君になる1～3\nシャドウバース電撃コミックアンソロジー\n貞操逆転世界1\nもっとも美しい数学ゲーム理論\nC言語ポインタ完全制覇\nテラフォーマーズ\n漢文力\nミレニアル起業家の新モノづくり論\nスタジオパルプ1\nルフランの地下迷宮と魔女の旅団\n詭弁学派、四谷先輩の怪談1～3\n\n\n詭弁学派、四ッ谷先輩の怪談。 1 (ジャンプコミックスDIGITAL)\n作者:古舘春一\n集英社\nAmazon\nハイキュー作者の前作。\nハイキューの連載が始まったときには「あの邪道漫画・四ツ谷先輩の作者が王道スポーツ漫画を描けるのか？」と要らぬ心配をしたものだが、作者的にはむしろバレーボール漫画の方が本命で四ツ谷先輩は練習枠みたいな感じだったらしい（wikipedia情報→■）。長続きしないことを薄々感じつつ単行本を買う程度には好きだったが、それでもやはりその地味さ故かすぐ終わってしまった。「ジャンプ向きではないが他の雑誌なら……」みたいなことを当時の打ち切りレーススレに書き込んでいた記憶がある。\n怪談をテーマとしているが、決して「怪異もの」ではないのがジャンプ漫画らしからぬポイントになっている。つまり怪談に出てくるような恐ろしい怪異と実際に戦うのではなく、取沙汰されるのはあくまでも怪談によって生まれてくる恐怖や物語化の力能の方だ。モンスター的なものはイメージとして仄めかされるだけで実在はしない。\n今にして思えばこの漫画は推理ジャンルの類縁でもあり、「謎への決着の付け方がロジカルな語りである推理漫画と、それがナラティブな語りである怪談漫画の同異点とは」みたいな方向で語ることもできそうだ（が、もう売ってしまった上に売る…",
+          "link": "https://saize-lw.hatenablog.com/entry/2022/02/19/201341",
+          "publishedOn": "2022-02-19T11:13:41.000Z",
+          "wordCount": 270,
+          "title": "22/2/19 約2021年売却コンテンツまとめ その2",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220219/20220219200135.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220219/20220219200135.jpg"
+        },
         {
           "id": "hatenablog://entry/13574176438060712418",
           "author": null,
