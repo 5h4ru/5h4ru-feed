@@ -6,6 +6,21 @@
       "siteUrl": "https://naari.hatenablog.com/",
       "articles": [
         {
+          "id": "hatenablog://entry/13574176438065434984",
+          "author": null,
+          "description": "昨日、こんな記事を書いた→ 「僕の心のヤバいやつ」用のRSSフィードを作成した - 名有りさんの日記 が、実はマンガクロスでも連載中*1の潮が舞い子が舞いも見たいことがわかった。ので、やはり実装を適切に抽象化し、複数作品に対して対応できるようにした。\nmangacross-rss\nhttps://naari3.github.io/mangacross-rss/yabai/feed.xml\nhttps://naari3.github.io/mangacross-rss/shiomai/feed.xml\nおそらく事実上は全ての漫画クロス作品に対応できたので、このリポジトリで全部をクロールできるようにする選択肢もあったが、しないようにした。もし他のマンガクロス作品が見たかったらご自分でフォークしてもらうと良さそう。src/main.rs の TARGETS を好きに変えることで達成できると思う。それか僕に推薦してハマらせる、など\n*1:本流は別冊少年チャンピオンで連載中",
+          "link": "https://naari.hatenablog.com/entry/2022/02/20/181337",
+          "publishedOn": "2022-02-20T09:13:37.000Z",
+          "wordCount": 101,
+          "title": "マンガクロスの作品のRSSフィードを作成できるようになった",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
           "id": "hatenablog://entry/13574176438065232165",
           "author": null,
           "description": "https://naari3.github.io/bokuyaba-rss/feed.xml\nGitHub - naari3/bokuyaba-rss\nosmosfeedを使って自分のためのアンテナ(RSSリーダー)を作成する - 名有りさんの日記 でいろいろなRSSフィードを漁るようになったんだけれど、webで読めるタイプのマンガにRSSフィードはあまり無かったりするっぽいかった。ので、それこそosmosfeedよろしくでGitHub Actionsを使用して定期的に僕ヤバを見に行き、記事一覧をRSSフィードにするやつを作った。↑のリンクからどうぞ。\nマンガクロスはSPAっぽくなっていて、アクセスした時にマンガの情報APIを叩く。これに各話、巻についての情報が付いてくるので、これをRSSのフィードにした。アクセスしてjsonをRustっぽく扱うのはふつうにserde, serde_jsonで、RSSフィードを作るためには GitHub - rust-syndication/rss: Library for serializing the RSS web content syndication format を使用した。ここまでやると、実はマンガクロスの任意の連載のRSSフィードを作り放題な気がするんだけれど、今の所マンガクロスの他の作品は読んでいないのでそのような共通化はなにもしていない。マンガが置いてある階層をリポジトリにそっくりそのままで置いて( naari3.github.io/mangacross-rss/yabai/feed.xml みたいな )、全ての作品についてそうすることを考えたけど、なんというかじぶんの中のラインを超えてしまうし、何より範囲が広くなって面倒を見きれなくなる。何事もスコープは狭いに限るのだ。\nあとはふつうに .github/workflows を設置した。r7kamuraさんの r7k をそのまま持ってきたようなものにした。動きとしては、\nまず tag.yml でmainブランチを監視、Cargo.toml の version が新しくなっていたら新しいタグを作る。\n次に、release.yml で新しいタグの作成を検知して新しいリリースを切る。\n最後に、build-rs.yml で新しいリリースの作成を検知して各OS向けのバイナリを作る。\n追加で1時間に1回バイナリをダウンロードして実行、gh-pagesに公開するやつを仕込んだ。\nのだけれど、GitHub Actionsのタグ/リリース生成に対して、GitHub Actionsが発火してくれなかった。僕のアカウントからのタグ/リリース作成には反応するのに。これが今解決できないのでタグが作成された後にのリリース作成は手動でやっている。これを解決したい。ので、もし知っていたらなにか教えて下しあ。\n(追記)どうやらGitHub Actionsに自動的に付与されるGITHUB_TOKENには特別な制約があるとのことだった。発火したActionからさらに別のActionが発火できないようになっているらしい。\nAutomatic token authentication - GitHub Docs\nWhen you use the repository's GITHUB_TOKEN to perform tasks, events triggered by the GITHUB_TOKEN will not create a new workflow run. This prevents you from accidentally creating recursive workflow runs. For example, if a workflow run pushes code using the repository's GITHUB_TOKEN, a new workflow will not run even when the repository contains a workflow configured to run when push events occur.\n\n\nまあそれはそうかも、よく見るとr7kamuraさんのymlも PERSONAL_ACCESS_TOKEN を指定していたので、そうするようにしたら動くようになった。めでたし。",
@@ -611,6 +626,21 @@
       "siteUrl": "https://www.zaikakotoo.com/",
       "articles": [
         {
+          "id": "hatenablog://entry/13574176438064774109",
+          "author": null,
+          "description": "はじめに. 由比ヶ浜結衣は「負け」たのか？\n\n『やはり俺の青春ラブコメはまちがっている。』（以下『俺ガイル』）は、一見するといわゆる「雪乃エンド」で終わったように思われ*1、実際そう解釈することもできる。\nたしかに、14巻（以下巻数は原作の表記に従って「⑭」などの丸番号で示す）で八幡は、雪乃と人生を分け合おうというような対話をし*2、それ以前の場面では、結衣が八幡から「待たなくていい」という言葉を告げられ*3、それにより結衣は涙を流し、なにやら「フラれた」風になる*4。こうして図式的に見ると、八幡という主人公が雪乃と結衣という2人のヒロインのうち雪乃の方をとった、いわゆる「雪乃エンド」のように見える。それはあたかも「普通の」ラブコメのようである。\nだがいかんせん、この「青春ラブコメ」は「まちがっている」。本稿では、『俺ガイル』がいわゆる「雪乃エンド」とは言い切れないのではないか、ひいては由比ヶ浜結衣はある側面では「負け」ていないのではないか、ということ、さらにはそこからひらけてくる『俺ガイル』読解の可能性について、「待たなくていい」という結衣が八幡に告げるセリフから考えてみたい。\n \n\n    \nはじめに. 由比ヶ浜結衣は「負け」たのか？\n1.0. 「待たなくていい」の状況整理\n1.1. 「この模造品に、壊れるほどの傷をつけ、たった一つの本物に」\n1.2. 「待たなくていい」を言うまで\n1.3. 「待たなくていい」直前後\n2.0. 「待たなくていい」の文脈\n2.1. ⑭以前の「待つ」\n2.2. ⑭での「待つ」\n3.0. 「待たなくていい」の射程\n3.1. 「壊れるほどの傷をつけ」る言葉\n3.2. 結衣の希う「傷」と「痛み」\n3.3. 「たった一つの本物へ」\n3.4. フる／フラれる、「恋仲」からの脱出\n3.5. 二項ではなく三項という可能性\n4.0. 『俺ガイル』における決…",
+          "link": "https://www.zaikakotoo.com/entry/2022/02/20/190002",
+          "publishedOn": "2022-02-20T10:00:02.000Z",
+          "wordCount": 508,
+          "title": "【俺ガイル 考察】「待たなくていい」の射程——由比ヶ浜結衣は「負け」ていない？——",
+          "enclosure": {
+            "url": "https://m.media-amazon.com/images/I/51Ifl5aJKaL._SL500_.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://m.media-amazon.com/images/I/51Ifl5aJKaL._SL500_.jpg"
+        },
+        {
           "id": "hatenablog://entry/13574176438057628807",
           "author": null,
           "description": "「嘘つき姫」\n14-15話は、主に時籠ゆりの話になっている。\nとりわけ15話は、ゆりの過去が明らかになるとともに、桃果のもつ「運命の乗り換え」の能力とその代償の説明となっているという点で重要である。\nそのほかにも細かい伏線はあるのだが、今回は「時籠ゆり」（以下「ゆり」とする）に対象を絞って、簡単にではあるが、時籠その人について考えてみたい。\n \n\n    \n「嘘つき姫」\nゆりと桂樹の位置づけ\n80年代生まれ\nなぜ世代が重要か？\n時籠ゆりについて\n象徴としての「タワー」\n『みにくいアヒルの子』\n「愛」\n家族という「呪い」\n「呪い」と「代償」\nゆりと桂樹の位置づけ\n80年代生まれ\nまずはゆりと多蕗桂樹（以下「桂樹」）の位置づけを確認しておこう。\nそもそもゆりと桂樹がセットになっていることにポイントがあるわけで、つまり、2人には世代という共通点がある。\nではゆりと桂樹はどの世代なのか。作中の描写に従えば、95年時点で桃果は10歳であり*1、その桃果とゆりが同級生であることを考えれば*2、桃果とゆりは85年生まれとなる。\n加えて、桃果の母が桂樹と桃果は同級生であると言っていたことに鑑みれば*3、結局、桃果もゆりも桂樹も85年生まれとなる*4。\n要するに言いたいのは、ゆりと桂樹が桃果と同世代、冠葉や晶馬、陽毬らより上の世代、80年代生まれの世代として位置付けられているということだ。\n \nなぜ世代が重要か？\nではなぜわざわざゆりと多蕗の世代を確認したかといえば、それは彼らが95年の事件を上の世代として受容する様子が描かれているからだ。\n少しややこしいのだが、ゆりと多蕗は物語のなかでは80年代生まれではあるが、2人に仮託されているのはいわゆる「80年代的な」悩みであるように思われる（つまり本当には80年代的な悩みや空気感を受容するのは80年代より前に生まれてすでに成熟している人であるわけ…",
@@ -737,18 +767,7 @@
       "title": "square1001の記事 - Qiita",
       "feedUrl": "https://qiita.com/square1001/feed",
       "siteUrl": "https://qiita.com",
-      "articles": [
-        {
-          "id": "https://qiita.com/square1001/items/6d414167ca95c97bd8b2",
-          "author": null,
-          "description": "こんにちは、square1001 です。\n\n現在は東京大学の学部 1 年生をしています。私は中学 1 年の頃からプログラミングをやっていて、特にアルゴリズムが大好きです。AtCoder をはじめとする 競技プログラミング にも取り組んでいて、中高生のときは 情報オリンピック にも参加していました。\n\n本記事では、アルゴリズムや競技プログラミングに興味がある方、あるいはプログラミングをやっているけどアルゴリズムをよく知らない方に\n\n\nアルゴリズムはどんなもので\nアルゴリズムを使うとどんな問題が解けて\nアルゴリズムが地球のように広く、多様で、奥深く、そして楽しいこと\n\n\nを知ってもらおうと思っています。\n\n\nアルゴリズムの世界へようこそ\n\n時代は 2020 年代に突入し、急速に IT 化 や DX が進んでいく中で、問題を効率的に解くアルゴリズム技術の重要性が、ますます高まっています。そして、アルゴリズムは、世の中の色々な場面で使われるようになっています。まずは例を 3 つ挙げてみます。\n\n\n例 1：電車の乗換案内。どのように電車を乗り継げば最も速く目的地に着けるかは、どのようにして求めているのだろうか？\n例 2：検索エンジン。検索する文字列を入力したとき、どのように一番上に表示するウェブページを探索しているのか？\n例 3：オセロや将棋などの AI1。コンピューターはどのような計算をして、最善手を考えているのだろうか？\n\n\nここで本記事では、プログラミングをやったことがあるけどアルゴリズムをまだ知らない人や初心者に向けて、アルゴリズムがどんな世界なのかを体感させたいと思っています。その中で、多様なアルゴリズムの世界を感じてもらうため、アルゴリズムの世界を 7 つのカテゴリーに分け2、全部で 25 個の問題を紹介します。一方で、本記事はアルゴリズムの世界を感じてもらうことを最大の…",
-          "link": "https://qiita.com/square1001/items/6d414167ca95c97bd8b2",
-          "publishedOn": "2021-12-23T10:37:41.000Z",
-          "wordCount": 2846,
-          "title": "アルゴリズムの世界地図",
-          "imageUrl": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-9f5428127621718a910c8b63951390ad.png%3Fixlib%3Drb-4.0.0%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTkxNiZ0eHQ9JUUzJTgyJUEyJUUzJTgzJUFCJUUzJTgyJUI0JUUzJTgzJUFBJUUzJTgyJUJBJUUzJTgzJUEwJUUzJTgxJUFFJUU0JUI4JTk2JUU3JTk1JThDJUU1JTlDJUIwJUU1JTlCJUIzJnR4dC1jb2xvcj0lMjMyMTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LWNsaXA9ZWxsaXBzaXMmdHh0LWFsaWduPWxlZnQlMkN0b3Amcz0wYmVkMzM3MmNmNmQ2YWRiYzMxOTBiNDUwZDA1NGUwMQ%26blend-x%3D142%26blend-y%3D112%26blend-mode%3Dnormal%26s%3Dbf1d325e10980a0c052b73a78657d2bc?ixlib=rb-4.0.0&w=1200&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjAuMCZ3PTYxNiZ0eHQ9JTQwc3F1YXJlMTAwMSZ0eHQtY29sb3I9JTIzMjEyMTIxJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnM9Zjc0MjhlYjkwODIxNDU0NWJhMzhlMDY5ODQzNDY0MTI&blend-x=142&blend-y=491&blend-mode=normal&s=527d9378d741e84f9bf25d3a96df19e9"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "うさぎ小屋",
