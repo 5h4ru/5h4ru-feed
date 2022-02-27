@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-02-26T00:43:36.000Z</updated>
+    <updated>2022-02-27T00:49:43.121Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[踏み絵]]></title>
+        <id>https://not-miso-inside.netlify.com/blog/fumie/</id>
+        <link href="https://not-miso-inside.netlify.com/blog/fumie/"/>
+        <updated>2022-02-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本当は書かないといけないこと、やらなければならないことがたくさんある。みんなやることがある。しかし、自分の考えを整理するために書く。
+なぜこれをインターネットに公開するのか？――わからない。ただ、他人の目に触れると考えると、私は少しだけ自制心を取り戻せる。これを書いている間、それがもつことを期待している。]]></summary>
+        <author>
+            <name>みそは入ってませんけど</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[撤収]]></title>
+        <id>https://not-miso-inside.netlify.com/blog/withdraw-your-troops/</id>
+        <link href="https://not-miso-inside.netlify.com/blog/withdraw-your-troops/"/>
+        <updated>2022-02-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ロシアはウクライナから軍隊を即座に引き上げるべきだ。]]></summary>
+        <author>
+            <name>みそは入ってませんけど</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ゴミ / 曲 / 金 / 壺　大変]]></title>
         <id>hatenablog://entry/13574176438065961051</id>
@@ -1435,97 +1456,6 @@ René Magritte, La Trahison des images
 とすれば、私たちを攪乱する元凶は明らかであろう。「これはパイプではない（Ceci n'est pas une p…]]></summary>
         <author>
             <name>野の百合、空の鳥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2022年の目標]]></title>
-        <id>hatenablog://entry/13574176438047347067</id>
-        <link href="https://naari.hatenablog.com/entry/2021/12/29/191726"/>
-        <updated>2021-12-29T10:17:26.000Z</updated>
-        <summary type="html"><![CDATA[昨日振り返ったので、今日は雑に目標を立てる。
-↓去年立てた、今年の目標
-naari.hatenablog.com
-PCの環境をもうちょっとよくする
-録画鯖を作る
-音MADを作る
-
-
-去年1つしか作らなかったので
-YTPMV
-セリフ合わせ
-誘われの音源をちゃんと作る
-
-
-素振りとかもして多少くらいは満足したい
-レーベルとか何かのDIscordサーバーに音源を投げてみる
-なにかのイベントに出たい
-
-
-ちゃんとmix作ったりね
-このブログをちゃんとやる
-
-
-下書きを消費する
-本棚を完成させる
-そして荷解きを完遂する
-継続して生活にちょっと気をつける
-継続して食事に気をつける
-貯金のことを考えてみる
-転職のことを考えてみる
-趣味のプログラミングのプロダクトをもうちょっと真面目にすすめる
-SRE頑張る
-
-
-クラスタ引っ越し
-会社のほうでひとつ技術記事を書く]]></summary>
-        <author>
-            <name>名有りさんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021年の振り返り]]></title>
-        <id>hatenablog://entry/13574176438047059031</id>
-        <link href="https://naari.hatenablog.com/entry/2021/12/29/002237"/>
-        <updated>2021-12-28T15:22:37.000Z</updated>
-        <summary type="html"><![CDATA[naari.hatenablog.com
-目標は振り返ることに意味があるのだ
-項目を振り返る
-今年やった技術的なことについては別記事にまとめる予定
-(追記↓)
-naari.hatenablog.com
-音MADの映像を作る
-そろそろ川谷絵音と決別する
-183を消費する
-
-
-とあったけど、ニコニコに投稿出来た音MADはこれしかなかった。一応動く画は乗っているが…
-www.nicovideo.jp
-183もひとつも進むことなく、残念ながら失敗です…
-DTMでトーナルやコード進行から逃げない
-これは去年よりは出来た
-秋のM3(以下埋め込み)ではボキャ貧ながらもコードとかメロディっぽいものについて考えることが出来たし、通話相手の言っていることがなんとな～くでもわかるようになったのは良い傾向と言えよう。
-emotive.bandcamp.com
-レーベルにトラックを投げてみる
-やらなかった
-何度か考えてみたものの、まだその時期じゃない…実力が追いついていない…
-mixを3ヶ月に1つは作る
-雑にひとりでrekordboxを触ることはしていたが、ちゃんと組んだmixはひとつしかなかった
-www.nicovideo.jp
-保険証を再発行する・マイナンバーカードを再発行する
-どちらも達成した！！
-ちゃんと計算してないけどたぶん10ヶ月くらいは不所持の状態だった。ようやく病院に行けるようになったし、夜イベントで自分の年齢を証明できる術を取り戻せた、、、、
-引っ越しをする
-した！！！
-詳しくは書かないが、近くに新築のマンションが出来たのでそちらに移動した。
-引っ越しという最難関の行いもなんとかこなすことが出来た。ただ、まだ荷解きが終わっていない、、、
-部屋の不満は多少あれど、今もまだ満足しています。
-このブログをちゃんとやる
-溜まっている下書きを消費する
-
-
-下書きの消費はほとんどやらなかったが…]]></summary>
-        <author>
-            <name>名有りさんの日記</name>
         </author>
     </entry>
 </feed>
