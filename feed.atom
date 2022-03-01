@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-02-28T00:48:11.586Z</updated>
+    <updated>2022-03-01T00:53:37.284Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -1436,26 +1436,6 @@ www.youtube.com…]]></summary>
         <summary type="html"><![CDATA[はじめに 2021年は自分の環境が大きく変わって、自分にとって飛躍の年だったかなと思う。デスクトップPCを組んで、いろいろ音源を買って多彩な音を作ることができるようになった。3月にはアルバム「折々」もリリースした。また、 […]]]></summary>
         <author>
             <name>Yokkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2021年をふりかえって]]></title>
-        <id>hatenablog://entry/13574176438047258991</id>
-        <link href="https://www.zaikakotoo.com/entry/look/back/2021"/>
-        <updated>2021-12-31T10:21:36.000Z</updated>
-        <summary type="html"><![CDATA[現実と虚構、リアルとフィクション
-「これはパイプではない」
-
-René Magritte, La Trahison des images
-
-この一枚から始めよう。
-《イメージの裏切り》と題されたルネ・マグリットのあまりにも有名なこの絵画は、なんとも逆説的な場をそこに展開している。
-描かれたイメージは、明らかにパイプのように「見える」。にもかかわらず、キャプションによれば「これはパイプではない（Ceci n'est pas une pipe）」。
-なるほど、たとえばそれがパイプに見せかけた "急須" であるとしたら、またはパイプ型の "じょうろ" だとしたら、たしかにそれはパイプではない。あるいはパイプでなければいいのなら、もっと想像力を働かせて、それはパイプの形にされた人間であるとか、アライグマの進化系だとか、そういうことを言ってもよいはずだ。けれどそれは、仮にキャプションを "信用すれば" の話である。
-そもそも「これ（Ceci）」という指示語がそこに描かれたイメージを指すとは誰も言っていない。つまり「これ（Ceci）」という "語そのもの" が「パイプではない（n'est pas une pipe）」と言っているのかもしれないし、指示語である「これ（Ceci）」が「これはパイプではない（Ceci n'est pas une pipe）」という一文を指しているとすれば、「これはパイプではない（Ceci n'est pas une pipe）」という文章自体が「パイプではない（n'est pas une pipe）」と言っているのかもしれない*1。その場合、キャプションはイメージを殺しているのか、あるいはイメージがキャプションを殺しているのか、考えたくなる*2。
-とすれば、私たちを攪乱する元凶は明らかであろう。「これはパイプではない（Ceci n'est pas une p…]]></summary>
-        <author>
-            <name>野の百合、空の鳥</name>
         </author>
     </entry>
 </feed>
