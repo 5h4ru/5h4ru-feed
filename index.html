@@ -17,6 +17,72 @@
     <!-- %after-body-begin.html% -->
       <section class="daily-content js-toggle-accordions-scope">
         <h2 class="daily-heading">
+            <time datetime="2022-03-08">2022-03-08</time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >kyopro_friends’ diary</button>
+                  <a class="source-heading__link" href="https://kyopro-friends.hatenablog.com/" target="_blank" rel="noreferrer noopener">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="hatenablog://entry/13574176438070911813"
+                        open
+                      >
+                        <summary class="article-expander__title">等比数列に単項式が掛かっているものの和を計算するyosupo judgeの問題</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kyopro-friends.hatenablog.com/entry/2022/03/08/205445 "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>スナネコです。yosupo judgeにある  を解きました。
+https://judge.yosupo.jp/problem/sum_of_exponential_times_polynomial
+yosupo judge の github を見ると参考文献が載ってます。
+https://github.com/yosupo06/library-checker-problems/issues/98
+そういうわけで、この記事は Min_25 さんによる以下の記事を私の理解で書き直したものです。
+https://web.archive.org/web/20170622095007/http://min-25.hatenablog.com/entry/2015/04/24/031413
+
+話の流れはこうです。
+ を漸化式で表す
+多項式を求める
+多項式で割ったあまりを explicit な式で表す
+ステップ1. 漸化式を出す
+本題に入る前に、単項式  の値を  に関する漸化式で求めるにはどうすればよいか考えてみましょう。
+ についての  を持てばできますね。具体的には、 が  と二項係数を使って書けることから言えます。例えば
+
+となります。二項係数を並べたこの下三角行列のことを下三角パスカル行列というそうです。 の下三角パスカル行列をwikipediaでは  と表しているので、ここでもそう書くことにします。
+本題に戻ります。ここまでわかれば元の問題を漸化式で書くのは簡単です。
+
+こうですね。左上の  の小行列を  とまとめて書くことにして
+
+
+ の最後の成分であり、、 です。
+ 項を求めるのと同じようにできそうな気がしてきましたね。
+ステップ2. 係数行列の固有多項式を求める
+なぜ固有多項式を求めたいのか一応説明しておきましょうか。一般に、行列  の固有多項式  は  を満たします…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
             <time datetime="2022-03-06">2022-03-06</time>
           </button>
         </h2>
@@ -2683,58 +2749,10 @@ wavelet matrix での解法（の概要）
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-            <time datetime="2022-01-08">2022-01-08</time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >名有りさんの日記</button>
-                  <a class="source-heading__link" href="https://naari.hatenablog.com/" target="_blank" rel="noreferrer noopener">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="hatenablog://entry/13574176438050567150"
-                        open
-                      >
-                        <summary class="article-expander__title">アニメを見るのって難しくないですか？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://naari.hatenablog.com/entry/2022/01/08/122306 "target="_blank" rel="noreferrer noopener">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>自分の周りの人のアニメを見ている率って結構高くて、特定のアニメの話で盛り上がっているのを見る度に自分からも興味が湧いてくる。
-が、しかしどうしても腰が重くて、見るまでに莫大な時間を要してしまう。去年見たアニメは1, 2本くらいしかなかった。
-むかし実家に居た頃は弟が地上波で流れるアニメを録画しており、それが流れているので一緒に見る、続きが気になるので時間を合わせて一緒に見る、みたいなことをしていて、局所的にアニメをたくさん見ている時期があった(2016年くらい？)。その頃は凄く楽しく見ていたし、別にアニメが嫌いなわけではないはず。むしろ見てしまえば何でも好きになれるし*1、体験としても良かったと思う。
-一人暮らしをしていると自分以外の生活は垂れ流しにならないので、巻き添えを食らうことがほとんどない状況にある。そうすると、自ずとアニメを見る必要があり、これが大変に大変だと思っている。
-アニメを見るための術や環境は(今となっては)とても整備されるようになったはずで、dアニメストアなりに加入しておけばおおよそ見れると聞いているし、そうでなくてもニコニコチャンネルだとかアマプラだとかたくさんの手段が用意されているように見える。
-そういう問題がクリアになった昨今、単にアニメを見るために「目と耳と頭をすべて使う」ことが大変なのだと思っていた。思っていたが、そうすると普段自分がYouTubeなどで見ているMinecraftの実況動画とか、DTMのチュートリアルとかはすごく気軽に見ているので、これだけだと説明がつかない。
-それでさっきツイキャスをして言葉に出しながら考えていたら、一旦次のような結論に落ち着いた。
-自分がこの状況下に陥った前提で、他の人達が高い解像度を持ってアニメを見て、アニメの考察をし、それを共有する様子をリスペクトしすぎているのではないか？
-こういったコンテンツって本来ど…</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/5h4ru/5h4ru-feed/actions/runs/1948818441">
-        <time id="build-timestamp" datetime="2022-03-08T00:46:43.197Z">2022-03-08T00:46:43.197Z</time>
+      <a class="footer-link" href="https://github.com/5h4ru/5h4ru-feed/actions/runs/1954672037">
+        <time id="build-timestamp" datetime="2022-03-09T00:49:34.550Z">2022-03-09T00:49:34.550Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
