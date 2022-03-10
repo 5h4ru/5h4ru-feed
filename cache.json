@@ -796,21 +796,6 @@
             "length": "0"
           },
           "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
-        },
-        {
-          "id": "hatenablog://entry/13574176438050886999",
-          "author": null,
-          "description": "ここで区間 \\(k\\)-最小値と呼んでいるのは以下のような問題です。\n最初に配列 \\(a = (a_0, a_1, \\dots, a_{n-1})\\) が与えられるよ。\n次にクエリ処理を \\(q\\) 回してね。\nクエリは \\( ([l, r), k)\\) の形式で与えられるので、\\(a_l, a_{l+1}, \\dots, a_{r-1}\\) を昇順ソートしたときに 0-indexed で先頭から \\(k\\) 番目に来る値を答えてね。\nただし \\(0\\le k \\lt r-l\\) が保証されるので、答えがなくなることはないから安心してね。\n\n\n昨日の ABC-D は、これに \\(l = 0\\) の追加制約が与えられたものと見ることができます。\n座標圧縮などをすれば帰着できるので、以下では \\(0\\le a_i \\lt n\\) とします。値の重複も \\( (a_i, i)\\) などで tie-break することにすればよいので、distinct であるとします（つまり、\\(0, 1, \\dots, n-1\\) の順列が与えられるものとします*1）。\nこの記事では次のことを紹介します。\nwavelet matrix での解法（の概要）\n\n\n前処理 \\(O(n\\log(n))\\) time、クエリ \\(O(\\log(n))\\) time\nクエリ先読みがいらない\n\n\n\\(i\\) 個目のクエリに答えたら \\(i+1\\) 個目のクエリが与えられる、などの状況でもいける\n並列二分探索での解法\n\n\nバッチ処理 \\(O( (n+q)\\log(n)^2)\\) time\nクエリ先読み\n並列二分探索の方が計算量では劣っているのですが、並列二分探索の導入や実装の練習（あるいはライブラリの verify）として使えそうだな〜と思ったので、書こうと思い至った次第です。\n自分の中ではこのアプローチにさっ…",
-          "link": "https://rsk0315.hatenablog.com/entry/2022/01/09/152028",
-          "publishedOn": "2022-01-09T06:20:28.000Z",
-          "wordCount": 648,
-          "title": "区間 k-最小値いろいろ",
-          "enclosure": {
-            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
-            "type": "image/png",
-            "length": "0"
-          },
-          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         }
       ]
     }
