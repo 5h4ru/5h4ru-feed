@@ -17,6 +17,46 @@
     <!-- %after-body-begin.html% -->
       <section class="daily-content js-toggle-accordions-scope">
         <h2 class="daily-heading">
+            <time datetime="2022-03-12">2022-03-12</time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >みそは入ってませんけど</button>
+                  <a class="source-heading__link" href="https://not-miso-inside.netlify.com" target="_blank" rel="noreferrer noopener">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://not-miso-inside.netlify.com/blog/here-is-a-party/"
+                        open
+                      >
+                        <summary class="article-expander__title">パーティはこちらまで</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://not-miso-inside.netlify.com/blog/here-is-a-party/ "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://not-miso-inside.netlify.com/global/thumbnail.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>突然ですが告知です。VGプラスで来週に新作が出る。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
             <time datetime="2022-03-08">2022-03-08</time>
           </button>
         </h2>
@@ -2421,92 +2461,10 @@ fold(l..r)：区間 l..r のモノイド積を求める
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-            <time datetime="2022-01-11">2022-01-11</time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >名有りさんの日記</button>
-                  <a class="source-heading__link" href="https://naari.hatenablog.com/" target="_blank" rel="noreferrer noopener">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="hatenablog://entry/13574176438051621276"
-                        open
-                      >
-                        <summary class="article-expander__title">GitHubで &#x60;git://&#x60; が使えなくなったので &#x60;https://&#x60; などに置き換える必要があった</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://naari.hatenablog.com/entry/2022/01/11/140137 "target="_blank" rel="noreferrer noopener">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>tl;dr
-git:// がGitHubで使えなくなった
-git:// の変わりに https:// を使うようにした
-パブリックなリポジトリ以外に対しての変更の可能性もある
-The unauthenticated git protocol on port 9418 is no longer supported.
-今朝からRubyのアプリをビルドするジョブが以下のようなエラーを吐くようになった。
-Fetching git://github.com/sinatra/sinatra.git
-fatal: remote error: 
-  The unauthenticated git protocol on port 9418 is no longer supported.
-Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
-既に趣旨を伝えるエラーの文言が見えるが、念の為に手元のマシンでも試してみる。
-$ git clone git://github.com/sinatra/sinatra.git
-Cloning into &#x27;sinatra&#x27;...
-fatal: remote error:
-  The unauthenticated git protocol on port 9418 is no longer supported.
-Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
-同じ結果だった。
-原因としては GitHub が git プロトコルを明示的に使えないようにしたため。
-github.blog
-No more unauthenticated Git
-On the Git protocol side, unencrypted git:// offers no integrity or authentication, making it subject to tampering. We expect very few people are still using this protocol, especially given that you can’t push (it’s read-only on GitHub). We’ll be disabling support for this protocol.
-
-
-まだ使っていてすまん…使うのやめます…
-ということで、置き換えることにした。
-https:// に置き換える
-まず、現状の手順で最小の変更手数になりそうな「ジョブランナー側を変更する」を検討した。unencrypted な git プロトコルと記述があったので、もしかして暗号化される git プロトコルも存在するのでは？と軽く調査したが、見る限りでは見当たらなかった。そのため、各個別の git:// を使用している箇所について対応をする方針で進める。
-今回はpublicなリポジトリに対してのcloneの操作だったので、特に考えることもなく https:// に置き換えることで対応完了とした。
-今回の場合、gitプロトコル経由でリポジトリを取得しているのはGemfile経由のbundle installだったので、Gemfileの先頭あたりに以下の行を追加した。
-git_source(:github) { |repo| &quot;https://github.com/#{repo}.git&quot; }
-
-
-
-その他にも
-先程のgithubのblog曰く、sshのプロトコルかつ鍵経由でやり取りをしている場合であっても古いタイプの鍵を使っている場合は影響を受けるらしい。
-今回の削除方向の変更は具体的には以下の通り。
-DSA keyの対応をすべて削除
--RSA keys)を使っている場合、SHA-2の署名を使う必要があるように変更
-SSHのアルゴリズムでHMAC-SHA-1と全てのCBCの対応を削除
-もし上記に当てはまる場合は以下の項目を参考にしたほうが良さそう。
-https://github.blog/2021-09-01-improving-git-protocol-security-github/#how-do-i-prepare</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/5h4ru/5h4ru-feed/actions/runs/1966339202">
-        <time id="build-timestamp" datetime="2022-03-11T00:53:15.974Z">2022-03-11T00:53:15.974Z</time>
+      <a class="footer-link" href="https://github.com/5h4ru/5h4ru-feed/actions/runs/1971720075">
+        <time id="build-timestamp" datetime="2022-03-12T00:45:39.731Z">2022-03-12T00:45:39.731Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
