@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-03-15T00:52:11.169Z</updated>
+    <updated>2022-03-16T00:52:38.555Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -1139,82 +1139,6 @@ ja.wikipedia.org
 なぜなら、さやわかという書き手が出発した2010年代の批評（言葉と運動）の可能性の応答としては、ゼロ年代の「反省」からしか始…]]></summary>
         <author>
             <name>おおたまラジオ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[22/1/15 お題箱回93：生活グッズ、表紙三枚ノートの現在etc]]></title>
-        <id>hatenablog://entry/13574176438051154881</id>
-        <link href="https://saize-lw.hatenablog.com/entry/2022/01/15/160444"/>
-        <updated>2022-01-15T07:04:44.000Z</updated>
-        <summary type="html"><![CDATA[お題箱回93
-
-369.LWさんオススメの生活快適化グッズとか効率化グッズみたいなの記事でまとめて欲しいです(書見台とかbasebreadみたいな)
-書きました！
-saize-lw.hatenablog.com
-あと最近買って本当に良かったと思っているのがAdidasの超ロングベンチコートです。
-www.amazon.co.jp
-（↑これではないですがこれみたいなやつです。店頭で適当に買ったので正確な商品情報がわからない）
-前から「居酒屋のキャッチが着てるコートが欲しい！」ってずっと思ってて、この前オタク合宿に行く前にいい機会なので新宿を探して2万円で買いました。期待以上にマジで暖かくて、体感は布団着てる感じです。雪が降ってる日でも半袖Tシャツの上にこれ着るだけで出かけられます。
-欠点はあまりにも断熱性能が高すぎて、少しでも日差しがあったり着たまま自転車を漕いだりすると暑くてすぐ汗をかくところくらいです。前を空けて冷気を取り込むことである程度はケアできますが、暖かすぎるが故に冬で特に一番寒いタイミングでしか着られないと思われます。三寒四温みたいな時期にはもっと貧弱な上着と併用する必要がありそう。
- 
-
-370.バス江121話めちゃくちゃ良くないですか！？
-良かったと思います。実際レスバってああいうルールです。
-ちなみにバス江読者向けに言うと、121話は戦隊ヒーローが敵に勝ったけど捨て台詞吐かれて釈然としない回です（6巻収録、ヤンジャンアプリなら無料で読めます）。
-
-
-スナックバス江 6 (ヤングジャンプコミックスDIGITAL)
-作者:フォビドゥン澁川
-集英社
-Amazon
-僕はバス江をかなり評価してて、全体的に良い中で特にその良さが出ている話の一つだと思います。バス江って普通ならサラッと流してしまう小さい取っ掛かりを絶対に捕まえて掘り下げるのが強みで、会話の解像度が高いで…]]></summary>
-        <author>
-            <name>LWのサイゼリヤ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公開できるmodを初めて作ったので大変だったところを書いておく]]></title>
-        <id>hatenablog://entry/13574176438052506961</id>
-        <link href="https://naari.hatenablog.com/entry/2022/01/15/015043"/>
-        <updated>2022-01-14T16:50:43.000Z</updated>
-        <summary type="html"><![CDATA[昨日、自作のmodについてのうすい記事を書いた。
-naari.hatenablog.com
-このmodを公開するに至って大変だったことをつらつらとかきます
-fabricのMixinやInjectsの概念についてのドキュメントが少なすぎる
-検索して出る情報が少なすぎる
-村人のgetOffers()を叩くだけだとダメ
-用語: MerchantEntity について
-通信の流れ
-擬似的に右クリックする
-画面上になにかを描画するのが難しい
-1.18になって何故か引数の順番が変わっててワロタ
-modをCurseForgeにpublishする方法
-CurseForge上にプロジェクトを作成する必要があった
-GitHub Actions を利用して公開する
-これも人様の実装を参考にする
-itsmeow/curseforge-upload を使用してCurseForgeに生成物をアップロードする
-game_version がすごく難しい
-人のmodがオープンソースじゃなくて悲しい
-Configを実装しなければならない
-まとめ
-fabricのMixinやInjectsの概念についてのドキュメントが少なすぎる
-fabricにはMixinや、Injectsという概念がある。これは元々のMinecraftのコードに自分の好きな挙動を差し込むことができる。
-たとえば以下のようなコードがあった場合、
-class Example {
-  void blah() {
-    System.out.println("hogefuga");
-  }
-}
-
-
-
-以下のようなコードを書くことができる。
-@Mixin(Example.class)
-abstract class ExampleMixin {
-  @Inject(at = @At("HEAD"), method = "blah")
-  void yo(…]]></summary>
-        <author>
-            <name>名有りさんの日記</name>
         </author>
     </entry>
 </feed>
