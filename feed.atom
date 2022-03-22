@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-03-21T00:50:56.268Z</updated>
+    <updated>2022-03-22T00:52:37.906Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[遅く来たりて早く行く]]></title>
+        <id>https://not-miso-inside.netlify.com/blog/come-slow-go-fast/</id>
+        <link href="https://not-miso-inside.netlify.com/blog/come-slow-go-fast/"/>
+        <updated>2022-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[まず私を罰して欲しい。なぜか？　次の文章を見てくれ。これは先日のブログからの引用だ。
+VGプラスで来週に新作が出る。
+これは真っ赤な嘘だった。本当は26日に新作が出る。本当に申し訳ない。どうしてこうなったのか自分でもよくわからない……でも精神ははっきりしてました……誰でもよかった……できごころだった……弱そうなやつを狙ってやった……そうです……おまわりさんの言うとおりですよ……。]]></summary>
+        <author>
+            <name>みそは入ってませんけど</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Visual Studio CodeでSpigotのnms依存なプラグイン開発を行うには]]></title>
+        <id>hatenablog://entry/13574176438075377291</id>
+        <link href="https://naari.hatenablog.com/entry/2022/03/22/004725"/>
+        <updated>2022-03-21T15:47:25.000Z</updated>
+        <summary type="html"><![CDATA[Javaのエコシステムをわからない所から頑張って諸々覚えた。半分はべつにvscodeの話ではないが、今回のじぶんの環境がvscodeだったのでそのようにタイトルに付けることにした。
+tl; dr
+もちろんBuildToolsを使用してビルドをする必要がある
+Java Decompilerをインストールする
+
+
+Spigot APIは --generate-sources して *-sources.jar を入れると良い
+--remapped してmapsを考慮したビルドを行うようにする
+なにか問題が起きたときはちょっと待つか、WSL2を使う？？
+nmsへの依存を複数バージョンにまたがって実現できるようにするには
+nmsって何、という人向けセクション
+知っていれば飛ばしてください。
+Spigotで使えるプラグインを作成する際、spigot-api に依存することになる。これはSpigotのうち、開発者に対して大まかな互換性の保証をもてる範囲のAPIだけを集めたものとなる。主に org.bukkit.* (以下bukkit)が対象。では、この「範囲」というのはどういう意味なのか？についてだが、まずは下のレイヤーから順番に説明する。
+まず最初に来るのが net.minecraft.server (これの頭文字をとってnms。以降もnmsと表記する)。こちらはバニラのMinecraftのサーバーを起動する時に動作するプログラムとおおよそ同じものだと捉えてよいものとなる。これはバージョンアップごとに大きく変動する可能性があり*1、サーバーに対して変更を加えたい開発者からすると直接追従するだけで大きな労力となり得る。
+これをどうにかするために、まずは好きな挙動を差し込めるようにしようとしたのが org.bukkit.craftbukkit.* (以下craftbukkit)で、これはM…]]></summary>
+        <author>
+            <name>名有りさんの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[雑記 最前が良い/bukkitのnmsあたりについての理解]]></title>
         <id>hatenablog://entry/13574176438075034671</id>
