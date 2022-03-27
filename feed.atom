@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-03-26T00:51:04.982Z</updated>
+    <updated>2022-03-27T00:55:50.828Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[WordPressテーマ「Odamaki」作成進捗2（ツー）と雑記]]></title>
+        <id>https://yokkin.com/?p=2076</id>
+        <link href="https://yokkin.com/blog/220327.html"/>
+        <updated>2022-03-26T15:57:59.000Z</updated>
+        <summary type="html"><![CDATA[Odamaki とりあえずテーマ名がOdamakiになりましたーやったー。一応オープンソース（笑）。 もちろんオダマキソウから取ってる。 今はなにやってるかというと、素のPHPを何とかいじれるレベルまで成長したので1年ぶ […]]]></summary>
+        <author>
+            <name>Yokkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[シャワーヘッドが低い位置にあるのはそれに頭を垂れるためだ]]></title>
+        <id>https://not-miso-inside.netlify.com/blog/shower-head/</id>
+        <link href="https://not-miso-inside.netlify.com/blog/shower-head/"/>
+        <updated>2022-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[新作が出た（URLに注目）。宣伝ツイがこれだ。]]></summary>
+        <author>
+            <name>みそは入ってませんけど</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[雑記　OBSに向かって喋ったら尚良かった話/ワクワクワクチンチンチン]]></title>
         <id>hatenablog://entry/13574176438075380491</id>
