@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-03-31T00:53:40.002Z</updated>
+    <updated>2022-03-31T03:36:53.775Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -49,6 +49,46 @@ LCA (lowest common ancestor) problem は次のような問題です。
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[博士号を取得しました]]></title>
+        <id>https://lineblog.me/css/archives/2883324.html</id>
+        <link href="https://lineblog.me/css/archives/2883324.html"/>
+        <updated>2022-03-29T04:55:55.000Z</updated>
+        <summary type="html"><![CDATA[3 月 24 日、無事博士号を取得した。
+
+これに至るまでの遍歴を綴ろうと思う。
+高校 3 年
+なんの意味もなくなんか雰囲気で東大を志望していた。何がしたいというわけでもない。そこに東大があるから東大を受けるのである。
+秋の東大オープンかなんかで壊滅的な感触を得て、マ...]]></summary>
+        <author>
+            <name>css</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マイリス更新]]></title>
+        <id>hatenablog://entry/13574176438077334313</id>
+        <link href="https://a-pos-tro-phe.hatenablog.com/entry/2022/03/28/012825"/>
+        <updated>2022-03-27T16:28:25.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。
+　長らく放置していた動画のマイリストを更新しました。
+www.nicovideo.jp
+　主な変更・改善点は以下の通りです。
+マイリストコメントで行っていたナンバリングを削除（面倒になって更新しない原因になっていたので）
+一部マイリストコメントの変更
+参加した合作については今まで通り追加しない方針
+個人作の代理投稿や合作単品などは追加
+　今後は何か動画を投稿するたびに更新にしていきたいですが、忘れてたり後回しにすることも多分あると思います。その際はご容赦ください。
+ 
+　どんな動画があるの？と思う人もいると思うので、代表的な動画をピックアップすると、マイリスしてある動画は大体以下のような動画です。
+
+　投稿した動画をいいね！数が多い順にすると、上位5つの内訳は眼鏡2、グラサン2、マツコ8になってます。(2022/3/22 現在)
+　マツコだけ多すぎる。ずるい。
+ 
+　コメントとかいいね！とかで反応してくれてありがとうございます。以上です。]]></summary>
+        <author>
+            <name>フ''ロク''</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[22/3/27 お題箱97：統計コンペ、ホロライブ最強議論、資格勉強etc]]></title>
         <id>hatenablog://entry/13574176438074343964</id>
         <link href="https://saize-lw.hatenablog.com/entry/2022/03/27/190658"/>
@@ -73,6 +113,22 @@ LCA (lowest common ancestor) problem は次のような問題です。
         <summary type="html"><![CDATA[Odamaki とりあえずテーマ名がOdamakiになりましたーやったー。一応オープンソース（笑）。 もちろんオダマキソウから取ってる。 今はなにやってるかというと、素のPHPを何とかいじれるレベルまで成長したので1年ぶ […]]]></summary>
         <author>
             <name>Yokkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[はじめに]]></title>
+        <id>hatenablog://entry/13574176438076978300</id>
+        <link href="https://a-pos-tro-phe.hatenablog.com/entry/2022/03/26/233301"/>
+        <updated>2022-03-26T14:33:01.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。
+　ニコニコのブロマガがサービスを終了してから半年弱が経ち、再開するかどうかでなかなか踏ん切りがつかなかったのですが、面倒だったので長らく放置していたブログをようやく開設することにしました。
+ 
+　多分めったに更新されないとは思いますが、「何か書くことがあったら書く」くらいのモチベでやっていくと思います。主に自分の動画についてのあとがきだったり、他の気になった動画とかにコメントを述べる場になると思います。技術共有とかできたら一番いいんですが、あいにく持ち合わせがないので…
+　ちなみにブロマガ時代の記事のバックアップとかはとっていないです。続けるかどうかも微妙だったし、「消えたら消えたでいいか」みたいな感じだったので。そもそもそんなに書いてなかったのもありますが。
+ 
+　とりあえず、また何かあったら書きます。よろしくおねがいします。]]></summary>
+        <author>
+            <name>フ''ロク''</name>
         </author>
     </entry>
     <entry>
@@ -509,6 +565,16 @@ https://naari3.github.io/mangacross-rss/shiomai/feed.xml
 *1:本流は別冊少年チャンピオンで連載中]]></summary>
         <author>
             <name>名有りさんの日記</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自殺するつもりでした]]></title>
+        <id>https://lineblog.me/css/archives/2849937.html</id>
+        <link href="https://lineblog.me/css/archives/2849937.html"/>
+        <updated>2022-02-20T01:41:00.000Z</updated>
+        <summary type="html"><![CDATA[2 月 20 日、ミリオンライブ！のライブも終わってしかも星梨花の誕生日という、この最高のタイミングで、自殺するつもりだった。博士号とか、就職とか、未来とか、そんなものはもうどうでもよくなった。美味しいものを食べ、楽しいことをたくさんし、そんな最後の一週間を謳...]]></summary>
+        <author>
+            <name>css</name>
         </author>
     </entry>
     <entry>
