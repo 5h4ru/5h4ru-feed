@@ -17,6 +17,102 @@
     <!-- %after-body-begin.html% -->
       <section class="daily-content js-toggle-accordions-scope">
         <h2 class="daily-heading">
+            <time datetime="2022-04-02">2022-04-02</time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >名有りさんの日記</button>
+                  <a class="source-heading__link" href="https://naari.hatenablog.com/" target="_blank" rel="noreferrer noopener">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="hatenablog://entry/13574176438079244034"
+                        open
+                      >
+                        <summary class="article-expander__title">なんかいろいろあった　Reactライブラリ作成/年ぶりの音MAD投稿/おつくるる/壺の陰謀</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://naari.hatenablog.com/entry/2022/04/03/010529 "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220403/20220403002251.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>マックカフェというタイプのマクドナルドがあることは知っていたのだが、マックカフェで頼む普通のドリンクの氷もマックカフェ仕様になっていた。いつもの小さな箱型ではなく、大きめかつ透明で薄い氷だった。これによるメリットは溶けにくいので長い間美味しい状態でドリンクが楽しめる、ということだと思う。友人宅で雑にウーバーイーツ(マック)を頼んだらこれだったのでうれしかった。うちの近くもそうなってほしい。
+
+
+神情報ありがとうございます。神。
+
+Reactで日本語のクロスワードを扱うことができる @naari3/react-crossword-ja を作成した/「最強無敵スーパーウルトラ神神神合作」のクロスワードのWeb実装をつくった - 名有りさんの日記 という記事を書いた。微熱さんとは全く関わりがなかった(ないよね？)のにnoteの記事内に名前を出していただいた。何故か僕が知らない所でそういう話で通っているということなので、これは凄いことだと思っている。でもWeb系といってもフロントをやっているわけではなく、今はSREという職種を全うしている最中である。最近っぽいフロントについての深めの知識はないので実は今回の対応はちょっと大変だった。でもやれることはやったるので何かあったらお声掛けください。なにかしますよ！
+で、そういえば音MAD作者とかをやっていたなぁとか思っていたらすごく簡単な音声のみの音MADを作りたくなってきたので作った。尻の妖精と好きな曲をあわせたものになる。
+尻Ho7
+
+
+これはむかーし作ってたプロジェクトファイルを掘り起こしたもので、メインみたいな声の部分だけ完成していたので昨日でそれ以外を埋めた感じ。まず既にかなり完成されている音声にサンプルを乗っける作業になるのだが、これはやはりかなり楽しかった。どれだけやってもベースが凄いので、ずっと凄いままなの…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="hatenablog://entry/13574176438077449021"
+                        open
+                      >
+                        <summary class="article-expander__title">Reactで日本語のクロスワードを扱うことができる @naari3/react-crossword-ja を作成した/「最強無敵スーパーウルトラ神神神合作」のクロスワードのWeb実装をつくった</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://naari.hatenablog.com/entry/2022/04/02/163359 "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>きっかけ
+先日、最強無敵スーパーウルトラ神神神合作という音MAD合作が投稿された。
+
+
+
+最強無敵スーパーウルトラ神神神合作
+笑いや勢いが強いパートの多い音MAD合作で、個人的にとても好きなものだった。主催の微熱さんによってこの合作の制作進行についての記事が挙げられている。
+note.com
+こちらにも書いてあるが、この合作は告知としてクロスワードが使用された。先にTwitterに投稿されたものは一箇所ミスがあったようなので、今から解きたい人は上のnoteを参照してください。それで、記事内クロスワードの項目最後にこんなことが書かれていた。
+15x21マスのクロスワードをWeb上で遊べるようなサイトや仕組みが見つからなかったのですが、Webプログラミングできる人なら簡単に作れそう。なありさーーーん？
+
+
+
+おい pic.twitter.com/sC7VmpCjaM
+— なあり (@_naari_) 2022年3月27日
+  
+そりゃもうやるしかないよね、ということで制作に着手した。完成品は以下からどうぞ。スマホ未対応です。
+最強無敵スーパーウルトラ神神神合作 クロスワード
+
+パソコンからやってくださいhttps://t.co/liT7DsrcRJ https://t.co/vjFgRndRPp
+— なあり (@_naari_) 2022年3月29日
+  
+@jaredreisinger/react-crossword について
+この時、一番最初にやったのはクロスワードのためのライブラリ探しだった。仕組みをイチから作るのはあまりにも非効率的なので、使い回せるものは使いまわしたい。それですぐに以下のライブラリを発見できた。
+GitHub - JaredReisinger/react-crossword: A flexible, responsive, and easy-to-us…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
             <time datetime="2022-03-30">2022-03-30</time>
           </button>
         </h2>
@@ -2010,8 +2106,8 @@ mex：\(\min_{i\in \N\setminus S} i\) を出力
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/5h4ru/5h4ru-feed/actions/runs/2080469079">
-        <time id="build-timestamp" datetime="2022-04-02T00:52:09.392Z">2022-04-02T00:52:09.392Z</time>
+      <a class="footer-link" href="https://github.com/5h4ru/5h4ru-feed/actions/runs/2083753821">
+        <time id="build-timestamp" datetime="2022-04-03T00:57:43.802Z">2022-04-03T00:57:43.802Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
