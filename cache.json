@@ -690,21 +690,6 @@
             "length": "0"
           },
           "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
-        },
-        {
-          "id": "hatenablog://entry/13574176438060126783",
-          "author": null,
-          "description": "rsk0315.hatenablog.com\nエゴサしたらこの記事がわりと読まれているっぽかったものの、やや実装が重い気がしたので*1別の解法を書きます。\ntl; dr\nセグ木。\n定義\n有限集合 \\(S\\subseteq \\N\\) における mex というのは、\\(S\\) に含まれない最小の自然数 \\(\\min_{i\\in \\N\\setminus S} i \\) です。\nやりたいこと\n追加：\\(S\\gets S\\cup\\{i\\}\\) で更新\n削除：\\(S\\gets S\\setminus\\{i\\}\\) で更新\nmex：\\(\\min_{i\\in \\N\\setminus S} i\\) を出力\nこれを (amortized) \\(O(\\log(|S|))\\) 時間とかで。\nアイディア\nクエリ数が \\(n\\) のときのことを考えます。このとき、mex が \\(n\\) を超えることはないことに注意します。\n\\(S = \\{0, 1, \\dots, n-1\\}\\) のとき最大値 \\(n\\) になります。\nそこで、bool の配列 \\(a = (a_0, a_1, \\dots, a_{n-1})\\) を \\(a_i = (i\\in S)\\) が保たれるように管理します。\n求めたい mex は、\\(\\wedge_{i\\in[0, x)} a_i\\) が true になる最大の \\(x\\) です（このとき \\(a_x\\) が false となり、定義から \\(x\\notin S\\) となるので）。\nよって、\\(a\\) をセグ木で管理し、この \\(x\\) を二分探索（ACL で言うところの max_right）で求めればよいです。\n\\(n\\) 以上の値を \\(S\\) に入れると（クエリ数 \\(n\\) の下で）mex は \\(n\\) 未満になることに注意すると、\\(n\\) 以上の値の更新クエリは無…",
-          "link": "https://rsk0315.hatenablog.com/entry/2022/02/05/043902",
-          "publishedOn": "2022-02-04T19:39:02.000Z",
-          "wordCount": 496,
-          "title": "要素の追加・削除と mex を対数時間で処理するよ (2) + 区間 mex クエリ",
-          "enclosure": {
-            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
-            "type": "image/png",
-            "length": "0"
-          },
-          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
         }
       ]
     }
