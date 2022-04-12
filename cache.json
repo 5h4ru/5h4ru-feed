@@ -352,6 +352,16 @@
       "siteUrl": "https://not-miso-inside.netlify.com",
       "articles": [
         {
+          "id": "https://not-miso-inside.netlify.com/blog/fragments-of/",
+          "author": null,
+          "description": "『ワールドフリッパー』というスマホゲームをやっていた。ヘルガ嬢が入手できたので即やめた。私の趣味はご理解いただけたと思う。",
+          "link": "https://not-miso-inside.netlify.com/blog/fragments-of/",
+          "publishedOn": "2022-04-11T00:00:00.000Z",
+          "wordCount": 88,
+          "title": "愛のカケラ10個で愛と交換",
+          "imageUrl": "https://not-miso-inside.netlify.com/global/thumbnail.jpg"
+        },
+        {
           "id": "https://not-miso-inside.netlify.com/blog/shower-head/",
           "author": null,
           "description": "新作が出た（URLに注目）。宣伝ツイがこれだ。",
@@ -467,21 +477,6 @@
             "length": "0"
           },
           "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220219/20220219200135.jpg"
-        },
-        {
-          "id": "hatenablog://entry/13574176438060712418",
-          "author": null,
-          "description": "お題箱回94\n\n379.「親ガチャ」について偉そうに語ってる精神科医の話をいくつか聞いてしまったのでぜひLWさんに解説していただきたいです！\n380.ありがとうございます！>お題箱>親ガチャ\n僕が見たのは下記の二つです。他にもひろゆき氏や東大卒の方、武井壮氏、茂木健一郎氏…いろんな人が語ってて煩いです、叩っ斬ってください！\n・『メンタルドクターsidow「親ガチャハズレ」←どう思う？』　https://youtu.be/CV3y8fR6hTk\n・『精神科医が心の病気を解説するch「親ガチャ」について、精神科医目線で解説します』　https://youtu.be/IT2s0X7WVas\nざっと各界のコメントを調べて動画も軽く見ました。\n解説したり叩き斬ったりすることを期待されている手前申し訳ないですが、そういう話にはあまりならないですね。僕は「親ガチャ」という言葉を高く評価していることを何度かツイートしていますから、たぶんそこから「親ガチャ」という言葉に否定的な風潮に異を唱えるような展開が望まれたのだと思いますが、そもそも世間で語られている論点と僕の論点は全く違います。「親ガチャ」という言葉の背景に想定する文脈が異なり、同じ言葉を使って完全に別の話をしているので、僕が彼らを否定することも彼らが僕を否定することもないはずです。\nいま過去のツイートを見ると、去年9月頃には親ガチャという言葉がきっと社会を良い方向に導くだろうと期待していたのですが、\n親ガチャという発想は俺は完全に正しいと思うしこれを期にマイルドな反出生主義のような形で生む側の倫理を考える風潮はある程度定着するだろうなと思う\n2021年9月15日\n\n\n10月頃には僕が使う言葉の意味と市井で使われている言葉の意味が全く異なることに気付き始め、\n俺は親ガチャっていう言葉大好きだしようやく非存在者への想像力が市井で培われる…",
-          "link": "https://saize-lw.hatenablog.com/entry/2022/02/11/212205",
-          "publishedOn": "2022-02-11T12:22:05.000Z",
-          "wordCount": 224,
-          "title": "22/2/11 お題箱回94：親ガチャ、SunnyBoy、マーセナリーズなど",
-          "enclosure": {
-            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220211/20220211205734.png",
-            "type": "image/png",
-            "length": "0"
-          },
-          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/s/saize_lw/20220211/20220211205734.png"
         }
       ]
     },
