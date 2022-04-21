@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-04-20T01:09:17.314Z</updated>
+    <updated>2022-04-21T01:03:48.954Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[長すぎる夢とその世界の重力]]></title>
+        <id>https://not-miso-inside.netlify.com/blog/long-dream-and-its-gravity/</id>
+        <link href="https://not-miso-inside.netlify.com/blog/long-dream-and-its-gravity/"/>
+        <updated>2022-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[新作が配信される。
+作品へのリンクと告知記事へのリンクを張っておく。今のところ無効なリンクだが、然るべき日時の後（具体的には4/23日の朝九時以降）にアクセスできるようになるはずだ。よろしくお願いします。待っていると無料で読めるようになるが、500円/月で無限に読めるようになる。Q. エゴサとかする？ A. する。]]></summary>
+        <author>
+            <name>みそは入ってませんけど</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[愛のカケラ10個で愛と交換]]></title>
         <id>https://not-miso-inside.netlify.com/blog/fragments-of/</id>
@@ -664,88 +675,6 @@ Discordで離していて輻輳制御の話がでてきた
 自分はゴミを溜めてしまうこと以外にも、食後の皿洗い*1や、洗濯、掃除など、継続的にやらなければならなさそうな家事が全くといって良いほどできない。1, 2ヶ月に一度、「そろそろ実害が出始めたな」といったトリガーによって突発的に行うことはあるが、毎日ないし毎週動くことはできない。これは昔からそうで、この種類のタスクの優先度をかなり低めに見積もってしまう節がある。これによって起きる弊害について特に考えていない(考えることができない)のか、起こったとしても気にしていないのかわからないが、とにかく僕は怠惰らしい。
 そんな怠惰さによって完成する自分の部屋の惨状を人に伝えると大抵引かれてしまうので、おそらく将来的にはどうにかしたほうが良いのだろう。傍からの評価は自分が思っているより大事っぽくて、人との付き合いに支障をきたす場合もあるらしい。僕は色んな人とうまく付き合っていきたいよ。一体どうすれば良いのだろう。今の考え方だとあまりモチベーションに繋げられないので、なにか自分にとって画期的な考え方を持って納得するしかない。もしかして本当に動くのが嫌で(怠惰すぎて)掃除などに繋がる考え方を捨て去っているのではないか？どうするべきなんだろう。完全なる未解決です。
 とある件によって曲を拵えないといけないのだけれど、現状進みが悪い。3月上旬には完成している必…]]></summary>
-        <author>
-            <name>名有りさんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【俺ガイル 考察】「待たなくていい」の射程——由比ヶ浜結衣は「負け」ていない？——]]></title>
-        <id>hatenablog://entry/13574176438064774109</id>
-        <link href="https://www.zaikakotoo.com/entry/2022/02/20/190002"/>
-        <updated>2022-02-20T10:00:02.000Z</updated>
-        <summary type="html"><![CDATA[はじめに. 由比ヶ浜結衣は「負け」たのか？
-
-『やはり俺の青春ラブコメはまちがっている。』（以下『俺ガイル』）は、一見するといわゆる「雪乃エンド」で終わったように思われ*1、実際そう解釈することもできる。
-たしかに、14巻（以下巻数は原作の表記に従って「⑭」などの丸番号で示す）で八幡は、雪乃と人生を分け合おうというような対話をし*2、それ以前の場面では、結衣が八幡から「待たなくていい」という言葉を告げられ*3、それにより結衣は涙を流し、なにやら「フラれた」風になる*4。こうして図式的に見ると、八幡という主人公が雪乃と結衣という2人のヒロインのうち雪乃の方をとった、いわゆる「雪乃エンド」のように見える。それはあたかも「普通の」ラブコメのようである。
-だがいかんせん、この「青春ラブコメ」は「まちがっている」。本稿では、『俺ガイル』がいわゆる「雪乃エンド」とは言い切れないのではないか、ひいては由比ヶ浜結衣はある側面では「負け」ていないのではないか、ということ、さらにはそこからひらけてくる『俺ガイル』読解の可能性について、「待たなくていい」という結衣が八幡に告げるセリフから考えてみたい。
- 
-
-    
-はじめに. 由比ヶ浜結衣は「負け」たのか？
-1.0. 「待たなくていい」の状況整理
-1.1. 「この模造品に、壊れるほどの傷をつけ、たった一つの本物に」
-1.2. 「待たなくていい」を言うまで
-1.3. 「待たなくていい」直前後
-2.0. 「待たなくていい」の文脈
-2.1. ⑭以前の「待つ」
-2.2. ⑭での「待つ」
-3.0. 「待たなくていい」の射程
-3.1. 「壊れるほどの傷をつけ」る言葉
-3.2. 結衣の希う「傷」と「痛み」
-3.3. 「たった一つの本物へ」
-3.4. フる／フラれる、「恋仲」からの脱出
-3.5. 二項ではなく三項という可能性
-4.0. 『俺ガイル』における決…]]></summary>
-        <author>
-            <name>野の百合、空の鳥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[マンガクロスの作品のRSSフィードを作成できるようになった]]></title>
-        <id>hatenablog://entry/13574176438065434984</id>
-        <link href="https://naari.hatenablog.com/entry/2022/02/20/181337"/>
-        <updated>2022-02-20T09:13:37.000Z</updated>
-        <summary type="html"><![CDATA[昨日、こんな記事を書いた→ 「僕の心のヤバいやつ」用のRSSフィードを作成した - 名有りさんの日記 が、実はマンガクロスでも連載中*1の潮が舞い子が舞いも見たいことがわかった。ので、やはり実装を適切に抽象化し、複数作品に対して対応できるようにした。
-mangacross-rss
-https://naari3.github.io/mangacross-rss/yabai/feed.xml
-https://naari3.github.io/mangacross-rss/shiomai/feed.xml
-おそらく事実上は全ての漫画クロス作品に対応できたので、このリポジトリで全部をクロールできるようにする選択肢もあったが、しないようにした。もし他のマンガクロス作品が見たかったらご自分でフォークしてもらうと良さそう。src/main.rs の TARGETS を好きに変えることで達成できると思う。それか僕に推薦してハマらせる、など
-*1:本流は別冊少年チャンピオンで連載中]]></summary>
-        <author>
-            <name>名有りさんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自殺するつもりでした]]></title>
-        <id>https://lineblog.me/css/archives/2849937.html</id>
-        <link href="https://lineblog.me/css/archives/2849937.html"/>
-        <updated>2022-02-20T01:41:00.000Z</updated>
-        <summary type="html"><![CDATA[2 月 20 日、ミリオンライブ！のライブも終わってしかも星梨花の誕生日という、この最高のタイミングで、自殺するつもりだった。博士号とか、就職とか、未来とか、そんなものはもうどうでもよくなった。美味しいものを食べ、楽しいことをたくさんし、そんな最後の一週間を謳...]]></summary>
-        <author>
-            <name>css</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「僕の心のヤバいやつ」用のRSSフィードを作成した]]></title>
-        <id>hatenablog://entry/13574176438065232165</id>
-        <link href="https://naari.hatenablog.com/entry/2022/02/20/023656"/>
-        <updated>2022-02-19T17:36:56.000Z</updated>
-        <summary type="html"><![CDATA[https://naari3.github.io/bokuyaba-rss/feed.xml
-GitHub - naari3/bokuyaba-rss
-osmosfeedを使って自分のためのアンテナ(RSSリーダー)を作成する - 名有りさんの日記 でいろいろなRSSフィードを漁るようになったんだけれど、webで読めるタイプのマンガにRSSフィードはあまり無かったりするっぽいかった。ので、それこそosmosfeedよろしくでGitHub Actionsを使用して定期的に僕ヤバを見に行き、記事一覧をRSSフィードにするやつを作った。↑のリンクからどうぞ。
-マンガクロスはSPAっぽくなっていて、アクセスした時にマンガの情報APIを叩く。これに各話、巻についての情報が付いてくるので、これをRSSのフィードにした。アクセスしてjsonをRustっぽく扱うのはふつうにserde, serde_jsonで、RSSフィードを作るためには GitHub - rust-syndication/rss: Library for serializing the RSS web content syndication format を使用した。ここまでやると、実はマンガクロスの任意の連載のRSSフィードを作り放題な気がするんだけれど、今の所マンガクロスの他の作品は読んでいないのでそのような共通化はなにもしていない。マンガが置いてある階層をリポジトリにそっくりそのままで置いて( naari3.github.io/mangacross-rss/yabai/feed.xml みたいな )、全ての作品についてそうすることを考えたけど、なんというかじぶんの中のラインを超えてしまうし、何より範囲が広くなって面倒を見きれなくなる。何事もスコープは狭いに限るのだ。
-あとはふつうに .github/workflows を設置した。r7kamuraさんの r7k をそのまま持ってきたようなものにした。動きとしては、
-まず tag.yml でmainブランチを監視、Cargo.toml の version が新しくなっていたら新しいタグを作る。
-次に、release.yml で新しいタグの作成を検知して新しいリリースを切る。
-最後に、build-rs.yml で新しいリリースの作成を検知して各OS向けのバイナリを作る。
-追加で1時間に1回バイナリをダウンロードして実行、gh-pagesに公開するやつを仕込んだ。
-のだけれど、GitHub Actionsのタグ/リリース生成に対して、GitHub Actionsが発火してくれなかった。僕のアカウントからのタグ/リリース作成には反応するのに。これが今解決できないのでタグが作成された後にのリリース作成は手動でやっている。これを解決したい。ので、もし知っていたらなにか教えて下しあ。
-(追記)どうやらGitHub Actionsに自動的に付与されるGITHUB_TOKENには特別な制約があるとのことだった。発火したActionからさらに別のActionが発火できないようになっているらしい。
-Automatic token authentication - GitHub Docs
-When you use the repository's GITHUB_TOKEN to perform tasks, events triggered by the GITHUB_TOKEN will not create a new workflow run. This prevents you from accidentally creating recursive workflow runs. For example, if a workflow run pushes code using the repository's GITHUB_TOKEN, a new workflow will not run even when the repository contains a workflow configured to run when push events occur.
-
-
-まあそれはそうかも、よく見るとr7kamuraさんのymlも PERSONAL_ACCESS_TOKEN を指定していたので、そうするようにしたら動くようになった。めでたし。]]></summary>
         <author>
             <name>名有りさんの日記</name>
         </author>
