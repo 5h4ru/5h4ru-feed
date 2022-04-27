@@ -2,10 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-04-26T01:02:15.446Z</updated>
+    <updated>2022-04-27T01:11:07.912Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[[多項式・形式的べき級数] 高速に計算できるものたち]]></title>
+        <id>https://maspypy.com/?p=4855</id>
+        <link href="https://maspypy.com/%e5%a4%9a%e9%a0%85%e5%bc%8f%e3%83%bb%e5%bd%a2%e5%bc%8f%e7%9a%84%e3%81%b9%e3%81%8d%e7%b4%9a%e6%95%b0-%e9%ab%98%e9%80%9f%e3%81%ab%e8%a8%88%e7%ae%97%e3%81%a7%e3%81%8d%e3%82%8b%e3%82%82%e3%81%ae"/>
+        <updated>2022-04-26T04:49:42.000Z</updated>
+        <summary type="html"><![CDATA[前提知識 （１）数え上げとの対応付け （２）式変形による解法の導出 （３）線形漸化式と形式的べき級数 上の 3 つの記事では、ほとんど他サイト等を参照せずに私の記事だけで解説を完結させるようにしていましたが、本記事につい […]
+The post [多項式・形式的べき級数] 高速に計算できるものたち first appeared on maspyのHP.]]></summary>
+        <author>
+            <name>maspy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[長すぎる夢とその世界の重力]]></title>
         <id>https://not-miso-inside.netlify.com/blog/long-dream-and-its-gravity/</id>
@@ -642,27 +653,6 @@ Discordで離していて輻輳制御の話がでてきた
 *1:この時、薬からくる体調不良は僕の背中を押してくれるのかもしれんなと思ってしまった。やめよう。]]></summary>
         <author>
             <name>名有りさんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[踏み絵]]></title>
-        <id>https://not-miso-inside.netlify.com/blog/fumie/</id>
-        <link href="https://not-miso-inside.netlify.com/blog/fumie/"/>
-        <updated>2022-02-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[本当は書かないといけないこと、やらなければならないことがたくさんある。みんなやることがある。しかし、自分の考えを整理するために書く。
-なぜこれをインターネットに公開するのか？――わからない。ただ、他人の目に触れると考えると、私は少しだけ自制心を取り戻せる。これを書いている間、それがもつことを期待している。]]></summary>
-        <author>
-            <name>みそは入ってませんけど</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[撤収]]></title>
-        <id>https://not-miso-inside.netlify.com/blog/withdraw-your-troops/</id>
-        <link href="https://not-miso-inside.netlify.com/blog/withdraw-your-troops/"/>
-        <updated>2022-02-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ロシアはウクライナから軍隊を即座に引き上げるべきだ。]]></summary>
-        <author>
-            <name>みそは入ってませんけど</name>
         </author>
     </entry>
 </feed>
