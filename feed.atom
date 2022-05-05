@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-04T01:03:47.791Z</updated>
+    <updated>2022-05-05T01:05:06.149Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[α(m, n) のお勉強 + 定数時間 decremental neighbor query]]></title>
+        <id>hatenablog://entry/13574176438088534300</id>
+        <link href="https://rsk0315.hatenablog.com/entry/2022/05/04/215704"/>
+        <updated>2022-05-04T12:57:04.000Z</updated>
+        <summary type="html"><![CDATA[\(\alpha(n)\) や \(\alpha(m, n)\) というのがありますね。union-find の計算量解析で出てくる？らしい、ほぼ定数？みたいな関数？だと思われていがちなやつです。
+一度お勉強したつもりですが、実はなにもわかっていなかったのでまたやりました（別にリンク先は読まなくてもいいです）。かなり長いので、暇なときにちょっとずつかいつまんで読むくらいにしてくれたらうれしいです。
+rsk0315.hatenablog.com
+わかっていない気がしていたこと：
+\(\alpha(n)\) とはなにか + どんな性質を持つか
+Ackermann 関数 \(A_m(n)\) とはなにか
+
+
+\(\alpha(n)\) と \(A_m(n)\) の関係はどんなものか
+\(\alpha(m, n)\) とはなにか + どんな性質を持つか
+計算量解析の文脈で、\(\alpha(n)\) や \(\alpha(m, n)\) はどういう過程で出てくるか
+それから、これらの解析を用いて decremental neighbor query を \(\langle O(n), O(1)\rangle\) (amortized) で処理できるデータ構造を作れるので、それの話も書きます。何度か別で言及したりしていますが、このデータ構造によって線形時間でオフラインで LCA を処理できます。
+これらを順を追って書いていきます。特に前半はやや天下りに感じますが許してください。
+\(\alpha\) の性質に関する話
+Inverse Ackermann hierarchy
+\(\alpha(n)\) の話
+Ackermann 関数との関係
+\(\alpha(m, n)\) の話
+注意書き
+\(\alpha\) の計算量解析での話
+\(\alpha(n)\) が出てくるデータ構造
+\(…]]></summary>
+        <author>
+            <name>えびちゃんの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[最近よかったコンテンツについてしゃべリバー#1]]></title>
         <id>hatenablog://entry/13574176438088898313</id>

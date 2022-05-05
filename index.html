@@ -16,6 +16,50 @@
   <body>
     <!-- %after-body-begin.html% -->
       <section class="daily-content">
+        <h2 class="daily-heading"><time datetime="2022-05-04">2022-05-04</time></h2>
+        <ul class="sources card">
+            <li class="source">
+              <section>
+                <h3 class="source-name"><a class="source-name__link" href="https://rsk0315.hatenablog.com/" target="_blank" rel="noreferrer noopener">えびちゃんの日記</a></h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details class="article-expander" open>
+                        <summary class="article-expander__title">α(m, n) のお勉強 + 定数時間 decremental neighbor query</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://rsk0315.hatenablog.com/entry/2022/05/04/215704 "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner">
+                            <span>\(\alpha(n)\) や \(\alpha(m, n)\) というのがありますね。union-find の計算量解析で出てくる？らしい、ほぼ定数？みたいな関数？だと思われていがちなやつです。
+一度お勉強したつもりですが、実はなにもわかっていなかったのでまたやりました（別にリンク先は読まなくてもいいです）。かなり長いので、暇なときにちょっとずつかいつまんで読むくらいにしてくれたらうれしいです。
+rsk0315.hatenablog.com
+わかっていない気がしていたこと：
+\(\alpha(n)\) とはなにか + どんな性質を持つか
+Ackermann 関数 \(A_m(n)\) とはなにか
+
+
+\(\alpha(n)\) と \(A_m(n)\) の関係はどんなものか
+\(\alpha(m, n)\) とはなにか + どんな性質を持つか
+計算量解析の文脈で、\(\alpha(n)\) や \(\alpha(m, n)\) はどういう過程で出てくるか
+それから、これらの解析を用いて decremental neighbor query を \(\langle O(n), O(1)\rangle\) (amortized) で処理できるデータ構造を作れるので、それの話も書きます。何度か別で言及したりしていますが、このデータ構造によって線形時間でオフラインで LCA を処理できます。
+これらを順を追って書いていきます。特に前半はやや天下りに感じますが許してください。
+\(\alpha\) の性質に関する話
+Inverse Ackermann hierarchy
+\(\alpha(n)\) の話
+Ackermann 関数との関係
+\(\alpha(m, n)\) の話
+注意書き
+\(\alpha\) の計算量解析での話
+\(\alpha(n)\) が出てくるデータ構造
+\(…</span>
+                          </div>
+                          <img src="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" loading="lazy" class="card article-thumbnail" />
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content">
         <h2 class="daily-heading"><time datetime="2022-05-03">2022-05-03</time></h2>
         <ul class="sources card">
             <li class="source">
@@ -1401,7 +1445,7 @@ https://web.archive.org/web/20170622095007/http://min-25.hatenablog.com/entry/20
       </section>
 
     <footer>
-      <time id="build-timestamp" datetime="2022-05-04T01:03:47.770Z">2022-05-04T01:03:47.770Z</time>
+      <time id="build-timestamp" datetime="2022-05-05T01:05:06.127Z">2022-05-05T01:05:06.127Z</time>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
     <script src="index.js"></script>

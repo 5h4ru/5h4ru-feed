@@ -493,6 +493,21 @@
       "siteUrl": "https://rsk0315.hatenablog.com/",
       "articles": [
         {
+          "id": "hatenablog://entry/13574176438088534300",
+          "author": null,
+          "description": "\\(\\alpha(n)\\) や \\(\\alpha(m, n)\\) というのがありますね。union-find の計算量解析で出てくる？らしい、ほぼ定数？みたいな関数？だと思われていがちなやつです。\n一度お勉強したつもりですが、実はなにもわかっていなかったのでまたやりました（別にリンク先は読まなくてもいいです）。かなり長いので、暇なときにちょっとずつかいつまんで読むくらいにしてくれたらうれしいです。\nrsk0315.hatenablog.com\nわかっていない気がしていたこと：\n\\(\\alpha(n)\\) とはなにか + どんな性質を持つか\nAckermann 関数 \\(A_m(n)\\) とはなにか\n\n\n\\(\\alpha(n)\\) と \\(A_m(n)\\) の関係はどんなものか\n\\(\\alpha(m, n)\\) とはなにか + どんな性質を持つか\n計算量解析の文脈で、\\(\\alpha(n)\\) や \\(\\alpha(m, n)\\) はどういう過程で出てくるか\nそれから、これらの解析を用いて decremental neighbor query を \\(\\langle O(n), O(1)\\rangle\\) (amortized) で処理できるデータ構造を作れるので、それの話も書きます。何度か別で言及したりしていますが、このデータ構造によって線形時間でオフラインで LCA を処理できます。\nこれらを順を追って書いていきます。特に前半はやや天下りに感じますが許してください。\n\\(\\alpha\\) の性質に関する話\nInverse Ackermann hierarchy\n\\(\\alpha(n)\\) の話\nAckermann 関数との関係\n\\(\\alpha(m, n)\\) の話\n注意書き\n\\(\\alpha\\) の計算量解析での話\n\\(\\alpha(n)\\) が出てくるデータ構造\n\\(…",
+          "link": "https://rsk0315.hatenablog.com/entry/2022/05/04/215704",
+          "publishedOn": "2022-05-04T12:57:04.000Z",
+          "wordCount": 1689,
+          "title": "α(m, n) のお勉強 + 定数時間 decremental neighbor query",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        },
+        {
           "id": "hatenablog://entry/13574176438088483848",
           "author": null,
           "description": "敬遠されがちみたいな印象がある[要出典]*1ので、書いてみます。\n問題\n観察 1\n欲しい性質まとめ\n観察 2\n本題\n成り立ってほしい性質\nその他\n参考文献\nおわりねこ\n問題\n以下のような問題設定を考えます。\n集合 \\(S\\), \\(T\\) と、それに関する演算 \\(\\circ: S\\times S\\to S\\), \\(\\star: S\\times T\\to S\\) があります。\n変数 \\(a_1, a_2\\in S\\) があり、初期値が与えられます。\nあなたは、変数 \\(a'_1, a'_2, a' \\in S\\) と \\(x' \\in T\\) のみ読み書きできます。\n以下のクエリを処理してください。\n単一クエリ\n\n\n\\(x\\) が与えられ、\\(a_1 \\gets a_1 \\star x\\) で更新する。\n\\(x\\) が与えられ、\\(a_2 \\gets a_2 \\star x\\) で更新する。\n\\(a_1\\) を答える。\n\\(a_2\\) を答える。\n複数クエリ\n\n\n\\(x\\) が与えられ、\\(a_1 \\gets a_1 \\star x\\) および \\(a_2 \\gets a_2 \\star x\\) で更新する。\n\\(a_1 \\circ a_2\\) を答える。\nただし、複数クエリが与えられたときは、\\(a'\\) と \\(x'\\) にのみアクセスできるとします。\n単一クエリにおいては、アクセスは自由とします。\nたとえば、\\(a_1\\) を答えるときに \\(a'_2\\) や \\(x'\\) を更新してもよいとします。\n\n\nここでは \\(\\circ\\), \\(\\star\\) が持つ性質には特に触れていません。\nこれ以降で問題を解きながら「こういう性質があれば解けるな〜」というのを探していく流れになります。\n記号が苦手な人は、\\(S\\), \\(T\\) が int、\\(\\circ\\) が…",
