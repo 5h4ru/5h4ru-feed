@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-08T00:59:23.979Z</updated>
+    <updated>2022-05-09T01:02:28.223Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -918,16 +918,6 @@ Sonny Boy(全12話)
         <summary type="html"><![CDATA[突然ですが告知です。VGプラスで来週に新作が出る。]]></summary>
         <author>
             <name>みそは入ってませんけど</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICPC2021チーム紹介ドキュメントのメイキング]]></title>
-        <id>https://kotatsugame.hatenablog.com/entry/2022/03/10/114427</id>
-        <link href="https://kotatsugame.hatenablog.com/entry/2022/03/10/114427"/>
-        <updated>2022-03-10T02:44:27.000Z</updated>
-        <summary type="html"><![CDATA[gist.github.com https://ideone.com/d43uV5 参考：昨年の記事 kotatsugame.hatenablog.com 今回もアスキーアートQuineを作ってみました。 1. AAを用意する 昨年の経験を活かします。というのも、実行可能なAAかつQuineなんてすごいに決まってるだろという感覚があって、もっとドッカンドッカン話題になってくれるものと期待しながら作っていたのですが、昨年はエゴサしてもほぼほぼ反応がなかったのがちょっとショックだったのでした。そもそもすごくない可能性がありますが、それを置いておくにしてもまた別の理由が考えられます。つまり、昨年のA…]]></summary>
-        <author>
-            <name>kotatsugameの日記</name>
         </author>
     </entry>
 </feed>
