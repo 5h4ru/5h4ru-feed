@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-09T07:43:41.135Z</updated>
+    <updated>2022-05-10T00:58:30.741Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[週記（2022/05/02-2022/05/08）]]></title>
+        <id>https://kotatsugame.hatenablog.com/entry/2022/05/09/221901</id>
+        <link href="https://kotatsugame.hatenablog.com/entry/2022/05/09/221901"/>
+        <updated>2022-05-09T13:19:01.000Z</updated>
+        <summary type="html"><![CDATA[05/02(月) 先週の週記を投稿してからの話。徹夜を決めた。ついでに新幹線の予定も早めることにしたので、時間的な余裕はすでにほぼなく、そそくさと出発。高校生の通学ラッシュと重なってしまい、駅から吐き出されてくる人々に逆らって歩くことになった。 仙台駅に着いて、朝食のパンをコンビニで購入して乗車。さすが朝早めの新幹線、さらに仙台駅始発ということもあってか、中はガラガラだった。 車内ではラノベを読んでいた。ふとTLを見ると、日曜日のOpenCup-Aが怪しいという話が流れてきた。詳しくは先週の週記に追記しておいた。解説のリンクをまだ手に入れられていないため、想定解がどのようになっているのかわから…]]></summary>
+        <author>
+            <name>kotatsugameの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[22/5/6 2022年3～4月消費コンテンツ]]></title>
         <id>hatenablog://entry/13574176438067303251</id>
