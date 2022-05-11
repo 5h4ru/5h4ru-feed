@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-10T00:58:30.741Z</updated>
+    <updated>2022-05-11T01:11:44.302Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -973,16 +973,6 @@ Sonny Boy(全12話)
 半径1メートルの想像力 サブカル…]]></summary>
         <author>
             <name>LWのサイゼリヤ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[パーティはこちらまで]]></title>
-        <id>https://not-miso-inside.netlify.com/blog/here-is-a-party/</id>
-        <link href="https://not-miso-inside.netlify.com/blog/here-is-a-party/"/>
-        <updated>2022-03-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[突然ですが告知です。VGプラスで来週に新作が出る。]]></summary>
-        <author>
-            <name>みそは入ってませんけど</name>
         </author>
     </entry>
 </feed>
