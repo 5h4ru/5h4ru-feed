@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-11T01:11:44.302Z</updated>
+    <updated>2022-05-12T01:06:41.758Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[G – Get the Salary of Atcoder（square869120Contest #4 [G]）]]></title>
+        <id>https://maspypy.com/?p=4965</id>
+        <link href="https://maspypy.com/g-get-the-salary-of-atcoder%ef%bc%88square869120contest-4-g%ef%bc%89"/>
+        <updated>2022-05-11T10:42:30.000Z</updated>
+        <summary type="html"><![CDATA[概要 問題文 → ■公式解説 → ■, p.86自分の提出 → ■ 解法 Euler Tour をとって、Euler Tour における頂点順を $x$ 座標、木における深さを $y$ 座標と見なすことで、次のクエリ処理 […]
+The post G – Get the Salary of Atcoder（square869120Contest #4 [G]） first appeared on maspyのHP.]]></summary>
+        <author>
+            <name>maspy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[遊園地（みんなのプロコン 2017 [E]）]]></title>
+        <id>https://maspypy.com/?p=4962</id>
+        <link href="https://maspypy.com/%e9%81%8a%e5%9c%92%e5%9c%b0%ef%bc%88%e3%81%bf%e3%82%93%e3%81%aa%e3%81%ae%e3%83%97%e3%83%ad%e3%82%b3%e3%83%b3-2017-e%ef%bc%89"/>
+        <updated>2022-05-11T08:42:31.000Z</updated>
+        <summary type="html"><![CDATA[概要 問題文 → ■公式解説 → ■自分の提出 → ■ 公式解説も面白いけど、こっちの方が分かりやすいかな？ 解法 解説同様に、次のように辺を張ったグラフを作って強連結成分分解すれば解くことができます。 $i<j$ […]
+The post 遊園地（みんなのプロコン 2017 [E]） first appeared on maspyのHP.]]></summary>
+        <author>
+            <name>maspy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[週記（2022/05/02-2022/05/08）]]></title>
         <id>https://kotatsugame.hatenablog.com/entry/2022/05/09/221901</id>
@@ -903,76 +925,6 @@ youtu.be
         <summary type="html"><![CDATA[03/07(月) 先週の週記を投稿したあとは比較的素早く布団に入ったはずが、寝っ転がったままなろうを読んでいたら寝るタイミングを逃してしまった。さらに今日の午後から来客が予定されていることに気づき、仕方なく起き上がってパソコンの前に座っていた。思いがけず届いた仕送りも受け取れてラッキー。中にとらやの羊羹が入っていてうれしい気持ちになった。 pic.twitter.com/MO5Z9Sgtdy— こたつがめ (@kotatsugame_t) 2022年3月7日 どんどん眠くなっていって、かろうじて意識を保ちながらYouTubeをボーっと眺めているような状態が続いた。午後4時半からインターン先の定…]]></summary>
         <author>
             <name>kotatsugameの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[22/3/12 2022年1～2月消費コンテンツ]]></title>
-        <id>hatenablog://entry/13574176438065472060</id>
-        <link href="https://saize-lw.hatenablog.com/entry/2022/03/13/115138"/>
-        <updated>2022-03-13T02:51:38.000Z</updated>
-        <summary type="html"><![CDATA[2022年1～2月消費コンテンツ
-先月と先々月の消費コンテンツです。
-少なくとも今年いっぱいくらいはアニメより何かの書籍とか理系学問を優先していそう。結局今期唯一見てたファ美肉も4話くらいで力尽きてしまったしアニメ卒業か？
-2022年1～2月消費コンテンツ
-メディア別リスト
-アニメ(12話)
-漫画(26冊)
-書籍(8冊)
-映画(2本)
-良かった順リスト
-人生に残るコンテンツ
-消費して良かったコンテンツ
-消費して損はなかったコンテンツ
-たまに思い出すかもしれないくらいのコンテンツ
-以降の人生でもう一度関わるかどうか怪しいコンテンツ
-ピックアップ
-有限性の後で
-亡霊のジレンマ
-なぜ世界は存在しないのか
-スパイダーマン：ファー・フロム・ホーム
-天然知能
-ザ・ファブル
-半径1メートルの想像力 サブカル時代の子ども若者
-二月の勝者(11～14巻)
-Sonny Boy
-生産コンテンツ
-ゲーミング自殺、16連射ハルマゲドン
-キャラ紹介⑦　白花ちゃん
-メディア別リスト
-アニメ(12話)
-Sonny Boy(全12話)
-漫画(26冊)
-ザ・ファブル(全22巻)
-二月の勝者(11～14巻)
-書籍(8冊)
-天然知能
-黒板の思想
-ヒミツのテックガール
-たった1日で即戦力になるExcelの教科書
-半径1メートルの想像力 サブカル時代の子ども若者
-有限性の後で
-亡霊のジレンマ
-なぜ世界は存在しないのか
-映画(2本)
-ホームアローン
-スパイダーマン：ファー・フロム・ホーム
- 
-良かった順リスト
-人生に残るコンテンツ
-有限性の後で
-消費して良かったコンテンツ
-スパイダーマン：ファー・フロム・ホーム
-天然知能
-亡霊のジレンマ
-二月の勝者
-消費して損はなかったコンテンツ
-なぜ世界は存在しないのか
-たまに思い出すかもしれないくらいのコンテンツ
-ザ・ファブル
-ヒミツのテックガール
-半径1メートルの想像力 サブカル…]]></summary>
-        <author>
-            <name>LWのサイゼリヤ</name>
         </author>
     </entry>
 </feed>
