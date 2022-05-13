@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-12T01:06:41.758Z</updated>
+    <updated>2022-05-13T01:13:27.081Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[最近の雑記]]></title>
+        <id>hatenablog://entry/13574176438091776071</id>
+        <link href="https://naari.hatenablog.com/entry/2022/05/13/014541"/>
+        <updated>2022-05-12T16:45:41.000Z</updated>
+        <summary type="html"><![CDATA[色々と長い期間を掛けてやりたいことがたくさんでてきて記事を書かなかった。今日も夜ご飯を食べることができなかったし、多分ちゃんと疲れているのだと思う。
+壺で2:40を取得した。もう数秒を詰めるだけで大変だな、という気持ちの他、例えばfunitureあたりはかなりマシな動きができるようになったので、つまり僕の進化はまだ止まらない。
+Glitchless in 2m 40s 852ms by naari3 - Getting Over It With Bennett Foddy - speedrun.com
+www.youtube.com
+「極味や」というお店でハンバーグを食べた。本当においしかった。並び始めが11時15分くらい、店が始まったのが11時30分、中に入れたのは12時過ぎあたりだった。
+
+ああああ pic.twitter.com/x2UwJzjcAT
+— なあり (@_naari_) 2022年5月1日
+  
+形を整えられただけの赤いハンバーグが目の前に出され、これを熱くなっている鉄板の上で焼く形式。店員さんに触ってもよい、と指示されたタイミングではまだ表面のみが熱された状態なので、自分たちで切り分けて鉄板で赤みがなくなるまで追加で熱して食べる。肉の味が凄くしっかりしていて、岩塩と白米が一番合うタイプのハンバーグだった。
+とんかつの話にも通じるが、これも家庭のハンバーグとはレギュレーションが全く違うもので、これこそ外食でないと食べられない味なのだろうと思った。調理過程が本当に知りたい。できれば家で食べたい。
+Minecraftをやった。葉月味というヤロウがSkyblockをやりたいと言い出したのでサーバーを立てた。進捗は以下のツイートのツリーをどうぞ。
+
+進捗https://t.co/EgMxFaWTaw pic.twitter.com/CB8Wv4nAr4
+— なあ…]]></summary>
+        <author>
+            <name>名有りさんの日記</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最近よかったコンテンツについてしゃべリバー#2]]></title>
+        <id>hatenablog://entry/13574176438091776906</id>
+        <link href="https://xcloche.hateblo.jp/entry/2022/05/12/233450"/>
+        <updated>2022-05-12T14:34:50.000Z</updated>
+        <summary type="html"><![CDATA[最近触れたよかったコンテンツの話をするTwitterスペース（隔週）「最近よかったコンテンツについてしゃべリバー」第2回を5/10(火)に開催した。
+KADOKAWAの無料キャンペーン
+ゲームのバグをテーマにした作品
+建築や架空生態系の図録
+Web漫画
+音声捜査をテーマにした映画
+など。
+次回は 5/24(火) 22:00-の予定。
+「今こそ戦争について、考えよう」キャンペーンの話題
+bookwalker.jp
+太田愛の本を積んでいて読みはじめた矢先に無料になってちょっと悔しい
+
+
+TRICK、ウルトラマン、相棒などの脚本家
+ラテンアメリカに造詣
+ウクバールの夢を見る男の話
+ウルトラマンガイアのアルゴナ回（輸送中に事故で紛失した怪獣の卵を金のない小さな会社が拾ってしまい、宇宙人を名乗って地球防衛の組織に脅迫状怪文書（誤字だらけ）を送って身代金を要求する回）
+石の花
+
+
+ナチスの侵攻をうけたユーゴスラビアを舞台にした漫画
+漫画史としてもエポックメイキングな作品だったらしい
+そういえばQ. E. Dも無料になってましたね
+
+
+人間の業をテーマにした作品も多く、シンプルな絵柄からはなかなか想像できないエグい話も多い
+この世界は不完全すぎる
+
+この世界は不完全すぎる（１） (コミックＤＡＹＳコミックス)
+
+作者:左藤真通
+講談社
+Amazon
+
+開発中のVRゲームに閉じ込められて一年以上が経過した職業デバッガーたちの生きざま、狂気、悲哀を描いたファンタジー漫画。偏執的にデバッグ作業を続けバグを報告し続ける主人公・ハガ（報告してしばらくすると治る）が持ち前の仕様・未報告バグ知識を活用し、次々とあらわれる問題に立ち向かう。
+デバッガー同士は「なんとかクリエイトのハガです」みたいに自己紹介する、お仕事漫画...？
+バグの例
+
+
+全員がTポーズ（3Dモデルの基本姿勢）の街。
+アバター読み込…]]></summary>
+        <author>
+            <name>セミになっちゃた</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[G – Get the Salary of Atcoder（square869120Contest #4 [G]）]]></title>
         <id>https://maspypy.com/?p=4965</id>
@@ -915,16 +989,6 @@ youtu.be
 *1:これは決して依頼に問題があったというわけではなく、完全に自分が悪い一件だった]]></summary>
         <author>
             <name>名有りさんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[週記（2022/03/07-2022/03/13）]]></title>
-        <id>https://kotatsugame.hatenablog.com/entry/2022/03/14/040118</id>
-        <link href="https://kotatsugame.hatenablog.com/entry/2022/03/14/040118"/>
-        <updated>2022-03-13T19:01:18.000Z</updated>
-        <summary type="html"><![CDATA[03/07(月) 先週の週記を投稿したあとは比較的素早く布団に入ったはずが、寝っ転がったままなろうを読んでいたら寝るタイミングを逃してしまった。さらに今日の午後から来客が予定されていることに気づき、仕方なく起き上がってパソコンの前に座っていた。思いがけず届いた仕送りも受け取れてラッキー。中にとらやの羊羹が入っていてうれしい気持ちになった。 pic.twitter.com/MO5Z9Sgtdy— こたつがめ (@kotatsugame_t) 2022年3月7日 どんどん眠くなっていって、かろうじて意識を保ちながらYouTubeをボーっと眺めているような状態が続いた。午後4時半からインターン先の定…]]></summary>
-        <author>
-            <name>kotatsugameの日記</name>
         </author>
     </entry>
 </feed>
