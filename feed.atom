@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-16T01:06:17.529Z</updated>
+    <updated>2022-05-17T01:02:21.700Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[週記（2022/05/09-2022/05/15）]]></title>
+        <id>https://kotatsugame.hatenablog.com/entry/2022/05/16/110706</id>
+        <link href="https://kotatsugame.hatenablog.com/entry/2022/05/16/110706"/>
+        <updated>2022-05-16T02:07:06.000Z</updated>
+        <summary type="html"><![CDATA[05/09(月) 午後2時前に起床。1時間ほど布団でゴロゴロした後、シャワーを浴びて購買に向かった。この時間帯、すでに購買のパンやおにぎりは売り切れている。仕方なくお菓子とカロリーメイトを買って、帰り道でコンビニに寄り昼食を確保した。 先週金曜日の配信アーカイブを改めて確認していると、チャットリプレイができないことに気づいた。設定を弄った記憶はなかったが、調べてみるとカット編集を行ったアーカイブはそれができないようになってしまうらしい。配信画面にコメントを表示するのはこれの対策という意味もあったのだと知った。昔は設定していたものの、いろいろソフトの連携が必要で面倒になり、最近は止めてしまってい…]]></summary>
+        <author>
+            <name>kotatsugameの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Minecraftのバニラサーバーに対しても動くようなDIscordのbotを作成した]]></title>
         <id>hatenablog://entry/13574176438092434530</id>
