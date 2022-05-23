@@ -415,6 +415,16 @@
       "siteUrl": "https://maspypy.com",
       "articles": [
         {
+          "id": "https://maspypy.com/?p=4980",
+          "author": "maspy",
+          "description": "概要 問題文 → ■公式解説 → あるのか不明自分の提出 → ■ 解法 LGV 公式を使います。 参考：ABC 216 H 解説（https://atcoder.jp/contests/abc216/editorial/ […]\nThe post 天下一折れ線遊戯（天下一プログラマーコンテスト2013 決勝 [E]） first appeared on maspyのHP.",
+          "link": "https://maspypy.com/%e5%a4%a9%e4%b8%8b%e4%b8%80%e6%8a%98%e3%82%8c%e7%b7%9a%e9%81%8a%e6%88%af%ef%bc%88%e5%a4%a9%e4%b8%8b%e4%b8%80%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9e%e3%83%bc%e3%82%b3%e3%83%b3%e3%83%86%e3%82%b9",
+          "publishedOn": "2022-05-23T00:19:47.000Z",
+          "wordCount": 285,
+          "title": "天下一折れ線遊戯（天下一プログラマーコンテスト2013 決勝 [E]）",
+          "imageUrl": "https://maspypy.com/wp-content/uploads/2019/06/5Dth6Yjz_400x400.jpg"
+        },
+        {
           "id": "https://maspypy.com/?p=4965",
           "author": "maspy",
           "description": "概要 問題文 → ■公式解説 → ■, p.86自分の提出 → ■ 解法 Euler Tour をとって、Euler Tour における頂点順を $x$ 座標、木における深さを $y$ 座標と見なすことで、次のクエリ処理 […]\nThe post G – Get the Salary of Atcoder（square869120Contest #4 [G]） first appeared on maspyのHP.",
@@ -594,6 +604,16 @@
       "feedUrl": "https://kotatsugame.hatenablog.com/feed",
       "siteUrl": "https://kotatsugame.hatenablog.com/",
       "articles": [
+        {
+          "id": "https://kotatsugame.hatenablog.com/entry/2022/05/23/085029",
+          "author": null,
+          "description": "05/16(月) 先週は週記を投稿してからすぐ布団に入った。しかしそこからしばらくYouTubeを見てしまって、寝たのは正午だった。 午後4時前に起床。インターン先定例会までの短い時間で、多少なりとも進捗を出しておこうと思って調べ物をしていた。それでも進捗はゴミカス。今週は火曜日にミーティングがあるので、否が応でも何か進むだろう。 他の人の発表を聞きつつ、勉強会スライドの確認と手直しをしていた。文字に色を付けたり。定例会が長引き、普段より遅い時間から勉強会が始まった。使用したスライドは公開してある。 勉強会0516.pdf - Google ドライブ テーマは関数型言語で、ラムダ計算の導入、そ…",
+          "link": "https://kotatsugame.hatenablog.com/entry/2022/05/23/085029",
+          "publishedOn": "2022-05-22T23:50:29.000Z",
+          "wordCount": 372,
+          "title": "週記（2022/05/16-2022/05/22）",
+          "imageUrl": "https://ogimage.blog.st-hatena.com/17391345971631198868/13574176438093971003/1653263429"
+        },
         {
           "id": "https://kotatsugame.hatenablog.com/entry/2022/05/16/110706",
           "author": null,
