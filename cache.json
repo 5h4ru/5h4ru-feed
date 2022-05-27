@@ -635,6 +635,16 @@
       "siteUrl": "https://ch.nicovideo.jp/ch2648350/video",
       "articles": [
         {
+          "id": "tag:nicovideo.jp,2022-05-27:/watch/1652758088",
+          "author": null,
+          "description": "動画一覧はこちら意図せず濃密な夏休みを過ごしてしまったシャミ子。平穏な夏休みを取り戻すべく、お暇を頂くことに。しかし久々に余暇を与えられるもなぜか心から楽しむことができずにいた。そしてシャミ子と桃の宿題の行く末にも暗雲が…。無料動画や最新情報・生放送・マンガ・イラストは Nアニメまちカドまぞく 2丁目2022春アニメ　アニメ無料動画　アニメランキング声優情報　小原好美　鬼頭明里\n24:12｜2022年05月27日 12：00：00 動画投稿｜2022年05月27日 12：00：00 コミュ投稿",
+          "link": "https://www.nicovideo.jp/watch/1652758088",
+          "publishedOn": "2022-05-27T03:00:00.000Z",
+          "wordCount": 68,
+          "title": "まちカドまぞく 2丁目 第7話「ひと時の休暇！！　まぞくの夏祭り」",
+          "imageUrl": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40479263/40479263.21661287.original/r1280x720l?key=901ad24c808c5d4368edd5d329149b34bef0d9385147749878679fc3a126d6ce"
+        },
+        {
           "id": "tag:nicovideo.jp,2022-05-13:/watch/1652146446",
           "author": null,
           "description": "動画一覧はこちら10年前、桜のコアと接触していたシャミ子。その記憶を思い出すため、自身の力を使い10年前の記憶を探索することに。そこで窮地に追い込まれたシャミ子を助けたのは,探し続けていた桃の姉、千代田桜だった！果たしてシャミ子は桜と一緒に脱出することができるのか？一方、桃は悪夢からシャミ子を救うべくある行動に出る―。無料動画や最新情報・生放送・マンガ・イラストは Nアニメまちカドまぞく 2丁目2022春アニメ　アニメ無料動画　アニメランキング声優情報　小原好美　鬼頭明里\n24:12｜2022年05月13日 12：00：00 動画投稿｜2022年05月13日 12：00：00 コミュ投稿",
@@ -693,6 +703,33 @@
           "wordCount": 72,
           "title": "まちカドまぞく 2丁目 第1話「対決ふたたび！　魔法少女の新たなる姿！？」",
           "imageUrl": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40277014/40277014.505792.original/r1280x720l?key=551425ea001fdcd23b16747b06faede222a6ebe9cbd4e6f9a14770d5298b8745"
+        }
+      ]
+    },
+    {
+      "title": "Da Tweekaz",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuyyM0QmLZNGxh2rm5CHosQ",
+      "siteUrl": "https://www.youtube.com/channel/UCuyyM0QmLZNGxh2rm5CHosQ",
+      "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=5ZT2v7ObkzE",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=5ZT2v7ObkzE",
+          "publishedOn": "2022-05-12T21:49:38.000Z",
+          "wordCount": null,
+          "title": "Tweeka TV - Episode 74 (Special Guests: Frequencerz)",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=CvH5dowiGjs",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=CvH5dowiGjs",
+          "publishedOn": "2022-04-07T22:32:21.000Z",
+          "wordCount": null,
+          "title": "Tweeka TV - Episode 73 (Special Guest: Vertile)",
+          "imageUrl": null
         }
       ]
     }
