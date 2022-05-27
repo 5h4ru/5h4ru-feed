@@ -152,23 +152,7 @@
       "title": "フ''ロク''",
       "feedUrl": "https://a-pos-tro-phe.hatenablog.com/rss",
       "siteUrl": "https://a-pos-tro-phe.hatenablog.com/",
-      "articles": [
-        {
-          "id": "hatenablog://entry/13574176438077334313",
-          "author": null,
-          "description": "こんにちは。\n　長らく放置していた動画のマイリストを更新しました。\nwww.nicovideo.jp\n　主な変更・改善点は以下の通りです。\nマイリストコメントで行っていたナンバリングを削除（面倒になって更新しない原因になっていたので）\n一部マイリストコメントの変更\n参加した合作については今まで通り追加しない方針\n個人作の代理投稿や合作単品などは追加\n　今後は何か動画を投稿するたびに更新にしていきたいですが、忘れてたり後回しにすることも多分あると思います。その際はご容赦ください。\n \n　どんな動画があるの？と思う人もいると思うので、代表的な動画をピックアップすると、マイリスしてある動画は大体以下のような動画です。\n\n　投稿した動画をいいね！数が多い順にすると、上位5つの内訳は眼鏡2、グラサン2、マツコ8になってます。(2022/3/22 現在)\n　マツコだけ多すぎる。ずるい。\n \n　コメントとかいいね！とかで反応してくれてありがとうございます。以上です。",
-          "link": "https://a-pos-tro-phe.hatenablog.com/entry/2022/03/28/012825",
-          "publishedOn": "2022-03-27T16:28:25.000Z",
-          "wordCount": 74,
-          "title": "マイリス更新",
-          "enclosure": {
-            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/A/A_pos_tro_phe/20220328/20220328020107.png",
-            "type": "image/png",
-            "length": "0"
-          },
-          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/A/A_pos_tro_phe/20220328/20220328020107.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "みそは入ってませんけど",
@@ -282,6 +266,21 @@
       "feedUrl": "https://www.zaikakotoo.com/rss",
       "siteUrl": "https://www.zaikakotoo.com/",
       "articles": [
+        {
+          "id": "hatenablog://entry/13574176438095693829",
+          "author": null,
+          "description": "はじめに. 平均20秒のボカロ曲\n\n\n\n身体は正直だって言ってんの [Explicit]\nShikiura Records\nAmazon\n\n「式裏。」楽曲たち\n\n音楽が加速している。\n所狭しと並ぶ画一的なサムネを見れば、そこにある楽曲たちの長さがすべて20秒前後であることがわかるだろう。\n「式裏。」は、2022年1月20日にデビューした新進気鋭のボカロPだ*1。「式裏。」楽曲の長さを見て、それがTikTokに最適化されたサイズだ、と指摘することは素人でもたやすい。\nだがそれだけではない。「式裏。」楽曲には、（筆者が観測するかぎりでの）最近流行りのボカロ曲の諸特徴（が先鋭化したもの）が「全部盛り」になっている。今回はその近年（2020年初頭）流行りのボカロ曲の諸特徴について、「式裏。」楽曲から少し整理してみたい。\n \nとはいえ、あらかじめ断っておけば、筆者には音楽的教養がほぼないと言っても過言ではない。ただYouTubeを2020年9月から5000時間以上再生しているプレイヤーではあり、「Youtubeをたくさん見る人」の観点から整理できることもあると思った次第だ。\nしたがって筆者が「音楽」を語るとき、むしろそれを取り巻く外的な特徴でくくることに終始するため、音楽の内容的な特徴の面は捨象されてしまうだろう。それについては聡明な読者諸氏の叱咤を待つばかりであるが、それでも何か寄与するところがあれば嬉しい。そう思ってこの観測録を記す。\nはじめに. 平均20秒のボカロ曲\n1.0. 楽曲の短さ\n1.1. 歌い出し／イントロなし\n1.2. 例外状態——長い間奏\n1.3. 例外状態——長い楽曲\n2.0. アップ一枚絵\n2.1. 「地雷系／量産型」サムネ\n3.0. ——（名無し）\n3.1. （名無し）の先駆け\nおわりに\n1.0. 楽曲の短さ\nwww.youtube.com\n「式裏。」の特徴…",
+          "link": "https://www.zaikakotoo.com/entry/vocaloid.acceleration.shikiura",
+          "publishedOn": "2022-05-26T09:56:37.000Z",
+          "wordCount": 333,
+          "title": "20秒の美学、加速する音楽——「式裏。」から整理する2020年初頭におけるボカロ曲の諸特徴",
+          "enclosure": {
+            "url": "https://m.media-amazon.com/images/I/5190n42DbCL._SL500_.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://m.media-amazon.com/images/I/5190n42DbCL._SL500_.jpg"
+        },
         {
           "id": "hatenablog://entry/13574176438087402203",
           "author": null,
@@ -627,16 +626,6 @@
           "wordCount": 320,
           "title": "週記（2022/03/28-2022/04/03）",
           "imageUrl": "https://ogimage.blog.st-hatena.com/17391345971631198868/13574176438078120846/1649067706"
-        },
-        {
-          "id": "https://kotatsugame.hatenablog.com/entry/2022/03/28/034325",
-          "author": null,
-          "description": "03/21(月) 先週の週記は、せっかく観光してきたので奇跡の一本松の写真をサムネ画像に設定しておいた。スマホを縦にして撮ったものであり、はてなブログの記事管理ページから見るとちゃんと縦向きになっている。しかしツイートのカードでは横向きになってしまっていた。残念。 はてなブログに投稿しました #はてなブログ週記（2022/03/14-2022/03/20） - kotatsugameの日記https://t.co/Qim1xKIynE— こたつがめ (@kotatsugame_t) 2022年3月20日 ICPCの参加記と週記を続けざまに投稿した後、比較的すぐ布団に入った。午前9時就寝。 HU…",
-          "link": "https://kotatsugame.hatenablog.com/entry/2022/03/28/034325",
-          "publishedOn": "2022-03-27T18:43:25.000Z",
-          "wordCount": 275,
-          "title": "週記（2022/03/21-2022/03/27）",
-          "imageUrl": "https://ogimage.blog.st-hatena.com/17391345971631198868/13574176438075772545/1648533126"
         }
       ]
     },
