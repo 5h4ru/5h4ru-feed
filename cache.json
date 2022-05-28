@@ -329,18 +329,7 @@
       "title": "イショティハドゥス",
       "feedUrl": "https://lineblog.me/css/index.rdf",
       "siteUrl": "https://lineblog.me/css/",
-      "articles": [
-        {
-          "id": "https://lineblog.me/css/archives/2883324.html",
-          "author": "css",
-          "description": "3 月 24 日、無事博士号を取得した。\n\nこれに至るまでの遍歴を綴ろうと思う。\n高校 3 年\nなんの意味もなくなんか雰囲気で東大を志望していた。何がしたいというわけでもない。そこに東大があるから東大を受けるのである。\n秋の東大オープンかなんかで壊滅的な感触を得て、マ...",
-          "link": "https://lineblog.me/css/archives/2883324.html",
-          "publishedOn": "2022-03-29T04:55:55.000Z",
-          "wordCount": 436,
-          "title": "博士号を取得しました",
-          "imageUrl": "https://obs.line-scdn.net/0m0e76f20def54370037322142617677607167676f2e43204c127d3439282f3e623d35643637393e4b3d2a31356f226f67/large"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "maspyのHP",

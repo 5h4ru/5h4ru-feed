@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-27T12:41:57.635Z</updated>
+    <updated>2022-05-28T01:47:30.961Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -980,21 +980,6 @@ LCA (lowest common ancestor) problem は次のような問題です。
 \(i\) 個目のクエリ \( (u_i, v_i)\)：\(u_i\) と \(v…]]></summary>
         <author>
             <name>えびちゃんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[博士号を取得しました]]></title>
-        <id>https://lineblog.me/css/archives/2883324.html</id>
-        <link href="https://lineblog.me/css/archives/2883324.html"/>
-        <updated>2022-03-29T04:55:55.000Z</updated>
-        <summary type="html"><![CDATA[3 月 24 日、無事博士号を取得した。
-
-これに至るまでの遍歴を綴ろうと思う。
-高校 3 年
-なんの意味もなくなんか雰囲気で東大を志望していた。何がしたいというわけでもない。そこに東大があるから東大を受けるのである。
-秋の東大オープンかなんかで壊滅的な感触を得て、マ...]]></summary>
-        <author>
-            <name>css</name>
         </author>
     </entry>
 </feed>
