@@ -2,10 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-29T02:03:42.217Z</updated>
+    <updated>2022-05-29T12:36:17.806Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[精神論 (1)]]></title>
+        <id>https://yokkin.com/?p=2212</id>
+        <link href="https://yokkin.com/blog/210529-toot.html"/>
+        <updated>2022-05-29T09:37:14.000Z</updated>
+        <summary type="html"><![CDATA[勉強にしろ趣味にしろ、時間のある学生のうちにやりたいことをやれる環境があるなら全部妥協せずにやった方が良かった。だからするべき。というアドバイスは的を得ていない。 人には個人差というものがあって、年齢相応の知能があるし、 […]]]></summary>
+        <author>
+            <name>Yokkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Terrariaの日本語Wikiを検索するPowerToys Runのプラグインを作った]]></title>
+        <id>hatenablog://entry/13574176438096940203</id>
+        <link href="https://naari.hatenablog.com/entry/2022/05/29/141049"/>
+        <updated>2022-05-29T05:10:49.000Z</updated>
+        <summary type="html"><![CDATA[身内でTerrariaが流行っている。このゲームは知っておかなければならないことが無限に存在し、特にハードモード以降はTerraria Japan Wikiに頼り切りにならなければやっていくことができない。で、PowerToys Runでプラグインを作ることができればかなり丁度良いのではないか？となって、調べたらどうやらいけそうだったので作った。PowerToys Runでプラグインを作るための記事はこちらでどうぞ。
+こんな感じのプラグインになった。Terraria Japan Wikiの検索結果をそのまま表示した上で、項目を選択するとデフォルトのブラウザでページが開くようになる。
+
+GitHub Releasesにて配布中。Terrariaプレイヤーはぜひとも使ってみてください。
+GitHub - naari3/terraria-japan-wiki-PowerToysRun: PowerToys Run Plugin for Terraria Japan Wiki Search
+PowerToys Runのプラグインを自作する - 名有りさんの日記
+プラグイン制作についての記事は↑で書いた。
+自分で作ったものを褒めるのもなんだけれど、まじで便利。ほんとうに便利で、これがないとTerrariaをやりたくないというくらいにはなっている。なくてはならないプラグインとなってしまった。
+PowerToys Runのプラグイン制作はマジで可能性を感じるので、何か必要に応じて作っていきたいね。]]></summary>
+        <author>
+            <name>名有りさんの日記</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PowerToys Runのプラグインを自作する]]></title>
+        <id>hatenablog://entry/13574176438096880557</id>
+        <link href="https://naari.hatenablog.com/entry/2022/05/29/141028"/>
+        <updated>2022-05-29T05:10:28.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftが出しているPowerToysというユーティリティ集が存在する。便利なユーティリティが集合したものだが、詳細についてはこちらを見て欲しい。
+今回はこの中のPowerToys Runに注目する。PowerToys Runとは、ショートカットキーによって検索窓を表示してくれる機能で、macOSのSpotlightのWindows版と想像してくれるとわかりやすいと思う。
+
+この検索結果一覧は様々な種類があり、例えば ファイル/フォルダの検索や、そのまま標準ブラウザを開いてくれる機能、VSCodeのワークスペースを検索する機能などがある。これらは、内部ではPluginとして個別に実装されている。
+PowerToys/src/modules/launcher/Plugins at main · microsoft/PowerToys · GitHub
+これが、以下のパスに設置されている。
+C:\Program Files\PowerToys\modules\launcher\Plugins
+これに対し、自分で好きな実装を施したプラグインを作るのが今回の目的。
+その前に
+現時点でサードパーティ製のプラグインはunsupportedなもので、扱いについては現在もこちらのissueで議論され続けているので、もしかしたら急にすべてが壊れるかもしれない。しかし、好意的な方向には見えるのでそんなに大きく事が変わることはないはず。
+かんたんなプラグインを作る
+まず、Pluginsの依存する各種ライブラリを用意するところから始める。以下の4つが対象だが、2022年5月29日現在はNuGet等には公開されていない*1ので PowerToys を自分でビルドするか、PowerToysインストール後に C:\Program Files\PowerToys\modules\launcher…]]></summary>
+        <author>
+            <name>名有りさんの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[22/5/29 人生で初めて歌ってみたに激ハマりしてる話]]></title>
         <id>hatenablog://entry/13574176438088812531</id>
@@ -981,48 +1030,6 @@ note.com
 GitHub - JaredReisinger/react-crossword: A flexible, responsive, and easy-to-us…]]></summary>
         <author>
             <name>名有りさんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[オフラインの線形時間 LCA]]></title>
-        <id>hatenablog://entry/13574176438078294928</id>
-        <link href="https://rsk0315.hatenablog.com/entry/2022/03/31/002524"/>
-        <updated>2022-03-30T15:25:24.000Z</updated>
-        <summary type="html"><![CDATA[クエリ先読みする場合の LCA を線形時間で解きます。何日か前に TL で話していたら思いついたので。
-まずそのときのツイートをいくつか貼ります。
-
-LCA ってクエリ先読みして DFS とかの方針で線形で解ける？ わかりません
-— えびちゃん (@rsk0315_h4x) 2022年3月27日
-  
-niuez.github.io
-
-UnionFind をなんかいい感じに弄ると Tarjan の offline LCA が線型になるらしいです。https://t.co/TSCy3cIwgS
-— みさわ (@Mi_Sawa) 2022年3月27日
-  
-
-特殊な集合だと union-find が O(1) になったりする系のやつ、例の usize_decremental_set とかのやつでもあったね
-— えびちゃん (@rsk0315_h4x) 2022年3月27日
-  
-
-あれ、もしかして同じか？
-— えびちゃん (@rsk0315_h4x) 2022年3月27日
-  
-
-Euler tour みたいな感じで見ると区間になってるはずなので
-— えびちゃん (@rsk0315_h4x) 2022年3月27日
-  
-
-tarjan's offline LCA の DFS における pre-order で頂点を並べるとそれでいけそう
-— 熨斗袋 (@noshi91) 2022年3月27日
-  
-クエリ先読みしなくても線形 RMQ を使えば線形時間で解けますが、それはそれです。
-定義
-念のため。
-LCA (lowest common ancestor) problem は次のような問題です。
-まず根を \(r\) とする \(n\) 頂点の木が与えられて、クエリが \(q\) 個与えられます。
-\(i\) 個目のクエリ \( (u_i, v_i)\)：\(u_i\) と \(v…]]></summary>
-        <author>
-            <name>えびちゃんの日記</name>
         </author>
     </entry>
 </feed>
