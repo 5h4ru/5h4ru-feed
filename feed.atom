@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-05-29T12:36:17.806Z</updated>
+    <updated>2022-05-30T01:57:42.598Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[週記（2022/05/23-2022/05/29）]]></title>
+        <id>https://kotatsugame.hatenablog.com/entry/2022/05/30/080315</id>
+        <link href="https://kotatsugame.hatenablog.com/entry/2022/05/30/080315"/>
+        <updated>2022-05-29T23:03:15.000Z</updated>
+        <summary type="html"><![CDATA[05/23(月) 日曜日、週記を投稿してからはすぐ布団に入って寝た。午前9時半だった。 午後3時起床。先週の週記に書いたように、今日はこれから大学で座談会に出席する必要があるため、インターン先の定例会で進捗報告ができない。よってスライドだけ作成して、事前に公開しておくことになる。その作業を起きてから行おうとしていたのだが、思ったより遅い時間まで起きられなかった。結構焦っていたつもりなのに諸々確認していたら完成まで30分以上かかってしまった。 急いで準備して出発。原付を飛ばしたら開始の5分くらい前に到着できた。生協に寄っている暇はなかったため、腹を空かせた状態で一時間ほど講演を聞いていた。座談会…]]></summary>
+        <author>
+            <name>kotatsugameの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[精神論 (1)]]></title>
         <id>https://yokkin.com/?p=2212</id>
