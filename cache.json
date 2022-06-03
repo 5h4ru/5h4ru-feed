@@ -596,16 +596,6 @@
           "wordCount": 302,
           "title": "週記（2022/04/04-2022/04/10）",
           "imageUrl": "https://ogimage.blog.st-hatena.com/17391345971631198868/13574176438080267150/1649639282"
-        },
-        {
-          "id": "https://kotatsugame.hatenablog.com/entry/2022/04/04/192146",
-          "author": null,
-          "description": "03/28(月) 先週の週記を投稿してから布団に入るまでは早かった。しかしすぐには眠れず、少しハーメルンを読んでから午前5時過ぎに就寝。 目覚ましのスヌーズを繰り返し、午前8時50分に起床。午前9時からパ研合宿2021第2日「SpeedRun」に参加した。 パ研合宿2021 第2日「SpeedRun」 - AtCoder AはText。Bはdc。CはRaku。Dはすぐ短くなりそうには見えないので、とりあえずRuby。Eはdc。Fも最初からdcで書こうとして、を出力したところほとんどWA。こりゃ難しいぞとしばらく紙の上で考える。とりあえずは達成できそうだったので、ペナルティもないことだしとりあえ…",
-          "link": "https://kotatsugame.hatenablog.com/entry/2022/04/04/192146",
-          "publishedOn": "2022-04-04T10:21:46.000Z",
-          "wordCount": 320,
-          "title": "週記（2022/03/28-2022/04/03）",
-          "imageUrl": "https://ogimage.blog.st-hatena.com/17391345971631198868/13574176438078120846/1649067706"
         }
       ]
     },
@@ -691,6 +681,16 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCuyyM0QmLZNGxh2rm5CHosQ",
       "siteUrl": "https://www.youtube.com/channel/UCuyyM0QmLZNGxh2rm5CHosQ",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=M5qHkyBmZrs",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=M5qHkyBmZrs",
+          "publishedOn": "2022-06-02T19:00:07.000Z",
+          "wordCount": null,
+          "title": "Tweekamania Bustour 2022 (Trailer)",
+          "imageUrl": null
+        },
         {
           "id": "https://www.youtube.com/watch?v=jgVjkCmrLuI",
           "author": null,
