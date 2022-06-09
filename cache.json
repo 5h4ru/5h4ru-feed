@@ -164,16 +164,6 @@
           "wordCount": 69,
           "title": "長すぎる夢とその世界の重力",
           "imageUrl": "https://not-miso-inside.netlify.com/global/thumbnail.jpg"
-        },
-        {
-          "id": "https://not-miso-inside.netlify.com/blog/fragments-of/",
-          "author": null,
-          "description": "『ワールドフリッパー』というスマホゲームをやっていた。ヘルガ嬢が入手できたので即やめた。私の趣味はご理解いただけたと思う。",
-          "link": "https://not-miso-inside.netlify.com/blog/fragments-of/",
-          "publishedOn": "2022-04-11T00:00:00.000Z",
-          "wordCount": 88,
-          "title": "愛のカケラ10個で愛と交換",
-          "imageUrl": "https://not-miso-inside.netlify.com/global/thumbnail.jpg"
         }
       ]
     },
@@ -307,6 +297,21 @@
       "feedUrl": "https://www.zaikakotoo.com/rss",
       "siteUrl": "https://www.zaikakotoo.com/",
       "articles": [
+        {
+          "id": "hatenablog://entry/13574176438100171218",
+          "author": null,
+          "description": "0.0. こどもブロイラーとは何か——設定上の回答——\n\nこどもブロイラー（『輪るピングドラム』18th station, ピングループ・MBS, 2011年）\n\n\n「ここはこどもブロイラーだよ」\n「こどもブロイラー？」\n「いらない子どもたちが集められる場所」\n［…］\n「ここで僕らは透明な存在になって、やがて世界から消えてなくなるんだ」\n（『輪るピングドラム』18th station より）\n「こどもブロイラー」とは何か。「透明な存在」とは何か。今回は基本的に、この問いをめぐって考察を加える。\n実はその問いに答えを与えることはそう難しくない。すなわち、「こどもブロイラー」とは、不要とされた子どもたちが捨てられる処分場（の比喩表現）のことで、そこで「こどもシュレッダー」にかけられたこどもたちは*1、やがて「透明な存在」となって世界から消えてしまうのである。\nしたがって「透明な存在」とは、誰からも必要とされず、アイデンティティを失い、その意味で他人と見分けがつかないくらいに平準化されてしまった人間のこと、と説明できる。\nこうして表層的に、物語の設定上の回答を与えることは容易いのだが、しかし問題の比重は、そうした比喩がどのような射程をもっているのか、「透明な存在」というリファレンスのある用語が何を問題としているかの方にこそある。\n \nその問題をこそ今回は考えたい、のだが、どうしても前置きしておかねばならないことがある。それは「透明な存在」という語が明らかに1997年に起こった神戸連続児童殺傷事件のあれこれを参照項としており、この事件の扱いには慎重になる必要があるということである。\n「透明な存在」について掘り下げる関係上、どうしてもその事件について語ることが避けられないが、事件は凄惨さを極めているため、当該事件について触れられたくない人は読まれないことをおすすめする（とはいえ、事件…",
+          "link": "https://www.zaikakotoo.com/entry/penguindrum/re/zero/13",
+          "publishedOn": "2022-06-09T11:53:02.000Z",
+          "wordCount": 421,
+          "title": "【ピンドラ 考察】ゼロから見直す『輪るピングドラム』⑬こどもブロイラーとは何か——透明な存在の不透明な内実【17-18話】",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zaikakotoo/20220609/20220609204643.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zaikakotoo/20220609/20220609204643.png"
+        },
         {
           "id": "hatenablog://entry/13574176438095693829",
           "author": null,
@@ -641,16 +646,6 @@
           "wordCount": 354,
           "title": "週記（2022/04/11-2022/04/17）",
           "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/k/kotatsugame/20220413/20220413055516.jpg"
-        },
-        {
-          "id": "https://kotatsugame.hatenablog.com/entry/2022/04/11/091436",
-          "author": null,
-          "description": "04/04(月) 午前6時半ごろ目を覚ます。僕が寝ている間にTLが盛り上がっていた。 マジでワロタ pic.twitter.com/SfGz6KYV3C— のいみ (@noimi_kyopro) 2022年4月3日 ACするのに正当性など1mmも必要ではなくて、ただジャッジ対象のすべてのテストケースで正しい答えを出力できればよい— こたつがめ (@kotatsugame_t) 2019年9月1日 この考えは今も持っていて、つい最近も埋め込みしたという記述を日記に残していた。言い訳じみたことを言っておけば、さすがにこれは虚無すぎたので、これ以来やっていない。この時はFastest 600問から陥…",
-          "link": "https://kotatsugame.hatenablog.com/entry/2022/04/11/091436",
-          "publishedOn": "2022-04-11T00:14:36.000Z",
-          "wordCount": 302,
-          "title": "週記（2022/04/04-2022/04/10）",
-          "imageUrl": "https://ogimage.blog.st-hatena.com/17391345971631198868/13574176438080267150/1649639282"
         }
       ]
     },
