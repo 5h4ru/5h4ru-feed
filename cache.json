@@ -163,7 +163,23 @@
       "title": "フ''ロク''",
       "feedUrl": "https://a-pos-tro-phe.hatenablog.com/rss",
       "siteUrl": "https://a-pos-tro-phe.hatenablog.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "hatenablog://entry/13574176438101936990",
+          "author": null,
+          "description": "こんにちは。\n突然で申し訳ないのですが、動画の制作が滞ります。\nというのも、これまで使ってきたノートPCが動作が悪くなってしまい、現在復旧作業をしているところです。\n作ってきた編集ファイルはなんとか無事に残っていますが、そもそもの基幹の部分の動作が怪しいので、復旧ないしは新環境に切り替えを行うまで投稿を休止します。\nとりあえず状況をなんとかするまでは休止、って感じなので気長にお待ちいただければ幸いです。再開できそうになれば、現在制作が途中のものを順次投稿予定です。多分戻ってきます。その時になりましたら、何卒よろしくお願いします。",
+          "link": "https://a-pos-tro-phe.hatenablog.com/entry/2022/06/14/004535",
+          "publishedOn": "2022-06-13T15:45:35.000Z",
+          "wordCount": 62,
+          "title": "【報告】動画制作が滞ります",
+          "enclosure": {
+            "url": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png"
+        }
+      ]
     },
     {
       "title": "みそは入ってませんけど",
@@ -763,16 +779,6 @@
           "wordCount": 68,
           "title": "まちカドまぞく 2丁目 第3話「闇の魔女ふたたび！　湯けむりフロムヘル！」",
           "imageUrl": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40339310/40339310.73505453.original/r1280x720l?key=fcdfd92f7f65ec6bc06f7bf779fb13e40e972f1a9e0de565b52d17bfb9d1366b"
-        },
-        {
-          "id": "tag:nicovideo.jp,2022-04-15:/watch/1649742306",
-          "author": null,
-          "description": "動画一覧はこちら 吉田家のテーブル替わりに使われている段ボールに見覚えのあるミカン。 「その箱...... うちの実家の工場で使っている箱とおそろいだわ」 父・ヨシュアの手がかりを探すべく、シャミ子たちは廃墟と化したミカンの旧実家を探索することに。 そこで深まる父の封印の謎、そしてシャミ子が手にしたものとは―。 無料動画や最新情報・生放送・マンガ・イラストは Nアニメまちカドまぞく 2丁目2022春アニメ　アニメ無料動画　アニメランキング声優情報　小原好美　鬼頭明里\n24:12｜2022年04月15日 12：00：00 動画投稿｜2022年04月15日 12：00：00 コミュ投稿",
-          "link": "https://www.nicovideo.jp/watch/1649742306",
-          "publishedOn": "2022-04-15T03:00:00.000Z",
-          "wordCount": 74,
-          "title": "まちカドまぞく 2丁目 第2話「廃墟捜索！　わけありみかんとわくわくまぞく」",
-          "imageUrl": "https://img.cdn.nimg.jp/s/nicovideo/thumbnails/40307830/40307830.81729948.original/r1280x720l?key=14f4c965daaf3e17d355f3935c794c198af681cd07ee0f1ed74b4d71b53a33b0"
         }
       ]
     },
