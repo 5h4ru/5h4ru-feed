@@ -185,18 +185,7 @@
       "title": "みそは入ってませんけど",
       "feedUrl": "https://not-miso-inside.netlify.app/rss.xml",
       "siteUrl": "https://not-miso-inside.netlify.com",
-      "articles": [
-        {
-          "id": "https://not-miso-inside.netlify.com/blog/long-dream-and-its-gravity/",
-          "author": null,
-          "description": "新作が配信される。\n作品へのリンクと告知記事へのリンクを張っておく。今のところ無効なリンクだが、然るべき日時の後（具体的には4/23日の朝九時以降）にアクセスできるようになるはずだ。よろしくお願いします。待っていると無料で読めるようになるが、500円/月で無限に読めるようになる。Q. エゴサとかする？ A. する。",
-          "link": "https://not-miso-inside.netlify.com/blog/long-dream-and-its-gravity/",
-          "publishedOn": "2022-04-20T00:00:00.000Z",
-          "wordCount": 69,
-          "title": "長すぎる夢とその世界の重力",
-          "imageUrl": "https://not-miso-inside.netlify.com/global/thumbnail.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "LWのサイゼリヤ",
@@ -343,6 +332,21 @@
       "feedUrl": "https://www.zaikakotoo.com/rss",
       "siteUrl": "https://www.zaikakotoo.com/",
       "articles": [
+        {
+          "id": "hatenablog://entry/13574176438102739664",
+          "author": null,
+          "description": "はじめに\n19-20話は、陽毬の過去編がメインの話となっている。\nだが例のごとく、過去編というよりは、そこで語られている内実のほうが重要である。とくに、19-20話では「選ばれない」「きっと何者にもなれない」「氷の世界」「生存戦略」「運命の果実をいっしょに食べよう」等々、重要なフレーズが頻出する。これらが何を示しているのか、まずは素直に読み解くことがとても重要であるように思われる。\nそこで今回は、物語に内在的に、実直に、『輪るピングドラム』の中身を読み込んでゆくこととしたい。差し当たっては、以下のような問いを立ててみた。\nQ. 「選ばれない」と「何者にもなれない」について、両者の内実や関係を明らかにしながら、「運命」という言葉を用いて、『ピンドラ』が発するメッセージを答えなさい。\nなんだか入試問題みたいになってしまった。だがこれは、『ピンドラ』という物語を考えるうえで重要な問いだと思うのだ。読者の方々におかれても、以下を読む前に、一度立ち止まって少し考えてみてほしい。\nでは、以下考察を進めよう。\n \n\n    \nはじめに\n1.0. 「きっと何者にもなれない」とは何か\n1.1. 剣山の世界観\n1.2. 「社会から見捨てられる≒透明になる≒何者にもなれない」\n1.3. 「きっと何者にもなれない」「僕ら」\n1.4. 「きっと何者にもなれない」まとめ\n2.0. 「選ばれる」とはどういうことか\n2.1. 選ばれないことは、死ぬこと\n2.2. 運命の果実をいっしょに食べよう\n3.0. 「運命」のもとで\n3.1. 「運命がすべてを奪ったとしても……」\nおわりに——「きっと何者にもなれない」からの脱却\n1.0. 「きっと何者にもなれない」とは何か\n1.1. 剣山の世界観\n20話冒頭は、以前の考察で引用した、剣山の重要な演説となっている。\n前回は「氷の世界」について説明するために引用したが、…",
+          "link": "https://www.zaikakotoo.com/entry/penguindrum/re/zero/14",
+          "publishedOn": "2022-06-18T09:56:19.000Z",
+          "wordCount": 275,
+          "title": "【ピンドラ 考察】ゼロから見直す『輪るピングドラム』⑭「きっと何者にもなれない」とはどういうことか【19-20話】",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zaikakotoo/20220618/20220618185520.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/z/zaikakotoo/20220618/20220618185520.png"
+        },
         {
           "id": "hatenablog://entry/13574176438100171218",
           "author": null,
