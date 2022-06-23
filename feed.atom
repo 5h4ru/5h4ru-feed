@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-06-22T12:39:58.283Z</updated>
+    <updated>2022-06-23T01:55:47.072Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[おすすめのなろう小説まとめ Part2]]></title>
+        <id>https://kotatsugame.hatenablog.com/entry/2022/06/23/091556</id>
+        <link href="https://kotatsugame.hatenablog.com/entry/2022/06/23/091556"/>
+        <updated>2022-06-23T00:15:56.000Z</updated>
+        <summary type="html"><![CDATA[kotatsugame.hatenablog.com ジャンル分けは諦めました。コメントで大まかな展開に触れた作品もあるので、少しだけネタバレ注意です。 最終更新日：2022/06/23 増えたやつ 影の勇者の再冒険 ～～Re-Tale of the Brave～～ 学校ごと異世界転移。その世界で勇者だったことを隠している主人公だが、それでも素の実力が十二分にあるため表向きの立場がガンガン上がっている。正体を隠しているという設定と、めちゃくちゃ強くて活躍しているという設定が両立されており、非常に好み。またほんの少しずつ周囲の人に正体を明かしていて、そのシーンごとに解放感があって気持ちいい。ただ…]]></summary>
+        <author>
+            <name>kotatsugameの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[最近よかったコンテンツについてしゃべリバー #4]]></title>
         <id>hatenablog://entry/13574176438104379942</id>
