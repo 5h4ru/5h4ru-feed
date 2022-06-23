@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-06-23T01:55:47.072Z</updated>
+    <updated>2022-06-23T12:41:32.384Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -1181,16 +1181,6 @@ soundtoysのプラグインには、一定時間ごとにDAWを閉じるとい�
 The post [多項式・形式的べき級数] 高速に計算できるものたち first appeared on maspyのHP.]]></summary>
         <author>
             <name>maspy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[週記（2022/04/18-2022/04/24）]]></title>
-        <id>https://kotatsugame.hatenablog.com/entry/2022/04/25/093931</id>
-        <link href="https://kotatsugame.hatenablog.com/entry/2022/04/25/093931"/>
-        <updated>2022-04-25T00:39:31.000Z</updated>
-        <summary type="html"><![CDATA[04/18(月) 04/17 午後11時半ごろ起床。ちょうどCF div.2が始まったころだが見送った。 すぐ日付が変わって、TCB46の結果が出た。3位と1点差で2位。1位とはかなり差を付けられていてショック。問題ごとの減点を見返してみるに、やはり2度以上提出するのが大きく響くようだ。スコアの計算式を改めてよく見ると、まず提出回数によって基本スコアが減らされて、さらにそれを元にボーナス2種類が計算されているらしい。つまり得点全体を減らしているようなものなので、影響が大きいのも納得。 https://techful-programming.com/faq/problem#q2 ちょっとカクヨム…]]></summary>
-        <author>
-            <name>kotatsugameの日記</name>
         </author>
     </entry>
 </feed>
