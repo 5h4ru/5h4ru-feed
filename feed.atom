@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-06-30T02:04:38.442Z</updated>
+    <updated>2022-06-30T12:43:52.291Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -1045,16 +1045,6 @@ Amazon
 記号が苦手な人は、\(S\), \(T\) が int、\(\circ\) が…]]></summary>
         <author>
             <name>えびちゃんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[週記（2022/04/25-2022/05/01）]]></title>
-        <id>https://kotatsugame.hatenablog.com/entry/2022/05/02/062840</id>
-        <link href="https://kotatsugame.hatenablog.com/entry/2022/05/02/062840"/>
-        <updated>2022-05-01T21:28:40.000Z</updated>
-        <summary type="html"><![CDATA[04/25(月) 先週の週記を投稿してから。学食に行って食事し、今日もまた予約していた新刊ラノベを受け取って帰ってきた。そこから1時間インターン関連のコーディングをした。一度寝たら定例会まで起きられないことが分かっているので、寝る前に進めておこうという魂胆。一応少しだけ進んだのでちょっと満足し、切り上げた。後は布団に入ってすぐ寝るつもりが、うっかりハーメルンを読み始め、睡眠時間が1時間ほど減ってしまった。午後1時就寝。 午後4時起床。布団の上で20分くらい意識朦朧としていた。何とか起き上がって定例会へ。今日報告する進捗は朝方の1時間のみで、内容が薄い以外は問題なく終了。 勉強会の内容は数学だっ…]]></summary>
-        <author>
-            <name>kotatsugameの日記</name>
         </author>
     </entry>
 </feed>
