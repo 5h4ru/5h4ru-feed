@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-06-30T12:43:52.291Z</updated>
+    <updated>2022-07-01T02:17:38.531Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -1000,51 +1000,6 @@ Amazon
 霜夜ゆ…]]></summary>
         <author>
             <name>セミになっちゃた</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[遅延セグ木を思いつく流れを追う用の記事]]></title>
-        <id>hatenablog://entry/13574176438088483848</id>
-        <link href="https://rsk0315.hatenablog.com/entry/2022/05/02/205504"/>
-        <updated>2022-05-02T11:55:04.000Z</updated>
-        <summary type="html"><![CDATA[敬遠されがちみたいな印象がある[要出典]*1ので、書いてみます。
-問題
-観察 1
-欲しい性質まとめ
-観察 2
-本題
-成り立ってほしい性質
-その他
-参考文献
-おわりねこ
-問題
-以下のような問題設定を考えます。
-集合 \(S\), \(T\) と、それに関する演算 \(\circ: S\times S\to S\), \(\star: S\times T\to S\) があります。
-変数 \(a_1, a_2\in S\) があり、初期値が与えられます。
-あなたは、変数 \(a'_1, a'_2, a' \in S\) と \(x' \in T\) のみ読み書きできます。
-以下のクエリを処理してください。
-単一クエリ
-
-
-\(x\) が与えられ、\(a_1 \gets a_1 \star x\) で更新する。
-\(x\) が与えられ、\(a_2 \gets a_2 \star x\) で更新する。
-\(a_1\) を答える。
-\(a_2\) を答える。
-複数クエリ
-
-
-\(x\) が与えられ、\(a_1 \gets a_1 \star x\) および \(a_2 \gets a_2 \star x\) で更新する。
-\(a_1 \circ a_2\) を答える。
-ただし、複数クエリが与えられたときは、\(a'\) と \(x'\) にのみアクセスできるとします。
-単一クエリにおいては、アクセスは自由とします。
-たとえば、\(a_1\) を答えるときに \(a'_2\) や \(x'\) を更新してもよいとします。
-
-
-ここでは \(\circ\), \(\star\) が持つ性質には特に触れていません。
-これ以降で問題を解きながら「こういう性質があれば解けるな〜」というのを探していく流れになります。
-記号が苦手な人は、\(S\), \(T\) が int、\(\circ\) が…]]></summary>
-        <author>
-            <name>えびちゃんの日記</name>
         </author>
     </entry>
 </feed>
