@@ -446,16 +446,6 @@
           "wordCount": 303,
           "title": "遊園地（みんなのプロコン 2017 [E]）",
           "imageUrl": "https://maspypy.com/wp-content/uploads/2019/06/5Dth6Yjz_400x400.jpg"
-        },
-        {
-          "id": "https://maspypy.com/?p=4957",
-          "author": "maspy",
-          "description": "概要 問題文 → ■公式解説 → ■自分の提出 → ■ 想定されている解法よりもだいぶ難易度が高いですが、$O(N^22^N)$ で解けます。$N \\leq 12$ の制約では特に高速にならないですが、この解法であれば  […]\nThe post [yukicoder] No.1594 Three Classes first appeared on maspyのHP.",
-          "link": "https://maspypy.com/yukicoder-no-1594-three-classes",
-          "publishedOn": "2022-05-05T09:30:57.000Z",
-          "wordCount": 208,
-          "title": "[yukicoder] No.1594 Three Classes",
-          "imageUrl": "https://maspypy.com/wp-content/uploads/2019/06/5Dth6Yjz_400x400.jpg"
         }
       ]
     },
