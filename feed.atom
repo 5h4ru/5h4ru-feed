@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-07-09T12:35:52.422Z</updated>
+    <updated>2022-07-10T02:11:49.250Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -977,28 +977,6 @@ Amazon
 アバター読み込…]]></summary>
         <author>
             <name>セミになっちゃた</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[G – Get the Salary of Atcoder（square869120Contest #4 [G]）]]></title>
-        <id>https://maspypy.com/?p=4965</id>
-        <link href="https://maspypy.com/g-get-the-salary-of-atcoder%ef%bc%88square869120contest-4-g%ef%bc%89"/>
-        <updated>2022-05-11T10:42:30.000Z</updated>
-        <summary type="html"><![CDATA[概要 問題文 → ■公式解説 → ■, p.86自分の提出 → ■ 解法 Euler Tour をとって、Euler Tour における頂点順を $x$ 座標、木における深さを $y$ 座標と見なすことで、次のクエリ処理 […]
-The post G – Get the Salary of Atcoder（square869120Contest #4 [G]） first appeared on maspyのHP.]]></summary>
-        <author>
-            <name>maspy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[遊園地（みんなのプロコン 2017 [E]）]]></title>
-        <id>https://maspypy.com/?p=4962</id>
-        <link href="https://maspypy.com/%e9%81%8a%e5%9c%92%e5%9c%b0%ef%bc%88%e3%81%bf%e3%82%93%e3%81%aa%e3%81%ae%e3%83%97%e3%83%ad%e3%82%b3%e3%83%b3-2017-e%ef%bc%89"/>
-        <updated>2022-05-11T08:42:31.000Z</updated>
-        <summary type="html"><![CDATA[概要 問題文 → ■公式解説 → ■自分の提出 → ■ 公式解説も面白いけど、こっちの方が分かりやすいかな？ 解法 解説同様に、次のように辺を張ったグラフを作って強連結成分分解すれば解くことができます。 $i<j$ […]
-The post 遊園地（みんなのプロコン 2017 [E]） first appeared on maspyのHP.]]></summary>
-        <author>
-            <name>maspy</name>
         </author>
     </entry>
 </feed>

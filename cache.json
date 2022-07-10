@@ -426,26 +426,6 @@
           "wordCount": 285,
           "title": "天下一折れ線遊戯（天下一プログラマーコンテスト2013 決勝 [E]）",
           "imageUrl": "https://maspypy.com/wp-content/uploads/2019/06/5Dth6Yjz_400x400.jpg"
-        },
-        {
-          "id": "https://maspypy.com/?p=4965",
-          "author": "maspy",
-          "description": "概要 問題文 → ■公式解説 → ■, p.86自分の提出 → ■ 解法 Euler Tour をとって、Euler Tour における頂点順を $x$ 座標、木における深さを $y$ 座標と見なすことで、次のクエリ処理 […]\nThe post G – Get the Salary of Atcoder（square869120Contest #4 [G]） first appeared on maspyのHP.",
-          "link": "https://maspypy.com/g-get-the-salary-of-atcoder%ef%bc%88square869120contest-4-g%ef%bc%89",
-          "publishedOn": "2022-05-11T10:42:30.000Z",
-          "wordCount": 291,
-          "title": "G – Get the Salary of Atcoder（square869120Contest #4 [G]）",
-          "imageUrl": "https://maspypy.com/wp-content/uploads/2019/06/5Dth6Yjz_400x400.jpg"
-        },
-        {
-          "id": "https://maspypy.com/?p=4962",
-          "author": "maspy",
-          "description": "概要 問題文 → ■公式解説 → ■自分の提出 → ■ 公式解説も面白いけど、こっちの方が分かりやすいかな？ 解法 解説同様に、次のように辺を張ったグラフを作って強連結成分分解すれば解くことができます。 $i<j$ […]\nThe post 遊園地（みんなのプロコン 2017 [E]） first appeared on maspyのHP.",
-          "link": "https://maspypy.com/%e9%81%8a%e5%9c%92%e5%9c%b0%ef%bc%88%e3%81%bf%e3%82%93%e3%81%aa%e3%81%ae%e3%83%97%e3%83%ad%e3%82%b3%e3%83%b3-2017-e%ef%bc%89",
-          "publishedOn": "2022-05-11T08:42:31.000Z",
-          "wordCount": 303,
-          "title": "遊園地（みんなのプロコン 2017 [E]）",
-          "imageUrl": "https://maspypy.com/wp-content/uploads/2019/06/5Dth6Yjz_400x400.jpg"
         }
       ]
     },
