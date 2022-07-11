@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-07-10T12:35:12.330Z</updated>
+    <updated>2022-07-11T02:02:49.688Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[週記（2022/07/04-2022/07/10）]]></title>
+        <id>https://kotatsugame.hatenablog.com/entry/2022/07/11/081159</id>
+        <link href="https://kotatsugame.hatenablog.com/entry/2022/07/11/081159"/>
+        <updated>2022-07-10T23:11:59.000Z</updated>
+        <summary type="html"><![CDATA[07/04(月) 午後0時半の目覚ましで意識を取り戻し、眠気と戦って午後1時少し前に布団から脱出。 直後からミーティング。寝ぼけて開口一番の挨拶を「お疲れ様です」ではなく「おはようございます」にしてしまったが、笑って流していただいた。その後は普通に進んでいった。今日はメンターの方ともう一人とのミーティングで、そのもう一人の方が先に退出されてからも最近ご無沙汰していた1on1っぽく追加でいくらか話していた。あまりやることがないのでタスクをくださいということを伝えた。これまでやっていたことが一旦落ち着いており、しかもそこから大きな進展が見込める状態にはまだない。これは僕の問題ではない。午後2時半に…]]></summary>
+        <author>
+            <name>kotatsugameの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[22/7/10 お題箱回100：タコピー、Youtube、シャボルヴなど]]></title>
         <id>hatenablog://entry/13574176438102005798</id>
