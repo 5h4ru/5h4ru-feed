@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-07-12T12:45:18.560Z</updated>
+    <updated>2022-07-13T02:02:58.527Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
@@ -852,57 +852,6 @@ mcuuid
 Minecraft上のnameとUUIDを相互変換する。
 - `\mcuuid naarisan` will returns => `05140bb4-f432-43fe-a5e4-069da2d4fc46`
 - `\mcuuid 05140bb4-f432-43fe-a5e4-069da2…]]></summary>
-        <author>
-            <name>名有りさんの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[22/5/14 お題箱97：マスターデュエル、サイゼミ女人禁制疑惑、発達仕事など]]></title>
-        <id>hatenablog://entry/13574176438085703005</id>
-        <link href="https://saize-lw.hatenablog.com/entry/2022/05/14/190000"/>
-        <updated>2022-05-14T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[お題箱97
-
-409.新作遊戯王楽しめそうですか？
-せっかく帰ってきた元プレイヤーのお爺ちゃん達が、現役プレイヤーにボコられて詰まらない思いをしていないか心配してます。
-ダメでした！　楽しむ以前に参入していない終わりの状態です。
-使用デッキは初期デッキのまま、稀に気が向いたときに起動して、ランクマに一回だけ潜って負けて満足し、次の起動はまた一ヶ月後みたいな遊び方をしています。
-遊戯王に特別に冷めたわけではなく、他のゲームと同じでもっと有益で面白いことが人生にはたくさんあるので時間を割くことができないというだけです。
-今までGGSTとかを結局あんまりちゃんとやれてないのはタイトルの問題かもしれない（他にハマれるゲームがあるのかもしれない）という希望もあったのですが、人生で最も心血を注いだ遊戯王でもこの有様です。恐らく終わりのないゲームを本腰入れてやるモードはもう訪れないということがわかったのは収穫ではあります。
-ちなみに僕の知り合いを見ている限り、元プレイヤーのお爺ちゃん達は普通にかなり強いです。流石に今バリバリCSに出まくっているようなプレイヤーには敵わないにせよ、漫然と遊んでいるだけの生温い現役プレイヤーは薙ぎ倒してプラチナ帯に到達していました。やっぱり昔ちゃんとやっていた人は多少ブランクがあっても全然強くて、たぶん大抵のゲームは始めて三ヶ月の現役プレイヤーよりは昔十年やってて十年ぶりに復帰したジジイの方が強いです。
- 
-
-410.サイゼリヤ全記事（+よるべ）マラソン完走しました、ギリギリ 13 日で二週間に間に合った。というだけの報告なのでこれ以外に内容は無いんですが、それだとアレなんでなんか書いときます。
-* ベスト記事：『18/9/4 自殺を止めるな！』
-* 銀髪要素の評価が 20/12/12 から 21/10/23 の間で 10 点増加してますけど、理由あったりし…]]></summary>
-        <author>
-            <name>LWのサイゼリヤ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust + GitHub Actionsでマルチアーキテクチャ対応のイメージをなるべく早く作る]]></title>
-        <id>hatenablog://entry/13574176438092154383</id>
-        <link href="https://naari.hatenablog.com/entry/2022/05/14/121650"/>
-        <updated>2022-05-14T03:16:50.000Z</updated>
-        <summary type="html"><![CDATA[マルチアーキテクチャ対応のイメージとは
-詳しいことは書かないが、複数種類のアーキテクチャ上で実行できるイメージのことを指す。amd64 や arm64 など、異なる種類の環境でも docker run --rm hello-world として実行できるのはこれに対応しているため。
-このようなビルドをGitHub Actionsで行いたくなるが、これがかなり遅い。
-愚直にやると遅い
-docker buildx build --platform linux/amd64,linux/arm64 -t naari3/testtest . のように実行すると、必要なタイミングでQEMUが起動して対象のアーキテクチャで実行してくれるんだけど、まあ勿論のように遅い。
-Googleで調べてみると、遅くならないようにする工夫がいくつかヒットする。
-Rustのクロスコンパイルを利用する
-Rustは比較的簡単にクロスコンパイルができるので、これを利用したい。
-ホストと異なるアーキテクチャを対象にビルドする場合であっても、ベースイメージはホストと同じアーキテクチャを選択することでQEMUの起動を回避することができる。↓こんな感じ
-# linux/amd64の環境で docker buildx build --platform linux/arm64 としたとき
-# BUILDPLATFORM = linux/amd64
-# TARGETPLATFORM = linux/arm64
-FROM --platform=$BUILDPLATFORM rust:1.60 as builder
-# snip
-RUN cargo build --release --target $TARGETPLATFORM
-
-
-
-これを利用して、最近amd64とarm64向けのイメージをビルドするためのDockerfileを…]]></summary>
         <author>
             <name>名有りさんの日記</name>
         </author>
