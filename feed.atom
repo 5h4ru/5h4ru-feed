@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-07-15T12:46:00.030Z</updated>
+    <updated>2022-07-16T02:03:45.217Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[雑記]]></title>
+        <id>hatenablog://entry/4207112889898832166</id>
+        <link href="https://naari.hatenablog.com/entry/2022/07/16/080426"/>
+        <updated>2022-07-15T23:04:26.000Z</updated>
+        <summary type="html"><![CDATA[回らない寿司を食べてみたいという気持ちが高くなり、Twitterで騒いでいた時期があった。
+
+寿司ってどうしたら食える？食うまでの方法がわからない
+— なあり (@_naari_) 2022年6月20日
+  
+
+回らない寿司や教えて下さい
+— なあり (@_naari_) 2022年6月20日
+  
+これに対し、かばなぐさんが「『鮨 石島』という名前の回らない寿司屋があるので行きませんか？*1」と言ってきた。彼は最近素晴らしいアルバムをリリースしたばかりで、僕はこのアルバムに大きな感銘を受けた後だった上に、タイミング的に賞与の直後で気が大きくなっていたこともあり、奢ることになった。
+様々な新しいものを食べたい、という冒険の気持ちは高いままなのだが、それはそれとして知らないお店に入るのは本当に怖い。回らない寿司屋なんてものはその最たる例であり、普段マクドナルドくらいにしか行くことのない世間知らずが寿司屋に足を踏み入れる事自体が中々大きなことである、ということを理解してほしい。そんな中での同行の誘いだったのでかなり嬉しかった、というわけです。寿司屋も二人で入れば怖くない。
+で、鮨 石島という店にランチの予約を入れた。一人6000円のおまかせコース。銀座にある寿司屋。
+ginza.sushi-ishijima.com
+以降感想。
+あまりにも美味しすぎた。出された何を食べたとしても必ず美味いという体験が久々すぎて本当に嬉しくなった。お茶もうまい。味噌汁もうまい。
+自分は昔から結構な食わず嫌いをやっており、特に海鮮系のうち魚の形をしていないものなんかは結構大きな反応が出てしまうほどだった。今回、提供されたメニューの中にウニがあった。これも例に漏れず自分が食わず嫌いの対象としていたもので、普段なら自分から選択することのないものが目の前に出された形となる。ただ、事前に出されたものが全てア…]]></summary>
+        <author>
+            <name>名有りさんの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[週記（2022/07/04-2022/07/10）]]></title>
         <id>https://kotatsugame.hatenablog.com/entry/2022/07/11/081159</id>
@@ -807,18 +832,6 @@ The post 天下一折れ線遊戯（天下一プログラマーコンテスト20
         <summary type="html"><![CDATA[05/16(月) 先週は週記を投稿してからすぐ布団に入った。しかしそこからしばらくYouTubeを見てしまって、寝たのは正午だった。 午後4時前に起床。インターン先定例会までの短い時間で、多少なりとも進捗を出しておこうと思って調べ物をしていた。それでも進捗はゴミカス。今週は火曜日にミーティングがあるので、否が応でも何か進むだろう。 他の人の発表を聞きつつ、勉強会スライドの確認と手直しをしていた。文字に色を付けたり。定例会が長引き、普段より遅い時間から勉強会が始まった。使用したスライドは公開してある。 勉強会0516.pdf - Google ドライブ テーマは関数型言語で、ラムダ計算の導入、そ…]]></summary>
         <author>
             <name>kotatsugameの日記</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[直感でわかる、ヒューリスティック問題の羅針盤 ～貪欲法から山登り法まで～]]></title>
-        <id>https://qiita.com/square1001/items/84604f79f55ff10d99b0</id>
-        <link href="https://qiita.com/square1001/items/84604f79f55ff10d99b0"/>
-        <updated>2022-05-17T09:55:28.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、square1001 です。
-
-本記事では、いろいろな最適化問題でできるだけ良い答えを効率的に出す「ヒューリスティクス」について紹介します。また、ヒューリスティックの代表的な手法である貪欲…]]></summary>
-        <author>
-            <name>square1001の記事 - Qiita</name>
         </author>
     </entry>
 </feed>
