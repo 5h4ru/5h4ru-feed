@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-07-18T12:43:12.450Z</updated>
+    <updated>2022-07-19T02:19:41.341Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[週記（2022/07/11-2022/07/17）]]></title>
+        <id>https://kotatsugame.hatenablog.com/entry/2022/07/18/232652</id>
+        <link href="https://kotatsugame.hatenablog.com/entry/2022/07/18/232652"/>
+        <updated>2022-07-18T14:26:52.000Z</updated>
+        <summary type="html"><![CDATA[07/11(月) 先週の週記を投稿してから寝るまでの話。 布団に入ってから、先週火曜日に提出した離散数学の課題の模範解答がアップロードされていたことに気づいた。改めて書いておくと、最後の問題がという全単射を構成せよというものだった。ここでと決めておく。 自分はとして素因数分解した後の素数を一つずつずらすような写像を考え、頑張って必要な性質を示した。しかし解答はだった。目から鱗。特に自分の作ったがただ複雑なだけのであるということは、冷静になると当たり前なのだが、見た目からはすぐにはわからないと感じている。 まあ減点はされていなかったのでOK。無事期末レポートを無視しても満点評価が得られることにな…]]></summary>
+        <author>
+            <name>kotatsugameの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2022/7/16 『進撃の巨人』全巻読んだ感想　至高のトライアスロン的エンタメ]]></title>
         <id>hatenablog://entry/4207112889899576222</id>
