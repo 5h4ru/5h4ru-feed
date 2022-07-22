@@ -2,10 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://5h4ru.github.io/5h4ru-feed/index.html</id>
     <title>5h4ru-feed</title>
-    <updated>2022-07-21T12:47:14.401Z</updated>
+    <updated>2022-07-22T02:07:13.110Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://5h4ru.github.io/5h4ru-feed/index.html"/>
     <link rel="self" href="https://5h4ru.github.io/5h4ru-feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ならし計算量のよくある誤解について]]></title>
+        <id>hatenablog://entry/4207112889901233269</id>
+        <link href="https://rsk0315.hatenablog.com/entry/2022/07/22/090000"/>
+        <updated>2022-07-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ならし計算量 (amortized complexity) というのがありますが、競プロ初心者層には誤解されがちな概念なので、誤解を解くためのことを書きたくなりました。
+以下で「よくある誤解」と称して架空の人物がしゃべりますが、複数回見てきた事例であり、特定個人に対する揶揄等ではありません。えびちゃん自身の事例である場合もあります*1。
+多少知っている人へ：ポテンシャル解析などの話を直接はしないので、そういうのは別の記事を見に行ってほしいです。文献の紹介くらいはあります。
+導入
+説明
+お気持ち
+定義（ゆるふわ）
+定義（かっちりめ）
+やや細かい話
+\(\Theta\) とか \(\Omega\) とかの話
+よくある例
+可変長配列
+キュー
+カウンタ
+ゆるふわな話
+ならしがうれしい話
+ならしだと困る話
+ならし計算量あるあるデータ構造
+まとめ
+参考文献
+おわり
+導入
+データ構造の計算量などで、次のような記述を見かけることがよくあります。
+vector へのアクセス a[i] は、最悪 \(O(1)\) 時間
+set での二分探索 a.lower_bound(x) は、最悪 \(O(\log(n))\) 時間
+これらは、「一番悪いときでも \(O(1)\) 時間や \(O(\log(n))\) 時間だから安心だな〜」という気持ちで読める人が多そうです。
+一方で、次のような記述もよくあります。
+vector の末尾への追加 a.push_back(x) は、ならし \(O(1)\) 時間
+
+
+償却 \(O(1)\) 時間という言い方もあり、これらは同じ意味
+同様に、ならし計算量を償却計算量とも言う
+union_find での操作 a.unite(i, j) や a.find(i) は、ならし \(O(\alpha(n))\) 時間
+これらは、誤解して「ならしってなに？ やばいときは \…]]></summary>
+        <author>
+            <name>えびちゃんの日記</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ICPC国内予選 2022 参加記]]></title>
+        <id>https://kotatsugame.hatenablog.com/entry/2022/07/22/035511</id>
+        <link href="https://kotatsugame.hatenablog.com/entry/2022/07/22/035511"/>
+        <updated>2022-07-21T18:55:11.000Z</updated>
+        <summary type="html"><![CDATA[2022/07/08に開催された国内予選にチームAobayama_dropoutで参加しました。模擬国内予選の参加記でも書きましたが、今年のメンバーはha15さん・ホスフィンさん・僕です。 これも模擬国内と同様、ホスフィンさんが確保してくれた大学の演習室から参加しました。 序盤の戦略はホスフィンさんがA、ha15さんがB、僕がCを読むというものでした。以降の問題については、とりあえず皆で考え、解けたら誰か一人に実装を任せて残りは先に進むというような形にできればなと思っていました。以下に見るように、今日はそれどころではなかったのですが……。 問題文：https://icpc.iisf.or.jp…]]></summary>
+        <author>
+            <name>kotatsugameの日記</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[週記（2022/07/11-2022/07/17）]]></title>
         <id>https://kotatsugame.hatenablog.com/entry/2022/07/18/232652</id>

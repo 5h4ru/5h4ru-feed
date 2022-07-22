@@ -16,6 +16,85 @@
   <body>
     <!-- %after-body-begin.html% -->
       <section class="daily-content">
+        <h2 class="daily-heading"><time datetime="2022-07-22">2022-07-22</time></h2>
+        <ul class="sources card">
+            <li class="source">
+              <section>
+                <h3 class="source-name"><a class="source-name__link" href="https://rsk0315.hatenablog.com/" target="_blank" rel="noreferrer noopener">えびちゃんの日記</a></h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details class="article-expander" open>
+                        <summary class="article-expander__title">ならし計算量のよくある誤解について</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://rsk0315.hatenablog.com/entry/2022/07/22/090000 "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner">
+                            <span>ならし計算量 (amortized complexity) というのがありますが、競プロ初心者層には誤解されがちな概念なので、誤解を解くためのことを書きたくなりました。
+以下で「よくある誤解」と称して架空の人物がしゃべりますが、複数回見てきた事例であり、特定個人に対する揶揄等ではありません。えびちゃん自身の事例である場合もあります*1。
+多少知っている人へ：ポテンシャル解析などの話を直接はしないので、そういうのは別の記事を見に行ってほしいです。文献の紹介くらいはあります。
+導入
+説明
+お気持ち
+定義（ゆるふわ）
+定義（かっちりめ）
+やや細かい話
+\(\Theta\) とか \(\Omega\) とかの話
+よくある例
+可変長配列
+キュー
+カウンタ
+ゆるふわな話
+ならしがうれしい話
+ならしだと困る話
+ならし計算量あるあるデータ構造
+まとめ
+参考文献
+おわり
+導入
+データ構造の計算量などで、次のような記述を見かけることがよくあります。
+vector へのアクセス a[i] は、最悪 \(O(1)\) 時間
+set での二分探索 a.lower_bound(x) は、最悪 \(O(\log(n))\) 時間
+これらは、「一番悪いときでも \(O(1)\) 時間や \(O(\log(n))\) 時間だから安心だな〜」という気持ちで読める人が多そうです。
+一方で、次のような記述もよくあります。
+vector の末尾への追加 a.push_back(x) は、ならし \(O(1)\) 時間
+
+
+償却 \(O(1)\) 時間という言い方もあり、これらは同じ意味
+同様に、ならし計算量を償却計算量とも言う
+union_find での操作 a.unite(i, j) や a.find(i) は、ならし \(O(\alpha(n))\) 時間
+これらは、誤解して「ならしってなに？ やばいときは \…</span>
+                          </div>
+                          <img src="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png" loading="lazy" class="card article-thumbnail" />
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content">
+        <h2 class="daily-heading"><time datetime="2022-07-21">2022-07-21</time></h2>
+        <ul class="sources card">
+            <li class="source">
+              <section>
+                <h3 class="source-name"><a class="source-name__link" href="https://kotatsugame.hatenablog.com/" target="_blank" rel="noreferrer noopener">kotatsugameの日記</a></h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details class="article-expander" open>
+                        <summary class="article-expander__title">ICPC国内予選 2022 参加記</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kotatsugame.hatenablog.com/entry/2022/07/22/035511 "target="_blank" rel="noreferrer noopener">
+                          <div class="article-summary-box-inner">
+                            <span>2022/07/08に開催された国内予選にチームAobayama_dropoutで参加しました。模擬国内予選の参加記でも書きましたが、今年のメンバーはha15さん・ホスフィンさん・僕です。 これも模擬国内と同様、ホスフィンさんが確保してくれた大学の演習室から参加しました。 序盤の戦略はホスフィンさんがA、ha15さんがB、僕がCを読むというものでした。以降の問題については、とりあえず皆で考え、解けたら誰か一人に実装を任せて残りは先に進むというような形にできればなと思っていました。以下に見るように、今日はそれどころではなかったのですが……。 問題文：https://icpc.iisf.or.jp…</span>
+                          </div>
+                          <img src="https://ogimage.blog.st-hatena.com/17391345971631198868/4207112889901189392/1658429711" loading="lazy" class="card article-thumbnail" />
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content">
         <h2 class="daily-heading"><time datetime="2022-07-18">2022-07-18</time></h2>
         <ul class="sources card">
             <li class="source">
@@ -1317,7 +1396,7 @@ www.youtube.com
       </section>
 
     <footer>
-      <time id="build-timestamp" datetime="2022-07-21T12:47:14.379Z">2022-07-21T12:47:14.379Z</time>
+      <time id="build-timestamp" datetime="2022-07-22T02:07:13.089Z">2022-07-22T02:07:13.089Z</time>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
     <script src="index.js"></script>
